@@ -1,5 +1,33 @@
 
 /*** Spinner Start ***/
+
+
+
+.is-ilanlari::-webkit-scrollbar {
+    display: none;
+}
+
+.is-ilanlari{
+    flex-wrap: nowrap;
+    overflow-x: auto; 
+    scroll-behavior: smooth;
+}
+
+.ilan-img {
+    width: 90px;
+    height: 90px;
+}
+
+
+.arama-btn:hover{
+    background-color: white;
+    color:green;
+}
+.arama-btn{
+    color: white;
+}
+
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -196,7 +224,7 @@
 }
 
 .dropdown .dropdown-menu a:hover {
-    background: var(--bs-secondary);
+    background:rgba(0, 128, 0, 0.536);
     color: var(--bs-primary);
 }
 
@@ -224,7 +252,7 @@
 /*** Features Start ***/
 .features {
     width: 100%;
-    background: linear-gradient(rgba(26, 125, 255, 0.5), rgba(255, 255, 255, 0.3)), url(../img/features-background.jpg);
+    background: linear-gradient(rgba(26, 125, 255, 0.5), rgba(255, 255, 255, 0.3)), url(../img/abstract-pattern-coloured-oil-bubbles-water.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
