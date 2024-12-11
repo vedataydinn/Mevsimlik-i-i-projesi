@@ -26,9 +26,9 @@
     grid-template-rows: 90px auto;
     background-size: cover;
     background-image:url(../img/abstract-pattern-coloured-oil-bubbles-water.jpg);
-    width: 500px;
+    width: 80%;
     height: 600px;
-    border-radius: 5%;
+    border-radius: 40px;
 }
 
 .name h1{
@@ -37,83 +37,72 @@
     color: hsl(0, 0%, 100%);
 }
 
-.information{
-    color: #fff;
+.information .input-box1{
+    display: flex; 
+    justify-content: space-around;
+    margin: 20px;
 }
 
-.information .input-box{
-    position: relative;
-    width: 97%;
-    height: 50px;
-    margin: 20px auto ;
-}
-
-.input-box input{
-    width: 100%;
-    height: 100%;
+.input-box1 input{
+    width: 360px;
+    height: 45px;
     border: none;
+    border-radius: 40px;
     outline: none;
     border: 2px solid rgba(255, 255, 255, .2);
-    border-radius: 40px;
-    color: black;
+    padding-left: 30px;
+    padding-right: 10px;
     font-size: 16px;
-    padding: 20px 45px 20px 20px ;
-    background-color: white;
 }
 
-.input-box input:focus{
-        border-color: #198754;
-        outline: none;
-      
+.input-box1 input:focus{
+    border-color: #198754;
+    outline: none;
 }
 
-.input-box img{
-    position:absolute;
-    right: 20px;
+.input-box1 .from-select{
+    width: 360px;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding-left: 30px;
+    font-size: 16px;
+
+}
+
+.input-box2{
+    position: relative;
+    width: 75%;
+    height: 45px;
+    margin: 10px auto 0px auto;
+}
+
+.input-box2 input{
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding-left: 30px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.input-box2 img{
+    position: absolute;
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.information label{
-    font-size: 25px;
-    margin-left: 15px;
-    color: black;
+.check1{
+    text-align: center;
+    margin: 5px;
 }
 
-
-.information .forget-remmember{
-    width: 95%;
-    display: flex;
-    justify-content: space-between;
-    margin: 15px auto 15px auto;
-
-}
-
-.forget-remmember label{
-    margin-left: 0px;
-    font-size: 20px;
-}
-
-
-.forget-remmember a{
-    margin-left: 0px;
-    font-size: 20px;
-    color: white;
-}
-
-.information .btn{
-    width: 95%;
-    height: 50px;
-    margin-left: 13px;
-    margin-top: 10px;
-}
-
-
-.information .regester-link{
-    margin-top: 30px;
-    margin-left: 15px;
-    font-size: 20px;
-}
 
 .information button{
     border: 2px solid rgba(255, 255, 255, .2);
@@ -125,8 +114,16 @@
     font-weight: bold;
     transition: all 0.3s ease; /* Geçiş efekti */
     outline: none; /* Tarayıcı varsayılan odak çizgisi kaldırılır */
+    width: 50%;
+    height: 45px;
+    margin: 0px 25%;
 }
 
 .information button:hover{
     background-color:  rgb(86, 254, 60);;
 }
+
+
+
+
+
