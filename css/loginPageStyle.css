@@ -102,9 +102,9 @@
 }
 
 .information .btn{
-    width: 95%;
+    width: 80%;
     height: 50px;
-    margin-left: 13px;
+    margin-left:50px;
     margin-top: 10px;
 }
 
@@ -116,6 +116,7 @@
 }
 
 .information button{
+    width: 100%;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 40px;
     background-color: white;
