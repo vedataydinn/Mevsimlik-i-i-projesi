@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.mevsimci{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom:15px;
+    color:black;
+    text-shadow: 2px 2px 8px #198754;
+}
+
+.box{
+    border-radius: 20px;
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/abstract-pattern-coloured-oil-bubbles-water.jpg);
+    background-size: cover;
+}
+
+.options{
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.box button{
+    width: 100%;
+    padding: 7px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Geçiş efekti */
+    outline: none; /* Tarayıcı varsayılan odak çizgisi kaldırılır */
+    margin-top: 30px;
+}
+
+.box button:hover{
+    background-color:  rgb(86, 254, 60);;
+}
