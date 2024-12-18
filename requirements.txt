@@ -1,0 +1,12 @@
+# Python tabanlı bir imaj kullan
+FROM python:3.12.8
+
+# Proje dizinini oluştur ve dosyaları kopyala
+WORKDIR /app
+COPY . /app
+
+# Gerekli kütüphaneleri yükle
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Flask uygulamasını başlat
+CMD ["python", "app.py"]
