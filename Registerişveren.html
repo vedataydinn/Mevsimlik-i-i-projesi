@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mevsimci Giriş</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/RegisterStyle.css">
+    <link rel="stylesheet" href="css/Registerişveren.css">
 
 </head>
 <body>
@@ -18,7 +18,6 @@
 
     <div class="parent">
         <div class="container">
-
             <div class="name">
             <h1>Hesap aç</h1>
             </div>
@@ -32,16 +31,18 @@
                 </div>
 
                 <div class="input-box1">
-                    <input type="text" id="yas" name="yas" placeholder="Yaş" required>
-                    <select class="from-select" aria-label="Cinsiyet">
-                        <option selected>Cinsiyet</option>
-                        <option value="1">Erkek</option>
-                        <option value="2">Kadın</option>
-                    </select>
+                    <input type="text" id="yas" name="yas" placeholder="Firma Adı" required>
+                    <input 
+                    type="text" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Telefon Numarası" 
+                    maxlength="11" 
+                    required
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '')">
                 </div>
 
                 <div class="input-box1">
-                    <input type="text" id="yas" name="yas" placeholder="Deneyim(Yıl)" required>
                     <select class="from-select" aria-label="Şehir">
                         <option selected>Şehir</option>
                         <option value="1">01 - Adana</option>
@@ -126,6 +127,7 @@
                         <option value="80">80 - Osmaniye</option>
                         <option value="81">81 - Düzce</option>
                     </select>
+                    <input type="text" id="yas" name="yas" placeholder="ilçe" required>
                 </div>
 
                 <div class="input-box2">
