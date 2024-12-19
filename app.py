@@ -56,6 +56,25 @@ def mongodb_test():
 def contact():
     return render_template('contact.html')
 
+
+@app.route('/loginPage.html')  
+def loginPage():
+    return render_template('loginPage.html')
+
+@app.route('/karakterBelirle.html')  
+def karakterBlerile():
+    return render_template('karakterBelirle.html')
+
+
+@app.route('/Registerişveren.html')  
+def Registerisveren():
+    return render_template('Registerişveren.html')
+
+@app.route('/Registerişci.html')  
+def Registerisci():
+    return render_template('Registerişci.html')
+
+
 @app.route('/404')  
 def not_found():
     return render_template('404.html')
@@ -127,3 +146,4 @@ def add_employer():
 
 if __name__ == '__main__':
     app.run(debug=True)
+ 

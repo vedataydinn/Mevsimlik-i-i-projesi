@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.mevsimci{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+    color:black;
+    text-shadow: 2px 2px 8px #198754;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px auto;
+    background-size: cover;
+    background-image:url(../img/abstract-pattern-coloured-oil-bubbles-water.jpg);
+    width: 500px;
+    height: 600px;
+    border-radius: 5%;
+}
+
+.name h1{
+    padding-top: 20px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.information{
+    color: #fff;
+}
+
+.information .input-box{
+    position: relative;
+    width: 97%;
+    height: 50px;
+    margin: 20px auto ;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    color: black;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px ;
+    background-color: white;
+}
+
+.input-box input:focus{
+        border-color: #198754;
+        outline: none;
+      
+}
+
+.input-box img{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.information label{
+    font-size: 25px;
+    margin-left: 15px;
+    color: black;
+}
+
+
+.information .forget-remmember{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto 15px auto;
+
+}
+
+.forget-remmember label{
+    margin-left: 0px;
+    font-size: 20px;
+}
+
+
+.forget-remmember a{
+    margin-left: 0px;
+    font-size: 20px;
+    color: white;
+}
+
+.information .btn{
+    width: 80%;
+    height: 50px;
+    margin-left:50px;
+    margin-top: 10px;
+}
+
+
+.information .regester-link{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.information button{
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease; /* Geçiş efekti */
+    outline: none; /* Tarayıcı varsayılan odak çizgisi kaldırılır */
+}
+
+.information button:hover{
+    background-color:  rgb(86, 254, 60);;
+}

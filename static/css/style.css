@@ -1,4 +1,15 @@
 
+/* LOGİN PAGE */ 
+
+
+
+
+
+
+
+
+
+
 /*** Spinner Start ***/
 
 
@@ -35,7 +46,7 @@
     z-index: 99999;
  }
 
- #spinner.show {
+#spinner.show {
      transition: opacity .8s ease-out, visibility 0s linear .0s;
      visibility: visible;
      opacity: 1;
@@ -462,9 +473,3 @@
     width: 261px;
 }
 
-
-button, input, select {
-    -webkit-appearance: none; /* Safari ve eski Chrome */
-    -moz-appearance: none;    /* Eski Firefox */
-    appearance: none;         /* Modern tarayıcılar */
-}

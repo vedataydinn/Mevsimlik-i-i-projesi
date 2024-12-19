@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mevsimci Giriş</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="static/css/Registerişveren.css">
+
+</head>
+<body>
+
+    <div class="mevsimci">
+        <h1>MEVSİMCİ</h1>
+    </div>
+
+    
+
+    <div class="parent">
+        <div class="container">
+            <div class="name">
+            <h1>Hesap aç</h1>
+            </div>
+
+        <div class="information">
+            <form action="index.html" method="get">
+
+                <div class="input-box1">
+                    <input type="text" id="fname" name="fname" placeholder="Ad" required>
+                    <input type="text" id="lname" name="lname" placeholder="SoyAd" required>
+                </div>
+
+                <div class="input-box1">
+                    <input type="text" id="yas" name="yas" placeholder="Firma Adı" required>
+                    <input 
+                    type="text" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Telefon Numarası" 
+                    maxlength="11" 
+                    required
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                </div>
+
+                <div class="input-box1">
+                    <select class="from-select" aria-label="Şehir">
+                        <option selected>Şehir</option>
+                        <option value="1">01 - Adana</option>
+                        <option value="2">02 - Adıyaman</option>
+                        <option value="3">03 - Afyonkarahisar</option>
+                        <option value="4">04 - Ağrı</option>
+                        <option value="5">05 - Amasya</option>
+                        <option value="6">06 - Ankara</option>
+                        <option value="7">07 - Antalya</option>
+                        <option value="8">08 - Artvin</option>
+                        <option value="9">09 - Aydın</option>
+                        <option value="10">10 - Balıkesir</option>
+                        <option value="11">11 - Bilecik</option>
+                        <option value="12">12 - Bingöl</option>
+                        <option value="13">13 - Bitlis</option>
+                        <option value="14">14 - Bolu</option>
+                        <option value="15">15 - Burdur</option>
+                        <option value="16">16 - Bursa</option>
+                        <option value="17">17 - Çanakkale</option>
+                        <option value="18">18 - Çankırı</option>
+                        <option value="19">19 - Çorum</option>
+                        <option value="20">20 - Denizli</option>
+                        <option value="21">21 - Diyarbakır</option>
+                        <option value="22">22 - Edirne</option>
+                        <option value="23">23 - Elazığ</option>
+                        <option value="24">24 - Erzincan</option>
+                        <option value="25">25 - Erzurum</option>
+                        <option value="26">26 - Eskişehir</option>
+                        <option value="27">27 - Gaziantep</option>
+                        <option value="28">28 - Giresun</option>
+                        <option value="29">29 - Gümüşhane</option>
+                        <option value="30">30 - Hakkari</option>
+                        <option value="31">31 - Hatay</option>
+                        <option value="32">32 - Isparta</option>
+                        <option value="33">33 - Mersin</option>
+                        <option value="34">34 - İstanbul</option>
+                        <option value="35">35 - İzmir</option>
+                        <option value="36">36 - Kars</option>
+                        <option value="37">37 - Kastamonu</option>
+                        <option value="38">38 - Kayseri</option>
+                        <option value="39">39 - Kırklareli</option>
+                        <option value="40">40 - Kırşehir</option>
+                        <option value="41">41 - Kocaeli</option>
+                        <option value="42">42 - Konya</option>
+                        <option value="43">43 - Kütahya</option>
+                        <option value="44">44 - Malatya</option>
+                        <option value="45">45 - Manisa</option>
+                        <option value="46">46 - Kahramanmaraş</option>
+                        <option value="47">47 - Mardin</option>
+                        <option value="48">48 - Muğla</option>
+                        <option value="49">49 - Muş</option>
+                        <option value="50">50 - Nevşehir</option>
+                        <option value="51">51 - Niğde</option>
+                        <option value="52">52 - Ordu</option>
+                        <option value="53">53 - Rize</option>
+                        <option value="54">54 - Sakarya</option>
+                        <option value="55">55 - Samsun</option>
+                        <option value="56">56 - Siirt</option>
+                        <option value="57">57 - Sinop</option>
+                        <option value="58">58 - Sivas</option>
+                        <option value="59">59 - Tekirdağ</option>
+                        <option value="60">60 - Tokat</option>
+                        <option value="61">61 - Trabzon</option>
+                        <option value="62">62 - Tunceli</option>
+                        <option value="63">63 - Şanlıurfa</option>
+                        <option value="64">64 - Uşak</option>
+                        <option value="65">65 - Van</option>
+                        <option value="66">66 - Yozgat</option>
+                        <option value="67">67 - Zonguldak</option>
+                        <option value="68">68 - Aksaray</option>
+                        <option value="69">69 - Bayburt</option>
+                        <option value="70">70 - Karaman</option>
+                        <option value="71">71 - Kırıkkale</option>
+                        <option value="72">72 - Batman</option>
+                        <option value="73">73 - Şırnak</option>
+                        <option value="74">74 - Bartın</option>
+                        <option value="75">75 - Ardahan</option>
+                        <option value="76">76 - Iğdır</option>
+                        <option value="77">77 - Yalova</option>
+                        <option value="78">78 - Karabük</option>
+                        <option value="79">79 - Kilis</option>
+                        <option value="80">80 - Osmaniye</option>
+                        <option value="81">81 - Düzce</option>
+                    </select>
+                    <input type="text" id="yas" name="yas" placeholder="ilçe" required>
+                </div>
+
+                <div class="input-box2">
+                        <input type="email" id="email" name="email" placeholder="E-postanızı girin" required>
+                        <img src="static/img/user-solid-24.png" alt="">
+                </div>
+
+                <div class="input-box2">
+                        <input type="password" id="password" name="password" placeholder="Şifre girin" required>
+                        <img src="static/img/lock-alt-solid-24.png" alt="">
+                </div>
+
+                <div class="check1">
+                    <label><input type="checkbox"><a href="#">Bireysel Hesap Sözleşmesi ve Ekleri</a>'ni kabul ediyorum.</label>
+                </div>
+
+                <div class="check1">
+                <p><input type="checkbox">İletişim bilgilerime kampanya, tanıtım ve reklam içerikli <br> ticari
+                    
+                    verilerimin işlenmesine ve tedarikçilerinizle <br> paylaşılmasına izin veriyorum.</p>
+                </div>
+
+                <button class="btn" type="submit">E-Posta Ile Giriş Yap</button>
+
+            </form>
+        </div>
+        </div>
+    </div>
+    </body>
+    </html>
+</body>
+</html>
