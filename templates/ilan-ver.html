@@ -69,8 +69,7 @@
 
 
         <div class="container">
-            <div class="row mt-5">
-
+            <form class="row mt-5" action="/submit" method="POST" enctype="multipart/form-data">
 
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <div class="left-box  card mb-3 p-5" style="height: 500px; background-color:#ededed38 ;">
@@ -90,181 +89,170 @@
                     </div>
                 </div>
 
-
-
                 <div class="col-lg-8 col-md-8 col-sm-12 mb-3">
                     <div class="card p-5"style="background-color:#ededed38;">
                         <h4 class="mt-5 mx-5 mb-5">İŞ DETAYLARI</h4>
-                        <form action="/submit" method="POST">
+                        <!-- Alan 1 -->
+                        <div class="mb-3 mx-5">
+                            <label for="ad" class="form-label fw-bold text-dark fw-bold text-dark">Firma Adı:</label>
+                            <input type="text" class="form-control w-100"  id="ad" name="ad" required>
+                        </div>
 
-                            <!-- Alan 1 -->
-                            <div class="mb-3 mx-5">
-                                <label for="ad" class="form-label fw-bold text-dark fw-bold text-dark">Firma Adı:</label>
-                                <input type="text" class="form-control w-100"  id="ad" name="ad" required>
+                        <!-- Alan 2 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">İş Pozisyonu:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">Mevsimlik İşçi</option>
+                                <option value="Üniversite">Temizlik Personeli</option>
+                                <option value="Yüksek Lisans">Çiftlik Elemanı</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 3 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">İl:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">Adana</option>
+                                <option value="Üniversite">Van</option>
+                                <option value="Yüksek Lisans">Elazığ</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 4 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">İlçe:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">****</option>
+                                <option value="Üniversite">***</option>
+                                <option value="Yüksek Lisans">**</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 5 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">Köy:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">****</option>
+                                <option value="Üniversite">***</option>
+                                <option value="Yüksek Lisans">**</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 6 -->
+                        <div class="mb-3 mx-5">
+                            <label for="ad" class="form-label fw-bold text-dark">çalışma Süresi(Ay Olarak):</label>
+                            <input type="text" class="form-control w-100"  id="ad" name="ad" required>
+                        </div>
+
+                        <!-- Alan 7 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">Gereken Eğtim:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">Gerek Yok</option>
+                                <option value="Lise">Lise</option>
+                                <option value="Üniversite">Üniversite</option>
+                                <option value="Yüksek Lisans">Yüksek Lisans</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 8 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">Tecrübe Şartı:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">Yok</option>
+                                <option value="Lise">1 Yıl</option>
+                                <option value="Üniversite">2 Yıl</option>
+                                <option value="Yüksek Lisans">3 Yıl</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 9 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">Yaş Sınırı:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">18-25</option>
+                                <option value="Üniversite">25-35</option>
+                                <option value="Yüksek Lisans">35-60</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 10 -->
+                        <div class="mb-3 mx-5">
+                            <label for="egitim_durumu" class="form-label fw-bold text-dark">Ücret Türü:</label>
+                            <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
+                                <option value="Lise">Yevme</option>
+                                <option value="Üniversite">Haftalık</option>
+                                <option value="Yüksek Lisans">15 Günlük</option>
+                                <option value="Yüksek Lisans">Aylık</option>
+                            </select>
+                        </div>
+
+                        <!-- Alan 11 -->
+                        <div class="mb-3 mx-5">
+                            <label for="ad" class="form-label fw-bold text-dark">Ücret:</label>
+                            <input type="text" class="form-control w-100"  id="ad" name="ad" required>
+                        </div>
+
+                        <!-- Alan 12 -->
+                        <fieldset class="mb-3 mx-5">
+                            <legend class="col-form-label fw-bold text-dark pt-0">Cinsiyet:</legend>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="erkek" name="cinsiyet" value="Erkek" required>
+                                <label class="form-check-label" for="erkek">Erkek</label>
                             </div>
-                
-                           <!-- Alan 2 -->
-                           <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">İş Pozisyonu:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">Mevsimlik İşçi</option>
-                                    <option value="Üniversite">Temizlik Personeli</option>
-                                    <option value="Yüksek Lisans">Çiftlik Elemanı</option>
-                                </select>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="kadın" name="cinsiyet" value="Kadın" required>
+                                <label class="form-check-label" for="kadın">Kadın</label>
                             </div>
+                        </fieldset>
 
-                            <!-- Alan 3 -->
-                            <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">İl:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">Adana</option>
-                                    <option value="Üniversite">Van</option>
-                                    <option value="Yüksek Lisans">Elazığ</option>
-                                </select>
+                        <!-- Alan 13 -->
+                        <fieldset class="mb-3 mx-5">
+                            <legend class="col-form-label pt-0 fw-bold text-dark">Konaklama:</legend>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="Var" name="Konaklama" value="Var" required>
+                                <label class="form-check-label" for="Var">Var</label>
                             </div>
-                
-                            <!-- Alan 4 -->
-                            <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">İlçe:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">****</option>
-                                    <option value="Üniversite">***</option>
-                                    <option value="Yüksek Lisans">**</option>
-                                </select>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="Yok" name="Konaklama" value="Yok" required>
+                                <label class="form-check-label" for="Yok">Yok</label>
                             </div>
-                
-                            <!-- Alan 5 -->
-                            <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">Köy:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">****</option>
-                                    <option value="Üniversite">***</option>
-                                    <option value="Yüksek Lisans">**</option>
-                                </select>
+                        </fieldset>
+
+                        <!-- Sigorta 14 -->
+                        <fieldset class="mb-3 mx-5">
+                            <legend class="col-form-label pt-0 fw-bold text-dark">Sigorta:</legend>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="Var" name="Sigorta" value="Var" required>
+                                <label class="form-check-label" for="Var">Var</label>
                             </div>
-
-
-                            <!-- Alan 6 -->
-                            <div class="mb-3 mx-5">
-                                <label for="ad" class="form-label fw-bold text-dark">çalışma Süresi(Ay Olarak):</label>
-                                <input type="text" class="form-control w-100"  id="ad" name="ad" required>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="Yok" name="Sigorta" value="Yok" required>
+                                <label class="form-check-label" for="Yok">Yok</label>
                             </div>
-                             <!-- Alan 7 -->
-                             <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">Gereken Eğtim:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">Gerek Yok</option>
-                                    <option value="Lise">Lise</option>
-                                    <option value="Üniversite">Üniversite</option>
-                                    <option value="Yüksek Lisans">Yüksek Lisans</option>
-                                </select>
+                        </fieldset>
+
+                        <!-- Sigorta 15 -->
+                        <fieldset class="mb-3 mx-5">
+                            <legend class="col-form-label pt-0 fw-bold text-dark">Başvuru Durumu:</legend>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="Açık" name="Başvuru Durumu" value="Açık" required>
+                                <label class="form-check-label" for="Açık">Açık</label>
                             </div>
-
-                             <!-- Alan 8 -->
-                             <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">Tecrübe Şartı:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">Yok</option>
-                                    <option value="Lise">1 Yıl</option>
-                                    <option value="Üniversite">2 Yıl</option>
-                                    <option value="Yüksek Lisans">3 Yıl</option>
-                                </select>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="Kapalı" name="Başvuru Durumu" value="Kapalı" required>
+                                <label class="form-check-label" for="Kapalı">Kapalı</label>
                             </div>
+                        </fieldset>
 
-
-                            <!-- Alan 9 -->
-                            <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">Yaş Sınırı:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">18-25</option>
-                                    <option value="Üniversite">25-35</option>
-                                    <option value="Yüksek Lisans">35-60</option>
-                                </select>
-                            </div>
-
-
-                             <!-- Alan 10 -->
-                             <div class="mb-3 mx-5">
-                                <label for="egitim_durumu" class="form-label fw-bold text-dark">Ücret Türü:</label>
-                                <select class="form-select" id="egitim_durumu" name="egitim_durumu" required>
-                                    <option value="Lise">Yevme</option>
-                                    <option value="Üniversite">Haftalık</option>
-                                    <option value="Yüksek Lisans">15 Günlük</option>
-                                    <option value="Yüksek Lisans">Aylık</option>
-                                </select>
-                            </div>
-
-
-                             <!-- Alan 11 -->
-                             <div class="mb-3 mx-5">
-                                <label for="ad" class="form-label fw-bold text-dark">Ücret:</label>
-                                <input type="text" class="form-control w-100"  id="ad" name="ad" required>
-                            </div>
-                
-                            <!-- Alan 12 -->
-                            <fieldset class="mb-3 mx-5">
-                                <legend class="col-form-label fw-bold text-dark pt-0">Cinsiyet:</legend>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="erkek" name="cinsiyet" value="Erkek" required>
-                                    <label class="form-check-label" for="erkek">Erkek</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="kadın" name="cinsiyet" value="Kadın" required>
-                                    <label class="form-check-label" for="kadın">Kadın</label>
-                                </div>
-                            </fieldset>
-
-
-                            <!-- Alan 13 -->
-                            <fieldset class="mb-3 mx-5">
-                                <legend class="col-form-label pt-0 fw-bold text-dark">Konaklama:</legend>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="Var" name="Konaklama" value="Var" required>
-                                    <label class="form-check-label" for="Var">Var</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="Yok" name="Konaklama" value="Yok" required>
-                                    <label class="form-check-label" for="Yok">Yok</label>
-                                </div>
-                            </fieldset>
-
-
-                             <!-- Sigorta 14 -->
-                             <fieldset class="mb-3 mx-5">
-                                <legend class="col-form-label pt-0 fw-bold text-dark">Sigorta:</legend>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="Var" name="Sigorta" value="Var" required>
-                                    <label class="form-check-label" for="Var">Var</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="Yok" name="Sigorta" value="Yok" required>
-                                    <label class="form-check-label" for="Yok">Yok</label>
-                                </div>
-                            </fieldset>
-
-
-                            <!-- Sigorta 15 -->
-                            <fieldset class="mb-3 mx-5">
-                                <legend class="col-form-label pt-0 fw-bold text-dark">Başvuru Durumu:</legend>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="Açık" name="Başvuru Durumu" value="Açık" required>
-                                    <label class="form-check-label" for="Açık">Açık</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" id="Kapalı" name="Başvuru Durumu" value="Kapalı" required>
-                                    <label class="form-check-label" for="Kapalı">Kapalı</label>
-                                </div>
-                            </fieldset>
-
-                            <div class="gonder text-center mt-5">
+                        <div class="gonder text-center mt-5">
                             <button  type="submit" class="btn btn-success w-75">Gönder</button>
-                            </div>
-                
-                        </form>
-
+                        </div>
+            
+                        
                     </div>
                 </div>
-            </div>    
+            </form>    
         </div>
 
 
