@@ -1,0 +1,27 @@
+.left-box {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 kolon */
+    grid-template-rows:100px, 300px , 100px ; /* 3 satır */
+    gap: 1rem; /* Satırlar arasına boşluk ekler */
+}
+h4, h5 {
+    font-family: 'Roboto', sans-serif; /* Güzel bir yazı tipi */
+    font-weight: 600; /* Orta kalınlık */
+    color: #333333; /* Koyu gri renk */
+    text-transform: uppercase; /* Büyük harflerle yazı */
+    letter-spacing: 1px; /* Harfler arası boşluk */
+    margin-bottom: 20px; /* Alt boşluk */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15); /* Gölge efekti */
+}
+
+h4 {
+    font-size: 2rem; /* h4 için büyük yazı boyutu */
+    line-height: 1.4; /* Satır yüksekliği */
+}
+
+h5 {
+    font-size: 1.5rem; /* h5 için biraz daha küçük yazı boyutu */
+    line-height: 1.3; /* Satır yüksekliği */
+}
+
+

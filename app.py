@@ -29,6 +29,14 @@ employers_collection = mongo_db['employers']  # İşverenler koleksiyonu
 def index():
     return render_template('index.html')
 
+
+@app.route('/ilan-ver')
+def ilanVer():
+    return render_template('ilan-ver.html')  # ilanVer.html sayfanız burada yüklenir
+
+
+
+
 @app.route('/search/<index_name>/<query>')
 def search(index_name, query):
     # Basit bir Elasticsearch araması
