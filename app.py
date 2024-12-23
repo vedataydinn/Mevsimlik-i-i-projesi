@@ -37,6 +37,8 @@ def ilanVer():
 
 
 
+
+
 @app.route('/search/<index_name>/<query>')
 def search(index_name, query):
     # Basit bir Elasticsearch araması
