@@ -41,94 +41,37 @@ def serialize_objectid(obj):
         return str(obj)
     return obj
 
+
+
+
 @app.route('/')
 def index():
     try:
-        # MongoDB'den iş ilanlarını alıyoruz
-        jobs = jobs_collection.find()  # Koleksiyonun tamamını al
-        jobs_list = list(jobs)  # MongoDB cursor'ını listeye dönüştür
-        # ObjectId'yi string'e çevir
-        jobs_list = [serialize_objectid(job) for job in jobs_list]
-        settings = {"isShowFilterMode": True}  # Örnek settings değişkeni
-        print(jobs_list)  # jobs_list burada tanımlandı ve kullanılabilir
+        jobs = jobs_collection.find()
+        jobs_list = list(jobs)
     except Exception as e:
-        print("Veritabanı hatası:", e)
-        jobs_list = []  # Hata durumunda boş bir liste döndür
-        settings = {"isShowFilterMode": False}  # Hata durumunda varsayılan bir ayar
+        print(f"Veritabanı hatası: {e}")
+        jobs_list = []
 
+    settings = {
+        "isShowFilterMode": False
+    }
     return render_template('index.html', jobs=jobs_list, settings=settings)
 
-
-
-
-@app.route('/jobs', methods=['GET'])
-def job_list():
-
-    
-    # Filtreleme kriterlerini al
-    firma_adi = request.args.get('firma_adi')
-    is_alani = request.args.get('is_alani')
-    il = request.args.get('il')
-    ilce = request.args.get('ilce')
-    koy = request.args.get('koy')
-    
-    min_ucret = request.args.get('min_ucret', type=int)
-    max_ucret = request.args.get('max_ucret', type=int)
-    cinsiyet = request.args.get('cinsiyet')
-    min_calisma_suresi = request.args.get('min_calisma_suresi', type=int)
-    max_calisma_suresi = request.args.get('max_calisma_suresi', type=int)
-    gereken_egitim = request.args.get('gereken_egitim')
-    min_tecrube_sarti = request.args.get('min_tecrube_sarti', type=int)
-    max_tecrube_sarti = request.args.get('max_tecrube_sarti', type=int)
-    yas = request.args.get('yas', type=int)
-
-
-    # MongoDB'den iş ilanlarını alıyoruz
-    jobs = jobs_collection.find()
-    filtered_jobs = list(jobs)  # MongoDB cursor'ını listeye dönüştür
-
-    if firma_adi:
-        filtered_jobs = [job for job in filtered_jobs if job['Firma Adi'].lower() == firma_adi.lower()]
-    if is_alani:
-        filtered_jobs = [job for job in filtered_jobs if job['Is Alani'].lower() == is_alani.lower()]
-    if il:
-        filtered_jobs = [job for job in filtered_jobs if job['Il'].lower() == il.lower()]
-    if ilce:
-        filtered_jobs = [job for job in filtered_jobs if job['Ilce'].lower() == ilce.lower()]
-    if koy:
-        filtered_jobs = [job for job in filtered_jobs if job['Koy'].lower() == koy.lower()]
-    if min_ucret:
-        filtered_jobs = [job for job in filtered_jobs if job['Ucret'] >= min_ucret]
-    if max_ucret:
-        filtered_jobs = [job for job in filtered_jobs if job['Ucret'] <= max_ucret]
-    if cinsiyet:
-        filtered_jobs = [job for job in filtered_jobs if job['Cinsiyet'] == cinsiyet]
-    if min_calisma_suresi:
-        filtered_jobs = [job for job in filtered_jobs if job['Calisma Surezi'] >= min_calisma_suresi]
-    if max_calisma_suresi:
-        filtered_jobs = [job for job in filtered_jobs if job['Calisma Surezi'] <= max_calisma_suresi]
-    if gereken_egitim:
-        filtered_jobs = [job for job in filtered_jobs if job['Gereken Egitim'] == gereken_egitim]
-    if min_tecrube_sarti:
-        filtered_jobs = [job for job in filtered_jobs if job['Tecrube sarti'] >= min_tecrube_sarti]
-   
-    if yas:
-        jobs = []
-        for job in filtered_jobs:
-            min_age, max_age = job["Yas Siniri"].split("-")
-            if int(min_age) <= yas <= int(max_age):
-                jobs.append(job)
-        filtered_jobs = jobs
-
-    # MongoDB verisini JSON formatına çevir
-    serialized_jobs = [ {key: serialize_objectid(value) for key, value in job.items()} for job in filtered_jobs ]
-    return jsonify(serialized_jobs)
-
-    
-
-
-
-
+@app.route('/search/<index_name>/<query>')
+def search(index_name, query):
+    # Basit bir Elasticsearch araması
+    response = es.search(
+        index=index_name,
+        body={
+            "query": {
+                "match": {
+                    "content": query
+                }
+            }
+        }
+    )
+    return jsonify(response)
 
 @app.route('/mongodb-test')
 def mongodb_test():
@@ -141,6 +84,12 @@ def mongodb_test():
 @app.route('/contact')  
 def contact():
     return render_template('contact.html')
+
+
+@app.route('/ilanVer')  
+def ilanVer():
+    return render_template('ilan-Ver.html')
+
 
 @app.route('/loginPage.html')  
 def loginPage():
