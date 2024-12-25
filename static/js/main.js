@@ -131,3 +131,12 @@ isIlanlari.addEventListener('wheel', (event) => {
     event.preventDefault();
     isIlanlari.scrollLeft += event.deltaY + (event.deltaY * 2);
 })
+
+
+
+
+
+
+
+
+

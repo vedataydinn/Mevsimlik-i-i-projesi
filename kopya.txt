@@ -1,0 +1,1049 @@
+# Veritabanına veri eklemek için bir örnek endpoint
+
+@app.route('/add_worker')
+def add_worker():
+    # Örnek bir işçi verisi ekleyelim
+    new_worker = {
+        "id": 1,
+        "ad": "Ahmet",
+        "soyad": "Yılmaz",
+        "telefon": "0533 123 4567",
+        "eposta": "ahmet.yilmaz@gmail.com",
+        "yas": 28,
+        "cinsiyet": "Erkek",
+        "deneyim": 3,
+        "egitim": "Lise",
+        "il": "Elazığ",
+        "ilçe": "Merkez",
+        "tercih_edilen_is_alanlari": "Kiraz Hasadı",
+        "ucret_beklentisi": "15,000"
+    }
+    
+    workers_collection.insert_one(new_worker)
+    return "Yeni işçi başarıyla MongoDB'ye eklendi!"
+
+@app.route('/add_job')
+def add_job():
+    # Örnek bir iş ilanı ekleyelim
+    new_job = {
+        "ilan_id": 1,
+        "firma_adi": "XYZ Tarım",
+        "is_pozisyonu": "Mevsimlik İşçi",
+        "il": "Elazığ",
+        "ilçe": "Sivrice",
+        "köy": "Yedibağ",
+        "çalışma_süresi": "3 Ay",
+        "gerekli_egitim": "Lise",
+        "tecrübe": "Yok",
+        "yaş_sınırı": "18-35",
+        "cinsiyet": "Erkek",
+        "konaklama": "Var",
+        "sigorta": "Var",
+        "ücret": "3500 TL",
+        "başvuru_durumu": "Açık"
+    }
+
+    jobs_collection.insert_one(new_job)
+    return "Yeni iş ilanı başarıyla MongoDB'ye eklendi!"
+
+@app.route('/add_employer')
+def add_employer():
+    # Örnek bir işveren verisi ekleyelim
+    new_employer = {
+        "id": 1,
+        "ad": "Mehmet",
+        "soyad": "Yıldız",
+        "firma_adi": "Yıldız Tarım",
+        "sektor": "Tarım ve Hayvancılık",
+        "telefon": "0532 111 2233",
+        "eposta": "mehmet.yildiz@tarim.com"
+    }
+
+    employers_collection.insert_one(new_employer)
+    print("devam")
+    return "Yeni işveren başarıyla MongoDB'ye eklendi!"
+
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mevsimci Giriş</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="static/css/RegisterStyle.css">
+
+</head>
+<body>
+
+    <div class="mevsimci">
+        <h1>MEVSİMCİ</h1>
+    </div>
+
+    
+
+    <div class="parent">
+        <div class="container">
+            <div class="name">
+            <h1>Hesap aç</h1>
+            </div>
+
+        <div class="information">
+            <form action="index.html" method="get">
+
+                <div class="input-box1">
+                    <input type="text" id="fname" name="fname" placeholder="Ad" required>
+                    <input type="text" id="lname" name="lname" placeholder="SoyAd" required>
+                </div>
+
+                <div class="input-box1">
+                    <input type="text" id="yas" name="yas" placeholder="Yaş" required>
+                    <input 
+                    type="text" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Telefon Numarası" 
+                    maxlength="11" 
+                    required
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                </div>
+
+                <div class="input-box1">
+                    <select class="from-select" aria-label="Cinsiyet">
+                        <option selected>Eğtim</option>
+                        <option value="1">ilköğretim</option>
+                        <option value="2">lise</option>
+                        <option value="2">üniversite</option>
+                    </select>
+                    <input type="text" id="yas" name="yas" placeholder="Deneyim(Yıl)" required>
+                </div>
+
+                <div class="input-box1">
+                    <select class="from-select" aria-label="Şehir">
+                        <option selected>Şehir</option>
+                        <option value="1">01 - Adana</option>
+                        <option value="2">02 - Adıyaman</option>
+                        <option value="3">03 - Afyonkarahisar</option>
+                        <option value="4">04 - Ağrı</option>
+                        <option value="5">05 - Amasya</option>
+                        <option value="6">06 - Ankara</option>
+                        <option value="7">07 - Antalya</option>
+                        <option value="8">08 - Artvin</option>
+                        <option value="9">09 - Aydın</option>
+                        <option value="10">10 - Balıkesir</option>
+                        <option value="11">11 - Bilecik</option>
+                        <option value="12">12 - Bingöl</option>
+                        <option value="13">13 - Bitlis</option>
+                        <option value="14">14 - Bolu</option>
+                        <option value="15">15 - Burdur</option>
+                        <option value="16">16 - Bursa</option>
+                        <option value="17">17 - Çanakkale</option>
+                        <option value="18">18 - Çankırı</option>
+                        <option value="19">19 - Çorum</option>
+                        <option value="20">20 - Denizli</option>
+                        <option value="21">21 - Diyarbakır</option>
+                        <option value="22">22 - Edirne</option>
+                        <option value="23">23 - Elazığ</option>
+                        <option value="24">24 - Erzincan</option>
+                        <option value="25">25 - Erzurum</option>
+                        <option value="26">26 - Eskişehir</option>
+                        <option value="27">27 - Gaziantep</option>
+                        <option value="28">28 - Giresun</option>
+                        <option value="29">29 - Gümüşhane</option>
+                        <option value="30">30 - Hakkari</option>
+                        <option value="31">31 - Hatay</option>
+                        <option value="32">32 - Isparta</option>
+                        <option value="33">33 - Mersin</option>
+                        <option value="34">34 - İstanbul</option>
+                        <option value="35">35 - İzmir</option>
+                        <option value="36">36 - Kars</option>
+                        <option value="37">37 - Kastamonu</option>
+                        <option value="38">38 - Kayseri</option>
+                        <option value="39">39 - Kırklareli</option>
+                        <option value="40">40 - Kırşehir</option>
+                        <option value="41">41 - Kocaeli</option>
+                        <option value="42">42 - Konya</option>
+                        <option value="43">43 - Kütahya</option>
+                        <option value="44">44 - Malatya</option>
+                        <option value="45">45 - Manisa</option>
+                        <option value="46">46 - Kahramanmaraş</option>
+                        <option value="47">47 - Mardin</option>
+                        <option value="48">48 - Muğla</option>
+                        <option value="49">49 - Muş</option>
+                        <option value="50">50 - Nevşehir</option>
+                        <option value="51">51 - Niğde</option>
+                        <option value="52">52 - Ordu</option>
+                        <option value="53">53 - Rize</option>
+                        <option value="54">54 - Sakarya</option>
+                        <option value="55">55 - Samsun</option>
+                        <option value="56">56 - Siirt</option>
+                        <option value="57">57 - Sinop</option>
+                        <option value="58">58 - Sivas</option>
+                        <option value="59">59 - Tekirdağ</option>
+                        <option value="60">60 - Tokat</option>
+                        <option value="61">61 - Trabzon</option>
+                        <option value="62">62 - Tunceli</option>
+                        <option value="63">63 - Şanlıurfa</option>
+                        <option value="64">64 - Uşak</option>
+                        <option value="65">65 - Van</option>
+                        <option value="66">66 - Yozgat</option>
+                        <option value="67">67 - Zonguldak</option>
+                        <option value="68">68 - Aksaray</option>
+                        <option value="69">69 - Bayburt</option>
+                        <option value="70">70 - Karaman</option>
+                        <option value="71">71 - Kırıkkale</option>
+                        <option value="72">72 - Batman</option>
+                        <option value="73">73 - Şırnak</option>
+                        <option value="74">74 - Bartın</option>
+                        <option value="75">75 - Ardahan</option>
+                        <option value="76">76 - Iğdır</option>
+                        <option value="77">77 - Yalova</option>
+                        <option value="78">78 - Karabük</option>
+                        <option value="79">79 - Kilis</option>
+                        <option value="80">80 - Osmaniye</option>
+                        <option value="81">81 - Düzce</option>
+                    </select>
+                    <input type="text" id="yas" name="yas" placeholder="ilçe" required>
+                </div>
+
+
+                <div class="input-box1">
+                    <input type="text" id="fname" name="fname" placeholder="tercih edilen iş alanları" required>
+                    <input type="text" id="lname" name="lname" placeholder="ücret beklentisi" required>
+                </div>
+
+                <div class="input-box2">
+                        <input type="email" id="email" name="email" placeholder="E-postanızı girin" required>
+                        <img src="static/img/user-solid-24.png" alt="">
+                </div>
+
+                <div class="input-box2">
+                        <input type="password" id="password" name="password" placeholder="Şifre girin" required>
+                        <img src="static/img/lock-alt-solid-24.png" alt="">
+                </div>
+
+                <div class="check1">
+                    <label><input type="checkbox"><a href="#">Bireysel Hesap Sözleşmesi ve Ekleri</a>'ni kabul ediyorum.</label>
+                </div>
+
+                <div class="check1">
+                <p><input type="checkbox">İletişim bilgilerime kampanya, tanıtım ve reklam içerikli <br> ticari
+                    
+                    verilerimin işlenmesine ve tedarikçilerinizle <br> paylaşılmasına izin veriyorum.</p>
+                </div>
+
+                <button class="btn" type="submit">E-Posta Ile Giriş Yap</button>
+
+            </form>
+        </div>
+        </div>
+    </div>
+    </body>
+    </html>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mevsimci Giriş</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="static/css/Registerişveren.css">
+
+</head>
+<body>
+
+    <div class="mevsimci">
+        <h1>MEVSİMCİ</h1>
+    </div>
+
+    
+
+    <div class="parent">
+        <div class="container">
+            <div class="name">
+            <h1>Hesap aç</h1>
+            </div>
+
+        <div class="information">
+            <form action="index.html" method="get">
+
+                <div class="input-box1">
+                    <input type="text" id="fname" name="fname" placeholder="Ad" required>
+                    <input type="text" id="lname" name="lname" placeholder="SoyAd" required>
+                </div>
+
+                <div class="input-box1">
+                    <input type="text" id="yas" name="yas" placeholder="Firma Adı" required>
+                    <input 
+                    type="text" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Telefon Numarası" 
+                    maxlength="11" 
+                    required
+                    oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+                </div>
+
+                <div class="input-box1">
+                    <select class="from-select" aria-label="Şehir">
+                        <option selected>Şehir</option>
+                        <option value="1">01 - Adana</option>
+                        <option value="2">02 - Adıyaman</option>
+                        <option value="3">03 - Afyonkarahisar</option>
+                        <option value="4">04 - Ağrı</option>
+                        <option value="5">05 - Amasya</option>
+                        <option value="6">06 - Ankara</option>
+                        <option value="7">07 - Antalya</option>
+                        <option value="8">08 - Artvin</option>
+                        <option value="9">09 - Aydın</option>
+                        <option value="10">10 - Balıkesir</option>
+                        <option value="11">11 - Bilecik</option>
+                        <option value="12">12 - Bingöl</option>
+                        <option value="13">13 - Bitlis</option>
+                        <option value="14">14 - Bolu</option>
+                        <option value="15">15 - Burdur</option>
+                        <option value="16">16 - Bursa</option>
+                        <option value="17">17 - Çanakkale</option>
+                        <option value="18">18 - Çankırı</option>
+                        <option value="19">19 - Çorum</option>
+                        <option value="20">20 - Denizli</option>
+                        <option value="21">21 - Diyarbakır</option>
+                        <option value="22">22 - Edirne</option>
+                        <option value="23">23 - Elazığ</option>
+                        <option value="24">24 - Erzincan</option>
+                        <option value="25">25 - Erzurum</option>
+                        <option value="26">26 - Eskişehir</option>
+                        <option value="27">27 - Gaziantep</option>
+                        <option value="28">28 - Giresun</option>
+                        <option value="29">29 - Gümüşhane</option>
+                        <option value="30">30 - Hakkari</option>
+                        <option value="31">31 - Hatay</option>
+                        <option value="32">32 - Isparta</option>
+                        <option value="33">33 - Mersin</option>
+                        <option value="34">34 - İstanbul</option>
+                        <option value="35">35 - İzmir</option>
+                        <option value="36">36 - Kars</option>
+                        <option value="37">37 - Kastamonu</option>
+                        <option value="38">38 - Kayseri</option>
+                        <option value="39">39 - Kırklareli</option>
+                        <option value="40">40 - Kırşehir</option>
+                        <option value="41">41 - Kocaeli</option>
+                        <option value="42">42 - Konya</option>
+                        <option value="43">43 - Kütahya</option>
+                        <option value="44">44 - Malatya</option>
+                        <option value="45">45 - Manisa</option>
+                        <option value="46">46 - Kahramanmaraş</option>
+                        <option value="47">47 - Mardin</option>
+                        <option value="48">48 - Muğla</option>
+                        <option value="49">49 - Muş</option>
+                        <option value="50">50 - Nevşehir</option>
+                        <option value="51">51 - Niğde</option>
+                        <option value="52">52 - Ordu</option>
+                        <option value="53">53 - Rize</option>
+                        <option value="54">54 - Sakarya</option>
+                        <option value="55">55 - Samsun</option>
+                        <option value="56">56 - Siirt</option>
+                        <option value="57">57 - Sinop</option>
+                        <option value="58">58 - Sivas</option>
+                        <option value="59">59 - Tekirdağ</option>
+                        <option value="60">60 - Tokat</option>
+                        <option value="61">61 - Trabzon</option>
+                        <option value="62">62 - Tunceli</option>
+                        <option value="63">63 - Şanlıurfa</option>
+                        <option value="64">64 - Uşak</option>
+                        <option value="65">65 - Van</option>
+                        <option value="66">66 - Yozgat</option>
+                        <option value="67">67 - Zonguldak</option>
+                        <option value="68">68 - Aksaray</option>
+                        <option value="69">69 - Bayburt</option>
+                        <option value="70">70 - Karaman</option>
+                        <option value="71">71 - Kırıkkale</option>
+                        <option value="72">72 - Batman</option>
+                        <option value="73">73 - Şırnak</option>
+                        <option value="74">74 - Bartın</option>
+                        <option value="75">75 - Ardahan</option>
+                        <option value="76">76 - Iğdır</option>
+                        <option value="77">77 - Yalova</option>
+                        <option value="78">78 - Karabük</option>
+                        <option value="79">79 - Kilis</option>
+                        <option value="80">80 - Osmaniye</option>
+                        <option value="81">81 - Düzce</option>
+                    </select>
+                    <input type="text" id="yas" name="yas" placeholder="ilçe" required>
+                </div>
+
+                <div class="input-box2">
+                        <input type="email" id="email" name="email" placeholder="E-postanızı girin" required>
+                        <img src="static/img/user-solid-24.png" alt="">
+                </div>
+
+                <div class="input-box2">
+                        <input type="password" id="password" name="password" placeholder="Şifre girin" required>
+                        <img src="static/img/lock-alt-solid-24.png" alt="">
+                </div>
+
+                <div class="check1">
+                    <label><input type="checkbox"><a href="#">Bireysel Hesap Sözleşmesi ve Ekleri</a>'ni kabul ediyorum.</label>
+                </div>
+
+                <div class="check1">
+                <p><input type="checkbox">İletişim bilgilerime kampanya, tanıtım ve reklam içerikli <br> ticari
+                    
+                    verilerimin işlenmesine ve tedarikçilerinizle <br> paylaşılmasına izin veriyorum.</p>
+                </div>
+
+                <button class="btn" type="submit">E-Posta Ile Giriş Yap</button>
+
+            </form>
+        </div>
+        </div>
+    </div>
+    </body>
+    </html>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Form ve filtreleme kısmı */
+form {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+form .form-group {
+    margin-bottom: 15px;
+}
+
+form .form-control {
+    border-radius: 4px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.worker-card-container {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+        
+        <!-- map start -->
+        <!-- map start -->
+        <div class="row">
+            <div class="content d-flex justify-content-center">
+                <!-- Workers Filter Section -->
+                <div class="container-fluid bg-light mt-3 mb-5 col-12 col-md-5" style="max-width: 640px;">
+                    <div class="col-12">
+                        <div class="rounded" style="margin: 4px auto;">
+                            <!-- Filter Form -->
+                            <form method="GET" action="{{ url_for('filter_workers') }}">
+                                <div class="form-group">
+                                    <label for="phone">Telefon:</label>
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Telefon numarası girin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="education">Eğitim:</label>
+                                    <input type="text" class="form-control" id="education" name="education" placeholder="Eğitim bilgisi girin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="experience">Deneyim (Yıl):</label>
+                                    <input type="number" class="form-control" id="experience" name="experience" placeholder="Deneyim yılı girin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">Şehir:</label>
+                                    <input type="text" class="form-control" id="city" name="city" placeholder="Şehir adı girin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="job_area">İş Alanları:</label>
+                                    <input type="text" class="form-control" id="job_area" name="job_area" placeholder="İş alanı girin">
+                                </div>
+                                <div class="form-group">
+                                    <label for="salary">Ücret Beklentisi (TL):</label>
+                                    <input type="number" class="form-control" id="salary" name="salary" placeholder="Ücret beklentisi girin">
+                                </div>
+                                <button type="submit" class="btn btn-primary mt-3">Filtrele</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Workers Section -->
+                <div class="container-fluid bg-light mt-3 mb-5 col-12 col-md-5" style="max-width: 640px;">
+                    <div class="col-12">
+                        <div class="rounded worker-card-container" style="margin: 4px auto;">
+                            <!-- Flask ile workers verisini burada göstereceğiz -->
+                            {% for worker in workers %}
+                                <div class="worker-card">
+                                    <h3>{{ worker.Ad }} {{ worker.Soyad }}</h3>
+                                    <p><strong>Telefon:</strong> {{ worker['Telefon Numarası'] }}</p>
+                                    <p><strong>Eğitim:</strong> {{ worker.Eğitim }}</p>
+                                    <p><strong>Deneyim:</strong> {{ worker['Deneyim (Yıl)'] }} yıl</p>
+                                    <p><strong>Şehir:</strong> {{ worker.Şehir }} - {{ worker.İlçe }}</p>
+                                    <p><strong>İş Alanları:</strong> {{ worker['Tercih Edilen İş Alanları'] }}</p>
+                                    <p><strong>Ücret Beklentisi:</strong> {{ worker['Ücret Beklentisi'] }} TL</p>
+                                </div>
+                                <hr>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Map Section -->
+                <div class="container bg-light mt-3 mb-5 col-12 col-md-7" style="max-width: 700px;">
+                    <div class="col-12">
+                        <div class="rounded">
+                            <iframe style="height: 450px; width: 100%; margin: 4px auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d39.20194967282374!3d38.677846931103154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- map end -->
+
+        <!-- map end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+app.py modelinin eski hali 
+from flask import Flask, jsonify, render_template, request
+from elasticsearch import Elasticsearch
+from pymongo import MongoClient
+import joblib
+
+app = Flask(__name__)
+
+# Elasticsearch bağlantısı
+try:
+    es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
+    if not es.ping():
+        print("Elasticsearch bağlantısı başarısız!")
+except Exception as e:
+    print(f"Elasticsearch bağlantısı sırasında bir hata oluştu: {e}")
+
+# MongoDB bağlantısı
+try:
+    mongo_client = MongoClient('mongodb://admin:secret@localhost:27017/')
+    mongo_db = mongo_client['mydatabase']  # Veritabanı adı
+    print("MongoDB bağlantısı başarıyla yapıldı.")
+except Exception as e:
+    print(f"MongoDB bağlantısı sırasında bir hata oluştu: {e}")
+
+# MongoDB koleksiyonları
+workers_collection = mongo_db['workers']  # İşçiler koleksiyonu
+jobs_collection = mongo_db['jobs']  # İş ilanları koleksiyonu
+employers_collection = mongo_db['employers']  # İşverenler koleksiyonu
+
+
+
+
+
+
+
+@app.route('/')
+def index():
+    try:
+        # MongoDB'den workers koleksiyonundaki tüm verileri çekiyoruz
+        jobs = jobs_collection.find()  # Koleksiyonun tamamını al
+        jobs_list = list(jobs)  # MongoDB cursor'ını listeye dönüştür
+    except Exception as e:
+        print(f"Veritabanı hatası: {e}")
+        jobs_list = []  # Hata durumunda boş bir liste döndür
+
+    return render_template('index.html', jobs=jobs_list)
+
+
+@app.route('/jobs', methods=['GET'])
+def job_list():
+    # Filtreleme kriterlerini al
+    firma_adi = request.args.get('firma_adi')
+    is_alani = request.args.get('is_alani')
+    il = request.args.get('il')
+    ilce = request.args.get('ilce')
+    koy = request.args.get('koy')
+    
+    min_ucret = request.args.get('min_ucret', type=int)
+    max_ucret = request.args.get('max_ucret', type=int)
+    cinsiyet = request.args.get('cinsiyet')
+    min_calisma_suresi = request.args.get('min_calisma_suresi', type=int)
+    max_calisma_suresi = request.args.get('max_calisma_suresi', type=int)
+    gereken_egitim = request.args.get('gereken_egitim')
+    min_tecrube_sarti = request.args.get('min_tecrube_sarti', type=int)
+    max_tecrube_sarti = request.args.get('max_tecrube_sarti', type=int)
+    yas = request.args.get('yas', type=int)
+
+
+    # Verileri filtrele
+    filtered_jobs = list(jobs_collection.find())
+    if firma_adi:
+        filtered_jobs = [job for job in filtered_jobs if job['Firma Adi'].lower() == firma_adi.lower()]
+    if is_alani:
+        filtered_jobs = [job for job in filtered_jobs if job['Is Alani'].lower() == is_alani.lower()]
+    if il:
+        filtered_jobs = [job for job in filtered_jobs if job['Il'].lower() == il.lower()]
+    if ilce:
+        filtered_jobs = [job for job in filtered_jobs if job['Ilce'].lower() == ilce.lower()]
+    if koy:
+        filtered_jobs = [job for job in filtered_jobs if job['Koy'].lower() == koy.lower()]
+    if min_ucret:
+        filtered_jobs = [job for job in filtered_jobs if job['Ucret'] >= min_ucret]
+    if max_ucret:
+        filtered_jobs = [job for job in filtered_jobs if job['Ucret'] <= max_ucret]
+    if cinsiyet:
+        filtered_jobs = [job for job in filtered_jobs if job['Cinsiyet'] == cinsiyet]
+    if min_calisma_suresi:
+        filtered_jobs = [job for job in filtered_jobs if job['Calisma Surezi'] >= min_calisma_suresi]
+    if max_calisma_suresi:
+        filtered_jobs = [job for job in filtered_jobs if job['Calisma Surezi'] <= max_calisma_suresi]
+    if gereken_egitim:
+        filtered_jobs = [job for job in filtered_jobs if job['Gereken Egitim'] == gereken_egitim]
+    if min_tecrube_sarti:
+        filtered_jobs = [job for job in filtered_jobs if job['Tecrube sarti'] >= min_tecrube_sarti]
+    if max_calisma_suresi:
+        filtered_jobs = [job for job in filtered_jobs if job['Tecrube sarti'] <= max_tecrube_sarti]
+    if yas:
+        jobs = []
+        for job in filtered_jobs:
+            min_age, max_age = job["Yas Siniri"].split("-")
+            if min_age<= yas and yas <= max_age:
+                jobs.append(job)
+        filtered_jobs = jobs
+    if ilce:
+        filtered_jobs = [job for job in filtered_jobs if job['Ilce'].lower() == ilce.lower()]
+    if koy:
+        filtered_jobs = [job for job in filtered_jobs if job['Koy'].lower() == koy.lower()]
+
+    
+    
+    
+
+    return render_template('index.html', jobs=filtered_jobs)
+
+
+@app.route('/mongodb-test')
+def mongodb_test():
+    # MongoDB'de bir koleksiyon ve örnek bir belge oluşturma
+    collection = mongo_db['test_collection']
+    document = {"name": "Test User", "age": 30}
+    collection.insert_one(document)
+    return "MongoDB'ye veri eklendi!"
+
+@app.route('/contact')  
+def contact():
+    return render_template('contact.html')
+
+@app.route('/loginPage.html')  
+def loginPage():
+    return render_template('loginPage.html')
+
+@app.route('/karakterBelirle.html')  
+def karakterBlerile():
+    return render_template('karakterBelirle.html')
+
+@app.route('/Registerişveren.html')  
+def Registerisveren():
+    return render_template('Registerişveren.html')
+
+@app.route('/Registerişci.html')  
+def Registerisci():
+    return render_template('Registerişci.html')
+
+@app.route('/404')  
+def not_found():
+    return render_template('404.html')
+
+# İşçi Kaydı
+@app.route('/Registerişci.html', methods=['GET', 'POST'])
+def register_worker():
+    if request.method == 'POST':
+        # Formdan gelen verileri alıyoruz
+        worker = {
+            "Ad": request.form.get("fname"),
+            "Soyad": request.form.get("lname"),
+            "Yaş": int(request.form.get("yas")),
+            "Telefon Numarası": request.form.get("phone"),
+            "Eğitim": request.form.get("egitim"),
+            "Deneyim (Yıl)": int(request.form.get("deneyim")),
+            "Şehir": request.form.get("sehir"),
+            "İlçe": request.form.get("ilce"),
+            "Tercih Edilen İş Alanları": request.form.get("isAlanlari"),
+            "Ücret Beklentisi": int(request.form.get("ucretBeklentisi")),
+            "E-Posta": request.form.get("email"),
+            "Şifre": request.form.get("password")
+        }
+        # MongoDB'ye kaydediyoruz
+        workers_collection.insert_one(worker)
+        return "İşçi başarıyla kayıt edildi!"
+    return render_template('Registerişci.html')
+# İşveren Kaydı
+@app.route('/Registerişveren.html', methods=['GET', 'POST'])
+def register_employer():
+    if request.method == 'POST':
+        # Formdan gelen verileri alıyoruz
+        employer = {
+            "Ad": request.form.get("fname"),
+            "Soyad": request.form.get("lname"),
+            "Firma Adı": request.form.get("firmaAdi"),
+            "Telefon Numarası": request.form.get("phone"),
+            "Şehir": request.form.get("sehir"),
+            "İlçe": request.form.get("ilce"),
+            "E-Posta": request.form.get("email"),
+            "Şifre": request.form.get("password")
+        }
+        # MongoDB'ye kaydediyoruz
+        employers_collection.insert_one(employer)
+        return "İşveren başarıyla kayıt edildi!"
+    return render_template('Registerişveren.html')
+
+
+
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+çalışmayan anahtar
+AIzaSyAVVH_f1bEw5jVp4fmDZU5bG1t1l70V018
+
+
+
+
+
+tasarım kalıblı örnek
+from flask import Flask, jsonify, render_template, request, redirect, url_for
+from elasticsearch import Elasticsearch
+from pymongo import MongoClient
+import joblib
+import numpy as np
+
+# Singleton Pattern for Database Connections
+class DatabaseConnection:
+    _mongo_client = None
+    _es_client = None
+
+    @staticmethod
+    def get_mongo_client():
+        if DatabaseConnection._mongo_client is None:
+            try:
+                DatabaseConnection._mongo_client = MongoClient('mongodb://admin:secret@localhost:27017/')
+                print("MongoDB bağlantısı başarıyla yapıldı.")
+            except Exception as e:
+                print(f"MongoDB bağlantısı sırasında bir hata oluştu: {e}")
+        return DatabaseConnection._mongo_client
+
+    @staticmethod
+    def get_es_client():
+        if DatabaseConnection._es_client is None:
+            try:
+                DatabaseConnection._es_client = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
+                if not DatabaseConnection._es_client.ping():
+                    print("Elasticsearch bağlantısı başarısız!")
+            except Exception as e:
+                print(f"Elasticsearch bağlantısı sırasında bir hata oluştu: {e}")
+        return DatabaseConnection._es_client
+
+# Factory Pattern for loading model and scaler
+class ModelFactory:
+    @staticmethod
+    def load_model():
+        model = joblib.load("isci_ilan_modeli.pkl")
+        scaler = joblib.load("isci_ilan_scaler.pkl")
+        label_encoders = joblib.load("isci_ilan_label_encoders.pkl")
+        return model, scaler, label_encoders
+
+# Flask Application
+app = Flask(__name__)
+
+# Get Database Connections
+mongo_db = DatabaseConnection.get_mongo_client()['mydatabase']  # Veritabanı adı
+es = DatabaseConnection.get_es_client()
+
+# MongoDB Collections
+workers_collection = mongo_db['workers']
+jobs_collection = mongo_db['jobs']
+employers_collection = mongo_db['employers']
+
+# Load Model and Scaler
+model, scaler, label_encoders = ModelFactory.load_model()
+
+@app.route('/')
+def index():
+    try:
+        jobs = jobs_collection.find()
+        jobs_list = list(jobs)
+    except Exception as e:
+        print(f"Veritabanı hatası: {e}")
+        jobs_list = []
+
+    settings = {
+        "isShowFilterMode": False
+    }
+    return render_template('index.html', jobs=jobs_list, settings=settings)
+
+@app.route('/jobs', methods=['GET'])
+def job_list():
+    firma_adi = request.args.get('firma_adi')
+    is_alani = request.args.get('is_alani')
+    il = request.args.get('il')
+    ilce = request.args.get('ilce')
+    koy = request.args.get('koy')
+    
+    min_ucret = request.args.get('min_ucret', type=int)
+    max_ucret = request.args.get('max_ucret', type=int)
+    cinsiyet = request.args.get('cinsiyet')
+    min_calisma_suresi = request.args.get('min_calisma_suresi', type=int)
+    max_calisma_suresi = request.args.get('max_calisma_suresi', type=int)
+    gereken_egitim = request.args.get('gereken_egitim')
+    min_tecrube_sarti = request.args.get('min_tecrube_sarti', type=int)
+    max_tecrube_sarti = request.args.get('max_tecrube_sarti', type=int)
+    yas = request.args.get('yas', type=int)
+
+    # Filter Jobs
+    filtered_jobs = list(jobs_collection.find())
+    if firma_adi:
+        filtered_jobs = [job for job in filtered_jobs if job['Firma Adi'].lower() == firma_adi.lower()]
+    if is_alani:
+        filtered_jobs = [job for job in filtered_jobs if job['Is Alani'].lower() == is_alani.lower()]
+    if il:
+        filtered_jobs = [job for job in filtered_jobs if job['Il'].lower() == il.lower()]
+    if ilce:
+        filtered_jobs = [job for job in filtered_jobs if job['Ilce'].lower() == ilce.lower()]
+    if koy:
+        filtered_jobs = [job for job in filtered_jobs if job['Koy'].lower() == koy.lower()]
+    if min_ucret:
+        filtered_jobs = [job for job in filtered_jobs if job['Ucret'] >= min_ucret]
+    if max_ucret:
+        filtered_jobs = [job for job in filtered_jobs if job['Ucret'] <= max_ucret]
+    if cinsiyet:
+        filtered_jobs = [job for job in filtered_jobs if job['Cinsiyet'] == cinsiyet]
+    if min_calisma_suresi:
+        filtered_jobs = [job for job in filtered_jobs if job['Calisma Surezi'] >= min_calisma_suresi]
+    if max_calisma_suresi:
+        filtered_jobs = [job for job in filtered_jobs if job['Calisma Surezi'] <= max_calisma_suresi]
+    if gereken_egitim:
+        filtered_jobs = [job for job in filtered_jobs if job['Gereken Egitim'] == gereken_egitim]
+    if min_tecrube_sarti:
+        filtered_jobs = [job for job in filtered_jobs if job['Tecrube sarti'] >= min_tecrube_sarti]
+    if max_tecrube_sarti:
+        filtered_jobs = [job for job in filtered_jobs if job['Tecrube sarti'] <= max_tecrube_sarti]
+    if yas:
+        jobs = []
+        for job in filtered_jobs:
+            min_age, max_age = job["Yas Siniri"].split("-")
+            if min_age <= yas and yas <= max_age:
+                jobs.append(job)
+        filtered_jobs = jobs
+
+    settings = {
+        "isShowFilterMode": True
+    }
+    return render_template('index.html', jobs=filtered_jobs, settings=settings)
+
+@app.route('/job_match', methods=['GET', 'POST'])
+def job_match():
+    if request.method == 'POST':
+        worker_data = {
+            "Yaş": int(request.form.get("yas")),
+            "Eğitim": request.form.get("egitim"),
+            "Deneyim (Yıl)": int(request.form.get("deneyim")),
+            "Şehir": request.form.get("sehir"),
+            "İlçe": request.form.get("ilce"),
+            "Tercih Edilen İş Alanları": request.form.get("isAlanlari"),
+            "Ücret Beklentisi": int(request.form.get("ucretBeklentisi"))
+        }
+
+        # MongoDB'ye kaydediyoruz
+        workers_collection.insert_one(worker_data)
+
+        worker_input = np.array([[worker_data['Yaş'], worker_data['Eğitim'], worker_data['Deneyim (Yıl)'],
+                                  worker_data['Ücret Beklentisi'], worker_data['Tercih Edilen İş Alanları'],
+                                  worker_data['Şehir'], worker_data['İlçe']]])
+        worker_input_scaled = scaler.transform(worker_input)
+
+        jobs = jobs_collection.find()
+        jobs_list = list(jobs)
+        
+        job_matches = []
+        for job in jobs_list:
+            job_input = np.array([[worker_data['Yaş'], worker_data['Eğitim'], worker_data['Deneyim (Yıl)'], worker_data['Ücret Beklentisi'],
+                                   job['Is Alani'], job['Il'], job['Ilce'], job['Egitim Gereksinimi'], job['Tecrube Sarti'], job['Ucret'],
+                                   job['Yas Siniri'], job['Cinsiyet'], job['Konaklama'], job['Sigorta']]])
+
+            job_input_scaled = scaler.transform(job_input)
+            score = model.predict(job_input_scaled)
+
+            job_matches.append({'job': job, 'score': score[0]})
+
+        job_matches = sorted(job_matches, key=lambda x: x['score'], reverse=True)
+
+        top_10_jobs = job_matches[:10]
+
+        return render_template('job_matches.html', jobs=top_10_jobs)
+
+    return render_template('job_match_form.html')
+
+@app.route('/loginPage.html')  
+def loginPage():
+    return render_template('loginPage.html')
+
+@app.route('/karakterBelirle.html')  
+def karakterBelirle():
+    return render_template('karakterBelirle.html')
+
+
+@app.route('/Registerişveren.html')  
+def Registerisveren():
+    return render_template('Registerişveren.html')
+
+@app.route('/Registerişci.html')  
+def Registerisci():
+    return render_template('Registerişci.html')
+
+@app.route('/404')  
+def not_found():
+    return render_template('404.html')
+
+@app.route('/mongodb-test')
+def mongodb_test():
+    collection = mongo_db['test_collection']
+    document = {"name": "Test User", "age": 30}
+    collection.insert_one(document)
+    return "MongoDB'ye veri eklendi!"
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eski javascirğt harita kodları 
+<!-- Google Maps API -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBXOPeHsgkDornBKd7_imK1flp0qC_PIM&callback=initMap" async defer></script>
+
+        <script>
+            // Harita başlatma fonksiyonu
+            let map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 8,
+                    center: { lat: 39.9334, lng: 32.8597 } // Türkiye'nin merkezi
+                });
+            }
+
+            // İş ilanı kartına tıklandığında haritayı güncelleme
+            document.querySelectorAll('.worker-card').forEach(card => {
+                card.addEventListener('click', async function() {
+                    const il = this.querySelector('p:nth-child(2)').textContent.split(':')[1].trim();
+                    const ilce = this.querySelector('p:nth-child(3)').textContent.split(':')[1].trim();
+                    const koy = this.querySelector('p:nth-child(4)').textContent.split(':')[1].trim();
+
+                    const address = `${koy}, ${ilce}, ${il}, Türkiye`;
+                    
+                    try {
+                        // Adrese göre harita koordinatlarını almak için API isteği
+                        const response = await fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(address)}&key=AIzaSyDBXOPeHsgkDornBKd7_imK1flp0qC_PIM`);
+                        const data = await response.json();
+
+                        if (data.results && data.results[0]) {
+                            const location = data.results[0].geometry.location;
+                            map.setCenter(location);
+                            map.setZoom(13);
+
+                            // Önceki işaretçiyi temizle
+                            if (window.currentMarker) {
+                                window.currentMarker.setMap(null);
+                            }
+
+                            // Yeni işaretçi ekle
+                            window.currentMarker = new google.maps.Marker({
+                                position: location,
+                                map: map,
+                                title: address
+                            });
+                        }
+                    } catch (error) {
+                        console.error('Konum bulunamadı:', error);
+                    }
+                });
+            });
+
+            // Sayfa yüklendiğinde haritayı başlat
+            window.onload = initMap;
+        </script>

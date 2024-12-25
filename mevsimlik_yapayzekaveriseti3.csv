@@ -1,0 +1,1001 @@
+Isci_ID,Isci_Yas,Isci_Egitim,Isci_Tecrube,Isci_Tercih_Alanlari,Isci_Sehir,Isci_Ilce,Isci_Beklenen_Ucret,Ilan_ID,Firma_Adi,Ilan_Is_Alani,Ilan_Sehir,Ilan_Ilce,Ilan_Egitim_Gereksinimi,Ilan_Tecrube_Sarti,Ilan_Yas_Siniri,Ilan_Cinsiyet,Ilan_Konaklama,Ilan_Sigorta,Ilan_Ucret,Uygunluk
+isci_0001,56,Üniversite,9,Limon Hasadı,Ordu,Fatsa,29375,ilan_0001,Firma_31,Çay Hasadı,Bitlis,Tatvan,Lise,3,25-50,Bayan,Yok,Var,26016,0.2
+isci_0002,42,Üniversite,16,Çapa,Konya,Meram,59926,ilan_0002,Firma_48,Toprak İşleme,Iğdır,Aralık,Ortaokul,4,26-48,Bayan,Yok,Var,53222,0.5
+isci_0003,50,Lise,6,Ürün Hasadı,Tekirdağ,Çorlu,18829,ilan_0003,Firma_72,Kiraz Hasadı,Adıyaman,Besni,İlkokul,0,23-59,Bayan,Var,Yok,33069,0.8
+isci_0004,20,Lise,17,Çay Hasadı,Ağrı,Patnos,56951,ilan_0004,Firma_89,Kayısı Hasadı,Hatay,Defne,Ortaokul,4,21-46,Bayan,Yok,Var,40201,0.2
+isci_0005,31,Üniversite,5,"Limon Hasadı, Fidan Dikimi",Siirt,Kurtalan,20034,ilan_0005,Firma_7,Sera Bakımı,Diyarbakır,Bağlar,Ortaokul,6,28-58,Erkek,Var,Var,36203,0.6
+isci_0006,38,İlkokul,19,"Sera Bakımı, Pamuk Toplama",Edirne,Merkez,25971,ilan_0006,Firma_94,Elma Toplama,Bilecik,Söğüt,Lise,1,30-56,Bayan,Var,Var,39859,0.8
+isci_0007,33,İlkokul,0,"Ceviz Hasadı, Pamuk Toplama, Çay Hasadı",Adıyaman,Merkez,33722,ilan_0007,Firma_91,Kayısı Hasadı,Ankara,Keçiören,Lise,9,19-60,Erkek,Var,Var,52334,0.6
+isci_0008,37,İlkokul,1,Limon Hasadı,Mardin,Artuklu,57400,ilan_0008,Firma_52,Pamuk Toplama,Eskişehir,Sivrihisar,Üniversite,4,21-58,Bayan,Yok,Var,35130,0.3
+isci_0009,20,Lise,16,"Sera Bakımı, Çay Hasadı",İstanbul,Kadıköy,26135,ilan_0009,Firma_74,Elma Toplama,Kocaeli,İzmit,Üniversite,1,23-51,Erkek,Yok,Yok,50247,0.5
+isci_0010,32,Üniversite,7,"Elma Toplama, Fidan Dikimi, Kayısı Hasadı",Adana,Seyhan,42697,ilan_0010,Firma_43,Limon Hasadı,Manisa,Şehzadeler,Ortaokul,3,21-48,Erkek,Var,Var,56146,0.8
+isci_0011,38,Üniversite,5,"Ceviz Hasadı, Çay Hasadı",Osmaniye,Düziçi,57197,ilan_0011,Firma_15,Kiraz Hasadı,Şanlıurfa,Siverek,İlkokul,5,25-60,Bayan,Yok,Yok,39044,0.5
+isci_0012,27,İlkokul,19,"Ceviz Hasadı, Çay Hasadı, Pamuk Toplama",Diyarbakır,Sur,58736,ilan_0012,Firma_43,Pamuk Toplama,Amasya,Merkez,İlkokul,9,22-51,Farketmez,Yok,Yok,23103,0.7
+isci_0013,58,İlkokul,11,"Limon Hasadı, Elma Toplama, Ürün Hasadı",Kırklareli,Merkez,43423,ilan_0013,Firma_53,Ürün Hasadı,Bursa,Osmangazi,Lise,3,25-56,Erkek,Yok,Yok,51691,0.5
+isci_0014,60,Ortaokul,5,Çapa,Kars,Merkez,18561,ilan_0014,Firma_2,Ceviz Hasadı,Kırklareli,Babaeski,İlkokul,0,21-40,Erkek,Var,Yok,49032,0.5
+isci_0015,31,Ortaokul,6,Ceviz Hasadı,Bitlis,Ahlat,28463,ilan_0015,Firma_86,Kayısı Hasadı,Trabzon,Yomra,İlkokul,7,18-51,Farketmez,Var,Var,52596,0.6
+isci_0016,39,Üniversite,17,"Çapa, Kayısı Hasadı, Sera Bakımı",Bitlis,Tatvan,18605,ilan_0016,Firma_53,Pamuk Toplama,Adıyaman,Merkez,Ortaokul,7,24-41,Bayan,Var,Var,25266,0.8
+isci_0017,26,İlkokul,13,"Toprak İşleme, Ceviz Hasadı, Limon Hasadı",Çankırı,Ilgaz,23292,ilan_0017,Firma_19,Ürün Hasadı,Kilis,Musabeyli,Ortaokul,5,25-44,Farketmez,Var,Yok,54273,0.8
+isci_0018,48,İlkokul,2,Limon Hasadı,Konya,Selçuklu,17628,ilan_0018,Firma_14,Ürün Hasadı,Adıyaman,Merkez,Üniversite,10,28-54,Erkek,Var,Var,41932,0.6
+isci_0019,45,Üniversite,20,"Kiraz Hasadı, Fidan Dikimi",Hakkari,Merkez,38128,ilan_0019,Firma_58,Kayısı Hasadı,Hatay,Defne,Üniversite,10,29-55,Bayan,Var,Var,35735,0.7
+isci_0020,53,Üniversite,19,Pamuk Toplama,Zonguldak,Merkez,59571,ilan_0020,Firma_26,Ceviz Hasadı,Ardahan,Göle,Lise,3,20-48,Bayan,Yok,Var,46025,0.2
+isci_0021,24,Ortaokul,10,"Çapa, Ürün Hasadı, Ceviz Hasadı",Kütahya,Simav,49619,ilan_0021,Firma_57,Fidan Dikimi,Tokat,Turhal,İlkokul,6,19-45,Farketmez,Var,Yok,46998,0.5
+isci_0022,60,Ortaokul,16,"Çay Hasadı, Çapa, Kiraz Hasadı",Ordu,Fatsa,40955,ilan_0022,Firma_90,Kayısı Hasadı,Ağrı,Merkez,İlkokul,1,26-40,Farketmez,Var,Yok,45909,0.5
+isci_0023,52,Lise,6,"Kiraz Hasadı, Çay Hasadı, Kayısı Hasadı",Niğde,Çiftlik,21257,ilan_0023,Firma_75,Elma Toplama,Denizli,Pamukkale,İlkokul,7,23-53,Erkek,Var,Var,52961,0.6
+isci_0024,36,Üniversite,15,"Kiraz Hasadı, Pamuk Toplama, Ceviz Hasadı",Adana,Çukurova,56768,ilan_0024,Firma_31,Çapa,Ankara,Keçiören,Lise,8,23-54,Farketmez,Var,Var,57537,0.8
+isci_0025,33,Üniversite,7,Çay Hasadı,Niğde,Bor,20673,ilan_0025,Firma_68,Fidan Dikimi,Muğla,Menteşe,Lise,9,22-42,Farketmez,Yok,Var,53515,0.6
+isci_0026,22,Üniversite,2,Limon Hasadı,Sinop,Merkez,57422,ilan_0026,Firma_77,Çay Hasadı,İstanbul,Beşiktaş,Lise,6,24-60,Erkek,Var,Yok,28024,0.0
+isci_0027,31,Üniversite,14,Sera Bakımı,Eskişehir,Tepebaşı,55728,ilan_0027,Firma_80,Çay Hasadı,Adana,Seyhan,Üniversite,5,18-41,Farketmez,Yok,Var,45499,0.7
+isci_0028,32,Lise,4,Kayısı Hasadı,Malatya,Yeşilyurt,50163,ilan_0028,Firma_98,Çay Hasadı,Sinop,Ayancık,Lise,2,18-47,Farketmez,Yok,Var,22601,0.7
+isci_0029,40,Lise,12,"Çapa, Pamuk Toplama, Fidan Dikimi",Niğde,Bor,40041,ilan_0029,Firma_66,Kayısı Hasadı,Gaziantep,Nizip,Ortaokul,3,30-59,Erkek,Yok,Var,29602,0.5
+isci_0030,53,Üniversite,17,Kayısı Hasadı,Edirne,Keşan,53350,ilan_0030,Firma_62,Limon Hasadı,Ankara,Keçiören,İlkokul,0,30-47,Erkek,Yok,Var,49996,0.2
+isci_0031,46,İlkokul,16,Çapa,Gaziantep,Şehitkamil,23007,ilan_0031,Firma_10,Ürün Hasadı,Isparta,Eğirdir,İlkokul,9,23-43,Erkek,Var,Yok,38281,0.7
+isci_0032,31,İlkokul,18,"Kayısı Hasadı, Çapa",Karaman,Merkez,24186,ilan_0032,Firma_48,Toprak İşleme,Mersin,Mezitli,Üniversite,0,26-60,Farketmez,Var,Var,40703,0.8
+isci_0033,30,İlkokul,8,"Çay Hasadı, Sera Bakımı",Rize,Çayeli,23188,ilan_0033,Firma_59,Toprak İşleme,Kırıkkale,Delice,Üniversite,0,20-41,Farketmez,Var,Var,58759,0.8
+isci_0034,47,Lise,0,"Toprak İşleme, Ceviz Hasadı, Çapa",Kocaeli,İzmit,24678,ilan_0034,Firma_81,Pamuk Toplama,Osmaniye,Merkez,Üniversite,0,22-58,Farketmez,Var,Var,23941,0.5
+isci_0035,30,Üniversite,14,Pamuk Toplama,Sinop,Merkez,25920,ilan_0035,Firma_2,Fidan Dikimi,Balıkesir,Edremit,Üniversite,4,28-51,Farketmez,Yok,Var,34774,1.0
+isci_0036,31,İlkokul,20,"Toprak İşleme, Kiraz Hasadı, Kayısı Hasadı",Tunceli,Pülümür,28019,ilan_0036,Firma_71,Sera Bakımı,Kocaeli,Darıca,Ortaokul,8,19-53,Erkek,Yok,Yok,58971,0.8
+isci_0037,25,Lise,11,"Ceviz Hasadı, Ürün Hasadı",Hakkari,Merkez,46635,ilan_0037,Firma_99,Pamuk Toplama,Muğla,Fethiye,Üniversite,8,28-40,Farketmez,Var,Yok,52976,0.5
+isci_0038,26,Ortaokul,18,Ceviz Hasadı,Ankara,Çankaya,34421,ilan_0038,Firma_36,Ürün Hasadı,Tekirdağ,Süleymanpaşa,Ortaokul,0,25-55,Erkek,Var,Var,32302,0.7
+isci_0039,42,Üniversite,17,"Çay Hasadı, Sera Bakımı, Kayısı Hasadı",İstanbul,Beşiktaş,24973,ilan_0039,Firma_60,Fidan Dikimi,Hatay,Defne,Lise,8,27-50,Farketmez,Yok,Yok,35275,0.8
+isci_0040,36,İlkokul,11,"Elma Toplama, Pamuk Toplama, Çay Hasadı",Artvin,Arhavi,41339,ilan_0040,Firma_49,Sera Bakımı,Bursa,Osmangazi,Lise,7,18-45,Bayan,Yok,Var,54262,0.8
+isci_0041,31,Ortaokul,14,"Çapa, Pamuk Toplama",Mardin,Artuklu,47326,ilan_0041,Firma_85,Kayısı Hasadı,Şırnak,Silopi,İlkokul,5,30-59,Bayan,Var,Var,44831,0.5
+isci_0042,31,Üniversite,10,"Fidan Dikimi, Sera Bakımı",Ankara,Yenimahalle,28780,ilan_0042,Firma_19,Toprak İşleme,Tokat,Erbaa,Lise,10,18-58,Bayan,Yok,Var,57453,0.8
+isci_0043,57,Lise,8,Limon Hasadı,Hakkari,Şemdinli,28637,ilan_0043,Firma_72,Elma Toplama,Konya,Meram,Lise,1,22-60,Erkek,Var,Yok,28469,0.7
+isci_0044,50,Ortaokul,13,"Limon Hasadı, Pamuk Toplama, Ceviz Hasadı",Samsun,Bafra,53391,ilan_0044,Firma_8,Fidan Dikimi,Bilecik,Merkez,İlkokul,10,26-47,Erkek,Yok,Yok,26505,0.2
+isci_0045,40,Lise,16,"Sera Bakımı, Pamuk Toplama, Çay Hasadı",Denizli,Tavas,19734,ilan_0045,Firma_35,Çapa,Adana,Yüreğir,Ortaokul,6,22-53,Farketmez,Var,Yok,55819,0.8
+isci_0046,38,Üniversite,12,"Toprak İşleme, Çay Hasadı, Pamuk Toplama",Gaziantep,Şahinbey,54498,ilan_0046,Firma_61,Ürün Hasadı,Sakarya,Erenler,İlkokul,0,20-43,Erkek,Var,Yok,19567,0.5
+isci_0047,25,Lise,17,Ürün Hasadı,Kırşehir,Merkez,34140,ilan_0047,Firma_66,Fidan Dikimi,Edirne,Merkez,Ortaokul,5,28-58,Erkek,Yok,Var,19839,0.2
+isci_0048,22,İlkokul,10,"Toprak İşleme, Ceviz Hasadı",Bartın,Kurucaşile,17267,ilan_0048,Firma_32,Fidan Dikimi,Kars,Merkez,Ortaokul,5,25-60,Erkek,Yok,Var,44569,0.5
+isci_0049,48,Lise,19,"Çay Hasadı, Ürün Hasadı, Pamuk Toplama",Tunceli,Nazımiye,34867,ilan_0049,Firma_7,Elma Toplama,Zonguldak,Merkez,Lise,3,18-58,Erkek,Var,Yok,28958,0.7
+isci_0050,22,Lise,8,"Fidan Dikimi, Sera Bakımı, Toprak İşleme",Çanakkale,Biga,38273,ilan_0050,Firma_27,Çapa,Karaman,Ayrancı,Lise,5,19-46,Bayan,Yok,Yok,34475,0.7
+isci_0051,25,Ortaokul,16,"Fidan Dikimi, Limon Hasadı, Çay Hasadı",Bayburt,Merkez,19136,ilan_0051,Firma_79,Kayısı Hasadı,Rize,Çayeli,Ortaokul,10,24-42,Erkek,Var,Yok,24414,1.0
+isci_0052,23,Lise,9,"Ceviz Hasadı, Kayısı Hasadı",İzmir,Konak,57611,ilan_0052,Firma_61,Çay Hasadı,İzmir,Konak,Ortaokul,5,18-54,Erkek,Var,Var,57479,0.5
+isci_0053,55,İlkokul,13,Çapa,Antalya,Muratpaşa,55691,ilan_0053,Firma_54,Ürün Hasadı,Ağrı,Merkez,İlkokul,9,26-51,Farketmez,Var,Var,20835,0.4
+isci_0054,59,Üniversite,7,"Çapa, Kayısı Hasadı",Şırnak,Cizre,37309,ilan_0054,Firma_78,Kayısı Hasadı,Bilecik,Söğüt,Lise,8,18-54,Farketmez,Yok,Yok,40059,0.3
+isci_0055,20,Ortaokul,6,"Sera Bakımı, Çay Hasadı, Çapa",Kilis,Merkez,32783,ilan_0055,Firma_33,Limon Hasadı,Edirne,Keşan,Üniversite,4,19-49,Erkek,Var,Yok,49861,0.8
+isci_0056,45,Ortaokul,15,"Toprak İşleme, Elma Toplama",Ankara,Çankaya,50018,ilan_0056,Firma_50,Sera Bakımı,Giresun,Espiye,İlkokul,10,23-54,Bayan,Var,Yok,30849,0.5
+isci_0057,37,Üniversite,17,Ürün Hasadı,Kırşehir,Merkez,28519,ilan_0057,Firma_72,Elma Toplama,Aydın,Söke,Lise,1,24-55,Erkek,Yok,Yok,52435,0.8
+isci_0058,26,Lise,0,"Pamuk Toplama, Ceviz Hasadı",Trabzon,Ortahisar,45618,ilan_0058,Firma_45,Çay Hasadı,İstanbul,Beşiktaş,Lise,2,24-54,Erkek,Var,Yok,30625,0.5
+isci_0059,57,Üniversite,4,"Fidan Dikimi, Limon Hasadı",Siirt,Kurtalan,58942,ilan_0059,Firma_59,Ceviz Hasadı,Antalya,Konyaaltı,İlkokul,3,19-58,Bayan,Var,Var,33641,0.5
+isci_0060,53,Ortaokul,16,Ceviz Hasadı,Balıkesir,Edremit,52580,ilan_0060,Firma_1,Elma Toplama,Diyarbakır,Sur,İlkokul,4,28-60,Bayan,Var,Var,25831,0.5
+isci_0061,38,Ortaokul,7,"Limon Hasadı, Elma Toplama, Ceviz Hasadı",Kütahya,Tavşanlı,21649,ilan_0061,Firma_9,Çay Hasadı,Tekirdağ,Çorlu,Lise,10,20-51,Bayan,Yok,Var,50402,0.6
+isci_0062,38,İlkokul,15,Limon Hasadı,Bayburt,Aydıntepe,55381,ilan_0062,Firma_76,Fidan Dikimi,Erzincan,Tercan,Lise,9,18-57,Bayan,Yok,Yok,54094,0.5
+isci_0063,46,Ortaokul,4,Elma Toplama,Tunceli,Merkez,37550,ilan_0063,Firma_30,Elma Toplama,Şanlıurfa,Eyyübiye,Ortaokul,3,24-56,Erkek,Var,Var,18681,0.7
+isci_0064,57,Lise,6,"Kiraz Hasadı, Kayısı Hasadı, Sera Bakımı",Nevşehir,Ürgüp,48433,ilan_0064,Firma_16,Ürün Hasadı,Sivas,Şarkışla,Ortaokul,1,21-56,Erkek,Var,Yok,52842,0.5
+isci_0065,39,Üniversite,18,Limon Hasadı,Kırşehir,Çiçekdağı,17539,ilan_0065,Firma_59,Kayısı Hasadı,Afyonkarahisar,Sandıklı,Lise,3,27-57,Farketmez,Var,Var,46649,0.8
+isci_0066,58,İlkokul,12,"Fidan Dikimi, Ceviz Hasadı, Elma Toplama",Mardin,Midyat,20017,ilan_0066,Firma_38,Pamuk Toplama,Tokat,Merkez,İlkokul,1,23-59,Farketmez,Yok,Var,31770,1.0
+isci_0067,29,Üniversite,8,"Kiraz Hasadı, Ürün Hasadı, Toprak İşleme",Ordu,Ünye,20186,ilan_0067,Firma_16,Ceviz Hasadı,Ağrı,Doğubayazıt,Üniversite,1,24-50,Bayan,Var,Yok,57766,1.0
+isci_0068,39,Ortaokul,12,"Çay Hasadı, Pamuk Toplama",Zonguldak,Merkez,24832,ilan_0068,Firma_73,Kayısı Hasadı,Tunceli,Merkez,Ortaokul,4,20-42,Erkek,Yok,Yok,33386,1.0
+isci_0069,33,Üniversite,20,"Sera Bakımı, Ceviz Hasadı, Fidan Dikimi",Düzce,Merkez,58554,ilan_0069,Firma_11,Fidan Dikimi,Elazığ,Merkez,Ortaokul,7,26-49,Bayan,Yok,Var,19132,0.5
+isci_0070,18,Lise,20,"Elma Toplama, Ürün Hasadı, Pamuk Toplama",Bolu,Merkez,29164,ilan_0070,Firma_93,Limon Hasadı,Ordu,Ünye,Üniversite,6,27-60,Farketmez,Yok,Yok,35630,0.5
+isci_0071,52,Ortaokul,15,"Toprak İşleme, Limon Hasadı, Pamuk Toplama",İstanbul,Beşiktaş,18337,ilan_0071,Firma_83,Kiraz Hasadı,Kırşehir,Merkez,Lise,7,18-56,Erkek,Yok,Var,24346,0.8
+isci_0072,34,İlkokul,1,"Kiraz Hasadı, Çay Hasadı, Fidan Dikimi",Kırklareli,Babaeski,18062,ilan_0072,Firma_92,Çay Hasadı,Antalya,Muratpaşa,İlkokul,4,18-60,Bayan,Var,Yok,38664,0.8
+isci_0073,58,İlkokul,12,"Kayısı Hasadı, Kiraz Hasadı, Elma Toplama",Gümüşhane,Merkez,35418,ilan_0073,Firma_60,Kiraz Hasadı,Kahramanmaraş,Onikişubat,Üniversite,3,30-54,Farketmez,Var,Var,32149,0.2
+isci_0074,42,İlkokul,14,"Limon Hasadı, Ceviz Hasadı, Fidan Dikimi",Bartın,Merkez,41000,ilan_0074,Firma_13,Kiraz Hasadı,Sinop,Merkez,Ortaokul,9,29-43,Farketmez,Var,Yok,22818,0.5
+isci_0075,58,Üniversite,4,"Ürün Hasadı, Fidan Dikimi, Kiraz Hasadı",Kars,Merkez,23522,ilan_0075,Firma_2,Kiraz Hasadı,Kastamonu,Tosya,Lise,1,25-46,Farketmez,Yok,Yok,40476,0.5
+isci_0076,37,Lise,9,Fidan Dikimi,Tekirdağ,Kapaklı,41422,ilan_0076,Firma_64,Kiraz Hasadı,Çankırı,Merkez,Lise,10,28-47,Farketmez,Var,Var,18863,0.5
+isci_0077,33,Üniversite,19,"Ürün Hasadı, Sera Bakımı",Antalya,Konyaaltı,42625,ilan_0077,Firma_4,Kayısı Hasadı,Burdur,Gölhisar,Lise,5,29-42,Erkek,Var,Yok,19173,0.5
+isci_0078,23,İlkokul,17,"Limon Hasadı, Toprak İşleme",İzmir,Konak,28211,ilan_0078,Firma_97,Çapa,Kırıkkale,Keskin,İlkokul,10,25-58,Erkek,Yok,Var,44168,0.7
+isci_0079,54,Ortaokul,18,Çapa,Batman,Merkez,22006,ilan_0079,Firma_61,Ceviz Hasadı,Karabük,Safranbolu,Üniversite,10,21-43,Bayan,Yok,Var,23644,0.5
+isci_0080,35,Lise,13,"Ceviz Hasadı, Ürün Hasadı, Sera Bakımı",Aydın,Söke,29147,ilan_0080,Firma_75,Toprak İşleme,Kayseri,Melikgazi,İlkokul,1,20-40,Bayan,Var,Yok,52601,0.8
+isci_0081,57,İlkokul,12,"Fidan Dikimi, Kiraz Hasadı",Isparta,Eğirdir,35348,ilan_0081,Firma_52,Ceviz Hasadı,Samsun,Bafra,Ortaokul,5,25-47,Bayan,Var,Yok,28383,0.2
+isci_0082,21,Üniversite,6,Toprak İşleme,Amasya,Merzifon,49692,ilan_0082,Firma_64,Çapa,Edirne,Uzunköprü,İlkokul,1,22-42,Farketmez,Yok,Var,33212,0.2
+isci_0083,32,Lise,5,Fidan Dikimi,Aksaray,Ortaköy,56197,ilan_0083,Firma_48,Kayısı Hasadı,Hakkari,Merkez,Ortaokul,9,25-42,Farketmez,Var,Var,57036,0.6
+isci_0084,30,Lise,16,"Çapa, Fidan Dikimi, Çay Hasadı",Karaman,Ermenek,49413,ilan_0084,Firma_86,Elma Toplama,Sinop,Merkez,İlkokul,2,29-55,Farketmez,Yok,Yok,44245,0.5
+isci_0085,49,Lise,3,"Pamuk Toplama, Ürün Hasadı",Ordu,Ünye,35710,ilan_0085,Firma_77,Fidan Dikimi,Van,Erciş,Ortaokul,8,29-54,Bayan,Var,Var,45328,0.6
+isci_0086,26,İlkokul,6,"Pamuk Toplama, Çapa",Kayseri,Melikgazi,32600,ilan_0086,Firma_36,Kayısı Hasadı,Çanakkale,Ezine,Lise,0,28-44,Erkek,Yok,Yok,48231,0.5
+isci_0087,48,Lise,17,"Çay Hasadı, Sera Bakımı, Kayısı Hasadı",Edirne,Merkez,47030,ilan_0087,Firma_17,Ürün Hasadı,Osmaniye,Düziçi,Ortaokul,0,26-40,Farketmez,Var,Yok,58563,0.5
+isci_0088,50,Lise,9,"Toprak İşleme, Ürün Hasadı",Şırnak,Cizre,32936,ilan_0088,Firma_62,Kiraz Hasadı,Bilecik,Merkez,Ortaokul,0,27-52,Erkek,Yok,Yok,57889,0.8
+isci_0089,19,Lise,4,"Çapa, Ceviz Hasadı, Elma Toplama",Kilis,Musabeyli,23376,ilan_0089,Firma_97,Sera Bakımı,Gümüşhane,Kelkit,İlkokul,1,26-51,Farketmez,Var,Var,49809,0.5
+isci_0090,50,Üniversite,12,"Ceviz Hasadı, Kayısı Hasadı",Bursa,Osmangazi,25532,ilan_0090,Firma_2,Ceviz Hasadı,Manisa,Turgutlu,İlkokul,2,30-41,Erkek,Var,Var,42928,0.5
+isci_0091,38,Ortaokul,18,Limon Hasadı,Ankara,Yenimahalle,29299,ilan_0091,Firma_79,Pamuk Toplama,Tokat,Merkez,İlkokul,1,19-60,Bayan,Yok,Var,51723,0.8
+isci_0092,45,Lise,0,"Çay Hasadı, Kayısı Hasadı",Uşak,Merkez,24130,ilan_0092,Firma_25,Ürün Hasadı,Giresun,Merkez,İlkokul,8,19-49,Farketmez,Yok,Yok,48642,0.6
+isci_0093,46,Üniversite,2,Çapa,Tunceli,Merkez,17888,ilan_0093,Firma_99,Kiraz Hasadı,Muğla,Menteşe,Üniversite,10,23-41,Farketmez,Var,Yok,24539,0.5
+isci_0094,19,Üniversite,11,"Çapa, Çay Hasadı",Karaman,Merkez,44071,ilan_0094,Firma_73,Fidan Dikimi,Erzincan,Merkez,Ortaokul,6,25-58,Farketmez,Var,Var,27028,0.2
+isci_0095,22,Lise,18,"Elma Toplama, Sera Bakımı, Çay Hasadı",Sinop,Ayancık,45492,ilan_0095,Firma_39,Elma Toplama,Adıyaman,Merkez,Üniversite,5,19-50,Bayan,Var,Var,57037,0.8
+isci_0096,43,Ortaokul,2,Toprak İşleme,Adıyaman,Merkez,36682,ilan_0096,Firma_89,Toprak İşleme,Trabzon,Ortahisar,Üniversite,6,30-44,Farketmez,Yok,Yok,54786,0.6
+isci_0097,19,Lise,0,"Kayısı Hasadı, Sera Bakımı",Eskişehir,Tepebaşı,42609,ilan_0097,Firma_41,Pamuk Toplama,Van,Erciş,Üniversite,5,24-44,Erkek,Yok,Var,20355,0.0
+isci_0098,27,Lise,11,Sera Bakımı,Tekirdağ,Kapaklı,35992,ilan_0098,Firma_60,Fidan Dikimi,İstanbul,Üsküdar,Üniversite,4,26-55,Bayan,Var,Var,41452,0.8
+isci_0099,56,Üniversite,19,Sera Bakımı,Yalova,Altınova,19166,ilan_0099,Firma_5,Kayısı Hasadı,Yalova,Çınarcık,Üniversite,8,21-52,Bayan,Yok,Var,41230,0.7
+isci_0100,25,Üniversite,0,"Limon Hasadı, Fidan Dikimi",Edirne,Merkez,49533,ilan_0100,Firma_89,Pamuk Toplama,Samsun,Bafra,Üniversite,0,29-48,Farketmez,Var,Var,38415,0.4
+isci_0101,35,Lise,8,"Sera Bakımı, Toprak İşleme",Van,İpekyolu,23230,ilan_0101,Firma_57,Çay Hasadı,Hakkari,Yüksekova,İlkokul,10,23-55,Erkek,Yok,Var,54945,0.6
+isci_0102,29,İlkokul,9,"Çapa, Ürün Hasadı, Çay Hasadı",Afyonkarahisar,Bolvadin,51787,ilan_0102,Firma_40,Sera Bakımı,Yalova,Merkez,Üniversite,2,24-43,Bayan,Yok,Var,50577,0.5
+isci_0103,49,İlkokul,14,"Çay Hasadı, Fidan Dikimi, Toprak İşleme",Çankırı,Çerkeş,50572,ilan_0103,Firma_47,Limon Hasadı,Tokat,Erbaa,Ortaokul,4,29-49,Farketmez,Yok,Yok,36662,0.5
+isci_0104,22,Ortaokul,19,Çapa,Kırşehir,Çiçekdağı,55461,ilan_0104,Firma_12,Limon Hasadı,Aksaray,Merkez,İlkokul,10,28-48,Erkek,Yok,Var,28298,0.2
+isci_0105,56,Üniversite,14,"Pamuk Toplama, Fidan Dikimi",Edirne,Keşan,34271,ilan_0105,Firma_28,Limon Hasadı,Nevşehir,Merkez,İlkokul,0,18-46,Erkek,Yok,Yok,36447,0.5
+isci_0106,22,Ortaokul,7,"Ürün Hasadı, Ceviz Hasadı",Kahramanmaraş,Onikişubat,17961,ilan_0106,Firma_86,Kayısı Hasadı,Düzce,Merkez,Lise,2,20-47,Farketmez,Yok,Yok,59331,0.8
+isci_0107,48,İlkokul,0,Ceviz Hasadı,Kars,Kağızman,51117,ilan_0107,Firma_33,Ceviz Hasadı,Ardahan,Çıldır,İlkokul,7,24-54,Erkek,Var,Var,19688,0.5
+isci_0108,47,Üniversite,1,Kayısı Hasadı,Sinop,Boyabat,24795,ilan_0108,Firma_29,Limon Hasadı,Ardahan,Merkez,Ortaokul,5,26-42,Erkek,Yok,Yok,34268,0.3
+isci_0109,28,İlkokul,5,"Fidan Dikimi, Sera Bakımı, Ceviz Hasadı",Giresun,Espiye,56316,ilan_0109,Firma_23,Kiraz Hasadı,Denizli,Pamukkale,Üniversite,9,19-43,Bayan,Var,Yok,31648,0.3
+isci_0110,47,Lise,2,Pamuk Toplama,Van,Edremit,36108,ilan_0110,Firma_30,Fidan Dikimi,Gaziantep,Şehitkamil,İlkokul,7,27-46,Farketmez,Var,Var,18946,0.0
+isci_0111,35,İlkokul,17,Sera Bakımı,Adıyaman,Merkez,47275,ilan_0111,Firma_18,Çapa,Kırklareli,Babaeski,Üniversite,8,21-54,Farketmez,Var,Yok,32760,0.5
+isci_0112,53,Lise,10,"Pamuk Toplama, Toprak İşleme",Gaziantep,Şehitkamil,58790,ilan_0112,Firma_64,Sera Bakımı,Van,Erciş,Üniversite,6,18-51,Bayan,Var,Var,42736,0.2
+isci_0113,43,İlkokul,5,"Pamuk Toplama, Çapa, Fidan Dikimi",Denizli,Pamukkale,32262,ilan_0113,Firma_8,Çay Hasadı,Tekirdağ,Çorlu,İlkokul,2,29-43,Farketmez,Yok,Yok,59886,1.0
+isci_0114,27,Lise,9,Ürün Hasadı,Bingöl,Karlıova,56254,ilan_0114,Firma_58,Limon Hasadı,Gaziantep,Nizip,İlkokul,8,26-40,Erkek,Var,Var,35512,0.5
+isci_0115,55,Ortaokul,17,Toprak İşleme,Yalova,Çınarcık,22638,ilan_0115,Firma_14,Pamuk Toplama,Uşak,Banaz,Ortaokul,1,21-55,Erkek,Var,Var,32603,1.0
+isci_0116,46,Üniversite,11,"Fidan Dikimi, Sera Bakımı",Gümüşhane,Kelkit,49937,ilan_0116,Firma_26,Kiraz Hasadı,Bartın,Merkez,İlkokul,10,21-46,Erkek,Yok,Var,27784,0.5
+isci_0117,48,İlkokul,7,"Pamuk Toplama, Kayısı Hasadı, Çay Hasadı",Karabük,Merkez,57934,ilan_0117,Firma_61,Çay Hasadı,Mersin,Toroslar,Ortaokul,6,26-44,Bayan,Var,Yok,57106,0.2
+isci_0118,34,Lise,2,"Limon Hasadı, Kiraz Hasadı, Toprak İşleme",Iğdır,Tuzluca,36868,ilan_0118,Firma_15,Toprak İşleme,Bitlis,Merkez,Ortaokul,7,27-54,Erkek,Var,Var,41743,0.6
+isci_0119,36,Lise,20,"Sera Bakımı, Kiraz Hasadı, Çapa",Malatya,Doğanşehir,46232,ilan_0119,Firma_70,Çay Hasadı,Hakkari,Yüksekova,İlkokul,2,28-51,Erkek,Yok,Var,24393,0.5
+isci_0120,46,Ortaokul,13,"Çay Hasadı, Kiraz Hasadı",Kırşehir,Merkez,43391,ilan_0120,Firma_48,Toprak İşleme,Çankırı,Ilgaz,İlkokul,3,29-40,Farketmez,Var,Var,19287,0.2
+isci_0121,37,İlkokul,6,"Fidan Dikimi, Çay Hasadı, Çapa",Bingöl,Merkez,50878,ilan_0121,Firma_47,Fidan Dikimi,Şırnak,Merkez,Üniversite,10,18-59,Bayan,Var,Yok,50378,0.3
+isci_0122,34,Lise,2,"Çay Hasadı, Ceviz Hasadı, Kiraz Hasadı",Denizli,Tavas,56493,ilan_0122,Firma_20,Kiraz Hasadı,Bolu,Merkez,Lise,6,19-53,Farketmez,Var,Var,55507,0.5
+isci_0123,29,Ortaokul,0,Kayısı Hasadı,İzmir,Bornova,29190,ilan_0123,Firma_40,Ürün Hasadı,Gaziantep,Nizip,Ortaokul,8,18-46,Erkek,Var,Var,19192,0.5
+isci_0124,34,Üniversite,20,"Pamuk Toplama, Limon Hasadı, Ceviz Hasadı",Bingöl,Karlıova,38112,ilan_0124,Firma_15,Çay Hasadı,Erzurum,Yakutiye,Üniversite,4,24-50,Bayan,Yok,Var,42462,1.0
+isci_0125,40,Lise,2,"Elma Toplama, Sera Bakımı, Fidan Dikimi",Kilis,Musabeyli,20896,ilan_0125,Firma_11,Çay Hasadı,Ardahan,Çıldır,İlkokul,2,21-43,Erkek,Var,Var,37533,0.8
+isci_0126,25,İlkokul,9,Sera Bakımı,Antalya,Kepez,43696,ilan_0126,Firma_39,Elma Toplama,Afyonkarahisar,Sandıklı,Lise,6,19-54,Bayan,Yok,Yok,49638,0.8
+isci_0127,23,Üniversite,18,"Limon Hasadı, Fidan Dikimi, Ürün Hasadı",Bitlis,Ahlat,50196,ilan_0127,Firma_65,Toprak İşleme,Elazığ,Keban,Lise,2,20-41,Bayan,Yok,Var,36616,0.5
+isci_0128,25,İlkokul,19,"Çapa, Fidan Dikimi",Kırşehir,Çiçekdağı,57339,ilan_0128,Firma_28,Ceviz Hasadı,Sinop,Ayancık,Ortaokul,5,23-55,Farketmez,Var,Var,59709,0.8
+isci_0129,49,Lise,0,"Ceviz Hasadı, Çay Hasadı",Antalya,Konyaaltı,49724,ilan_0129,Firma_45,Çay Hasadı,Osmaniye,Merkez,Lise,7,18-42,Bayan,Var,Var,27798,0.2
+isci_0130,35,Lise,7,Çay Hasadı,Şırnak,Cizre,19630,ilan_0130,Firma_83,Toprak İşleme,Malatya,Battalgazi,Lise,3,20-41,Bayan,Var,Yok,44793,1.0
+isci_0131,35,Lise,7,"Elma Toplama, Fidan Dikimi",Kahramanmaraş,Onikişubat,36630,ilan_0131,Firma_61,Elma Toplama,Konya,Karatay,İlkokul,2,22-60,Bayan,Yok,Yok,35312,0.5
+isci_0132,56,Ortaokul,15,Limon Hasadı,Muş,Merkez,22151,ilan_0132,Firma_78,Kayısı Hasadı,Giresun,Bulancak,Ortaokul,3,23-52,Bayan,Var,Yok,19793,0.4
+isci_0133,19,Lise,18,"Ceviz Hasadı, Çapa, Elma Toplama",Aksaray,Eskil,19557,ilan_0133,Firma_68,Pamuk Toplama,Yozgat,Boğazlıyan,Üniversite,9,20-42,Erkek,Var,Var,26552,0.5
+isci_0134,59,İlkokul,6,"Çay Hasadı, Elma Toplama",Karaman,Merkez,29092,ilan_0134,Firma_94,Fidan Dikimi,Giresun,Merkez,İlkokul,9,19-55,Farketmez,Yok,Yok,55549,0.5
+isci_0135,48,İlkokul,20,"Ceviz Hasadı, Pamuk Toplama",Denizli,Pamukkale,39371,ilan_0135,Firma_6,Ürün Hasadı,Tekirdağ,Süleymanpaşa,İlkokul,8,26-55,Erkek,Var,Var,20323,0.7
+isci_0136,20,Ortaokul,6,"Kiraz Hasadı, Ceviz Hasadı, Çay Hasadı",Çankırı,Ilgaz,28866,ilan_0136,Firma_85,Elma Toplama,Rize,Ardeşen,İlkokul,6,30-47,Farketmez,Yok,Var,45466,0.5
+isci_0137,34,İlkokul,0,"Sera Bakımı, Elma Toplama",Karabük,Merkez,51054,ilan_0137,Firma_77,Sera Bakımı,İstanbul,Kadıköy,Üniversite,1,25-44,Bayan,Yok,Var,52905,0.6
+isci_0138,42,İlkokul,17,Sera Bakımı,Elazığ,Keban,28034,ilan_0138,Firma_14,Kayısı Hasadı,Şanlıurfa,Eyyübiye,Lise,4,20-56,Erkek,Yok,Yok,45546,0.8
+isci_0139,48,Ortaokul,14,"Çay Hasadı, Ceviz Hasadı, Fidan Dikimi",Düzce,Cumayeri,46715,ilan_0139,Firma_63,Elma Toplama,Ağrı,Doğubayazıt,Lise,8,29-43,Erkek,Yok,Var,29745,0.2
+isci_0140,34,Ortaokul,20,Elma Toplama,Gaziantep,Nizip,24989,ilan_0140,Firma_53,Toprak İşleme,Çorum,Merkez,Üniversite,1,27-46,Farketmez,Yok,Yok,31353,0.8
+isci_0141,21,İlkokul,8,"Kiraz Hasadı, Çay Hasadı",Tunceli,Merkez,22942,ilan_0141,Firma_9,Kayısı Hasadı,Kırşehir,Kaman,Lise,6,27-51,Farketmez,Yok,Var,38339,0.5
+isci_0142,50,Lise,3,Pamuk Toplama,Kütahya,Merkez,36559,ilan_0142,Firma_11,Çay Hasadı,Nevşehir,Merkez,Lise,4,27-45,Erkek,Var,Yok,53571,0.5
+isci_0143,33,İlkokul,14,"Elma Toplama, Ceviz Hasadı",Çorum,Alaca,22874,ilan_0143,Firma_82,Çapa,Bursa,Nilüfer,İlkokul,0,26-51,Farketmez,Yok,Yok,30728,1.0
+isci_0144,46,Ortaokul,8,"Pamuk Toplama, Toprak İşleme, Limon Hasadı",Tokat,Erbaa,46546,ilan_0144,Firma_46,Kiraz Hasadı,Kırıkkale,Keskin,Üniversite,3,21-49,Erkek,Yok,Var,17755,0.5
+isci_0145,32,Üniversite,9,Limon Hasadı,Tokat,Turhal,32102,ilan_0145,Firma_44,Kayısı Hasadı,Muğla,Bodrum,İlkokul,7,27-55,Bayan,Yok,Var,28929,0.5
+isci_0146,30,İlkokul,5,"Çapa, Sera Bakımı, Çay Hasadı",İzmir,Karşıyaka,18465,ilan_0146,Firma_78,Toprak İşleme,Ankara,Çankaya,Lise,4,24-52,Erkek,Var,Yok,40589,0.8
+isci_0147,31,İlkokul,6,Toprak İşleme,Samsun,Bafra,59001,ilan_0147,Firma_98,Elma Toplama,Ağrı,Merkez,Üniversite,3,28-53,Bayan,Yok,Var,52830,0.5
+isci_0148,56,İlkokul,9,"Kayısı Hasadı, Kiraz Hasadı",Giresun,Bulancak,23042,ilan_0148,Firma_5,Ceviz Hasadı,Kayseri,Melikgazi,İlkokul,4,26-44,Farketmez,Var,Var,50063,0.7
+isci_0149,56,Ortaokul,2,Çapa,Karabük,Eskipazar,17769,ilan_0149,Firma_63,Çapa,Isparta,Merkez,Ortaokul,1,18-41,Erkek,Var,Var,26186,0.7
+isci_0150,24,Üniversite,6,"Limon Hasadı, Sera Bakımı, Toprak İşleme",Kırklareli,Lüleburgaz,19464,ilan_0150,Firma_87,Çay Hasadı,Batman,Merkez,Üniversite,10,20-56,Bayan,Yok,Var,34942,0.8
+isci_0151,42,Lise,9,Elma Toplama,Diyarbakır,Bağlar,17803,ilan_0151,Firma_16,Limon Hasadı,Gümüşhane,Merkez,İlkokul,10,22-40,Bayan,Yok,Yok,46263,0.3
+isci_0152,53,İlkokul,4,"Ceviz Hasadı, Ürün Hasadı, Pamuk Toplama",Giresun,Merkez,29404,ilan_0152,Firma_11,Toprak İşleme,Çorum,Alaca,İlkokul,2,20-55,Bayan,Yok,Yok,35904,1.0
+isci_0153,41,Ortaokul,18,"Çay Hasadı, Kayısı Hasadı, Çapa",Osmaniye,Düziçi,38527,ilan_0153,Firma_47,Elma Toplama,Bitlis,Merkez,İlkokul,8,18-49,Bayan,Var,Yok,50683,0.8
+isci_0154,41,Ortaokul,3,"Ürün Hasadı, Sera Bakımı, Fidan Dikimi",Hatay,Defne,34378,ilan_0154,Firma_54,Çapa,Çanakkale,Biga,Ortaokul,9,28-54,Farketmez,Var,Yok,34495,0.8
+isci_0155,44,Lise,0,Çay Hasadı,Muğla,Fethiye,29277,ilan_0155,Firma_89,Sera Bakımı,Tunceli,Pülümür,Üniversite,1,19-44,Bayan,Yok,Var,20162,0.3
+isci_0156,53,İlkokul,13,"Kayısı Hasadı, Limon Hasadı, Kiraz Hasadı",Osmaniye,Düziçi,36402,ilan_0156,Firma_50,Toprak İşleme,Düzce,Cumayeri,Ortaokul,6,30-54,Bayan,Var,Yok,58358,0.8
+isci_0157,53,İlkokul,6,"Ürün Hasadı, Pamuk Toplama",Ağrı,Merkez,20272,ilan_0157,Firma_42,Kiraz Hasadı,Batman,Merkez,Üniversite,9,25-47,Erkek,Var,Yok,31523,0.3
+isci_0158,28,Ortaokul,18,"Pamuk Toplama, Toprak İşleme, Çapa",Denizli,Pamukkale,23127,ilan_0158,Firma_92,Elma Toplama,Aksaray,Ortaköy,Üniversite,4,28-49,Bayan,Var,Var,29776,0.8
+isci_0159,33,Lise,2,"Elma Toplama, Kayısı Hasadı, Ürün Hasadı",Afyonkarahisar,Sandıklı,28441,ilan_0159,Firma_7,Fidan Dikimi,Bitlis,Merkez,İlkokul,3,20-56,Bayan,Var,Var,22235,0.3
+isci_0160,38,Lise,0,"Toprak İşleme, Elma Toplama",Mersin,Yenişehir,39464,ilan_0160,Firma_27,Pamuk Toplama,Batman,Beşiri,Ortaokul,9,28-52,Erkek,Yok,Yok,18816,0.3
+isci_0161,34,İlkokul,4,"Elma Toplama, Sera Bakımı, Toprak İşleme",Eskişehir,Tepebaşı,43828,ilan_0161,Firma_26,Fidan Dikimi,Artvin,Merkez,Ortaokul,9,29-52,Bayan,Yok,Var,34257,0.3
+isci_0162,55,Ortaokul,0,"Çapa, Fidan Dikimi",Siirt,Kurtalan,21646,ilan_0162,Firma_75,Çapa,Konya,Meram,Lise,8,21-52,Bayan,Var,Yok,43313,0.3
+isci_0163,54,Ortaokul,6,Toprak İşleme,Konya,Meram,58708,ilan_0163,Firma_88,Toprak İşleme,Mardin,Artuklu,İlkokul,5,29-54,Bayan,Var,Yok,53417,0.5
+isci_0164,26,Üniversite,11,"Fidan Dikimi, Ürün Hasadı",Çanakkale,Ezine,20247,ilan_0164,Firma_86,Toprak İşleme,Artvin,Hopa,Üniversite,2,21-60,Bayan,Var,Yok,20846,1.0
+isci_0165,34,Ortaokul,0,Ceviz Hasadı,Sinop,Ayancık,48474,ilan_0165,Firma_43,Limon Hasadı,Adana,Seyhan,Ortaokul,6,26-56,Bayan,Var,Var,17591,0.5
+isci_0166,36,Ortaokul,16,"Kayısı Hasadı, Limon Hasadı",Ordu,Fatsa,23874,ilan_0166,Firma_5,Sera Bakımı,Kırşehir,Kaman,Lise,6,25-55,Farketmez,Yok,Var,40787,0.8
+isci_0167,33,Lise,9,Kayısı Hasadı,Çankırı,Merkez,43820,ilan_0167,Firma_42,Fidan Dikimi,Aksaray,Eskil,Lise,10,20-44,Farketmez,Yok,Var,35681,0.5
+isci_0168,34,Üniversite,10,Kiraz Hasadı,Mardin,Artuklu,18000,ilan_0168,Firma_4,Toprak İşleme,Düzce,Akçakoca,Ortaokul,9,22-51,Bayan,Var,Yok,46167,0.8
+isci_0169,42,Ortaokul,9,"Sera Bakımı, Fidan Dikimi, Elma Toplama",Siirt,Merkez,57860,ilan_0169,Firma_26,Limon Hasadı,Siirt,Pervari,İlkokul,10,27-42,Farketmez,Yok,Var,46329,0.3
+isci_0170,58,Ortaokul,3,Kayısı Hasadı,Erzurum,Yakutiye,30943,ilan_0170,Firma_34,Sera Bakımı,Kahramanmaraş,Onikişubat,Ortaokul,6,25-46,Farketmez,Yok,Var,38223,0.5
+isci_0171,40,Üniversite,18,"Ürün Hasadı, Çay Hasadı",Manisa,Şehzadeler,23860,ilan_0171,Firma_21,Çapa,Mersin,Toroslar,İlkokul,9,22-52,Bayan,Yok,Var,52371,0.8
+isci_0172,23,İlkokul,9,Kiraz Hasadı,Aydın,Efeler,32319,ilan_0172,Firma_83,Kayısı Hasadı,Ardahan,Göle,İlkokul,4,26-51,Farketmez,Yok,Yok,34372,0.7
+isci_0173,32,Lise,13,"Ceviz Hasadı, Sera Bakımı",Mersin,Yenişehir,47668,ilan_0173,Firma_79,Çay Hasadı,Antalya,Muratpaşa,İlkokul,2,20-50,Farketmez,Yok,Yok,30346,0.5
+isci_0174,56,Lise,7,"Pamuk Toplama, Ürün Hasadı",Amasya,Suluova,25071,ilan_0174,Firma_68,Ceviz Hasadı,Kastamonu,Tosya,Ortaokul,3,21-56,Farketmez,Var,Var,31697,0.8
+isci_0175,23,Üniversite,17,"Pamuk Toplama, Limon Hasadı",Kilis,Elbeyli,51022,ilan_0175,Firma_16,Ürün Hasadı,Niğde,Bor,Ortaokul,5,27-54,Erkek,Var,Yok,34955,0.2
+isci_0176,23,Ortaokul,8,Fidan Dikimi,Kilis,Elbeyli,23389,ilan_0176,Firma_41,Limon Hasadı,Kırıkkale,Delice,İlkokul,5,29-51,Erkek,Var,Yok,41171,0.5
+isci_0177,40,Lise,6,Sera Bakımı,Bolu,Merkez,36619,ilan_0177,Firma_47,Ürün Hasadı,Ağrı,Patnos,Ortaokul,2,25-47,Erkek,Var,Var,51928,0.8
+isci_0178,42,Üniversite,2,"Kiraz Hasadı, Elma Toplama, Sera Bakımı",Düzce,Merkez,17742,ilan_0178,Firma_76,Elma Toplama,Ankara,Yenimahalle,Lise,2,20-47,Bayan,Var,Var,48046,0.8
+isci_0179,51,İlkokul,0,"Toprak İşleme, Kiraz Hasadı",Osmaniye,Kadirli,37427,ilan_0179,Firma_42,Toprak İşleme,Kilis,Elbeyli,İlkokul,2,20-60,Bayan,Yok,Var,50222,0.8
+isci_0180,26,Ortaokul,7,Fidan Dikimi,Batman,Hasankeyf,26266,ilan_0180,Firma_19,Ürün Hasadı,Osmaniye,Düziçi,Ortaokul,7,19-45,Farketmez,Yok,Var,49813,1.0
+isci_0181,55,İlkokul,3,"Çay Hasadı, Ceviz Hasadı, Toprak İşleme",Balıkesir,Bandırma,41669,ilan_0181,Firma_22,Çay Hasadı,Tekirdağ,Kapaklı,Lise,9,30-59,Bayan,Var,Yok,20305,0.3
+isci_0182,28,Lise,17,Fidan Dikimi,Kayseri,Kocasinan,55479,ilan_0182,Firma_23,Fidan Dikimi,Elazığ,Sivrice,Lise,3,21-42,Bayan,Var,Var,50870,0.7
+isci_0183,30,Ortaokul,3,"Elma Toplama, Limon Hasadı, Sera Bakımı",Sinop,Merkez,27734,ilan_0183,Firma_20,Ceviz Hasadı,Eskişehir,Tepebaşı,Lise,2,19-42,Farketmez,Var,Var,43023,0.8
+isci_0184,51,İlkokul,15,"Çapa, Elma Toplama",Elazığ,Merkez,19568,ilan_0184,Firma_55,Fidan Dikimi,Denizli,Pamukkale,İlkokul,1,23-49,Bayan,Var,Var,44439,0.7
+isci_0185,23,İlkokul,4,"Limon Hasadı, Çapa, Kiraz Hasadı",Çanakkale,Biga,52134,ilan_0185,Firma_95,Çapa,Kırklareli,Lüleburgaz,İlkokul,2,28-40,Bayan,Yok,Yok,17382,0.4
+isci_0186,40,Ortaokul,16,"Pamuk Toplama, Ceviz Hasadı, Çay Hasadı",Kahramanmaraş,Dulkadiroğlu,17735,ilan_0186,Firma_34,Çapa,Kırıkkale,Merkez,İlkokul,7,30-60,Farketmez,Yok,Var,29362,0.8
+isci_0187,51,Ortaokul,19,"Çapa, Kayısı Hasadı, Çay Hasadı",Karaman,Merkez,34273,ilan_0187,Firma_96,Limon Hasadı,Diyarbakır,Kayapınar,İlkokul,10,22-44,Farketmez,Yok,Var,46666,0.5
+isci_0188,27,Ortaokul,16,"Kiraz Hasadı, Çapa, Sera Bakımı",Samsun,Bafra,57714,ilan_0188,Firma_52,Sera Bakımı,İzmir,Konak,Üniversite,9,30-55,Erkek,Var,Var,57429,0.2
+isci_0189,19,Üniversite,10,"Sera Bakımı, Ürün Hasadı, Ceviz Hasadı",Giresun,Merkez,57653,ilan_0189,Firma_59,Elma Toplama,Şanlıurfa,Haliliye,Üniversite,0,25-57,Erkek,Var,Var,28309,0.4
+isci_0190,47,Ortaokul,10,Elma Toplama,Malatya,Yeşilyurt,47849,ilan_0190,Firma_75,Pamuk Toplama,Hatay,Antakya,İlkokul,6,19-54,Farketmez,Var,Var,30672,0.5
+isci_0191,37,Lise,5,"Limon Hasadı, Çapa",Hakkari,Yüksekova,59917,ilan_0191,Firma_97,Ceviz Hasadı,Zonguldak,Merkez,Ortaokul,3,27-51,Bayan,Yok,Yok,58053,0.5
+isci_0192,53,Lise,18,Pamuk Toplama,Adana,Seyhan,43472,ilan_0192,Firma_75,Limon Hasadı,Tunceli,Merkez,Ortaokul,5,18-49,Farketmez,Yok,Var,53983,0.5
+isci_0193,40,Üniversite,13,"Limon Hasadı, Kayısı Hasadı, Çapa",Sakarya,Adapazarı,47954,ilan_0193,Firma_34,Elma Toplama,Rize,Merkez,Lise,7,21-47,Farketmez,Yok,Var,21628,0.5
+isci_0194,55,Üniversite,2,"Elma Toplama, Pamuk Toplama",Aydın,Efeler,25360,ilan_0194,Firma_36,Ceviz Hasadı,Ordu,Altınordu,Ortaokul,2,27-48,Erkek,Var,Yok,52578,0.5
+isci_0195,42,Üniversite,1,"Fidan Dikimi, Çapa",Gümüşhane,Kelkit,18314,ilan_0195,Firma_82,Çapa,Nevşehir,Avanos,İlkokul,10,18-51,Erkek,Yok,Yok,44488,0.6
+isci_0196,60,Lise,18,"Elma Toplama, Fidan Dikimi, Çay Hasadı",Elazığ,Merkez,57349,ilan_0196,Firma_90,Kayısı Hasadı,Batman,Merkez,Üniversite,3,24-54,Bayan,Yok,Yok,47771,0.2
+isci_0197,53,İlkokul,9,"Limon Hasadı, Çay Hasadı",Manisa,Şehzadeler,33798,ilan_0197,Firma_53,Limon Hasadı,Osmaniye,Kadirli,Üniversite,5,22-50,Erkek,Var,Var,26182,0.2
+isci_0198,57,Lise,9,Ürün Hasadı,Adıyaman,Merkez,35914,ilan_0198,Firma_82,Pamuk Toplama,Zonguldak,Ereğli,Üniversite,2,26-42,Erkek,Yok,Var,40382,0.5
+isci_0199,57,Üniversite,7,"Ürün Hasadı, Sera Bakımı",Elazığ,Sivrice,26988,ilan_0199,Firma_52,Sera Bakımı,Zonguldak,Merkez,Lise,10,18-41,Erkek,Var,Var,27805,0.3
+isci_0200,22,İlkokul,10,"Toprak İşleme, Kayısı Hasadı",Giresun,Bulancak,40953,ilan_0200,Firma_14,Pamuk Toplama,Bitlis,Ahlat,Ortaokul,10,25-51,Erkek,Var,Var,34413,0.2
+isci_0201,50,Ortaokul,15,"Fidan Dikimi, Ürün Hasadı",Bayburt,Aydıntepe,52610,ilan_0201,Firma_35,Çay Hasadı,Çankırı,Çerkeş,Lise,10,27-56,Erkek,Yok,Var,56821,0.8
+isci_0202,23,Üniversite,7,Toprak İşleme,Giresun,Espiye,26672,ilan_0202,Firma_14,Kayısı Hasadı,Zonguldak,Kozlu,İlkokul,7,21-45,Erkek,Var,Var,54311,0.8
+isci_0203,48,Lise,17,Kayısı Hasadı,Aksaray,Ortaköy,21857,ilan_0203,Firma_6,Kayısı Hasadı,Adıyaman,Besni,İlkokul,9,22-48,Farketmez,Yok,Var,46293,0.8
+isci_0204,55,Üniversite,18,"Toprak İşleme, Kayısı Hasadı",Kütahya,Simav,55924,ilan_0204,Firma_18,Ceviz Hasadı,Yozgat,Sorgun,Üniversite,9,19-51,Bayan,Var,Yok,41773,0.4
+isci_0205,39,Ortaokul,14,Fidan Dikimi,Hatay,İskenderun,52229,ilan_0205,Firma_1,Çapa,Antalya,Kepez,Ortaokul,3,20-52,Erkek,Yok,Yok,46650,0.7
+isci_0206,51,Üniversite,19,"Sera Bakımı, Kiraz Hasadı",Sakarya,Serdivan,39431,ilan_0206,Firma_77,Kayısı Hasadı,Düzce,Merkez,Ortaokul,1,26-56,Erkek,Var,Var,40077,0.8
+isci_0207,56,İlkokul,4,"Fidan Dikimi, Kiraz Hasadı",Gaziantep,Nizip,47450,ilan_0207,Firma_31,Pamuk Toplama,Kırşehir,Merkez,Lise,4,23-40,Farketmez,Var,Yok,57017,0.5
+isci_0208,35,Üniversite,4,"Pamuk Toplama, Ceviz Hasadı",Amasya,Merkez,19629,ilan_0208,Firma_10,Pamuk Toplama,Şırnak,Merkez,Lise,5,29-58,Farketmez,Var,Yok,41749,0.6
+isci_0209,19,Ortaokul,9,Ceviz Hasadı,Çanakkale,Biga,44783,ilan_0209,Firma_50,Kiraz Hasadı,Elazığ,Keban,Ortaokul,2,27-49,Farketmez,Var,Yok,31364,0.4
+isci_0210,38,İlkokul,7,Limon Hasadı,Yozgat,Sorgun,24863,ilan_0210,Firma_92,Fidan Dikimi,Yozgat,Merkez,Lise,7,23-44,Bayan,Var,Var,54189,0.8
+isci_0211,50,İlkokul,12,"Sera Bakımı, Limon Hasadı, Elma Toplama",Tunceli,Merkez,36165,ilan_0211,Firma_17,Fidan Dikimi,Karabük,Eskipazar,Üniversite,5,28-57,Bayan,Yok,Yok,19991,0.5
+isci_0212,48,Lise,15,"Pamuk Toplama, Ceviz Hasadı, Kiraz Hasadı",Adıyaman,Merkez,37465,ilan_0212,Firma_81,Fidan Dikimi,Batman,Beşiri,Üniversite,1,28-51,Bayan,Var,Var,34949,0.5
+isci_0213,42,İlkokul,18,Fidan Dikimi,Kırşehir,Merkez,35434,ilan_0213,Firma_4,Limon Hasadı,Tekirdağ,Kapaklı,Üniversite,4,18-42,Farketmez,Yok,Var,36534,0.8
+isci_0214,51,Lise,15,Pamuk Toplama,Siirt,Pervari,55719,ilan_0214,Firma_38,Çapa,Kocaeli,İzmit,Lise,10,25-55,Bayan,Var,Var,43221,0.7
+isci_0215,51,Ortaokul,15,"Kiraz Hasadı, Ürün Hasadı",Bayburt,Demirözü,28535,ilan_0215,Firma_31,Ürün Hasadı,Adana,Çukurova,Üniversite,1,19-58,Farketmez,Var,Var,55464,0.8
+isci_0216,22,Ortaokul,11,"Ürün Hasadı, Kayısı Hasadı",Siirt,Kurtalan,34935,ilan_0216,Firma_63,Limon Hasadı,Burdur,Merkez,Lise,6,26-47,Farketmez,Var,Var,43698,0.5
+isci_0217,19,İlkokul,4,Toprak İşleme,Eskişehir,Tepebaşı,29592,ilan_0217,Firma_61,Fidan Dikimi,Adıyaman,Merkez,İlkokul,0,20-50,Erkek,Yok,Var,32869,0.7
+isci_0218,24,Üniversite,1,Çay Hasadı,Adıyaman,Besni,54109,ilan_0218,Firma_38,Ceviz Hasadı,Erzurum,Aziziye,Lise,6,22-46,Farketmez,Yok,Var,24071,0.3
+isci_0219,53,Lise,9,"Çay Hasadı, Pamuk Toplama",Kütahya,Simav,34971,ilan_0219,Firma_50,Ceviz Hasadı,Diyarbakır,Kayapınar,Lise,10,25-41,Bayan,Var,Var,26873,0.2
+isci_0220,59,Lise,11,"Toprak İşleme, Kayısı Hasadı",Bingöl,Solhan,43944,ilan_0220,Firma_62,Elma Toplama,İstanbul,Beşiktaş,İlkokul,0,28-40,Erkek,Var,Var,28668,0.2
+isci_0221,48,Lise,11,Ürün Hasadı,Bayburt,Demirözü,26941,ilan_0221,Firma_99,Fidan Dikimi,Çorum,Merkez,Üniversite,10,22-46,Erkek,Var,Var,57141,0.5
+isci_0222,19,İlkokul,3,"Sera Bakımı, Kiraz Hasadı",Çorum,Alaca,58918,ilan_0222,Firma_67,Çapa,Balıkesir,Bandırma,Lise,6,29-57,Erkek,Yok,Yok,39682,0.0
+isci_0223,52,İlkokul,19,"Fidan Dikimi, Ceviz Hasadı",Kırklareli,Babaeski,56237,ilan_0223,Firma_60,Toprak İşleme,Kahramanmaraş,Dulkadiroğlu,Ortaokul,6,24-44,Erkek,Yok,Var,55710,0.2
+isci_0224,50,Lise,14,Toprak İşleme,Karabük,Eskipazar,19656,ilan_0224,Firma_78,Elma Toplama,Mersin,Mezitli,Ortaokul,5,24-56,Bayan,Var,Var,24743,0.8
+isci_0225,33,Lise,15,Fidan Dikimi,Balıkesir,Bandırma,54266,ilan_0225,Firma_89,Ürün Hasadı,Balıkesir,Bandırma,Lise,1,29-43,Bayan,Var,Yok,36082,0.7
+isci_0226,41,Üniversite,18,"Çapa, Limon Hasadı",Muğla,Menteşe,56899,ilan_0226,Firma_33,Kayısı Hasadı,Iğdır,Tuzluca,İlkokul,5,24-53,Erkek,Yok,Var,29195,0.5
+isci_0227,57,Ortaokul,18,Kayısı Hasadı,Osmaniye,Düziçi,22354,ilan_0227,Firma_25,Ürün Hasadı,Karaman,Ermenek,İlkokul,10,21-45,Erkek,Yok,Var,47554,0.5
+isci_0228,23,Üniversite,1,Limon Hasadı,Kırklareli,Merkez,51519,ilan_0228,Firma_31,Elma Toplama,Çorum,Merkez,Lise,9,19-60,Bayan,Var,Var,43215,0.3
+isci_0229,46,Ortaokul,15,"Kayısı Hasadı, Pamuk Toplama, Fidan Dikimi",Bartın,Kurucaşile,25574,ilan_0229,Firma_34,Fidan Dikimi,Burdur,Gölhisar,Ortaokul,10,25-44,Bayan,Yok,Var,53351,0.7
+isci_0230,45,Lise,3,"Çapa, Kiraz Hasadı",Bolu,Mengen,23806,ilan_0230,Firma_68,Limon Hasadı,Amasya,Merzifon,Üniversite,7,30-53,Farketmez,Yok,Var,50516,0.6
+isci_0231,31,Ortaokul,20,Çapa,Bartın,Kurucaşile,46847,ilan_0231,Firma_76,Toprak İşleme,Tokat,Merkez,Ortaokul,2,22-46,Bayan,Yok,Yok,29871,0.7
+isci_0232,47,İlkokul,1,"Ceviz Hasadı, Kayısı Hasadı, Kiraz Hasadı",Kocaeli,İzmit,29616,ilan_0232,Firma_12,Toprak İşleme,Yozgat,Boğazlıyan,Üniversite,4,19-56,Bayan,Var,Yok,24613,0.3
+isci_0233,29,Ortaokul,19,"Kiraz Hasadı, Limon Hasadı",Burdur,Merkez,49209,ilan_0233,Firma_74,Çay Hasadı,Diyarbakır,Sur,İlkokul,3,24-46,Farketmez,Var,Var,19229,0.5
+isci_0234,45,Üniversite,6,Toprak İşleme,Çanakkale,Ezine,27229,ilan_0234,Firma_68,Ceviz Hasadı,Sinop,Boyabat,İlkokul,1,25-52,Farketmez,Var,Yok,50718,0.8
+isci_0235,42,Ortaokul,18,"Çapa, Sera Bakımı",Bitlis,Tatvan,51639,ilan_0235,Firma_99,Elma Toplama,Mersin,Toroslar,Üniversite,2,23-44,Erkek,Yok,Yok,26051,0.5
+isci_0236,47,Üniversite,17,"Çay Hasadı, Ürün Hasadı",Bolu,Gerede,55257,ilan_0236,Firma_42,Çay Hasadı,Karabük,Safranbolu,Üniversite,6,25-60,Farketmez,Yok,Yok,19886,0.7
+isci_0237,36,Üniversite,18,Ceviz Hasadı,Bursa,Nilüfer,43602,ilan_0237,Firma_33,Limon Hasadı,Burdur,Merkez,İlkokul,1,20-56,Farketmez,Var,Var,21503,0.5
+isci_0238,40,Lise,18,"Kayısı Hasadı, Çay Hasadı, Toprak İşleme",Mardin,Artuklu,33937,ilan_0238,Firma_59,Sera Bakımı,Bolu,Merkez,Lise,4,21-41,Erkek,Yok,Var,53317,1.0
+isci_0239,36,Lise,2,Çay Hasadı,Aksaray,Merkez,39330,ilan_0239,Firma_58,Toprak İşleme,Aydın,Nazilli,Üniversite,3,20-53,Farketmez,Yok,Yok,21119,0.3
+isci_0240,21,Lise,2,Pamuk Toplama,Kilis,Musabeyli,44908,ilan_0240,Firma_11,Limon Hasadı,Iğdır,Tuzluca,İlkokul,10,26-47,Farketmez,Yok,Yok,19337,0.0
+isci_0241,37,İlkokul,1,"Elma Toplama, Kiraz Hasadı, Çapa",Balıkesir,Merkez,28642,ilan_0241,Firma_76,Toprak İşleme,Ankara,Çankaya,Lise,5,26-52,Farketmez,Yok,Var,44750,0.6
+isci_0242,49,Lise,2,"Kayısı Hasadı, Kiraz Hasadı",Trabzon,Yomra,22807,ilan_0242,Firma_95,Toprak İşleme,Gümüşhane,Merkez,Ortaokul,0,27-45,Bayan,Var,Yok,21830,0.2
+isci_0243,39,İlkokul,9,Pamuk Toplama,Çankırı,Merkez,45447,ilan_0243,Firma_17,Pamuk Toplama,Kırıkkale,Merkez,Üniversite,5,18-41,Bayan,Var,Var,48930,0.8
+isci_0244,34,Ortaokul,5,"Çapa, Ürün Hasadı, Ceviz Hasadı",Bolu,Gerede,59803,ilan_0244,Firma_76,Limon Hasadı,Antalya,Muratpaşa,Üniversite,9,27-43,Farketmez,Var,Var,57869,0.3
+isci_0245,39,İlkokul,1,"Pamuk Toplama, Kiraz Hasadı",Erzurum,Palandöken,39473,ilan_0245,Firma_84,Limon Hasadı,Çanakkale,Merkez,İlkokul,0,20-44,Erkek,Yok,Var,53822,1.0
+isci_0246,44,Ortaokul,8,Çapa,Diyarbakır,Bağlar,57600,ilan_0246,Firma_39,Çay Hasadı,Çankırı,Merkez,İlkokul,4,23-52,Farketmez,Var,Yok,35508,0.5
+isci_0247,25,İlkokul,13,"Pamuk Toplama, Ceviz Hasadı",Bayburt,Demirözü,36102,ilan_0247,Firma_47,Çapa,Ardahan,Göle,Üniversite,2,29-55,Farketmez,Var,Var,38494,0.5
+isci_0248,38,Lise,13,"Pamuk Toplama, Ürün Hasadı",Diyarbakır,Kayapınar,54931,ilan_0248,Firma_54,Sera Bakımı,Diyarbakır,Bağlar,İlkokul,0,25-40,Farketmez,Yok,Yok,51183,0.5
+isci_0249,49,Lise,17,Fidan Dikimi,Gümüşhane,Kelkit,20219,ilan_0249,Firma_64,Kayısı Hasadı,Malatya,Battalgazi,Üniversite,2,30-41,Erkek,Yok,Var,59824,0.5
+isci_0250,18,Üniversite,11,"Kayısı Hasadı, Kiraz Hasadı, Sera Bakımı",Siirt,Kurtalan,26218,ilan_0250,Firma_42,Elma Toplama,Mardin,Artuklu,Üniversite,1,22-48,Bayan,Yok,Var,19681,0.4
+isci_0251,48,Üniversite,13,Toprak İşleme,Muğla,Menteşe,41706,ilan_0251,Firma_84,Kiraz Hasadı,Afyonkarahisar,Bolvadin,Lise,7,22-51,Farketmez,Yok,Var,29360,0.5
+isci_0252,27,Lise,19,"Çapa, Ceviz Hasadı, Çay Hasadı",Çanakkale,Merkez,23259,ilan_0252,Firma_16,Çapa,Bayburt,Demirözü,İlkokul,9,23-47,Bayan,Var,Var,20935,0.5
+isci_0253,39,Ortaokul,9,Sera Bakımı,Mardin,Artuklu,23650,ilan_0253,Firma_15,Elma Toplama,Edirne,Keşan,Ortaokul,9,23-40,Bayan,Var,Yok,25232,1.0
+isci_0254,27,Lise,10,"Çay Hasadı, Elma Toplama, Fidan Dikimi",Kilis,Merkez,54377,ilan_0254,Firma_22,Toprak İşleme,Tekirdağ,Çorlu,Üniversite,5,29-55,Bayan,Yok,Yok,45272,0.2
+isci_0255,56,İlkokul,20,Kiraz Hasadı,Afyonkarahisar,Sandıklı,55362,ilan_0255,Firma_41,Elma Toplama,Kırıkkale,Keskin,Üniversite,10,24-44,Farketmez,Var,Yok,33325,0.2
+isci_0256,46,Ortaokul,14,"Ürün Hasadı, Kayısı Hasadı",Uşak,Banaz,46778,ilan_0256,Firma_27,Kiraz Hasadı,Kahramanmaraş,Elbistan,İlkokul,1,23-59,Erkek,Var,Var,55818,0.8
+isci_0257,29,Lise,4,Sera Bakımı,Şırnak,Merkez,46262,ilan_0257,Firma_96,Limon Hasadı,Balıkesir,Edremit,İlkokul,8,29-53,Farketmez,Yok,Yok,42377,0.3
+isci_0258,56,Üniversite,7,"Ceviz Hasadı, Kayısı Hasadı, Limon Hasadı",Bartın,Amasra,55171,ilan_0258,Firma_43,Kayısı Hasadı,Hakkari,Merkez,İlkokul,9,25-43,Erkek,Var,Yok,52319,0.0
+isci_0259,36,İlkokul,4,"Limon Hasadı, Kayısı Hasadı",Mardin,Artuklu,36663,ilan_0259,Firma_21,Ceviz Hasadı,Malatya,Yeşilyurt,İlkokul,7,22-43,Bayan,Yok,Yok,52303,0.8
+isci_0260,49,Lise,3,"Kayısı Hasadı, Sera Bakımı",Bartın,Kurucaşile,32898,ilan_0260,Firma_96,Limon Hasadı,Bartın,Merkez,Üniversite,3,29-45,Erkek,Yok,Yok,50902,0.5
+isci_0261,27,Ortaokul,2,"Fidan Dikimi, Limon Hasadı, Kayısı Hasadı",Niğde,Bor,54317,ilan_0261,Firma_25,Toprak İşleme,Osmaniye,Düziçi,Üniversite,5,22-57,Farketmez,Var,Yok,52995,0.3
+isci_0262,19,İlkokul,17,Kiraz Hasadı,Aydın,Efeler,37307,ilan_0262,Firma_65,Pamuk Toplama,Van,İpekyolu,İlkokul,2,21-44,Erkek,Var,Var,34163,0.4
+isci_0263,40,Lise,0,Fidan Dikimi,Erzurum,Aziziye,56893,ilan_0263,Firma_80,Kiraz Hasadı,Düzce,Cumayeri,İlkokul,4,29-57,Erkek,Var,Yok,26782,0.3
+isci_0264,35,Lise,18,Kiraz Hasadı,Kilis,Musabeyli,33941,ilan_0264,Firma_41,Ceviz Hasadı,Yozgat,Sorgun,İlkokul,3,23-60,Farketmez,Yok,Yok,42769,0.8
+isci_0265,57,Lise,20,Fidan Dikimi,Iğdır,Aralık,23545,ilan_0265,Firma_99,Ceviz Hasadı,Elazığ,Merkez,Lise,5,20-59,Bayan,Yok,Var,38581,1.0
+isci_0266,44,Üniversite,0,"Ceviz Hasadı, Limon Hasadı, Sera Bakımı",Kars,Sarıkamış,33957,ilan_0266,Firma_43,Çapa,Kocaeli,Darıca,Ortaokul,4,23-56,Bayan,Var,Var,47962,0.6
+isci_0267,38,Ortaokul,9,Kayısı Hasadı,İzmir,Bornova,47905,ilan_0267,Firma_100,Çapa,Mersin,Yenişehir,Lise,5,18-45,Farketmez,Yok,Yok,22337,0.5
+isci_0268,28,Ortaokul,17,"Pamuk Toplama, Fidan Dikimi",Bursa,Nilüfer,54401,ilan_0268,Firma_62,Ceviz Hasadı,Denizli,Pamukkale,Ortaokul,5,25-45,Bayan,Var,Var,52443,0.7
+isci_0269,38,İlkokul,6,"Ceviz Hasadı, Sera Bakımı, Çapa",Gaziantep,Nizip,58506,ilan_0269,Firma_23,Toprak İşleme,Sakarya,Serdivan,Ortaokul,1,27-41,Bayan,Yok,Yok,43613,0.5
+isci_0270,35,Ortaokul,14,"Toprak İşleme, Ürün Hasadı, Ceviz Hasadı",Kütahya,Simav,24262,ilan_0270,Firma_88,Sera Bakımı,Ağrı,Patnos,Lise,1,18-57,Erkek,Var,Yok,40342,0.8
+isci_0271,22,Lise,4,Kayısı Hasadı,Yalova,Çınarcık,43841,ilan_0271,Firma_24,Çapa,Bartın,Amasra,Üniversite,5,21-52,Erkek,Var,Yok,36929,0.3
+isci_0272,18,Lise,0,"Çay Hasadı, Elma Toplama",Niğde,Çiftlik,59699,ilan_0272,Firma_44,Çay Hasadı,Iğdır,Tuzluca,Ortaokul,5,23-56,Farketmez,Yok,Yok,25792,0.0
+isci_0273,27,Üniversite,20,"Kayısı Hasadı, Fidan Dikimi, Çay Hasadı",Uşak,Eşme,40557,ilan_0273,Firma_9,Fidan Dikimi,Bingöl,Solhan,Lise,2,25-50,Farketmez,Var,Yok,47443,0.8
+isci_0274,48,Lise,5,"Sera Bakımı, Ceviz Hasadı, Elma Toplama",Karaman,Merkez,52581,ilan_0274,Firma_97,Ürün Hasadı,Mardin,Kızıltepe,Üniversite,10,18-47,Erkek,Yok,Yok,55988,0.3
+isci_0275,40,Ortaokul,14,"Fidan Dikimi, Ceviz Hasadı, Kiraz Hasadı",Bursa,Osmangazi,28209,ilan_0275,Firma_18,Çay Hasadı,Bursa,Nilüfer,İlkokul,6,21-50,Farketmez,Yok,Yok,27122,0.5
+isci_0276,30,Lise,5,"Kayısı Hasadı, Kiraz Hasadı, Fidan Dikimi",Rize,Çayeli,51859,ilan_0276,Firma_27,Kayısı Hasadı,Adıyaman,Besni,Ortaokul,1,23-42,Bayan,Yok,Yok,44001,0.5
+isci_0277,30,Lise,4,"Limon Hasadı, Fidan Dikimi, Kayısı Hasadı",Ordu,Ünye,38954,ilan_0277,Firma_95,Ürün Hasadı,Edirne,Uzunköprü,İlkokul,10,19-54,Erkek,Var,Var,29451,0.3
+isci_0278,34,Ortaokul,15,"Fidan Dikimi, Kiraz Hasadı, Ürün Hasadı",Ankara,Yenimahalle,33834,ilan_0278,Firma_7,Pamuk Toplama,Tunceli,Nazımiye,İlkokul,10,28-44,Farketmez,Var,Yok,48809,0.8
+isci_0279,25,Lise,15,"Toprak İşleme, Fidan Dikimi, Limon Hasadı",Mardin,Midyat,41618,ilan_0279,Firma_36,Sera Bakımı,Balıkesir,Merkez,Ortaokul,9,27-52,Farketmez,Var,Var,57667,0.5
+isci_0280,46,İlkokul,20,"Ceviz Hasadı, Elma Toplama",Çanakkale,Biga,23496,ilan_0280,Firma_94,Limon Hasadı,Tunceli,Merkez,Üniversite,1,27-51,Farketmez,Yok,Yok,29158,0.8
+isci_0281,56,Üniversite,0,"Elma Toplama, Pamuk Toplama",Trabzon,Ortahisar,46253,ilan_0281,Firma_33,Kiraz Hasadı,Çanakkale,Merkez,Lise,4,19-57,Bayan,Var,Yok,46024,0.3
+isci_0282,52,Ortaokul,10,"Ceviz Hasadı, Limon Hasadı, Pamuk Toplama",Amasya,Merkez,48849,ilan_0282,Firma_18,Elma Toplama,Malatya,Battalgazi,Lise,9,18-40,Bayan,Var,Yok,48833,0.2
+isci_0283,20,Lise,10,"Pamuk Toplama, Ürün Hasadı",Sinop,Ayancık,20859,ilan_0283,Firma_22,Çay Hasadı,Gaziantep,Şahinbey,Ortaokul,6,23-40,Bayan,Yok,Yok,48295,0.5
+isci_0284,58,Üniversite,6,Kiraz Hasadı,Manisa,Yunusemre,24651,ilan_0284,Firma_82,Ürün Hasadı,Sivas,Şarkışla,Lise,7,27-43,Farketmez,Yok,Var,50383,0.3
+isci_0285,33,Lise,6,"Toprak İşleme, Ceviz Hasadı, Pamuk Toplama",Hatay,İskenderun,53991,ilan_0285,Firma_24,Limon Hasadı,Afyonkarahisar,Bolvadin,Lise,2,29-41,Farketmez,Yok,Var,58754,1.0
+isci_0286,50,İlkokul,2,"Sera Bakımı, Toprak İşleme, Ceviz Hasadı",Çanakkale,Biga,50349,ilan_0286,Firma_15,Kiraz Hasadı,Kars,Merkez,Ortaokul,2,20-40,Farketmez,Var,Yok,52517,0.5
+isci_0287,47,Lise,1,"Fidan Dikimi, Çapa",Karaman,Ayrancı,57355,ilan_0287,Firma_40,Pamuk Toplama,Hatay,Antakya,Lise,0,30-50,Bayan,Yok,Yok,25696,0.7
+isci_0288,54,İlkokul,17,"Ürün Hasadı, Pamuk Toplama",Rize,Çayeli,48498,ilan_0288,Firma_73,Çapa,Hatay,Antakya,İlkokul,5,28-46,Farketmez,Var,Var,23397,0.4
+isci_0289,54,Üniversite,19,"Kiraz Hasadı, Pamuk Toplama",Malatya,Doğanşehir,55651,ilan_0289,Firma_28,Kiraz Hasadı,Siirt,Merkez,Lise,2,25-42,Erkek,Yok,Var,43997,0.2
+isci_0290,34,Üniversite,19,"Limon Hasadı, Toprak İşleme, Ürün Hasadı",Elazığ,Keban,22275,ilan_0290,Firma_96,Kiraz Hasadı,Mersin,Yenişehir,Lise,0,25-58,Bayan,Var,Var,50957,0.8
+isci_0291,28,Ortaokul,3,"Toprak İşleme, Ceviz Hasadı",Elazığ,Keban,45803,ilan_0291,Firma_44,Elma Toplama,Mardin,Kızıltepe,Ortaokul,5,24-41,Erkek,Yok,Var,42966,0.5
+isci_0292,24,Ortaokul,3,"Kiraz Hasadı, Fidan Dikimi, Ceviz Hasadı",Adana,Seyhan,22301,ilan_0292,Firma_61,Pamuk Toplama,Adana,Çukurova,Ortaokul,0,18-42,Erkek,Var,Yok,48333,1.0
+isci_0293,53,Üniversite,2,"Çapa, Toprak İşleme, Elma Toplama",Kahramanmaraş,Onikişubat,20557,ilan_0293,Firma_74,Toprak İşleme,Bolu,Merkez,Ortaokul,7,27-40,Erkek,Yok,Var,28359,0.3
+isci_0294,38,İlkokul,11,"Elma Toplama, Ceviz Hasadı, Çapa",Tunceli,Merkez,24600,ilan_0294,Firma_21,Kayısı Hasadı,Bartın,Amasra,İlkokul,8,19-60,Erkek,Var,Var,18068,0.7
+isci_0295,39,Lise,17,Kiraz Hasadı,Tekirdağ,Kapaklı,49190,ilan_0295,Firma_15,Sera Bakımı,Çorum,Merkez,Üniversite,3,19-48,Bayan,Yok,Var,39304,0.5
+isci_0296,60,Üniversite,20,"Ürün Hasadı, Toprak İşleme, Ceviz Hasadı",Hakkari,Yüksekova,29072,ilan_0296,Firma_21,Kayısı Hasadı,Artvin,Arhavi,Üniversite,5,18-50,Erkek,Yok,Yok,26197,0.4
+isci_0297,56,İlkokul,12,"Çay Hasadı, Çapa",Tekirdağ,Kapaklı,47259,ilan_0297,Firma_43,Toprak İşleme,Mersin,Mezitli,Üniversite,2,19-45,Farketmez,Yok,Yok,52745,0.5
+isci_0298,22,Ortaokul,9,"Fidan Dikimi, Sera Bakımı",Adıyaman,Kahta,53894,ilan_0298,Firma_78,Pamuk Toplama,Erzincan,Kemaliye,İlkokul,8,23-41,Erkek,Yok,Var,22452,0.2
+isci_0299,54,Lise,11,"Limon Hasadı, Çay Hasadı, Kiraz Hasadı",Şırnak,Cizre,52999,ilan_0299,Firma_19,Limon Hasadı,Kars,Merkez,Ortaokul,0,29-60,Farketmez,Var,Var,23123,0.5
+isci_0300,60,İlkokul,20,Limon Hasadı,Bayburt,Demirözü,44730,ilan_0300,Firma_34,Kiraz Hasadı,Adıyaman,Kahta,İlkokul,4,24-44,Bayan,Var,Var,27775,0.4
+isci_0301,59,Lise,13,"Ceviz Hasadı, Kayısı Hasadı, Limon Hasadı",Aksaray,Merkez,39271,ilan_0301,Firma_8,Elma Toplama,İzmir,Konak,Üniversite,7,25-58,Erkek,Var,Var,50947,0.5
+isci_0302,46,Lise,0,"Kayısı Hasadı, Çay Hasadı, Fidan Dikimi",Ardahan,Göle,41992,ilan_0302,Firma_94,Elma Toplama,Kahramanmaraş,Dulkadiroğlu,Üniversite,8,22-44,Erkek,Var,Yok,42691,0.3
+isci_0303,28,Ortaokul,12,"Çapa, Ceviz Hasadı",Sivas,Zara,36363,ilan_0303,Firma_45,Sera Bakımı,İstanbul,Kadıköy,Lise,8,27-52,Bayan,Yok,Yok,44901,0.8
+isci_0304,26,Ortaokul,14,Toprak İşleme,Elazığ,Merkez,36478,ilan_0304,Firma_100,Toprak İşleme,Kars,Kağızman,Üniversite,6,27-53,Erkek,Yok,Yok,23758,0.2
+isci_0305,57,Ortaokul,17,Ceviz Hasadı,Düzce,Cumayeri,23804,ilan_0305,Firma_34,Sera Bakımı,Çanakkale,Merkez,Ortaokul,3,27-58,Bayan,Var,Var,21067,0.7
+isci_0306,45,Lise,16,"Fidan Dikimi, Kiraz Hasadı, Toprak İşleme",Aydın,Efeler,22818,ilan_0306,Firma_27,Sera Bakımı,Kırıkkale,Delice,İlkokul,9,20-59,Erkek,Yok,Var,53789,0.8
+isci_0307,39,İlkokul,11,"Çay Hasadı, Kayısı Hasadı, Fidan Dikimi",Kırşehir,Çiçekdağı,47620,ilan_0307,Firma_83,Kayısı Hasadı,Ardahan,Çıldır,Ortaokul,1,26-57,Erkek,Var,Yok,36582,0.5
+isci_0308,53,İlkokul,1,"Sera Bakımı, Limon Hasadı",Osmaniye,Kadirli,26895,ilan_0308,Firma_98,Ürün Hasadı,Bartın,Kurucaşile,Ortaokul,2,28-44,Farketmez,Yok,Var,49057,0.3
+isci_0309,44,Ortaokul,2,"Ceviz Hasadı, Toprak İşleme, Ürün Hasadı",Karabük,Eskipazar,21552,ilan_0309,Firma_10,Elma Toplama,Siirt,Kurtalan,Lise,7,19-44,Farketmez,Var,Var,40090,0.6
+isci_0310,53,Ortaokul,4,"Kayısı Hasadı, Çapa",Kocaeli,Darıca,58585,ilan_0310,Firma_46,Fidan Dikimi,Düzce,Akçakoca,Ortaokul,2,25-59,Farketmez,Var,Yok,53661,0.7
+isci_0311,36,Ortaokul,6,"Çay Hasadı, Elma Toplama, Toprak İşleme",Yozgat,Merkez,38553,ilan_0311,Firma_24,Toprak İşleme,Van,Erciş,Ortaokul,5,24-41,Bayan,Yok,Yok,36723,0.7
+isci_0312,51,İlkokul,11,"Limon Hasadı, Fidan Dikimi, Ceviz Hasadı",Gaziantep,Şehitkamil,19212,ilan_0312,Firma_88,Ürün Hasadı,Denizli,Tavas,Lise,9,19-50,Farketmez,Yok,Var,31508,0.5
+isci_0313,45,Ortaokul,14,"Toprak İşleme, Ceviz Hasadı",Kastamonu,Tosya,42798,ilan_0313,Firma_95,Çapa,Hakkari,Merkez,İlkokul,4,20-45,Farketmez,Var,Yok,26929,0.5
+isci_0314,50,Lise,12,"Çay Hasadı, Toprak İşleme",Denizli,Pamukkale,32586,ilan_0314,Firma_49,Elma Toplama,Kırıkkale,Merkez,Lise,2,27-59,Farketmez,Yok,Yok,40711,1.0
+isci_0315,26,Lise,16,"Toprak İşleme, Çay Hasadı",Çanakkale,Biga,34352,ilan_0315,Firma_30,Kayısı Hasadı,Sivas,Merkez,İlkokul,4,18-56,Bayan,Var,Var,51742,0.8
+isci_0316,41,Üniversite,11,Çapa,Kırıkkale,Keskin,32267,ilan_0316,Firma_1,Çay Hasadı,Bolu,Mengen,İlkokul,9,27-52,Bayan,Yok,Yok,33679,0.8
+isci_0317,35,Lise,4,"Ceviz Hasadı, Fidan Dikimi",Şanlıurfa,Eyyübiye,35808,ilan_0317,Firma_5,Çapa,Bolu,Gerede,Lise,4,27-41,Erkek,Yok,Var,17307,0.7
+isci_0318,33,Üniversite,9,"Fidan Dikimi, Sera Bakımı",Kocaeli,Gebze,29920,ilan_0318,Firma_9,Limon Hasadı,Kütahya,Simav,Üniversite,4,22-58,Erkek,Yok,Var,17066,0.7
+isci_0319,27,Lise,1,"Limon Hasadı, Çay Hasadı, Toprak İşleme",Bayburt,Merkez,32556,ilan_0319,Firma_72,Pamuk Toplama,Amasya,Suluova,Üniversite,1,20-58,Farketmez,Var,Var,24127,0.5
+isci_0320,53,Ortaokul,6,"Sera Bakımı, Elma Toplama",Kırklareli,Merkez,59944,ilan_0320,Firma_40,Limon Hasadı,Aydın,Söke,İlkokul,7,25-50,Farketmez,Yok,Yok,37657,0.0
+isci_0321,38,Üniversite,9,"Elma Toplama, Ceviz Hasadı, Fidan Dikimi",Muş,Varto,54074,ilan_0321,Firma_20,Pamuk Toplama,Osmaniye,Düziçi,Ortaokul,1,19-48,Bayan,Yok,Var,21036,0.5
+isci_0322,32,İlkokul,6,"Fidan Dikimi, Ürün Hasadı, Toprak İşleme",Osmaniye,Kadirli,25658,ilan_0322,Firma_61,Çay Hasadı,Edirne,Uzunköprü,İlkokul,5,25-46,Erkek,Var,Var,21500,0.7
+isci_0323,34,Ortaokul,4,"Limon Hasadı, Pamuk Toplama",Kahramanmaraş,Elbistan,52636,ilan_0323,Firma_57,Ceviz Hasadı,Erzurum,Aziziye,İlkokul,1,25-49,Erkek,Var,Var,20138,0.5
+isci_0324,21,Ortaokul,2,"Elma Toplama, Kiraz Hasadı",Elazığ,Keban,54694,ilan_0324,Firma_34,Sera Bakımı,Hakkari,Şemdinli,Ortaokul,4,25-52,Erkek,Var,Yok,36273,0.2
+isci_0325,40,Lise,7,Çay Hasadı,Kars,Sarıkamış,20065,ilan_0325,Firma_31,Ceviz Hasadı,Bayburt,Demirözü,Ortaokul,8,24-41,Farketmez,Var,Yok,59708,0.6
+isci_0326,28,Ortaokul,0,"Elma Toplama, Çapa",Edirne,Uzunköprü,33038,ilan_0326,Firma_24,Elma Toplama,Tunceli,Pülümür,Üniversite,5,18-40,Bayan,Yok,Var,37693,0.6
+isci_0327,29,Lise,10,"Fidan Dikimi, Pamuk Toplama, Ceviz Hasadı",Bilecik,Merkez,37126,ilan_0327,Firma_96,Ürün Hasadı,Bitlis,Merkez,Lise,7,30-56,Erkek,Var,Var,58572,0.7
+isci_0328,58,Ortaokul,12,"Ürün Hasadı, Kayısı Hasadı, Elma Toplama",Ordu,Altınordu,25640,ilan_0328,Firma_19,Çay Hasadı,Çorum,Merkez,Üniversite,0,30-41,Bayan,Var,Var,57716,0.5
+isci_0329,22,Ortaokul,13,"Fidan Dikimi, Ürün Hasadı, Çapa",Konya,Selçuklu,36751,ilan_0329,Firma_17,Ürün Hasadı,Batman,Merkez,İlkokul,1,25-59,Bayan,Var,Yok,58012,0.5
+isci_0330,41,Üniversite,1,Ceviz Hasadı,Edirne,Uzunköprü,39307,ilan_0330,Firma_28,Ürün Hasadı,Artvin,Hopa,Ortaokul,7,24-41,Farketmez,Yok,Yok,57416,0.6
+isci_0331,38,İlkokul,20,"Ceviz Hasadı, Kayısı Hasadı, Elma Toplama",Muş,Malazgirt,50226,ilan_0331,Firma_72,Çay Hasadı,Trabzon,Akçaabat,Lise,10,21-59,Bayan,Yok,Var,47676,0.5
+isci_0332,35,Ortaokul,11,Çapa,Aksaray,Merkez,21017,ilan_0332,Firma_41,Çapa,Bartın,Amasra,Lise,2,26-54,Erkek,Var,Var,47558,0.8
+isci_0333,23,İlkokul,17,"Çay Hasadı, Kayısı Hasadı, Elma Toplama",Nevşehir,Avanos,36378,ilan_0333,Firma_82,Pamuk Toplama,Kütahya,Tavşanlı,Ortaokul,0,25-49,Farketmez,Var,Yok,23032,0.2
+isci_0334,47,Üniversite,6,"Ceviz Hasadı, Kayısı Hasadı",Bingöl,Merkez,55027,ilan_0334,Firma_37,Kiraz Hasadı,Trabzon,Akçaabat,Ortaokul,1,18-41,Farketmez,Var,Var,40259,0.2
+isci_0335,38,Ortaokul,0,Çapa,Uşak,Merkez,37456,ilan_0335,Firma_2,Toprak İşleme,Yalova,Çınarcık,İlkokul,2,30-52,Erkek,Yok,Yok,44376,0.6
+isci_0336,38,Üniversite,0,Sera Bakımı,Kütahya,Merkez,18288,ilan_0336,Firma_7,Fidan Dikimi,Nevşehir,Merkez,İlkokul,1,27-48,Bayan,Var,Yok,58130,0.6
+isci_0337,57,Lise,1,"Kiraz Hasadı, Kayısı Hasadı, Fidan Dikimi",Artvin,Merkez,55372,ilan_0337,Firma_10,Pamuk Toplama,Rize,Merkez,İlkokul,7,29-56,Erkek,Yok,Yok,48744,0.0
+isci_0338,32,Ortaokul,16,"Fidan Dikimi, Çapa",Bartın,Merkez,30564,ilan_0338,Firma_19,Ceviz Hasadı,Gümüşhane,Şiran,Üniversite,2,24-48,Erkek,Var,Yok,24707,0.5
+isci_0339,19,İlkokul,20,Kiraz Hasadı,Sakarya,Adapazarı,32045,ilan_0339,Firma_1,Sera Bakımı,Muş,Varto,İlkokul,4,18-50,Bayan,Yok,Yok,28791,0.7
+isci_0340,31,Ortaokul,16,"Toprak İşleme, Kayısı Hasadı, Kiraz Hasadı",Düzce,Cumayeri,46654,ilan_0340,Firma_86,Sera Bakımı,Ardahan,Merkez,Lise,7,24-55,Farketmez,Var,Yok,42246,0.5
+isci_0341,27,Ortaokul,5,Kiraz Hasadı,İzmir,Bornova,31988,ilan_0341,Firma_13,Pamuk Toplama,Gümüşhane,Şiran,Üniversite,10,28-44,Farketmez,Yok,Yok,30864,0.0
+isci_0342,45,İlkokul,12,"Ceviz Hasadı, Toprak İşleme, Çay Hasadı",Düzce,Akçakoca,20773,ilan_0342,Firma_94,Fidan Dikimi,Amasya,Merkez,Üniversite,4,26-53,Farketmez,Yok,Yok,40441,0.8
+isci_0343,34,İlkokul,10,"Sera Bakımı, Elma Toplama",İstanbul,Kadıköy,39455,ilan_0343,Firma_73,Sera Bakımı,Mardin,Artuklu,Ortaokul,10,23-52,Erkek,Yok,Var,27059,0.5
+isci_0344,34,Ortaokul,9,Toprak İşleme,Kırıkkale,Merkez,46012,ilan_0344,Firma_86,Ceviz Hasadı,Kırklareli,Merkez,Üniversite,7,25-45,Bayan,Yok,Yok,29057,0.5
+isci_0345,37,Ortaokul,17,"Pamuk Toplama, Ceviz Hasadı",Tunceli,Merkez,48338,ilan_0345,Firma_77,Kayısı Hasadı,Bitlis,Tatvan,İlkokul,0,26-40,Farketmez,Var,Yok,49566,0.8
+isci_0346,35,Üniversite,5,"Ürün Hasadı, Çay Hasadı, Kiraz Hasadı",Erzurum,Aziziye,32408,ilan_0346,Firma_27,Çay Hasadı,Gaziantep,Şahinbey,Ortaokul,4,23-51,Erkek,Var,Yok,30965,0.5
+isci_0347,37,İlkokul,5,"Fidan Dikimi, Kiraz Hasadı, Ceviz Hasadı",Hakkari,Yüksekova,53172,ilan_0347,Firma_36,Toprak İşleme,Konya,Meram,Ortaokul,1,22-59,Bayan,Var,Var,44516,0.5
+isci_0348,53,Ortaokul,7,"Çapa, Limon Hasadı",Ağrı,Patnos,25574,ilan_0348,Firma_32,Fidan Dikimi,Trabzon,Akçaabat,Üniversite,4,20-52,Bayan,Var,Var,49955,0.5
+isci_0349,29,İlkokul,1,"Toprak İşleme, Elma Toplama, Fidan Dikimi",Afyonkarahisar,Sandıklı,50656,ilan_0349,Firma_38,Çapa,Trabzon,Ortahisar,Üniversite,10,29-47,Erkek,Yok,Yok,23355,0.3
+isci_0350,51,Lise,19,"Çay Hasadı, Pamuk Toplama, Limon Hasadı",Kilis,Elbeyli,47054,ilan_0350,Firma_13,Ürün Hasadı,Kastamonu,Tosya,İlkokul,2,20-51,Farketmez,Var,Yok,48084,0.8
+isci_0351,32,Ortaokul,0,"Çapa, Sera Bakımı",Şırnak,Silopi,41949,ilan_0351,Firma_35,Kayısı Hasadı,Manisa,Yunusemre,Ortaokul,10,20-60,Erkek,Yok,Var,22838,0.5
+isci_0352,46,Lise,6,"Sera Bakımı, Ceviz Hasadı, Fidan Dikimi",Çanakkale,Biga,32852,ilan_0352,Firma_93,Toprak İşleme,Antalya,Kepez,Lise,6,20-60,Farketmez,Yok,Var,44949,1.0
+isci_0353,30,Ortaokul,17,"Toprak İşleme, Limon Hasadı",Hatay,Antakya,17476,ilan_0353,Firma_47,Elma Toplama,Giresun,Espiye,Üniversite,3,22-59,Farketmez,Var,Var,54261,0.8
+isci_0354,59,Ortaokul,17,"Çapa, Fidan Dikimi, Pamuk Toplama",Sakarya,Adapazarı,58043,ilan_0354,Firma_70,Kayısı Hasadı,Diyarbakır,Sur,Ortaokul,5,20-59,Erkek,Yok,Var,28675,0.7
+isci_0355,54,Ortaokul,9,Toprak İşleme,İzmir,Konak,59340,ilan_0355,Firma_52,Pamuk Toplama,Kırklareli,Lüleburgaz,Ortaokul,1,30-47,Bayan,Yok,Yok,31976,0.4
+isci_0356,47,Üniversite,4,"Çay Hasadı, Pamuk Toplama, Fidan Dikimi",Kütahya,Tavşanlı,23169,ilan_0356,Firma_57,Toprak İşleme,Afyonkarahisar,Sandıklı,Üniversite,1,20-59,Bayan,Var,Var,37057,1.0
+isci_0357,22,İlkokul,20,"Kiraz Hasadı, Çay Hasadı, Çapa",Ordu,Altınordu,29838,ilan_0357,Firma_94,Çay Hasadı,Siirt,Merkez,Üniversite,6,30-49,Erkek,Var,Var,54186,0.5
+isci_0358,29,İlkokul,13,"Çay Hasadı, Sera Bakımı, Limon Hasadı",Ordu,Ünye,50614,ilan_0358,Firma_30,Sera Bakımı,Kırklareli,Merkez,Ortaokul,0,19-50,Farketmez,Yok,Var,21234,0.5
+isci_0359,33,Lise,11,Kayısı Hasadı,Gümüşhane,Kelkit,27863,ilan_0359,Firma_61,Limon Hasadı,Ordu,Ünye,Üniversite,9,19-53,Erkek,Var,Yok,41398,0.8
+isci_0360,50,Üniversite,13,"Fidan Dikimi, Sera Bakımı, Çapa",Tekirdağ,Süleymanpaşa,29333,ilan_0360,Firma_97,Pamuk Toplama,Konya,Meram,Lise,10,26-40,Farketmez,Yok,Var,48842,0.5
+isci_0361,22,İlkokul,8,"Çay Hasadı, Toprak İşleme",Kütahya,Tavşanlı,42409,ilan_0361,Firma_77,Toprak İşleme,Rize,Merkez,Üniversite,8,18-58,Bayan,Var,Yok,56913,0.8
+isci_0362,43,Lise,5,"Fidan Dikimi, Kiraz Hasadı, Çay Hasadı",Konya,Selçuklu,17958,ilan_0362,Firma_13,Toprak İşleme,Burdur,Gölhisar,Üniversite,8,22-41,Bayan,Yok,Var,52845,0.3
+isci_0363,54,Lise,6,"Sera Bakımı, Limon Hasadı, Pamuk Toplama",Isparta,Eğirdir,42344,ilan_0363,Firma_99,Elma Toplama,Isparta,Merkez,Lise,8,21-54,Farketmez,Var,Var,50259,0.8
+isci_0364,52,Üniversite,7,"Elma Toplama, Fidan Dikimi",Eskişehir,Tepebaşı,23141,ilan_0364,Firma_22,Fidan Dikimi,Kastamonu,Taşköprü,Lise,2,29-40,Erkek,Var,Yok,27332,0.5
+isci_0365,23,Lise,8,"Limon Hasadı, Çay Hasadı, Kayısı Hasadı",Trabzon,Ortahisar,47310,ilan_0365,Firma_77,Kiraz Hasadı,Aydın,Efeler,Üniversite,9,26-52,Farketmez,Yok,Var,36444,0.0
+isci_0366,35,Üniversite,10,Kiraz Hasadı,Siirt,Pervari,42955,ilan_0366,Firma_47,Kayısı Hasadı,Kilis,Musabeyli,Üniversite,1,23-43,Farketmez,Var,Yok,57667,1.0
+isci_0367,47,Lise,1,"Kayısı Hasadı, Sera Bakımı, Çapa",Malatya,Doğanşehir,52681,ilan_0367,Firma_15,Limon Hasadı,Isparta,Yalvaç,Ortaokul,0,22-54,Farketmez,Yok,Var,25296,0.5
+isci_0368,59,Üniversite,19,"Kayısı Hasadı, Fidan Dikimi",Yozgat,Boğazlıyan,54264,ilan_0368,Firma_38,Ürün Hasadı,Tunceli,Nazımiye,Lise,7,26-40,Erkek,Var,Yok,30933,0.2
+isci_0369,24,Ortaokul,8,"Çapa, Limon Hasadı",Hatay,Antakya,30806,ilan_0369,Firma_48,Kiraz Hasadı,Kastamonu,Taşköprü,Lise,4,28-60,Erkek,Yok,Var,39401,0.5
+isci_0370,40,Lise,6,"Fidan Dikimi, Çay Hasadı",Yozgat,Boğazlıyan,41856,ilan_0370,Firma_100,Fidan Dikimi,Mersin,Yenişehir,Üniversite,5,30-41,Farketmez,Var,Yok,53489,0.8
+isci_0371,39,Ortaokul,1,Ürün Hasadı,Kilis,Musabeyli,47463,ilan_0371,Firma_67,Elma Toplama,Kırklareli,Lüleburgaz,Lise,1,28-53,Erkek,Var,Var,33624,0.5
+isci_0372,50,Ortaokul,17,"Elma Toplama, Pamuk Toplama",Amasya,Suluova,58381,ilan_0372,Firma_57,Toprak İşleme,Karabük,Eskipazar,Üniversite,9,27-51,Erkek,Yok,Yok,17882,0.5
+isci_0373,35,Ortaokul,13,Pamuk Toplama,Bartın,Merkez,52739,ilan_0373,Firma_11,Limon Hasadı,Uşak,Merkez,Ortaokul,3,30-47,Bayan,Var,Var,53256,1.0
+isci_0374,25,Üniversite,20,Sera Bakımı,Tokat,Erbaa,51631,ilan_0374,Firma_41,Kiraz Hasadı,Van,İpekyolu,Lise,3,21-54,Bayan,Var,Yok,29509,0.5
+isci_0375,54,İlkokul,3,"Çapa, Elma Toplama, Ceviz Hasadı",Eskişehir,Sivrihisar,38786,ilan_0375,Firma_63,Fidan Dikimi,Gümüşhane,Kelkit,Lise,0,29-46,Farketmez,Var,Var,21489,0.2
+isci_0376,22,İlkokul,14,"Fidan Dikimi, Ürün Hasadı",Batman,Beşiri,51722,ilan_0376,Firma_42,Sera Bakımı,İzmir,Karşıyaka,Ortaokul,2,27-42,Erkek,Var,Var,49508,0.2
+isci_0377,24,Üniversite,2,"Çapa, Elma Toplama, Toprak İşleme",Artvin,Hopa,43758,ilan_0377,Firma_35,Toprak İşleme,Mardin,Artuklu,Ortaokul,0,25-42,Farketmez,Yok,Yok,53300,0.5
+isci_0378,55,Ortaokul,11,Kayısı Hasadı,Muş,Malazgirt,29988,ilan_0378,Firma_43,Elma Toplama,Muğla,Bodrum,Üniversite,0,22-55,Bayan,Var,Var,56737,0.8
+isci_0379,31,İlkokul,20,"Pamuk Toplama, Toprak İşleme",Mersin,Toroslar,18490,ilan_0379,Firma_32,Çapa,Nevşehir,Ürgüp,Ortaokul,0,25-45,Erkek,Yok,Yok,40289,0.8
+isci_0380,46,Üniversite,3,"Ürün Hasadı, Kayısı Hasadı, Fidan Dikimi",Aydın,Nazilli,58683,ilan_0380,Firma_13,Pamuk Toplama,Çorum,Merkez,Ortaokul,9,28-60,Bayan,Yok,Yok,17338,0.3
+isci_0381,33,Üniversite,3,"Çapa, Elma Toplama, Ceviz Hasadı",Elazığ,Sivrice,43670,ilan_0381,Firma_86,Ürün Hasadı,Kocaeli,Gebze,İlkokul,7,25-51,Farketmez,Var,Var,33851,0.3
+isci_0382,26,Lise,15,"Sera Bakımı, Ürün Hasadı",Samsun,Bafra,39549,ilan_0382,Firma_84,Kiraz Hasadı,Manisa,Yunusemre,Üniversite,9,18-40,Bayan,Var,Var,56277,0.8
+isci_0383,38,İlkokul,14,"Pamuk Toplama, Limon Hasadı",Edirne,Merkez,48509,ilan_0383,Firma_61,Sera Bakımı,Kilis,Merkez,Üniversite,0,30-43,Erkek,Yok,Yok,38506,0.5
+isci_0384,22,Üniversite,20,Çay Hasadı,Bilecik,Söğüt,26917,ilan_0384,Firma_6,Pamuk Toplama,Erzincan,Kemaliye,İlkokul,0,30-52,Farketmez,Yok,Yok,29822,0.5
+isci_0385,43,Üniversite,14,"Sera Bakımı, Çapa",Kahramanmaraş,Dulkadiroğlu,18845,ilan_0385,Firma_66,Kiraz Hasadı,Iğdır,Aralık,Ortaokul,6,26-44,Bayan,Var,Yok,24209,0.8
+isci_0386,45,Lise,13,"Pamuk Toplama, Kiraz Hasadı, Ürün Hasadı",Erzurum,Yakutiye,17262,ilan_0386,Firma_41,Limon Hasadı,Zonguldak,Kozlu,İlkokul,6,24-42,Erkek,Yok,Var,37707,0.5
+isci_0387,28,İlkokul,1,"Fidan Dikimi, Kayısı Hasadı, Kiraz Hasadı",Edirne,Merkez,49193,ilan_0387,Firma_86,Sera Bakımı,Kırıkkale,Keskin,Lise,7,27-41,Erkek,Var,Var,32037,0.3
+isci_0388,40,Ortaokul,19,"Çay Hasadı, Ceviz Hasadı",Düzce,Merkez,23243,ilan_0388,Firma_71,Kayısı Hasadı,Uşak,Banaz,Lise,9,22-54,Erkek,Var,Var,55878,0.8
+isci_0389,56,Ortaokul,8,"Ceviz Hasadı, Limon Hasadı",Aksaray,Eskil,25146,ilan_0389,Firma_20,Ürün Hasadı,İstanbul,Kadıköy,Ortaokul,8,21-54,Farketmez,Yok,Var,48464,0.7
+isci_0390,34,Üniversite,17,"Ürün Hasadı, Çay Hasadı",Denizli,Pamukkale,52509,ilan_0390,Firma_76,Limon Hasadı,Adana,Çukurova,Ortaokul,0,24-46,Farketmez,Yok,Var,58503,0.8
+isci_0391,55,Ortaokul,15,Toprak İşleme,Malatya,Yeşilyurt,19288,ilan_0391,Firma_8,Kiraz Hasadı,Şanlıurfa,Siverek,Ortaokul,8,28-48,Farketmez,Yok,Var,19512,0.7
+isci_0392,39,Lise,9,"Toprak İşleme, Pamuk Toplama, Elma Toplama",Çanakkale,Ezine,54046,ilan_0392,Firma_36,Kiraz Hasadı,Amasya,Merkez,Lise,7,23-58,Farketmez,Var,Var,48502,0.7
+isci_0393,23,İlkokul,20,"Fidan Dikimi, Limon Hasadı",Ordu,Altınordu,57425,ilan_0393,Firma_97,Limon Hasadı,Antalya,Muratpaşa,Ortaokul,4,20-56,Bayan,Yok,Var,50806,0.5
+isci_0394,47,Lise,6,Toprak İşleme,Aydın,Nazilli,33330,ilan_0394,Firma_79,Çapa,Uşak,Merkez,İlkokul,5,25-49,Farketmez,Yok,Var,55439,0.8
+isci_0395,53,Üniversite,2,"Limon Hasadı, Toprak İşleme, Ceviz Hasadı",Bursa,Yıldırım,29705,ilan_0395,Firma_79,Kayısı Hasadı,Bolu,Gerede,İlkokul,5,25-60,Erkek,Var,Var,42766,0.6
+isci_0396,21,Üniversite,10,"Toprak İşleme, Elma Toplama",Düzce,Cumayeri,41809,ilan_0396,Firma_10,Toprak İşleme,Tunceli,Pülümür,Ortaokul,7,21-42,Farketmez,Yok,Var,18861,0.5
+isci_0397,33,Üniversite,12,"Toprak İşleme, Çay Hasadı",Kayseri,Talas,18097,ilan_0397,Firma_85,Kayısı Hasadı,Çanakkale,Biga,Ortaokul,7,24-47,Erkek,Yok,Yok,27506,0.8
+isci_0398,56,Lise,4,"Ürün Hasadı, Kayısı Hasadı, Çay Hasadı",Samsun,İlkadım,45796,ilan_0398,Firma_21,Elma Toplama,Kırklareli,Lüleburgaz,Üniversite,6,30-44,Farketmez,Var,Var,25206,0.0
+isci_0399,36,Lise,7,"Çay Hasadı, Fidan Dikimi",İzmir,Konak,41014,ilan_0399,Firma_72,Ceviz Hasadı,Tokat,Erbaa,Üniversite,7,26-52,Bayan,Var,Yok,30821,0.5
+isci_0400,48,Üniversite,16,"Ürün Hasadı, Fidan Dikimi",Kahramanmaraş,Elbistan,48657,ilan_0400,Firma_31,Toprak İşleme,Şırnak,Merkez,Ortaokul,10,28-55,Farketmez,Var,Yok,17421,0.5
+isci_0401,22,İlkokul,6,Kayısı Hasadı,Kilis,Merkez,25979,ilan_0401,Firma_23,Kiraz Hasadı,Sivas,Zara,Lise,8,24-57,Erkek,Yok,Var,51906,0.3
+isci_0402,18,Lise,13,"Çapa, Kiraz Hasadı",Mersin,Yenişehir,44498,ilan_0402,Firma_9,Çay Hasadı,Adana,Yüreğir,İlkokul,5,21-58,Erkek,Yok,Yok,36021,0.2
+isci_0403,60,Ortaokul,0,"Elma Toplama, Ceviz Hasadı, Toprak İşleme",Karabük,Safranbolu,46072,ilan_0403,Firma_12,Ceviz Hasadı,Afyonkarahisar,Sandıklı,Ortaokul,5,20-54,Farketmez,Yok,Var,19978,0.2
+isci_0404,57,Üniversite,17,Toprak İşleme,Erzincan,Merkez,51041,ilan_0404,Firma_97,Elma Toplama,Mersin,Toroslar,Üniversite,1,20-51,Erkek,Yok,Var,35566,0.4
+isci_0405,27,Üniversite,3,"Limon Hasadı, Pamuk Toplama, Çapa",Kilis,Merkez,50182,ilan_0405,Firma_94,Sera Bakımı,Amasya,Merzifon,İlkokul,2,21-51,Farketmez,Var,Yok,21247,0.5
+isci_0406,55,Ortaokul,15,Ürün Hasadı,Artvin,Hopa,29871,ilan_0406,Firma_73,Elma Toplama,Tunceli,Pülümür,İlkokul,10,26-45,Erkek,Var,Yok,27055,0.2
+isci_0407,42,Lise,15,"Kiraz Hasadı, Elma Toplama",Aydın,Söke,54186,ilan_0407,Firma_80,Pamuk Toplama,Erzurum,Yakutiye,Üniversite,6,27-52,Bayan,Var,Var,51802,0.5
+isci_0408,59,İlkokul,17,Çay Hasadı,Kütahya,Tavşanlı,26883,ilan_0408,Firma_13,Kiraz Hasadı,İstanbul,Kadıköy,Üniversite,7,19-55,Erkek,Var,Var,37673,0.5
+isci_0409,27,Üniversite,9,"Elma Toplama, Toprak İşleme",Tunceli,Pülümür,42209,ilan_0409,Firma_13,Ceviz Hasadı,Isparta,Yalvaç,İlkokul,2,27-40,Bayan,Var,Var,32864,0.5
+isci_0410,26,Üniversite,7,Ceviz Hasadı,Sinop,Merkez,40923,ilan_0410,Firma_22,Fidan Dikimi,Artvin,Arhavi,Lise,1,24-47,Erkek,Yok,Yok,26363,0.5
+isci_0411,40,Ortaokul,12,"Fidan Dikimi, Ceviz Hasadı",Giresun,Espiye,39664,ilan_0411,Firma_41,Limon Hasadı,Van,Erciş,Üniversite,9,25-55,Bayan,Yok,Yok,45037,0.8
+isci_0412,58,İlkokul,8,"Kiraz Hasadı, Sera Bakımı",Bilecik,Söğüt,49475,ilan_0412,Firma_91,Fidan Dikimi,Kayseri,Kocasinan,Ortaokul,2,23-42,Bayan,Var,Yok,29066,0.2
+isci_0413,29,Lise,11,"Çay Hasadı, Fidan Dikimi, Kayısı Hasadı",Kahramanmaraş,Elbistan,45326,ilan_0413,Firma_26,Kayısı Hasadı,Diyarbakır,Kayapınar,Üniversite,8,24-50,Erkek,Var,Yok,23411,0.5
+isci_0414,33,İlkokul,12,"Kiraz Hasadı, Limon Hasadı",Bolu,Mengen,35133,ilan_0414,Firma_37,Kiraz Hasadı,Yalova,Çınarcık,Lise,5,29-59,Bayan,Var,Var,23824,0.5
+isci_0415,45,Üniversite,5,Kiraz Hasadı,İstanbul,Üsküdar,18672,ilan_0415,Firma_84,Fidan Dikimi,Malatya,Doğanşehir,Lise,6,25-58,Farketmez,Var,Var,26869,0.6
+isci_0416,39,İlkokul,9,Limon Hasadı,Ordu,Altınordu,42777,ilan_0416,Firma_97,Limon Hasadı,Bursa,Yıldırım,Üniversite,2,29-53,Bayan,Var,Yok,30461,0.5
+isci_0417,50,Lise,14,"Pamuk Toplama, Ürün Hasadı, Çay Hasadı",Bilecik,Merkez,46894,ilan_0417,Firma_92,Limon Hasadı,Zonguldak,Kozlu,İlkokul,8,21-48,Erkek,Yok,Var,52868,0.5
+isci_0418,39,İlkokul,17,"Pamuk Toplama, Toprak İşleme, Ürün Hasadı",Samsun,Bafra,26362,ilan_0418,Firma_41,Elma Toplama,Hakkari,Şemdinli,Üniversite,1,19-42,Bayan,Yok,Yok,49265,0.8
+isci_0419,59,Ortaokul,3,"Elma Toplama, Toprak İşleme",Bilecik,Bozüyük,51514,ilan_0419,Firma_18,Çapa,Bartın,Amasra,Ortaokul,3,24-59,Farketmez,Var,Yok,35959,0.7
+isci_0420,28,Lise,14,"Ceviz Hasadı, Ürün Hasadı",Kırıkkale,Delice,52977,ilan_0420,Firma_80,Çapa,Samsun,Atakum,İlkokul,6,22-54,Farketmez,Yok,Yok,57566,0.8
+isci_0421,47,Üniversite,13,"Kayısı Hasadı, Pamuk Toplama, Elma Toplama",Giresun,Espiye,57569,ilan_0421,Firma_93,Toprak İşleme,Tokat,Erbaa,İlkokul,5,25-43,Bayan,Yok,Yok,39016,0.2
+isci_0422,52,Lise,4,"Çay Hasadı, Limon Hasadı, Toprak İşleme",Sakarya,Serdivan,41941,ilan_0422,Firma_4,Ceviz Hasadı,Bilecik,Merkez,Lise,7,19-49,Erkek,Yok,Yok,41416,0.2
+isci_0423,23,Ortaokul,8,Ürün Hasadı,Bursa,Nilüfer,28179,ilan_0423,Firma_68,Elma Toplama,Tunceli,Nazımiye,Ortaokul,6,18-42,Erkek,Yok,Var,29136,1.0
+isci_0424,58,Ortaokul,5,"Ceviz Hasadı, Limon Hasadı",Yalova,Altınova,21694,ilan_0424,Firma_62,Limon Hasadı,Osmaniye,Merkez,Ortaokul,5,26-60,Farketmez,Var,Yok,33106,1.0
+isci_0425,19,Ortaokul,3,"Kiraz Hasadı, Ürün Hasadı",Erzurum,Palandöken,51733,ilan_0425,Firma_44,Çay Hasadı,Ağrı,Merkez,Ortaokul,6,30-50,Bayan,Yok,Var,42748,0.2
+isci_0426,37,Ortaokul,9,"Çay Hasadı, Ceviz Hasadı",Bolu,Gerede,27264,ilan_0426,Firma_47,Çay Hasadı,Isparta,Eğirdir,Lise,9,28-48,Erkek,Yok,Yok,34605,0.8
+isci_0427,26,Lise,3,"Toprak İşleme, Kiraz Hasadı",Kahramanmaraş,Dulkadiroğlu,49828,ilan_0427,Firma_90,Pamuk Toplama,Trabzon,Ortahisar,Lise,3,19-45,Bayan,Var,Yok,32201,0.7
+isci_0428,50,Ortaokul,15,"Ürün Hasadı, Kiraz Hasadı",Batman,Beşiri,20397,ilan_0428,Firma_25,Kiraz Hasadı,Burdur,Merkez,Lise,2,29-52,Bayan,Var,Yok,44484,0.8
+isci_0429,19,Lise,8,"Kiraz Hasadı, Limon Hasadı",Bilecik,Söğüt,29958,ilan_0429,Firma_91,Ceviz Hasadı,Ordu,Altınordu,Ortaokul,8,26-55,Bayan,Yok,Var,51933,0.5
+isci_0430,25,Üniversite,9,"Limon Hasadı, Sera Bakımı",Rize,Çayeli,51278,ilan_0430,Firma_89,Çapa,Elazığ,Sivrice,İlkokul,2,25-58,Bayan,Var,Yok,46469,0.5
+isci_0431,35,İlkokul,13,"Elma Toplama, Sera Bakımı, Limon Hasadı",Erzurum,Aziziye,38995,ilan_0431,Firma_60,Sera Bakımı,Kahramanmaraş,Dulkadiroğlu,Lise,0,23-54,Erkek,Yok,Var,32283,0.5
+isci_0432,23,İlkokul,5,Limon Hasadı,Kastamonu,Taşköprü,43602,ilan_0432,Firma_68,Limon Hasadı,Artvin,Merkez,Ortaokul,3,24-52,Erkek,Yok,Yok,31698,0.2
+isci_0433,46,Üniversite,7,Kiraz Hasadı,Isparta,Yalvaç,31833,ilan_0433,Firma_67,Ürün Hasadı,Sivas,Merkez,İlkokul,7,27-50,Farketmez,Yok,Var,25534,0.5
+isci_0434,37,İlkokul,17,Toprak İşleme,Kırşehir,Çiçekdağı,23435,ilan_0434,Firma_88,Çay Hasadı,Bitlis,Tatvan,İlkokul,5,24-48,Bayan,Var,Yok,51157,1.0
+isci_0435,37,Lise,14,Ürün Hasadı,Şırnak,Silopi,38780,ilan_0435,Firma_13,Kayısı Hasadı,Bingöl,Karlıova,İlkokul,7,18-42,Bayan,Yok,Var,30874,0.5
+isci_0436,37,Lise,11,"Elma Toplama, Kayısı Hasadı",Erzurum,Yakutiye,35857,ilan_0436,Firma_44,Fidan Dikimi,Sinop,Boyabat,Ortaokul,7,23-40,Erkek,Yok,Var,54417,0.8
+isci_0437,51,Lise,9,"Fidan Dikimi, Limon Hasadı",Mersin,Mezitli,38265,ilan_0437,Firma_64,Limon Hasadı,Çankırı,Merkez,İlkokul,1,21-50,Erkek,Yok,Var,25916,0.2
+isci_0438,43,İlkokul,2,"Çay Hasadı, Ceviz Hasadı",Tunceli,Merkez,49900,ilan_0438,Firma_25,Limon Hasadı,Çanakkale,Ezine,İlkokul,0,25-50,Erkek,Yok,Yok,22292,0.7
+isci_0439,50,İlkokul,6,"Ürün Hasadı, Pamuk Toplama",Mardin,Artuklu,28593,ilan_0439,Firma_82,Toprak İşleme,Mersin,Yenişehir,Lise,7,21-47,Bayan,Yok,Var,19246,0.0
+isci_0440,37,Ortaokul,1,"Elma Toplama, Çapa",İstanbul,Kadıköy,30691,ilan_0440,Firma_11,Çapa,Trabzon,Akçaabat,Lise,2,26-50,Bayan,Yok,Var,43299,0.6
+isci_0441,22,Ortaokul,9,Çay Hasadı,Çanakkale,Merkez,20568,ilan_0441,Firma_25,Elma Toplama,Kırşehir,Merkez,Üniversite,9,27-50,Farketmez,Yok,Var,22732,0.5
+isci_0442,32,Ortaokul,19,Çay Hasadı,Sinop,Ayancık,27261,ilan_0442,Firma_21,Ceviz Hasadı,Batman,Merkez,Ortaokul,5,27-45,Bayan,Var,Yok,21678,0.7
+isci_0443,36,Üniversite,11,Toprak İşleme,Adıyaman,Kahta,47857,ilan_0443,Firma_55,Sera Bakımı,Karabük,Merkez,Ortaokul,9,27-45,Bayan,Var,Yok,41190,0.5
+isci_0444,34,Ortaokul,16,Kayısı Hasadı,Kırklareli,Lüleburgaz,46280,ilan_0444,Firma_67,Ürün Hasadı,Nevşehir,Ürgüp,İlkokul,1,26-53,Farketmez,Var,Yok,46473,0.8
+isci_0445,47,Ortaokul,17,"Fidan Dikimi, Sera Bakımı",Muğla,Menteşe,50431,ilan_0445,Firma_3,Çay Hasadı,Ordu,Fatsa,Üniversite,8,30-59,Farketmez,Var,Var,43406,0.5
+isci_0446,49,İlkokul,20,Pamuk Toplama,Karaman,Merkez,31506,ilan_0446,Firma_23,Çapa,Denizli,Merkezefendi,İlkokul,5,27-42,Bayan,Yok,Var,22177,0.4
+isci_0447,24,Ortaokul,2,"Kayısı Hasadı, Çay Hasadı, Çapa",Düzce,Merkez,22235,ilan_0447,Firma_44,Toprak İşleme,Niğde,Çiftlik,İlkokul,3,27-42,Farketmez,Yok,Var,28169,0.3
+isci_0448,29,Üniversite,7,Çapa,Diyarbakır,Kayapınar,23023,ilan_0448,Firma_83,Elma Toplama,Karaman,Merkez,Ortaokul,8,29-52,Farketmez,Yok,Yok,58842,0.6
+isci_0449,49,Üniversite,4,"Toprak İşleme, Limon Hasadı, Kayısı Hasadı",Tunceli,Pülümür,33234,ilan_0449,Firma_17,Kayısı Hasadı,Diyarbakır,Sur,Üniversite,9,28-54,Farketmez,Var,Var,54232,0.8
+isci_0450,28,İlkokul,20,Kayısı Hasadı,Sakarya,Adapazarı,47347,ilan_0450,Firma_6,Elma Toplama,Muğla,Fethiye,İlkokul,6,27-52,Erkek,Var,Yok,25820,0.7
+isci_0451,48,İlkokul,9,"Elma Toplama, Sera Bakımı",Balıkesir,Merkez,39626,ilan_0451,Firma_3,Toprak İşleme,Isparta,Eğirdir,İlkokul,9,22-40,Erkek,Var,Yok,56303,0.7
+isci_0452,37,Üniversite,18,"Pamuk Toplama, Ceviz Hasadı, Toprak İşleme",Afyonkarahisar,Bolvadin,23563,ilan_0452,Firma_84,Pamuk Toplama,Samsun,Atakum,Ortaokul,6,30-56,Farketmez,Yok,Var,29404,0.8
+isci_0453,40,Ortaokul,17,"Çapa, Fidan Dikimi",Elazığ,Keban,41018,ilan_0453,Firma_55,Limon Hasadı,Balıkesir,Bandırma,İlkokul,7,23-54,Bayan,Var,Yok,31604,0.5
+isci_0454,34,Lise,14,"Pamuk Toplama, Sera Bakımı",Osmaniye,Merkez,53390,ilan_0454,Firma_8,Limon Hasadı,Kocaeli,İzmit,Üniversite,9,30-56,Bayan,Var,Yok,32137,0.5
+isci_0455,21,Lise,14,Kiraz Hasadı,Erzurum,Aziziye,35124,ilan_0455,Firma_65,Ceviz Hasadı,Muş,Malazgirt,Ortaokul,5,28-49,Bayan,Var,Yok,41928,0.5
+isci_0456,31,Ortaokul,8,"Sera Bakımı, Kayısı Hasadı",Afyonkarahisar,Sandıklı,56876,ilan_0456,Firma_39,Limon Hasadı,Konya,Meram,Üniversite,1,20-59,Erkek,Var,Var,29847,0.5
+isci_0457,57,İlkokul,15,"Ürün Hasadı, Kiraz Hasadı",Çorum,Merkez,40076,ilan_0457,Firma_41,Sera Bakımı,Malatya,Yeşilyurt,Ortaokul,4,22-59,Erkek,Var,Yok,33408,0.5
+isci_0458,47,Üniversite,2,Kiraz Hasadı,Osmaniye,Merkez,52325,ilan_0458,Firma_80,Sera Bakımı,Kocaeli,İzmit,İlkokul,7,25-54,Erkek,Var,Var,51081,0.3
+isci_0459,54,Lise,5,"Ceviz Hasadı, Toprak İşleme, Kayısı Hasadı",Sakarya,Serdivan,37055,ilan_0459,Firma_56,Kayısı Hasadı,Kütahya,Tavşanlı,Üniversite,2,29-42,Bayan,Yok,Var,52269,0.5
+isci_0460,52,Ortaokul,14,Kiraz Hasadı,Manisa,Yunusemre,30704,ilan_0460,Firma_54,Limon Hasadı,Giresun,Espiye,İlkokul,5,21-44,Erkek,Var,Yok,20117,0.2
+isci_0461,37,Ortaokul,4,"Ürün Hasadı, Çapa",Malatya,Doğanşehir,25706,ilan_0461,Firma_45,Limon Hasadı,Batman,Beşiri,Ortaokul,7,20-58,Farketmez,Var,Var,19159,0.5
+isci_0462,38,Ortaokul,20,Kayısı Hasadı,Şanlıurfa,Haliliye,34706,ilan_0462,Firma_68,Limon Hasadı,Uşak,Banaz,İlkokul,2,21-58,Bayan,Yok,Yok,57872,0.8
+isci_0463,28,Lise,9,Ceviz Hasadı,İzmir,Bornova,26831,ilan_0463,Firma_14,Kayısı Hasadı,Bartın,Amasra,İlkokul,1,22-52,Farketmez,Yok,Var,22490,0.5
+isci_0464,33,Üniversite,8,"Toprak İşleme, Ceviz Hasadı, Sera Bakımı",Van,İpekyolu,31331,ilan_0464,Firma_58,Çapa,Kastamonu,Taşköprü,İlkokul,0,28-41,Erkek,Var,Var,46778,0.8
+isci_0465,58,Üniversite,7,"Çay Hasadı, Ceviz Hasadı, Pamuk Toplama",Şırnak,Cizre,33483,ilan_0465,Firma_88,Elma Toplama,Ankara,Çankaya,İlkokul,3,27-45,Bayan,Var,Yok,26059,0.2
+isci_0466,36,Lise,10,"Ürün Hasadı, Ceviz Hasadı",Aksaray,Eskil,58950,ilan_0466,Firma_11,Çay Hasadı,Yalova,Altınova,İlkokul,5,21-51,Bayan,Var,Var,32952,0.5
+isci_0467,58,Üniversite,20,"Çapa, Kayısı Hasadı, Ceviz Hasadı",Artvin,Arhavi,59730,ilan_0467,Firma_8,Fidan Dikimi,Kırklareli,Lüleburgaz,İlkokul,6,29-45,Farketmez,Var,Yok,37151,0.2
+isci_0468,57,İlkokul,5,"Ceviz Hasadı, Kiraz Hasadı, Fidan Dikimi",Bilecik,Bozüyük,57955,ilan_0468,Firma_38,Fidan Dikimi,Hakkari,Merkez,Ortaokul,5,28-59,Farketmez,Var,Var,59483,0.8
+isci_0469,21,Üniversite,18,Kiraz Hasadı,Diyarbakır,Kayapınar,49041,ilan_0469,Firma_2,Kiraz Hasadı,Samsun,Bafra,Ortaokul,10,24-53,Erkek,Yok,Yok,29865,0.2
+isci_0470,37,Üniversite,17,Toprak İşleme,Nevşehir,Ürgüp,40784,ilan_0470,Firma_80,Limon Hasadı,Ankara,Çankaya,Üniversite,10,28-40,Erkek,Var,Var,40495,0.7
+isci_0471,41,Üniversite,13,"Ceviz Hasadı, Kiraz Hasadı, Ürün Hasadı",Düzce,Cumayeri,59405,ilan_0471,Firma_70,Fidan Dikimi,Artvin,Hopa,Lise,3,19-55,Bayan,Yok,Yok,45166,0.5
+isci_0472,33,Lise,7,"Çapa, Çay Hasadı",Aksaray,Merkez,19144,ilan_0472,Firma_36,Kayısı Hasadı,Bilecik,Söğüt,Ortaokul,4,20-47,Bayan,Yok,Yok,22898,0.8
+isci_0473,31,Üniversite,10,"Toprak İşleme, Çapa, Limon Hasadı",Malatya,Yeşilyurt,48825,ilan_0473,Firma_70,Fidan Dikimi,Erzurum,Yakutiye,İlkokul,1,21-45,Bayan,Yok,Var,20493,0.5
+isci_0474,24,Üniversite,11,"Ceviz Hasadı, Toprak İşleme",Gaziantep,Şehitkamil,44314,ilan_0474,Firma_3,Fidan Dikimi,Kocaeli,Darıca,Ortaokul,10,25-60,Erkek,Yok,Yok,36397,0.2
+isci_0475,41,Ortaokul,17,"Sera Bakımı, Çapa, Kiraz Hasadı",Kocaeli,İzmit,36770,ilan_0475,Firma_99,Çapa,Bitlis,Tatvan,İlkokul,7,20-58,Farketmez,Yok,Yok,32400,0.5
+isci_0476,55,Üniversite,19,"Pamuk Toplama, Kiraz Hasadı, Toprak İşleme",Kırşehir,Kaman,19747,ilan_0476,Firma_53,Elma Toplama,Karaman,Merkez,Lise,6,21-42,Farketmez,Var,Var,49238,0.5
+isci_0477,47,Üniversite,9,Kayısı Hasadı,Denizli,Merkezefendi,46419,ilan_0477,Firma_77,Ürün Hasadı,Ağrı,Doğubayazıt,İlkokul,2,27-58,Bayan,Yok,Var,26993,0.5
+isci_0478,52,Ortaokul,10,"Kayısı Hasadı, Çay Hasadı, Pamuk Toplama",Karabük,Safranbolu,46296,ilan_0478,Firma_56,Elma Toplama,Elazığ,Keban,Üniversite,1,27-51,Erkek,Yok,Yok,43796,0.2
+isci_0479,48,Lise,16,Kiraz Hasadı,Kayseri,Melikgazi,44604,ilan_0479,Firma_9,Pamuk Toplama,Antalya,Kepez,Lise,3,26-56,Erkek,Var,Yok,20898,0.7
+isci_0480,57,Lise,3,Pamuk Toplama,Kayseri,Kocasinan,35222,ilan_0480,Firma_38,Kiraz Hasadı,Eskişehir,Tepebaşı,İlkokul,10,25-52,Bayan,Var,Var,18932,0.0
+isci_0481,19,Lise,2,"Ürün Hasadı, Çay Hasadı, Ceviz Hasadı",Isparta,Eğirdir,18038,ilan_0481,Firma_91,Toprak İşleme,Artvin,Merkez,İlkokul,3,18-58,Bayan,Var,Var,35240,0.6
+isci_0482,54,İlkokul,5,"Elma Toplama, Kiraz Hasadı, Çay Hasadı",Edirne,Uzunköprü,35169,ilan_0482,Firma_37,Kayısı Hasadı,Afyonkarahisar,Bolvadin,Lise,6,30-54,Farketmez,Var,Var,59629,0.6
+isci_0483,19,Ortaokul,2,"Pamuk Toplama, Kiraz Hasadı",Ardahan,Merkez,49359,ilan_0483,Firma_15,Çay Hasadı,Adana,Çukurova,Ortaokul,7,19-58,Farketmez,Yok,Yok,57597,0.8
+isci_0484,46,Ortaokul,3,"Toprak İşleme, Limon Hasadı",Tunceli,Merkez,52654,ilan_0484,Firma_26,Çay Hasadı,Sinop,Boyabat,Lise,3,28-47,Erkek,Var,Yok,20542,0.5
+isci_0485,45,İlkokul,1,"Sera Bakımı, Elma Toplama, Kiraz Hasadı",Niğde,Bor,33546,ilan_0485,Firma_60,Sera Bakımı,Aydın,Efeler,Ortaokul,8,21-40,Bayan,Yok,Var,26352,0.0
+isci_0486,22,Lise,17,"Limon Hasadı, Ürün Hasadı",Düzce,Cumayeri,38065,ilan_0486,Firma_68,Pamuk Toplama,Balıkesir,Merkez,İlkokul,7,24-57,Bayan,Var,Yok,40538,0.5
+isci_0487,33,İlkokul,8,"Ceviz Hasadı, Pamuk Toplama, Toprak İşleme",Amasya,Suluova,23257,ilan_0487,Firma_46,Çapa,Kahramanmaraş,Onikişubat,İlkokul,7,22-45,Erkek,Yok,Yok,46692,1.0
+isci_0488,39,Üniversite,6,"Limon Hasadı, Kayısı Hasadı",Kayseri,Kocasinan,43322,ilan_0488,Firma_41,Kayısı Hasadı,Konya,Meram,Üniversite,3,25-48,Erkek,Yok,Var,58399,1.0
+isci_0489,44,Üniversite,5,Elma Toplama,Gümüşhane,Şiran,37234,ilan_0489,Firma_35,Sera Bakımı,Iğdır,Tuzluca,İlkokul,0,20-40,Erkek,Var,Yok,19659,0.2
+isci_0490,20,Üniversite,10,"Kiraz Hasadı, Sera Bakımı, Ceviz Hasadı",Sakarya,Adapazarı,28780,ilan_0490,Firma_96,Kayısı Hasadı,Ankara,Çankaya,Üniversite,1,24-48,Bayan,Yok,Var,42286,0.7
+isci_0491,55,Ortaokul,11,"Elma Toplama, Çapa, Ceviz Hasadı",Antalya,Kepez,46264,ilan_0491,Firma_11,Elma Toplama,Van,Edremit,İlkokul,9,22-52,Erkek,Var,Yok,40491,0.2
+isci_0492,44,İlkokul,11,Kayısı Hasadı,Uşak,Eşme,55166,ilan_0492,Firma_34,Ürün Hasadı,Kahramanmaraş,Onikişubat,Üniversite,2,28-50,Farketmez,Var,Var,39208,0.5
+isci_0493,53,Üniversite,3,Fidan Dikimi,Bursa,Nilüfer,47237,ilan_0493,Firma_35,Toprak İşleme,Muğla,Fethiye,İlkokul,7,26-59,Bayan,Yok,Var,35610,0.3
+isci_0494,48,Lise,15,Kiraz Hasadı,Sakarya,Erenler,30472,ilan_0494,Firma_80,Fidan Dikimi,Afyonkarahisar,Sandıklı,Lise,10,20-43,Farketmez,Var,Yok,54570,0.7
+isci_0495,39,İlkokul,13,"Elma Toplama, Limon Hasadı, Fidan Dikimi",Artvin,Hopa,43698,ilan_0495,Firma_51,Ceviz Hasadı,Kilis,Merkez,İlkokul,7,29-54,Farketmez,Var,Var,24362,0.7
+isci_0496,45,Ortaokul,8,"Kiraz Hasadı, Pamuk Toplama",Siirt,Kurtalan,43825,ilan_0496,Firma_51,Çapa,Ordu,Altınordu,Ortaokul,8,27-55,Bayan,Yok,Yok,39355,0.7
+isci_0497,23,Lise,18,"Çay Hasadı, Ürün Hasadı, Ceviz Hasadı",Bayburt,Demirözü,42993,ilan_0497,Firma_24,Ceviz Hasadı,Afyonkarahisar,Sandıklı,Üniversite,2,28-60,Farketmez,Var,Var,32596,0.2
+isci_0498,43,Ortaokul,5,Ürün Hasadı,Sivas,Zara,34607,ilan_0498,Firma_58,Toprak İşleme,Kırşehir,Çiçekdağı,Lise,7,21-48,Farketmez,Var,Var,52072,0.6
+isci_0499,60,İlkokul,2,"Kayısı Hasadı, Fidan Dikimi",Bilecik,Söğüt,49365,ilan_0499,Firma_72,Kiraz Hasadı,Muş,Merkez,İlkokul,2,28-53,Erkek,Var,Var,20070,0.4
+isci_0500,45,İlkokul,15,"Pamuk Toplama, Toprak İşleme",Kırıkkale,Keskin,36183,ilan_0500,Firma_81,Pamuk Toplama,Şanlıurfa,Siverek,Üniversite,0,30-41,Bayan,Var,Var,50829,0.5
+isci_0501,49,İlkokul,8,"Kayısı Hasadı, Elma Toplama, Kiraz Hasadı",Erzincan,Merkez,24635,ilan_0501,Firma_29,Pamuk Toplama,Mardin,Kızıltepe,Üniversite,10,18-43,Farketmez,Var,Var,49701,0.3
+isci_0502,29,İlkokul,0,"Çay Hasadı, Elma Toplama, Çapa",Çorum,Sungurlu,50996,ilan_0502,Firma_44,Çay Hasadı,Bursa,Yıldırım,Ortaokul,2,26-50,Bayan,Var,Var,59393,0.6
+isci_0503,44,İlkokul,8,"Çay Hasadı, Toprak İşleme",Bitlis,Merkez,58686,ilan_0503,Firma_61,Elma Toplama,Bitlis,Tatvan,Ortaokul,6,29-48,Bayan,Var,Var,33165,0.5
+isci_0504,33,Ortaokul,9,Elma Toplama,Tekirdağ,Süleymanpaşa,49295,ilan_0504,Firma_39,Toprak İşleme,Çorum,Merkez,İlkokul,5,29-55,Erkek,Yok,Yok,38601,0.5
+isci_0505,19,Üniversite,6,Fidan Dikimi,Adana,Seyhan,48762,ilan_0505,Firma_75,Kayısı Hasadı,Kastamonu,Tosya,Üniversite,4,24-40,Erkek,Var,Var,31364,0.4
+isci_0506,50,İlkokul,5,"Kiraz Hasadı, Limon Hasadı, Çapa",Karaman,Merkez,46834,ilan_0506,Firma_68,Pamuk Toplama,Van,Erciş,Ortaokul,2,19-56,Bayan,Yok,Var,18974,0.5
+isci_0507,44,Ortaokul,8,"Elma Toplama, Fidan Dikimi",Kırklareli,Lüleburgaz,53065,ilan_0507,Firma_14,Fidan Dikimi,Tunceli,Pülümür,İlkokul,0,19-44,Bayan,Var,Yok,37265,0.5
+isci_0508,39,Üniversite,4,Kiraz Hasadı,Kırklareli,Merkez,35281,ilan_0508,Firma_100,Toprak İşleme,Kırklareli,Lüleburgaz,İlkokul,8,29-59,Erkek,Var,Yok,35670,0.6
+isci_0509,41,Lise,17,Kayısı Hasadı,Van,İpekyolu,55998,ilan_0509,Firma_17,Elma Toplama,Afyonkarahisar,Sandıklı,Lise,7,24-48,Farketmez,Yok,Var,22512,0.7
+isci_0510,35,İlkokul,19,"Ceviz Hasadı, Toprak İşleme",Çankırı,Çerkeş,21617,ilan_0510,Firma_84,Elma Toplama,Muş,Varto,Üniversite,7,27-43,Erkek,Var,Var,31234,0.8
+isci_0511,27,İlkokul,7,"Sera Bakımı, Pamuk Toplama",Adana,Çukurova,56866,ilan_0511,Firma_71,Sera Bakımı,Karaman,Merkez,İlkokul,5,19-50,Erkek,Var,Yok,27066,0.7
+isci_0512,53,İlkokul,0,"Elma Toplama, Fidan Dikimi",Afyonkarahisar,Sandıklı,51784,ilan_0512,Firma_57,Kayısı Hasadı,Kilis,Elbeyli,Ortaokul,0,25-47,Farketmez,Yok,Var,57437,0.5
+isci_0513,33,Lise,1,Elma Toplama,Karabük,Safranbolu,53995,ilan_0513,Firma_70,Limon Hasadı,Yozgat,Sorgun,Ortaokul,9,20-41,Bayan,Yok,Var,51847,0.3
+isci_0514,48,Üniversite,11,Limon Hasadı,Gaziantep,Nizip,51026,ilan_0514,Firma_17,Kayısı Hasadı,Mardin,Kızıltepe,Ortaokul,6,25-40,Erkek,Var,Yok,24231,0.2
+isci_0515,19,Lise,13,"Kiraz Hasadı, Ürün Hasadı, Toprak İşleme",Karaman,Ermenek,41763,ilan_0515,Firma_41,Ürün Hasadı,Düzce,Akçakoca,Üniversite,7,20-47,Farketmez,Yok,Yok,34729,0.2
+isci_0516,46,Üniversite,17,"Limon Hasadı, Ürün Hasadı",Muş,Varto,46413,ilan_0516,Firma_56,Ceviz Hasadı,Yalova,Merkez,Lise,4,28-53,Farketmez,Yok,Yok,51533,0.8
+isci_0517,44,Lise,18,"Ceviz Hasadı, Toprak İşleme",Kırklareli,Merkez,39238,ilan_0517,Firma_25,Ürün Hasadı,Antalya,Muratpaşa,Lise,4,30-58,Bayan,Var,Yok,21644,0.7
+isci_0518,26,Lise,0,Ürün Hasadı,Amasya,Merkez,17810,ilan_0518,Firma_95,Ceviz Hasadı,Yozgat,Sorgun,Lise,10,30-57,Bayan,Yok,Var,36765,0.5
+isci_0519,24,Ortaokul,19,"Limon Hasadı, Fidan Dikimi",Çankırı,Ilgaz,29578,ilan_0519,Firma_2,Fidan Dikimi,Kayseri,Talas,Lise,9,30-40,Farketmez,Var,Yok,24218,0.2
+isci_0520,22,Lise,15,"Kayısı Hasadı, Çay Hasadı",Kırklareli,Merkez,26690,ilan_0520,Firma_31,Kayısı Hasadı,Bitlis,Tatvan,Ortaokul,2,25-49,Bayan,Yok,Yok,40063,0.5
+isci_0521,43,İlkokul,4,"Elma Toplama, Çay Hasadı",Elazığ,Keban,41233,ilan_0521,Firma_93,Pamuk Toplama,Ağrı,Doğubayazıt,Üniversite,4,23-45,Bayan,Var,Var,44900,0.8
+isci_0522,20,Üniversite,15,"Sera Bakımı, Çay Hasadı, Elma Toplama",Karabük,Safranbolu,46303,ilan_0522,Firma_56,Toprak İşleme,Kilis,Musabeyli,Ortaokul,6,20-41,Farketmez,Var,Var,50013,0.8
+isci_0523,22,Lise,2,"Sera Bakımı, Çapa",Çorum,Alaca,28457,ilan_0523,Firma_80,Limon Hasadı,Iğdır,Tuzluca,Lise,1,20-52,Erkek,Var,Var,33135,1.0
+isci_0524,57,Lise,19,"Çay Hasadı, Toprak İşleme, Kayısı Hasadı",Ordu,Fatsa,49911,ilan_0524,Firma_31,Ürün Hasadı,Elazığ,Merkez,Ortaokul,7,30-43,Bayan,Var,Yok,30728,0.2
+isci_0525,46,İlkokul,20,"Toprak İşleme, Fidan Dikimi, Çapa",Edirne,Merkez,58750,ilan_0525,Firma_5,Çay Hasadı,Adıyaman,Besni,Lise,3,25-59,Farketmez,Var,Yok,38353,0.5
+isci_0526,51,Lise,7,"Limon Hasadı, Çapa, Toprak İşleme",Gaziantep,Nizip,22590,ilan_0526,Firma_33,Ceviz Hasadı,Kahramanmaraş,Onikişubat,Üniversite,3,30-46,Bayan,Yok,Var,52919,0.5
+isci_0527,49,Lise,20,"Kiraz Hasadı, Kayısı Hasadı",Şanlıurfa,Haliliye,18862,ilan_0527,Firma_39,Ceviz Hasadı,Denizli,Tavas,Ortaokul,0,21-41,Bayan,Yok,Var,26374,0.5
+isci_0528,36,Lise,10,"Kiraz Hasadı, Ceviz Hasadı, Toprak İşleme",Çorum,Alaca,41949,ilan_0528,Firma_78,Elma Toplama,Kırıkkale,Keskin,Ortaokul,0,27-59,Erkek,Yok,Var,34248,0.5
+isci_0529,35,Üniversite,15,"Sera Bakımı, Fidan Dikimi, Çapa",Bingöl,Merkez,58450,ilan_0529,Firma_59,Toprak İşleme,Kırklareli,Merkez,Üniversite,4,25-57,Bayan,Var,Yok,55099,0.7
+isci_0530,25,Üniversite,9,Sera Bakımı,Kütahya,Merkez,36941,ilan_0530,Firma_76,Kiraz Hasadı,Tunceli,Pülümür,Üniversite,0,22-57,Erkek,Yok,Var,56891,1.0
+isci_0531,20,Lise,11,"Kiraz Hasadı, Fidan Dikimi",Siirt,Kurtalan,20274,ilan_0531,Firma_6,Çapa,Adana,Yüreğir,Ortaokul,7,27-60,Farketmez,Yok,Yok,55822,0.5
+isci_0532,45,İlkokul,12,"Çapa, Sera Bakımı, Toprak İşleme",İzmir,Karşıyaka,27452,ilan_0532,Firma_61,Kayısı Hasadı,Antalya,Kepez,Üniversite,9,26-58,Bayan,Yok,Var,28403,0.8
+isci_0533,36,Lise,13,"Çay Hasadı, Sera Bakımı, Kayısı Hasadı",Bayburt,Demirözü,49926,ilan_0533,Firma_69,Ürün Hasadı,Trabzon,Ortahisar,Üniversite,6,19-57,Farketmez,Var,Yok,38263,0.5
+isci_0534,58,İlkokul,8,Pamuk Toplama,Erzurum,Yakutiye,59668,ilan_0534,Firma_7,Ceviz Hasadı,Isparta,Eğirdir,Lise,7,20-57,Erkek,Var,Yok,59023,0.2
+isci_0535,28,Lise,10,"Çay Hasadı, Ürün Hasadı, Ceviz Hasadı",Muş,Merkez,28360,ilan_0535,Firma_43,Pamuk Toplama,Kars,Sarıkamış,İlkokul,10,19-47,Farketmez,Yok,Var,24517,0.5
+isci_0536,58,İlkokul,1,"Limon Hasadı, Fidan Dikimi",Rize,Ardeşen,20951,ilan_0536,Firma_6,Elma Toplama,Eskişehir,Sivrihisar,Ortaokul,9,19-40,Bayan,Yok,Yok,31008,0.3
+isci_0537,34,Üniversite,10,"Ürün Hasadı, Çapa",Adana,Seyhan,53131,ilan_0537,Firma_73,Kayısı Hasadı,Artvin,Arhavi,İlkokul,8,26-50,Erkek,Var,Yok,44666,0.5
+isci_0538,52,Lise,10,Toprak İşleme,Kırıkkale,Delice,51520,ilan_0538,Firma_59,Ceviz Hasadı,Osmaniye,Düziçi,Lise,2,30-42,Erkek,Var,Var,21259,0.4
+isci_0539,37,Lise,2,"Ürün Hasadı, Kiraz Hasadı, Ceviz Hasadı",Van,İpekyolu,53709,ilan_0539,Firma_31,Kiraz Hasadı,Burdur,Gölhisar,İlkokul,3,26-57,Farketmez,Var,Yok,50379,0.3
+isci_0540,29,İlkokul,14,"Ceviz Hasadı, Sera Bakımı, Kayısı Hasadı",Ordu,Ünye,54428,ilan_0540,Firma_19,Çay Hasadı,Eskişehir,Sivrihisar,Ortaokul,1,23-60,Farketmez,Yok,Yok,37490,0.5
+isci_0541,33,Ortaokul,13,Kiraz Hasadı,Gümüşhane,Kelkit,26529,ilan_0541,Firma_6,Fidan Dikimi,Isparta,Eğirdir,İlkokul,3,30-53,Bayan,Var,Var,26304,0.5
+isci_0542,25,Üniversite,0,"Sera Bakımı, Pamuk Toplama, Çapa",Edirne,Merkez,48455,ilan_0542,Firma_53,Ceviz Hasadı,Eskişehir,Tepebaşı,Ortaokul,5,23-41,Erkek,Var,Yok,44226,0.3
+isci_0543,52,Üniversite,13,Kiraz Hasadı,Düzce,Akçakoca,52665,ilan_0543,Firma_24,Çapa,Iğdır,Aralık,Lise,6,22-60,Erkek,Var,Var,52643,0.5
+isci_0544,32,Lise,10,"Ceviz Hasadı, Çapa, Pamuk Toplama",Osmaniye,Düziçi,41601,ilan_0544,Firma_28,Elma Toplama,Sivas,Zara,Ortaokul,10,19-45,Erkek,Yok,Yok,28769,0.5
+isci_0545,57,Üniversite,0,Elma Toplama,Batman,Hasankeyf,19331,ilan_0545,Firma_81,Toprak İşleme,Osmaniye,Kadirli,Lise,10,29-49,Bayan,Var,Yok,25146,0.3
+isci_0546,47,İlkokul,11,"Kayısı Hasadı, Elma Toplama, Ceviz Hasadı",Kütahya,Simav,49139,ilan_0546,Firma_43,Ürün Hasadı,Ağrı,Doğubayazıt,Üniversite,8,20-58,Farketmez,Var,Var,46080,0.5
+isci_0547,46,Lise,14,Limon Hasadı,Mardin,Artuklu,33634,ilan_0547,Firma_99,Çay Hasadı,Çankırı,Çerkeş,Ortaokul,3,29-40,Bayan,Yok,Yok,47142,0.5
+isci_0548,27,İlkokul,9,"Pamuk Toplama, Limon Hasadı, Toprak İşleme",Muğla,Fethiye,43624,ilan_0548,Firma_49,Ceviz Hasadı,Eskişehir,Odunpazarı,İlkokul,8,26-52,Erkek,Yok,Yok,34106,0.7
+isci_0549,26,Lise,14,"Limon Hasadı, Elma Toplama",Mardin,Artuklu,55988,ilan_0549,Firma_48,Kiraz Hasadı,Giresun,Bulancak,İlkokul,4,30-52,Bayan,Var,Var,44972,0.2
+isci_0550,21,Üniversite,8,"Ürün Hasadı, Elma Toplama, Pamuk Toplama",Tekirdağ,Çorlu,33678,ilan_0550,Firma_96,Çapa,Şırnak,Silopi,İlkokul,9,29-46,Farketmez,Yok,Var,45838,0.3
+isci_0551,19,Üniversite,18,"Elma Toplama, Fidan Dikimi, Kiraz Hasadı",Tokat,Merkez,21252,ilan_0551,Firma_85,Pamuk Toplama,Mersin,Toroslar,İlkokul,7,24-48,Bayan,Yok,Yok,29623,0.5
+isci_0552,23,İlkokul,15,"Elma Toplama, Limon Hasadı, Kayısı Hasadı",Malatya,Doğanşehir,37911,ilan_0552,Firma_54,Kayısı Hasadı,İstanbul,Beşiktaş,İlkokul,2,30-45,Farketmez,Yok,Yok,47015,0.7
+isci_0553,42,Lise,15,"Sera Bakımı, Kiraz Hasadı, Ceviz Hasadı",Batman,Hasankeyf,28398,ilan_0553,Firma_66,Çapa,Aksaray,Ortaköy,Üniversite,4,25-41,Bayan,Var,Yok,55199,0.5
+isci_0554,39,Üniversite,16,Fidan Dikimi,Bitlis,Ahlat,48391,ilan_0554,Firma_28,Çay Hasadı,Zonguldak,Kozlu,Ortaokul,9,27-44,Erkek,Var,Yok,57506,0.8
+isci_0555,30,İlkokul,19,Toprak İşleme,Mardin,Midyat,47990,ilan_0555,Firma_75,Limon Hasadı,Afyonkarahisar,Merkez,Üniversite,1,30-51,Erkek,Var,Yok,49605,0.8
+isci_0556,30,İlkokul,5,"Kiraz Hasadı, Limon Hasadı",Mardin,Kızıltepe,48783,ilan_0556,Firma_81,Sera Bakımı,Ardahan,Göle,Üniversite,9,30-50,Bayan,Yok,Yok,39475,0.3
+isci_0557,23,Ortaokul,0,"Elma Toplama, Fidan Dikimi",Kahramanmaraş,Dulkadiroğlu,51110,ilan_0557,Firma_69,Kayısı Hasadı,Tokat,Erbaa,Ortaokul,9,27-51,Erkek,Yok,Var,28599,0.2
+isci_0558,33,Ortaokul,20,"Elma Toplama, Fidan Dikimi, Limon Hasadı",Aydın,Nazilli,17676,ilan_0558,Firma_24,Çay Hasadı,Elazığ,Keban,Üniversite,6,19-47,Erkek,Var,Yok,53725,0.8
+isci_0559,19,Üniversite,15,Pamuk Toplama,Hakkari,Yüksekova,26780,ilan_0559,Firma_73,Elma Toplama,Hakkari,Şemdinli,Lise,10,26-41,Farketmez,Yok,Var,40946,0.5
+isci_0560,36,Üniversite,2,Limon Hasadı,Aksaray,Ortaköy,40289,ilan_0560,Firma_73,Sera Bakımı,Kars,Sarıkamış,Üniversite,7,28-48,Erkek,Var,Var,24488,0.5
+isci_0561,22,Ortaokul,10,"Limon Hasadı, Çapa",Bitlis,Merkez,59124,ilan_0561,Firma_45,Toprak İşleme,Niğde,Çiftlik,Üniversite,7,22-55,Farketmez,Var,Var,46134,0.5
+isci_0562,59,İlkokul,12,"Limon Hasadı, Çapa",İzmir,Bornova,35587,ilan_0562,Firma_14,Pamuk Toplama,Sivas,Zara,Üniversite,9,29-48,Bayan,Yok,Yok,23566,0.2
+isci_0563,43,İlkokul,1,Sera Bakımı,Sinop,Merkez,24826,ilan_0563,Firma_10,Sera Bakımı,Sakarya,Erenler,Üniversite,3,19-57,Farketmez,Var,Yok,37509,0.6
+isci_0564,58,Ortaokul,0,"Fidan Dikimi, Ceviz Hasadı, Toprak İşleme",Adana,Yüreğir,24771,ilan_0564,Firma_32,Çapa,Diyarbakır,Kayapınar,Lise,2,18-52,Bayan,Yok,Var,40195,0.3
+isci_0565,58,Üniversite,4,"Limon Hasadı, Toprak İşleme, Ceviz Hasadı",Aksaray,Eskil,59735,ilan_0565,Firma_92,Pamuk Toplama,Malatya,Battalgazi,Üniversite,2,21-45,Bayan,Var,Yok,39530,0.4
+isci_0566,30,Ortaokul,10,"Limon Hasadı, Kiraz Hasadı, Sera Bakımı",Bartın,Merkez,43509,ilan_0566,Firma_27,Çay Hasadı,Gaziantep,Şahinbey,Ortaokul,1,22-40,Farketmez,Yok,Var,58261,1.0
+isci_0567,24,Ortaokul,4,"Çay Hasadı, Toprak İşleme, Limon Hasadı",Adıyaman,Besni,43356,ilan_0567,Firma_14,Pamuk Toplama,Afyonkarahisar,Merkez,Lise,1,29-49,Erkek,Var,Yok,54036,0.5
+isci_0568,39,Üniversite,2,"Çay Hasadı, Pamuk Toplama",Adıyaman,Besni,46803,ilan_0568,Firma_37,Çay Hasadı,Amasya,Merzifon,İlkokul,6,30-60,Farketmez,Yok,Var,45722,0.3
+isci_0569,40,Üniversite,9,"Kayısı Hasadı, Çay Hasadı",Ordu,Ünye,33644,ilan_0569,Firma_73,Ceviz Hasadı,Van,Erciş,Lise,8,23-58,Farketmez,Var,Var,55955,0.8
+isci_0570,24,Ortaokul,7,"Elma Toplama, Toprak İşleme, Fidan Dikimi",Diyarbakır,Bağlar,49638,ilan_0570,Firma_27,Pamuk Toplama,Kilis,Elbeyli,Üniversite,5,23-58,Bayan,Var,Var,52109,0.8
+isci_0571,29,Ortaokul,8,Ceviz Hasadı,Ardahan,Göle,37502,ilan_0571,Firma_17,Çay Hasadı,Bartın,Merkez,Ortaokul,6,29-60,Erkek,Var,Yok,58815,1.0
+isci_0572,30,Üniversite,3,"Pamuk Toplama, Kayısı Hasadı, Sera Bakımı",Kocaeli,Darıca,22934,ilan_0572,Firma_13,Elma Toplama,Düzce,Merkez,Lise,5,24-47,Farketmez,Var,Yok,22672,0.3
+isci_0573,54,Lise,4,"Kayısı Hasadı, Kiraz Hasadı",Afyonkarahisar,Sandıklı,51463,ilan_0573,Firma_9,Limon Hasadı,Karabük,Merkez,Lise,4,22-56,Farketmez,Var,Var,29554,0.7
+isci_0574,55,Ortaokul,12,"Kayısı Hasadı, Çapa, Elma Toplama",Hakkari,Merkez,46864,ilan_0574,Firma_6,Sera Bakımı,Şanlıurfa,Eyyübiye,Ortaokul,3,29-60,Farketmez,Var,Yok,45633,0.7
+isci_0575,60,Üniversite,14,"Çapa, Toprak İşleme",Siirt,Pervari,17128,ilan_0575,Firma_82,Kiraz Hasadı,Siirt,Merkez,İlkokul,10,25-46,Erkek,Var,Yok,49899,0.5
+isci_0576,51,İlkokul,18,"Toprak İşleme, Pamuk Toplama, Çapa",Edirne,Keşan,45878,ilan_0576,Firma_21,Ürün Hasadı,Siirt,Merkez,Ortaokul,4,30-52,Farketmez,Var,Yok,57461,0.8
+isci_0577,36,İlkokul,13,"Kiraz Hasadı, Çapa",Kahramanmaraş,Onikişubat,32278,ilan_0577,Firma_41,Limon Hasadı,Osmaniye,Kadirli,Lise,9,19-60,Farketmez,Var,Var,56873,0.8
+isci_0578,27,İlkokul,18,"Pamuk Toplama, Toprak İşleme",Gaziantep,Şahinbey,53263,ilan_0578,Firma_30,Çay Hasadı,Mardin,Kızıltepe,İlkokul,2,27-49,Erkek,Yok,Yok,54218,1.0
+isci_0579,52,İlkokul,0,"Ürün Hasadı, Limon Hasadı",Balıkesir,Merkez,54617,ilan_0579,Firma_68,Toprak İşleme,Elazığ,Merkez,Lise,9,30-47,Erkek,Yok,Yok,26431,0.0
+isci_0580,51,Lise,19,"Limon Hasadı, Çay Hasadı, Sera Bakımı",Burdur,Gölhisar,23210,ilan_0580,Firma_82,Limon Hasadı,Kars,Merkez,Lise,2,24-60,Farketmez,Var,Var,53177,1.0
+isci_0581,26,İlkokul,10,"Limon Hasadı, Ceviz Hasadı, Pamuk Toplama",Yozgat,Sorgun,18728,ilan_0581,Firma_68,Çapa,Bitlis,Merkez,Üniversite,10,20-52,Bayan,Var,Yok,41084,0.8
+isci_0582,56,Ortaokul,12,"Fidan Dikimi, Ceviz Hasadı",Burdur,Bucak,38600,ilan_0582,Firma_22,Limon Hasadı,Sivas,Şarkışla,Lise,6,25-44,Erkek,Var,Var,36879,0.2
+isci_0583,27,Lise,18,"Ceviz Hasadı, Ürün Hasadı, Elma Toplama",Amasya,Merzifon,39687,ilan_0583,Firma_92,Limon Hasadı,Kırşehir,Çiçekdağı,Ortaokul,7,23-58,Erkek,Yok,Var,47840,0.8
+isci_0584,34,İlkokul,15,"Elma Toplama, Fidan Dikimi",Kırşehir,Kaman,35688,ilan_0584,Firma_76,Toprak İşleme,Adana,Yüreğir,İlkokul,6,29-45,Farketmez,Yok,Yok,57474,1.0
+isci_0585,43,Üniversite,1,"Çapa, Limon Hasadı",Yozgat,Sorgun,49180,ilan_0585,Firma_37,Ceviz Hasadı,Kars,Kağızman,İlkokul,5,30-60,Erkek,Yok,Var,19613,0.3
+isci_0586,32,Ortaokul,1,"Elma Toplama, Pamuk Toplama",Erzincan,Tercan,58389,ilan_0586,Firma_17,Elma Toplama,Samsun,Bafra,İlkokul,2,19-52,Bayan,Var,Var,35490,0.3
+isci_0587,26,Üniversite,14,"Çay Hasadı, Elma Toplama",Van,Edremit,55883,ilan_0587,Firma_91,Çay Hasadı,Hakkari,Yüksekova,Üniversite,7,29-45,Farketmez,Var,Var,19902,0.4
+isci_0588,42,İlkokul,5,"Çay Hasadı, Kayısı Hasadı, Ürün Hasadı",Balıkesir,Edremit,52921,ilan_0588,Firma_60,Kayısı Hasadı,Gümüşhane,Şiran,Üniversite,5,27-45,Bayan,Yok,Var,40754,0.5
+isci_0589,56,Üniversite,4,"Limon Hasadı, Kayısı Hasadı",Tunceli,Pülümür,32926,ilan_0589,Firma_44,Fidan Dikimi,Niğde,Merkez,Ortaokul,9,19-49,Farketmez,Yok,Yok,31209,0.0
+isci_0590,27,İlkokul,15,Kayısı Hasadı,Samsun,Atakum,48546,ilan_0590,Firma_60,Ceviz Hasadı,Erzurum,Aziziye,Üniversite,2,30-57,Farketmez,Var,Yok,30355,0.2
+isci_0591,56,Üniversite,15,"Elma Toplama, Sera Bakımı",Mersin,Yenişehir,33898,ilan_0591,Firma_48,Çay Hasadı,Kayseri,Talas,İlkokul,1,27-54,Bayan,Yok,Var,44906,0.5
+isci_0592,44,Ortaokul,4,"Fidan Dikimi, Kiraz Hasadı",Elazığ,Merkez,49396,ilan_0592,Firma_48,Kiraz Hasadı,Bayburt,Aydıntepe,İlkokul,6,23-52,Erkek,Yok,Yok,36792,0.3
+isci_0593,51,İlkokul,12,"Toprak İşleme, Pamuk Toplama",Kars,Merkez,51676,ilan_0593,Firma_76,Çapa,Bilecik,Bozüyük,Ortaokul,9,22-59,Bayan,Yok,Yok,48952,0.5
+isci_0594,32,Ortaokul,2,"Pamuk Toplama, Çay Hasadı, Ürün Hasadı",Sakarya,Serdivan,54053,ilan_0594,Firma_84,Çay Hasadı,Bilecik,Merkez,İlkokul,7,29-50,Farketmez,Yok,Var,56735,0.6
+isci_0595,38,İlkokul,1,"Limon Hasadı, Kiraz Hasadı, Ürün Hasadı",Eskişehir,Odunpazarı,47911,ilan_0595,Firma_73,Sera Bakımı,Bolu,Merkez,Lise,6,23-53,Bayan,Var,Var,33551,0.3
+isci_0596,27,Üniversite,6,"Fidan Dikimi, Toprak İşleme",Çankırı,Çerkeş,22052,ilan_0596,Firma_51,Toprak İşleme,Hakkari,Yüksekova,İlkokul,6,24-54,Erkek,Yok,Var,45448,0.8
+isci_0597,48,İlkokul,10,"Ceviz Hasadı, Sera Bakımı, Kiraz Hasadı",Kırıkkale,Keskin,26714,ilan_0597,Firma_16,Limon Hasadı,Kilis,Merkez,Lise,1,27-48,Bayan,Yok,Var,49059,0.8
+isci_0598,24,Ortaokul,20,"Limon Hasadı, Fidan Dikimi, Sera Bakımı",Rize,Merkez,19260,ilan_0598,Firma_86,Çapa,Giresun,Bulancak,Üniversite,1,19-51,Erkek,Yok,Var,21402,0.8
+isci_0599,35,İlkokul,13,"Kayısı Hasadı, Sera Bakımı",Çankırı,Ilgaz,56430,ilan_0599,Firma_3,Elma Toplama,Aksaray,Ortaköy,Üniversite,1,21-41,Bayan,Var,Yok,29152,0.5
+isci_0600,53,Ortaokul,20,Sera Bakımı,Kırıkkale,Keskin,25146,ilan_0600,Firma_38,Kiraz Hasadı,Mardin,Midyat,İlkokul,1,30-42,Erkek,Yok,Yok,40072,0.5
+isci_0601,35,Üniversite,14,Çay Hasadı,Tekirdağ,Kapaklı,53345,ilan_0601,Firma_83,Ürün Hasadı,Kars,Kağızman,İlkokul,8,23-49,Farketmez,Yok,Yok,22496,0.5
+isci_0602,18,Üniversite,19,"Kiraz Hasadı, Sera Bakımı",Mardin,Artuklu,27664,ilan_0602,Firma_46,Kayısı Hasadı,Sinop,Boyabat,Üniversite,2,19-54,Farketmez,Yok,Yok,36226,0.7
+isci_0603,42,Lise,5,"Elma Toplama, Çapa, Fidan Dikimi",Şanlıurfa,Haliliye,37189,ilan_0603,Firma_8,Elma Toplama,Muş,Varto,Ortaokul,4,30-49,Bayan,Var,Yok,46652,0.8
+isci_0604,51,Ortaokul,2,Fidan Dikimi,Giresun,Espiye,40792,ilan_0604,Firma_81,Toprak İşleme,Karaman,Merkez,Ortaokul,1,18-58,Farketmez,Yok,Yok,27750,0.7
+isci_0605,51,Üniversite,17,Ceviz Hasadı,Burdur,Merkez,47639,ilan_0605,Firma_63,Limon Hasadı,Ağrı,Doğubayazıt,Lise,5,18-43,Farketmez,Var,Var,55553,0.5
+isci_0606,29,Ortaokul,5,Limon Hasadı,Siirt,Merkez,25798,ilan_0606,Firma_42,Ürün Hasadı,Aydın,Söke,İlkokul,1,19-45,Farketmez,Yok,Var,32161,0.8
+isci_0607,55,İlkokul,4,"Kiraz Hasadı, Limon Hasadı",Diyarbakır,Kayapınar,46766,ilan_0607,Firma_26,Kiraz Hasadı,Niğde,Merkez,Lise,1,23-51,Erkek,Yok,Var,19268,0.2
+isci_0608,37,İlkokul,6,"Toprak İşleme, Ceviz Hasadı",Trabzon,Yomra,52297,ilan_0608,Firma_83,Çay Hasadı,Diyarbakır,Kayapınar,Ortaokul,1,19-48,Bayan,Var,Yok,31905,0.5
+isci_0609,20,Ortaokul,2,"Çay Hasadı, Pamuk Toplama, Limon Hasadı",Gaziantep,Nizip,22095,ilan_0609,Firma_73,Pamuk Toplama,Ordu,Altınordu,Ortaokul,7,25-58,Bayan,Var,Var,26154,0.5
+isci_0610,41,Lise,2,"Kiraz Hasadı, Pamuk Toplama, Kayısı Hasadı",Kars,Sarıkamış,32403,ilan_0610,Firma_100,Pamuk Toplama,Aydın,Efeler,İlkokul,0,18-60,Farketmez,Yok,Yok,43832,0.8
+isci_0611,34,İlkokul,3,Çapa,Aksaray,Merkez,34022,ilan_0611,Firma_64,Fidan Dikimi,Çanakkale,Biga,Üniversite,0,24-47,Bayan,Var,Yok,30828,0.5
+isci_0612,41,Üniversite,8,"Kiraz Hasadı, Limon Hasadı, Pamuk Toplama",Konya,Karatay,46322,ilan_0612,Firma_87,Ürün Hasadı,Van,Edremit,Lise,10,26-41,Erkek,Yok,Yok,35801,0.3
+isci_0613,29,Ortaokul,11,Pamuk Toplama,Adana,Seyhan,46873,ilan_0613,Firma_12,Fidan Dikimi,Van,Edremit,Lise,10,18-44,Farketmez,Var,Yok,29901,0.5
+isci_0614,60,İlkokul,15,Kiraz Hasadı,Tekirdağ,Kapaklı,35088,ilan_0614,Firma_76,Kayısı Hasadı,Muğla,Fethiye,Üniversite,3,20-47,Farketmez,Yok,Yok,41963,0.5
+isci_0615,20,Lise,2,"Ürün Hasadı, Limon Hasadı, Çay Hasadı",Aydın,Efeler,19121,ilan_0615,Firma_33,Sera Bakımı,Kilis,Elbeyli,Ortaokul,2,24-40,Farketmez,Yok,Yok,32433,0.5
+isci_0616,51,İlkokul,16,"Çapa, Elma Toplama",Tekirdağ,Kapaklı,55590,ilan_0616,Firma_30,Pamuk Toplama,Yozgat,Merkez,İlkokul,1,22-60,Farketmez,Yok,Yok,34365,0.7
+isci_0617,42,İlkokul,12,Toprak İşleme,Şırnak,Silopi,30044,ilan_0617,Firma_7,Ceviz Hasadı,Samsun,Atakum,Lise,8,30-46,Farketmez,Yok,Yok,48990,0.8
+isci_0618,39,Lise,1,Pamuk Toplama,İstanbul,Üsküdar,42959,ilan_0618,Firma_21,Pamuk Toplama,Samsun,Atakum,İlkokul,2,18-51,Bayan,Var,Var,57266,0.6
+isci_0619,44,İlkokul,4,"Sera Bakımı, Çapa",Kırşehir,Kaman,28067,ilan_0619,Firma_48,Toprak İşleme,Ağrı,Merkez,İlkokul,7,25-43,Erkek,Yok,Yok,54894,0.5
+isci_0620,47,Üniversite,16,"Elma Toplama, Ürün Hasadı, Pamuk Toplama",Bolu,Gerede,27322,ilan_0620,Firma_77,Çay Hasadı,Kars,Sarıkamış,Ortaokul,6,25-47,Erkek,Var,Var,46841,0.8
+isci_0621,21,Üniversite,2,Ürün Hasadı,Gümüşhane,Şiran,47130,ilan_0621,Firma_12,Fidan Dikimi,Konya,Karatay,İlkokul,3,23-54,Farketmez,Var,Yok,41505,0.0
+isci_0622,33,Ortaokul,16,"Sera Bakımı, Pamuk Toplama, Toprak İşleme",Çankırı,Merkez,50317,ilan_0622,Firma_12,Çay Hasadı,Yozgat,Boğazlıyan,Üniversite,9,19-53,Bayan,Yok,Var,52527,0.8
+isci_0623,42,Lise,17,"Elma Toplama, Ürün Hasadı",İzmir,Karşıyaka,58818,ilan_0623,Firma_37,Ceviz Hasadı,Yalova,Çınarcık,Ortaokul,2,23-59,Bayan,Yok,Yok,25363,0.5
+isci_0624,49,İlkokul,1,"Çay Hasadı, Çapa",Artvin,Hopa,31442,ilan_0624,Firma_17,Kayısı Hasadı,Şanlıurfa,Eyyübiye,Ortaokul,3,24-52,Erkek,Yok,Yok,34669,0.6
+isci_0625,34,Üniversite,4,Çapa,Bolu,Merkez,23108,ilan_0625,Firma_71,Limon Hasadı,Muğla,Bodrum,Ortaokul,2,26-48,Erkek,Yok,Var,19784,0.5
+isci_0626,35,Üniversite,13,"Toprak İşleme, Çay Hasadı, Fidan Dikimi",Adıyaman,Merkez,42050,ilan_0626,Firma_92,Toprak İşleme,Denizli,Pamukkale,Üniversite,4,19-60,Farketmez,Var,Yok,57884,1.0
+isci_0627,20,Ortaokul,3,"Ürün Hasadı, Fidan Dikimi, Kiraz Hasadı",Hakkari,Şemdinli,35824,ilan_0627,Firma_6,Ceviz Hasadı,Ardahan,Çıldır,Lise,10,25-40,Erkek,Yok,Yok,31503,0.0
+isci_0628,48,Ortaokul,2,"Kayısı Hasadı, Limon Hasadı, Çay Hasadı",Bursa,Osmangazi,56613,ilan_0628,Firma_55,Sera Bakımı,Siirt,Kurtalan,Üniversite,5,22-55,Farketmez,Var,Var,55468,0.3
+isci_0629,29,Ortaokul,6,"Kayısı Hasadı, Limon Hasadı, Ürün Hasadı",Osmaniye,Merkez,50416,ilan_0629,Firma_68,Çapa,Gümüşhane,Kelkit,Lise,6,22-42,Bayan,Var,Yok,32157,0.5
+isci_0630,57,İlkokul,7,"Kayısı Hasadı, Ürün Hasadı",Aksaray,Ortaköy,44325,ilan_0630,Firma_79,Elma Toplama,Mersin,Yenişehir,İlkokul,7,29-42,Farketmez,Yok,Yok,21993,0.4
+isci_0631,47,Lise,11,"Fidan Dikimi, Kayısı Hasadı, Ürün Hasadı",Tokat,Erbaa,50498,ilan_0631,Firma_20,Kayısı Hasadı,Adana,Yüreğir,Ortaokul,2,25-44,Bayan,Var,Var,56070,0.5
+isci_0632,55,İlkokul,13,"Kayısı Hasadı, Ürün Hasadı",Muğla,Fethiye,51314,ilan_0632,Firma_90,Çapa,Zonguldak,Kozlu,İlkokul,0,28-42,Bayan,Yok,Yok,35750,0.4
+isci_0633,48,Lise,10,"Pamuk Toplama, Kiraz Hasadı",Bingöl,Karlıova,24475,ilan_0633,Firma_5,Elma Toplama,Bursa,Osmangazi,İlkokul,10,18-42,Bayan,Yok,Var,40332,0.5
+isci_0634,53,İlkokul,0,"Ürün Hasadı, Çapa",Tunceli,Nazımiye,52284,ilan_0634,Firma_70,Limon Hasadı,Elazığ,Sivrice,Lise,1,26-59,Farketmez,Yok,Yok,50869,0.3
+isci_0635,23,Üniversite,7,"Ürün Hasadı, Pamuk Toplama, Kayısı Hasadı",Bursa,Osmangazi,39486,ilan_0635,Firma_6,Çapa,Muğla,Bodrum,Üniversite,4,20-56,Bayan,Yok,Yok,46319,1.0
+isci_0636,24,Lise,1,"Toprak İşleme, Ürün Hasadı",Bolu,Mengen,31452,ilan_0636,Firma_75,Kayısı Hasadı,Afyonkarahisar,Bolvadin,İlkokul,5,30-46,Farketmez,Var,Yok,54602,0.3
+isci_0637,56,Lise,16,Pamuk Toplama,Ordu,Ünye,49782,ilan_0637,Firma_18,Sera Bakımı,Rize,Ardeşen,Lise,6,22-49,Farketmez,Yok,Yok,38693,0.4
+isci_0638,47,İlkokul,20,Kiraz Hasadı,Malatya,Battalgazi,17231,ilan_0638,Firma_48,Çapa,Aydın,Efeler,Ortaokul,4,18-49,Farketmez,Var,Yok,44782,0.8
+isci_0639,29,Üniversite,5,Çapa,Tunceli,Nazımiye,23259,ilan_0639,Firma_21,Kiraz Hasadı,Kars,Merkez,Ortaokul,10,21-40,Farketmez,Var,Yok,20138,0.3
+isci_0640,19,Lise,2,Limon Hasadı,Bayburt,Demirözü,56086,ilan_0640,Firma_91,Toprak İşleme,Sivas,Merkez,İlkokul,4,28-57,Bayan,Var,Var,40934,0.0
+isci_0641,56,Ortaokul,19,"Kiraz Hasadı, Fidan Dikimi, Elma Toplama",Artvin,Hopa,35999,ilan_0641,Firma_47,Çay Hasadı,Aydın,Efeler,İlkokul,8,30-47,Bayan,Var,Var,25399,0.2
+isci_0642,46,Üniversite,7,"Limon Hasadı, Elma Toplama",Mardin,Midyat,59437,ilan_0642,Firma_83,Ürün Hasadı,Trabzon,Yomra,Lise,3,19-49,Farketmez,Var,Yok,30843,0.5
+isci_0643,32,İlkokul,1,"Ürün Hasadı, Kiraz Hasadı",Kocaeli,İzmit,38826,ilan_0643,Firma_44,Elma Toplama,Ağrı,Patnos,Ortaokul,2,21-47,Bayan,Yok,Var,35574,0.3
+isci_0644,36,İlkokul,7,"Çapa, Kayısı Hasadı, Fidan Dikimi",Bingöl,Merkez,49843,ilan_0644,Firma_67,Çapa,Bartın,Kurucaşile,Üniversite,0,21-47,Farketmez,Yok,Var,59800,0.8
+isci_0645,33,Üniversite,13,Pamuk Toplama,Tokat,Turhal,56439,ilan_0645,Firma_17,Ceviz Hasadı,Gümüşhane,Merkez,Ortaokul,6,20-53,Bayan,Yok,Var,51672,0.5
+isci_0646,34,İlkokul,12,"Kayısı Hasadı, Toprak İşleme",Ordu,Fatsa,24050,ilan_0646,Firma_15,Toprak İşleme,Van,Erciş,İlkokul,2,28-47,Bayan,Var,Var,43232,1.0
+isci_0647,46,Lise,4,"Sera Bakımı, Ceviz Hasadı",Kayseri,Kocasinan,29484,ilan_0647,Firma_29,Ürün Hasadı,Şırnak,Merkez,Ortaokul,1,30-51,Farketmez,Yok,Yok,58224,0.8
+isci_0648,35,Üniversite,12,"Limon Hasadı, Çay Hasadı, Toprak İşleme",Balıkesir,Bandırma,27854,ilan_0648,Firma_5,Pamuk Toplama,Kayseri,Melikgazi,Üniversite,10,30-55,Bayan,Yok,Var,40903,1.0
+isci_0649,19,Ortaokul,10,"Çay Hasadı, Sera Bakımı, Kayısı Hasadı",Mardin,Kızıltepe,57978,ilan_0649,Firma_11,Kayısı Hasadı,Malatya,Doğanşehir,Lise,5,23-44,Farketmez,Var,Var,34075,0.2
+isci_0650,37,İlkokul,4,Elma Toplama,Bolu,Mengen,19517,ilan_0650,Firma_17,Elma Toplama,Osmaniye,Merkez,İlkokul,0,23-48,Bayan,Var,Var,20549,1.0
+isci_0651,25,Lise,6,"Ceviz Hasadı, Toprak İşleme",Sakarya,Erenler,58877,ilan_0651,Firma_4,Pamuk Toplama,İstanbul,Kadıköy,Ortaokul,9,21-45,Erkek,Yok,Yok,43821,0.3
+isci_0652,29,Üniversite,12,"Elma Toplama, Fidan Dikimi",Manisa,Turgutlu,20051,ilan_0652,Firma_8,Kiraz Hasadı,Iğdır,Merkez,İlkokul,0,21-59,Erkek,Yok,Var,24661,0.8
+isci_0653,40,Ortaokul,1,Ürün Hasadı,Iğdır,Tuzluca,24820,ilan_0653,Firma_63,Kayısı Hasadı,Malatya,Yeşilyurt,Lise,3,20-42,Erkek,Yok,Var,54937,0.6
+isci_0654,36,İlkokul,16,Kiraz Hasadı,Erzincan,Merkez,29763,ilan_0654,Firma_83,Kayısı Hasadı,Adıyaman,Besni,İlkokul,4,30-59,Bayan,Yok,Yok,55599,1.0
+isci_0655,49,Üniversite,11,"Fidan Dikimi, Elma Toplama",Bartın,Merkez,51255,ilan_0655,Firma_26,Ürün Hasadı,Kayseri,Melikgazi,İlkokul,4,22-43,Farketmez,Var,Yok,30189,0.2
+isci_0656,57,Ortaokul,12,"Çay Hasadı, Toprak İşleme, Çapa",Ardahan,Merkez,18743,ilan_0656,Firma_70,Ürün Hasadı,Düzce,Cumayeri,Lise,9,19-41,Bayan,Var,Yok,19918,0.5
+isci_0657,30,İlkokul,15,"Toprak İşleme, Fidan Dikimi",Ağrı,Patnos,25133,ilan_0657,Firma_97,Çapa,İstanbul,Üsküdar,Ortaokul,6,19-60,Bayan,Yok,Yok,21235,0.5
+isci_0658,45,İlkokul,15,"Limon Hasadı, Çay Hasadı",Bingöl,Karlıova,27310,ilan_0658,Firma_23,Elma Toplama,Karabük,Safranbolu,Lise,2,30-48,Farketmez,Yok,Yok,36509,0.8
+isci_0659,50,İlkokul,8,"Çapa, Çay Hasadı, Limon Hasadı",Edirne,Keşan,46139,ilan_0659,Firma_4,Sera Bakımı,Kahramanmaraş,Dulkadiroğlu,İlkokul,7,23-57,Bayan,Var,Yok,59734,1.0
+isci_0660,18,Üniversite,4,Kiraz Hasadı,Kırşehir,Kaman,58954,ilan_0660,Firma_22,Çay Hasadı,Erzurum,Palandöken,Lise,0,30-43,Erkek,Yok,Var,53144,0.2
+isci_0661,35,Üniversite,16,"Pamuk Toplama, Kayısı Hasadı",Adana,Yüreğir,41426,ilan_0661,Firma_81,Çapa,Hatay,Antakya,Lise,9,28-52,Bayan,Yok,Yok,20720,0.5
+isci_0662,48,Üniversite,17,Pamuk Toplama,Denizli,Tavas,32771,ilan_0662,Firma_73,Sera Bakımı,Nevşehir,Avanos,Üniversite,4,24-40,Erkek,Yok,Yok,55970,0.7
+isci_0663,53,İlkokul,13,"Sera Bakımı, Ürün Hasadı, Pamuk Toplama",Kahramanmaraş,Dulkadiroğlu,48633,ilan_0663,Firma_80,Sera Bakımı,Yozgat,Merkez,Lise,1,18-50,Farketmez,Yok,Var,58155,0.5
+isci_0664,39,İlkokul,18,"Toprak İşleme, Ceviz Hasadı",Edirne,Uzunköprü,54754,ilan_0664,Firma_56,Pamuk Toplama,Bolu,Mengen,Ortaokul,2,18-41,Bayan,Yok,Yok,54937,0.8
+isci_0665,36,Üniversite,1,"Elma Toplama, Toprak İşleme, Kayısı Hasadı",Aydın,Nazilli,22509,ilan_0665,Firma_81,Çay Hasadı,Tokat,Erbaa,Üniversite,8,27-46,Erkek,Var,Var,28644,0.8
+isci_0666,51,Üniversite,19,Ürün Hasadı,Kırklareli,Lüleburgaz,35746,ilan_0666,Firma_56,Elma Toplama,Amasya,Merzifon,Lise,10,29-59,Erkek,Yok,Var,58870,0.8
+isci_0667,50,Lise,3,"Kiraz Hasadı, Ürün Hasadı",Hakkari,Merkez,18063,ilan_0667,Firma_50,Kayısı Hasadı,Kars,Merkez,Lise,2,20-44,Farketmez,Yok,Yok,28129,0.7
+isci_0668,32,Üniversite,19,"Çapa, Kiraz Hasadı",Bolu,Mengen,32344,ilan_0668,Firma_44,Elma Toplama,Konya,Karatay,İlkokul,10,21-41,Farketmez,Yok,Var,49571,0.8
+isci_0669,27,İlkokul,19,"Kayısı Hasadı, Kiraz Hasadı, Limon Hasadı",Artvin,Hopa,33176,ilan_0669,Firma_14,Toprak İşleme,Gaziantep,Şahinbey,Ortaokul,9,23-44,Farketmez,Yok,Var,26664,0.5
+isci_0670,52,İlkokul,11,Ürün Hasadı,Amasya,Suluova,44281,ilan_0670,Firma_49,Ürün Hasadı,Bartın,Amasra,Lise,8,30-47,Farketmez,Yok,Var,58886,0.5
+isci_0671,53,Üniversite,14,Sera Bakımı,Ardahan,Çıldır,25587,ilan_0671,Firma_93,Limon Hasadı,Edirne,Merkez,Üniversite,3,24-56,Erkek,Var,Var,49562,1.0
+isci_0672,21,İlkokul,18,"Kiraz Hasadı, Toprak İşleme",Ardahan,Göle,28964,ilan_0672,Firma_53,Çapa,Tunceli,Nazımiye,Ortaokul,10,25-55,Farketmez,Var,Yok,23288,0.2
+isci_0673,31,İlkokul,8,"Fidan Dikimi, Pamuk Toplama",Bolu,Merkez,28301,ilan_0673,Firma_9,Kayısı Hasadı,Erzurum,Yakutiye,İlkokul,0,29-58,Bayan,Yok,Var,38202,1.0
+isci_0674,20,İlkokul,13,"Toprak İşleme, Fidan Dikimi",Artvin,Merkez,42251,ilan_0674,Firma_51,Sera Bakımı,Diyarbakır,Bağlar,Üniversite,9,19-58,Bayan,Yok,Yok,22931,0.5
+isci_0675,44,İlkokul,5,Çapa,Malatya,Battalgazi,52713,ilan_0675,Firma_55,Pamuk Toplama,Rize,Çayeli,Ortaokul,10,18-55,Erkek,Var,Var,32667,0.3
+isci_0676,20,Üniversite,14,"Sera Bakımı, Çapa, Elma Toplama",Bartın,Merkez,29424,ilan_0676,Firma_53,Fidan Dikimi,Ordu,Altınordu,Lise,4,23-45,Farketmez,Yok,Var,41106,0.5
+isci_0677,52,İlkokul,14,Toprak İşleme,Muş,Malazgirt,39806,ilan_0677,Firma_16,Pamuk Toplama,Çorum,Merkez,Üniversite,2,28-44,Bayan,Var,Var,57924,0.5
+isci_0678,50,Ortaokul,1,"Ceviz Hasadı, Limon Hasadı",Adıyaman,Besni,29461,ilan_0678,Firma_62,Ceviz Hasadı,Düzce,Merkez,Lise,9,23-49,Farketmez,Var,Var,23078,0.0
+isci_0679,26,Üniversite,16,"Limon Hasadı, Elma Toplama, Çapa",Burdur,Bucak,28052,ilan_0679,Firma_73,Ceviz Hasadı,Burdur,Merkez,Üniversite,10,29-47,Erkek,Yok,Var,50871,0.7
+isci_0680,30,Üniversite,20,"Ceviz Hasadı, Elma Toplama, Çay Hasadı",Niğde,Çiftlik,47890,ilan_0680,Firma_8,Toprak İşleme,Tokat,Turhal,Üniversite,5,26-56,Farketmez,Yok,Yok,41523,0.7
+isci_0681,21,Lise,19,Çapa,Malatya,Battalgazi,46557,ilan_0681,Firma_44,Çay Hasadı,Muş,Varto,Ortaokul,1,27-54,Erkek,Yok,Yok,35108,0.2
+isci_0682,36,Ortaokul,14,"Kiraz Hasadı, Fidan Dikimi, Limon Hasadı",Trabzon,Ortahisar,23363,ilan_0682,Firma_27,Pamuk Toplama,Afyonkarahisar,Merkez,İlkokul,1,26-48,Bayan,Yok,Yok,35794,0.8
+isci_0683,27,İlkokul,18,"Limon Hasadı, Elma Toplama",Afyonkarahisar,Sandıklı,58589,ilan_0683,Firma_7,Toprak İşleme,Gaziantep,Şahinbey,Lise,5,28-57,Erkek,Var,Var,53529,0.2
+isci_0684,21,İlkokul,10,"Limon Hasadı, Pamuk Toplama",Denizli,Merkezefendi,46576,ilan_0684,Firma_30,Çay Hasadı,Amasya,Suluova,Lise,3,28-56,Farketmez,Yok,Var,26678,0.2
+isci_0685,48,İlkokul,13,"Kayısı Hasadı, Ceviz Hasadı, Kiraz Hasadı",Muğla,Menteşe,43186,ilan_0685,Firma_48,Fidan Dikimi,Uşak,Merkez,Ortaokul,3,19-57,Bayan,Yok,Yok,31393,0.5
+isci_0686,50,Lise,9,"Limon Hasadı, Kayısı Hasadı, Toprak İşleme",Giresun,Merkez,31197,ilan_0686,Firma_15,Çay Hasadı,Kocaeli,İzmit,Üniversite,9,21-44,Farketmez,Yok,Yok,37149,0.5
+isci_0687,58,İlkokul,13,"Kayısı Hasadı, Toprak İşleme, Kiraz Hasadı",Osmaniye,Düziçi,51446,ilan_0687,Firma_3,Fidan Dikimi,Yalova,Çınarcık,İlkokul,5,30-41,Erkek,Yok,Var,36892,0.4
+isci_0688,19,Ortaokul,13,"Toprak İşleme, Çapa",Kütahya,Tavşanlı,34718,ilan_0688,Firma_15,Toprak İşleme,Bayburt,Merkez,Ortaokul,1,25-51,Farketmez,Var,Yok,54715,0.7
+isci_0689,50,Lise,14,"Toprak İşleme, Fidan Dikimi, Limon Hasadı",Elazığ,Merkez,26370,ilan_0689,Firma_6,Sera Bakımı,Diyarbakır,Bağlar,İlkokul,1,24-45,Farketmez,Yok,Yok,50356,0.5
+isci_0690,46,Üniversite,6,"Kiraz Hasadı, Elma Toplama, Pamuk Toplama",Uşak,Banaz,59753,ilan_0690,Firma_66,Sera Bakımı,Zonguldak,Ereğli,Üniversite,3,26-47,Erkek,Var,Var,47972,0.7
+isci_0691,60,Lise,16,"Ürün Hasadı, Toprak İşleme, Ceviz Hasadı",Gaziantep,Şehitkamil,18883,ilan_0691,Firma_1,Fidan Dikimi,Uşak,Banaz,İlkokul,8,30-52,Farketmez,Yok,Yok,39778,0.5
+isci_0692,22,Ortaokul,11,"Limon Hasadı, Sera Bakımı, Pamuk Toplama",Ardahan,Göle,47159,ilan_0692,Firma_4,Sera Bakımı,Kahramanmaraş,Dulkadiroğlu,Ortaokul,6,27-47,Bayan,Var,Yok,35979,0.4
+isci_0693,55,Ortaokul,15,Pamuk Toplama,Yozgat,Merkez,32354,ilan_0693,Firma_20,Ürün Hasadı,Sinop,Boyabat,Ortaokul,2,28-60,Erkek,Var,Var,36332,1.0
+isci_0694,51,İlkokul,5,"Elma Toplama, Çapa, Kiraz Hasadı",Diyarbakır,Kayapınar,37287,ilan_0694,Firma_66,Ceviz Hasadı,Adana,Seyhan,Lise,6,25-42,Bayan,Yok,Var,24990,0.0
+isci_0695,28,Ortaokul,10,"Toprak İşleme, Kiraz Hasadı, Limon Hasadı",Kocaeli,Gebze,45365,ilan_0695,Firma_72,Elma Toplama,Ordu,Ünye,Ortaokul,10,24-41,Erkek,Yok,Var,23425,0.7
+isci_0696,55,Lise,18,"Elma Toplama, Çapa",Kayseri,Kocasinan,34380,ilan_0696,Firma_4,Limon Hasadı,Zonguldak,Ereğli,Lise,6,19-46,Erkek,Yok,Yok,57078,0.7
+isci_0697,55,İlkokul,11,"Elma Toplama, Pamuk Toplama",Giresun,Espiye,44421,ilan_0697,Firma_60,Limon Hasadı,Karabük,Eskipazar,İlkokul,2,30-54,Farketmez,Yok,Yok,20808,0.4
+isci_0698,23,Üniversite,19,"Toprak İşleme, Sera Bakımı, Çay Hasadı",Rize,Çayeli,28092,ilan_0698,Firma_52,Sera Bakımı,Kastamonu,Taşköprü,İlkokul,3,28-44,Bayan,Yok,Yok,35056,0.5
+isci_0699,58,Üniversite,15,Ceviz Hasadı,Tunceli,Nazımiye,38906,ilan_0699,Firma_16,Limon Hasadı,Batman,Merkez,Ortaokul,10,25-45,Farketmez,Var,Yok,17893,0.2
+isci_0700,36,Üniversite,3,Limon Hasadı,Yozgat,Merkez,46302,ilan_0700,Firma_36,Sera Bakımı,Tunceli,Pülümür,Lise,8,20-59,Bayan,Yok,Var,18001,0.3
+isci_0701,33,Lise,15,"Limon Hasadı, Ceviz Hasadı, Pamuk Toplama",Yalova,Merkez,46551,ilan_0701,Firma_13,Kayısı Hasadı,Diyarbakır,Bağlar,Üniversite,7,24-56,Bayan,Var,Yok,17559,0.5
+isci_0702,48,Üniversite,6,"Sera Bakımı, Çapa",Edirne,Merkez,53785,ilan_0702,Firma_85,Sera Bakımı,Sinop,Boyabat,Lise,9,30-59,Farketmez,Yok,Yok,55109,0.6
+isci_0703,23,Ortaokul,5,"Toprak İşleme, Pamuk Toplama",Bilecik,Söğüt,28001,ilan_0703,Firma_68,Elma Toplama,Manisa,Yunusemre,İlkokul,6,20-57,Farketmez,Yok,Yok,24292,0.3
+isci_0704,18,İlkokul,0,Ceviz Hasadı,Giresun,Espiye,47139,ilan_0704,Firma_65,Kiraz Hasadı,Ardahan,Çıldır,İlkokul,7,23-51,Erkek,Var,Var,21193,0.2
+isci_0705,60,Lise,15,"Çay Hasadı, Ceviz Hasadı, Elma Toplama",Karabük,Safranbolu,42099,ilan_0705,Firma_82,Çapa,Zonguldak,Kozlu,İlkokul,1,25-49,Farketmez,Var,Yok,30829,0.2
+isci_0706,31,Ortaokul,6,"Çay Hasadı, Pamuk Toplama",Muş,Varto,17717,ilan_0706,Firma_73,Toprak İşleme,Erzurum,Palandöken,Üniversite,7,21-55,Bayan,Yok,Var,55782,0.6
+isci_0707,41,Üniversite,10,"Kayısı Hasadı, Ceviz Hasadı, Pamuk Toplama",Hatay,İskenderun,38467,ilan_0707,Firma_17,Çay Hasadı,Muş,Merkez,Ortaokul,3,21-52,Farketmez,Var,Var,17894,0.5
+isci_0708,46,İlkokul,9,"Toprak İşleme, Kiraz Hasadı, Ürün Hasadı",Kırıkkale,Keskin,28999,ilan_0708,Firma_26,Çapa,Yalova,Altınova,İlkokul,2,20-48,Bayan,Var,Yok,41638,1.0
+isci_0709,30,İlkokul,7,Fidan Dikimi,Edirne,Uzunköprü,43909,ilan_0709,Firma_97,Çapa,Yozgat,Sorgun,İlkokul,0,27-45,Erkek,Yok,Yok,42990,0.7
+isci_0710,25,İlkokul,16,Toprak İşleme,Malatya,Battalgazi,31966,ilan_0710,Firma_31,Çay Hasadı,Adıyaman,Kahta,Üniversite,8,21-52,Farketmez,Yok,Var,19395,0.5
+isci_0711,25,Lise,20,"Sera Bakımı, Pamuk Toplama",Ordu,Fatsa,29497,ilan_0711,Firma_51,Sera Bakımı,Nevşehir,Avanos,Ortaokul,6,19-57,Farketmez,Yok,Yok,50826,0.8
+isci_0712,44,Lise,15,"Ürün Hasadı, Elma Toplama, Sera Bakımı",Kastamonu,Merkez,53814,ilan_0712,Firma_5,Ceviz Hasadı,Trabzon,Ortahisar,Ortaokul,10,22-42,Bayan,Var,Var,41538,0.2
+isci_0713,59,Lise,9,"Çapa, Toprak İşleme, Ürün Hasadı",Karabük,Merkez,50573,ilan_0713,Firma_58,Kiraz Hasadı,Bingöl,Karlıova,Üniversite,6,21-53,Erkek,Yok,Var,50834,0.5
+isci_0714,54,Ortaokul,19,"Çay Hasadı, Limon Hasadı, Pamuk Toplama",Erzurum,Palandöken,39974,ilan_0714,Firma_57,Çapa,Niğde,Bor,Lise,8,25-48,Bayan,Yok,Var,28013,0.2
+isci_0715,49,Üniversite,8,"Elma Toplama, Sera Bakımı, Çapa",Bursa,Yıldırım,47246,ilan_0715,Firma_58,Ceviz Hasadı,Sakarya,Serdivan,Üniversite,6,28-57,Bayan,Yok,Yok,52362,1.0
+isci_0716,53,İlkokul,4,"Kiraz Hasadı, Limon Hasadı",İstanbul,Üsküdar,20128,ilan_0716,Firma_39,Ceviz Hasadı,Kocaeli,Gebze,Üniversite,3,28-57,Erkek,Var,Yok,59270,0.8
+isci_0717,56,Üniversite,2,"Toprak İşleme, Fidan Dikimi, Çapa",Tekirdağ,Kapaklı,20161,ilan_0717,Firma_29,Sera Bakımı,Eskişehir,Odunpazarı,Lise,9,27-46,Farketmez,Yok,Yok,42364,0.3
+isci_0718,41,Üniversite,8,Sera Bakımı,Van,Edremit,39673,ilan_0718,Firma_35,Elma Toplama,Kocaeli,İzmit,Lise,7,24-48,Erkek,Var,Var,36262,0.5
+isci_0719,58,İlkokul,15,"Limon Hasadı, Çapa, Toprak İşleme",Niğde,Çiftlik,30198,ilan_0719,Firma_18,Çapa,Karaman,Merkez,Lise,0,24-45,Erkek,Var,Yok,52671,0.5
+isci_0720,48,Lise,20,"Ürün Hasadı, Ceviz Hasadı",Konya,Selçuklu,27791,ilan_0720,Firma_79,Çay Hasadı,Afyonkarahisar,Merkez,Üniversite,8,30-45,Bayan,Var,Yok,40241,0.5
+isci_0721,36,Lise,20,Ürün Hasadı,Antalya,Konyaaltı,46563,ilan_0721,Firma_88,Toprak İşleme,Bartın,Kurucaşile,Ortaokul,9,20-58,Erkek,Yok,Yok,23604,0.5
+isci_0722,31,Üniversite,4,"Ürün Hasadı, Çapa",Giresun,Espiye,31363,ilan_0722,Firma_95,Çapa,Malatya,Battalgazi,Üniversite,8,25-43,Bayan,Var,Var,51683,0.8
+isci_0723,33,Ortaokul,13,"Çapa, Kayısı Hasadı, Kiraz Hasadı",Bingöl,Solhan,27542,ilan_0723,Firma_97,Ceviz Hasadı,Trabzon,Akçaabat,Üniversite,5,29-57,Bayan,Var,Yok,50033,0.8
+isci_0724,48,Ortaokul,1,"Kayısı Hasadı, Limon Hasadı, Ürün Hasadı",Diyarbakır,Sur,47249,ilan_0724,Firma_29,Sera Bakımı,Eskişehir,Tepebaşı,İlkokul,1,18-48,Bayan,Yok,Var,59137,0.8
+isci_0725,57,Lise,11,Kiraz Hasadı,Tunceli,Nazımiye,41792,ilan_0725,Firma_45,Elma Toplama,Diyarbakır,Sur,İlkokul,8,27-50,Farketmez,Yok,Yok,20769,0.2
+isci_0726,51,Ortaokul,12,Kiraz Hasadı,Kocaeli,Gebze,44075,ilan_0726,Firma_31,Çay Hasadı,Kayseri,Melikgazi,Üniversite,8,26-59,Erkek,Var,Yok,54789,0.8
+isci_0727,54,İlkokul,19,"Toprak İşleme, Sera Bakımı",Siirt,Merkez,40180,ilan_0727,Firma_88,Çapa,Kırşehir,Kaman,Lise,9,29-49,Farketmez,Var,Var,30070,0.2
+isci_0728,36,Üniversite,11,Ceviz Hasadı,Çorum,Sungurlu,38862,ilan_0728,Firma_47,Pamuk Toplama,Adıyaman,Kahta,Ortaokul,0,30-41,Farketmez,Var,Var,26008,0.5
+isci_0729,22,İlkokul,5,"Çay Hasadı, Sera Bakımı, Fidan Dikimi",Şanlıurfa,Eyyübiye,41493,ilan_0729,Firma_55,Sera Bakımı,Bingöl,Merkez,Üniversite,8,22-60,Bayan,Yok,Yok,52182,0.6
+isci_0730,40,Ortaokul,15,Elma Toplama,Hakkari,Şemdinli,59610,ilan_0730,Firma_7,Ceviz Hasadı,Zonguldak,Merkez,İlkokul,4,25-41,Bayan,Var,Yok,48807,0.5
+isci_0731,22,Lise,1,Çapa,Nevşehir,Avanos,23035,ilan_0731,Firma_86,Elma Toplama,Ordu,Fatsa,Lise,7,24-57,Farketmez,Yok,Yok,49739,0.5
+isci_0732,42,Lise,10,Çapa,Amasya,Suluova,19448,ilan_0732,Firma_15,Çapa,Batman,Merkez,Üniversite,10,21-55,Erkek,Var,Var,51626,0.8
+isci_0733,25,Üniversite,8,"Kiraz Hasadı, Fidan Dikimi",Muş,Varto,25847,ilan_0733,Firma_59,Limon Hasadı,Giresun,Merkez,Lise,5,18-52,Bayan,Yok,Yok,47901,0.8
+isci_0734,23,Üniversite,13,"Kiraz Hasadı, Elma Toplama, Çay Hasadı",Kars,Merkez,35553,ilan_0734,Firma_46,Ürün Hasadı,Bursa,Osmangazi,Ortaokul,3,25-52,Erkek,Var,Var,26484,0.2
+isci_0735,43,Lise,17,Pamuk Toplama,Osmaniye,Merkez,51483,ilan_0735,Firma_35,Pamuk Toplama,Ordu,Ünye,Lise,7,25-55,Erkek,Yok,Yok,53331,1.0
+isci_0736,23,İlkokul,3,Ceviz Hasadı,Şanlıurfa,Eyyübiye,30899,ilan_0736,Firma_45,Elma Toplama,Çorum,Sungurlu,Lise,10,20-46,Bayan,Yok,Var,32290,0.6
+isci_0737,36,İlkokul,3,"Ceviz Hasadı, Çay Hasadı",Erzincan,Kemaliye,27560,ilan_0737,Firma_1,Kayısı Hasadı,Kahramanmaraş,Onikişubat,İlkokul,2,20-47,Bayan,Var,Var,42924,1.0
+isci_0738,35,Üniversite,11,Elma Toplama,Edirne,Uzunköprü,21757,ilan_0738,Firma_17,Ceviz Hasadı,Kastamonu,Merkez,Ortaokul,1,26-49,Erkek,Yok,Yok,50054,0.8
+isci_0739,22,İlkokul,18,Ceviz Hasadı,Bolu,Merkez,56822,ilan_0739,Firma_8,Pamuk Toplama,Şırnak,Silopi,Lise,0,29-40,Bayan,Var,Var,40310,0.2
+isci_0740,50,Ortaokul,15,Çay Hasadı,İzmir,Karşıyaka,59811,ilan_0740,Firma_39,Çapa,Ordu,Fatsa,Ortaokul,7,19-52,Erkek,Yok,Yok,19029,0.7
+isci_0741,50,Ortaokul,18,Ceviz Hasadı,Çorum,Alaca,32592,ilan_0741,Firma_5,Toprak İşleme,Kayseri,Melikgazi,Üniversite,4,23-49,Bayan,Var,Yok,51650,0.5
+isci_0742,28,İlkokul,12,"Fidan Dikimi, Kayısı Hasadı, Toprak İşleme",Zonguldak,Ereğli,23308,ilan_0742,Firma_75,Fidan Dikimi,Kahramanmaraş,Elbistan,Üniversite,9,26-58,Bayan,Var,Yok,26187,0.8
+isci_0743,20,Üniversite,1,Elma Toplama,Gümüşhane,Kelkit,55360,ilan_0743,Firma_59,Çapa,İzmir,Bornova,İlkokul,6,23-47,Erkek,Var,Var,29465,0.0
+isci_0744,43,Üniversite,3,"Toprak İşleme, Limon Hasadı, Pamuk Toplama",Kahramanmaraş,Dulkadiroğlu,40967,ilan_0744,Firma_15,Kiraz Hasadı,Iğdır,Merkez,Lise,6,23-45,Bayan,Var,Yok,18149,0.3
+isci_0745,32,İlkokul,8,Ürün Hasadı,Düzce,Akçakoca,22909,ilan_0745,Firma_84,Çay Hasadı,Muğla,Fethiye,Üniversite,10,24-48,Erkek,Yok,Var,30253,0.6
+isci_0746,57,Ortaokul,16,"Pamuk Toplama, Limon Hasadı",Bingöl,Merkez,48926,ilan_0746,Firma_30,Ceviz Hasadı,Balıkesir,Edremit,Ortaokul,4,27-59,Farketmez,Var,Yok,19254,0.7
+isci_0747,42,Üniversite,20,"Ceviz Hasadı, Toprak İşleme",Çankırı,Ilgaz,42420,ilan_0747,Firma_11,Limon Hasadı,Van,Edremit,Lise,1,19-49,Farketmez,Var,Var,18295,0.5
+isci_0748,47,Ortaokul,16,"Elma Toplama, Çay Hasadı",Kırşehir,Çiçekdağı,29154,ilan_0748,Firma_36,Ceviz Hasadı,Edirne,Uzunköprü,Üniversite,0,22-52,Erkek,Var,Yok,53042,0.8
+isci_0749,38,İlkokul,13,"Limon Hasadı, Fidan Dikimi, Pamuk Toplama",Gaziantep,Şehitkamil,40783,ilan_0749,Firma_61,Çapa,Amasya,Merzifon,Ortaokul,4,19-46,Farketmez,Yok,Yok,36118,0.5
+isci_0750,41,İlkokul,16,Ceviz Hasadı,Kırıkkale,Keskin,44742,ilan_0750,Firma_70,Kayısı Hasadı,Erzincan,Kemaliye,Lise,2,18-49,Bayan,Var,Yok,52269,0.8
+isci_0751,37,Üniversite,8,"Ceviz Hasadı, Fidan Dikimi",Bilecik,Bozüyük,25854,ilan_0751,Firma_61,Toprak İşleme,Edirne,Merkez,Lise,9,26-45,Erkek,Yok,Yok,54056,0.6
+isci_0752,25,Ortaokul,20,Pamuk Toplama,Adana,Seyhan,59906,ilan_0752,Firma_95,Çapa,Ardahan,Merkez,Lise,3,21-48,Farketmez,Yok,Var,54177,0.5
+isci_0753,21,Lise,19,"Ceviz Hasadı, Çapa",Eskişehir,Tepebaşı,18911,ilan_0753,Firma_12,Elma Toplama,Çankırı,Ilgaz,Ortaokul,2,25-50,Farketmez,Yok,Yok,39817,0.5
+isci_0754,22,İlkokul,8,"Elma Toplama, Sera Bakımı, Pamuk Toplama",Kilis,Merkez,35836,ilan_0754,Firma_23,Çay Hasadı,Tokat,Turhal,Üniversite,5,26-43,Farketmez,Var,Var,23051,0.2
+isci_0755,22,Üniversite,14,"Fidan Dikimi, Ürün Hasadı, Ceviz Hasadı",Iğdır,Aralık,30828,ilan_0755,Firma_19,Ceviz Hasadı,Mersin,Mezitli,Lise,0,19-49,Erkek,Var,Yok,43961,0.8
+isci_0756,59,İlkokul,5,"Ürün Hasadı, Sera Bakımı, Çay Hasadı",Karaman,Ayrancı,40990,ilan_0756,Firma_62,Toprak İşleme,Diyarbakır,Sur,İlkokul,1,27-49,Bayan,Var,Yok,53156,0.7
+isci_0757,56,Lise,19,"Toprak İşleme, Ceviz Hasadı",Manisa,Yunusemre,49226,ilan_0757,Firma_58,Elma Toplama,Bayburt,Merkez,Ortaokul,1,18-46,Farketmez,Var,Yok,36511,0.2
+isci_0758,54,Üniversite,3,"Çapa, Ürün Hasadı",Bursa,Nilüfer,28809,ilan_0758,Firma_69,Çay Hasadı,Samsun,İlkadım,Üniversite,10,21-46,Bayan,Yok,Var,45148,0.5
+isci_0759,49,Lise,8,"Sera Bakımı, Fidan Dikimi",Nevşehir,Avanos,40503,ilan_0759,Firma_40,Kiraz Hasadı,Trabzon,Ortahisar,Lise,2,29-48,Erkek,Yok,Var,39631,0.4
+isci_0760,20,İlkokul,17,Kayısı Hasadı,Mardin,Artuklu,44274,ilan_0760,Firma_52,Çapa,Tekirdağ,Süleymanpaşa,Üniversite,0,18-46,Farketmez,Var,Yok,21447,0.5
+isci_0761,34,İlkokul,0,Toprak İşleme,Osmaniye,Merkez,38870,ilan_0761,Firma_82,Kayısı Hasadı,Kütahya,Merkez,Lise,0,24-47,Erkek,Yok,Var,24855,0.5
+isci_0762,51,Ortaokul,5,"Limon Hasadı, Ceviz Hasadı",Mersin,Mezitli,51116,ilan_0762,Firma_39,Sera Bakımı,Elazığ,Merkez,Lise,9,23-46,Farketmez,Var,Yok,44304,0.0
+isci_0763,59,Lise,10,"Ceviz Hasadı, Çapa, Kiraz Hasadı",Kütahya,Simav,47567,ilan_0763,Firma_46,Kayısı Hasadı,Çankırı,Çerkeş,Lise,1,26-56,Farketmez,Yok,Var,19198,0.4
+isci_0764,24,Ortaokul,14,"Elma Toplama, Fidan Dikimi, Ürün Hasadı",Afyonkarahisar,Merkez,45481,ilan_0764,Firma_83,Limon Hasadı,Karaman,Ayrancı,Üniversite,7,25-44,Bayan,Yok,Yok,25354,0.2
+isci_0765,41,Lise,9,"Fidan Dikimi, Toprak İşleme, Ceviz Hasadı",Bolu,Merkez,21582,ilan_0765,Firma_83,Kayısı Hasadı,Amasya,Merzifon,Ortaokul,3,30-42,Bayan,Yok,Yok,52716,0.8
+isci_0766,35,Ortaokul,6,"Çay Hasadı, Toprak İşleme, Kiraz Hasadı",Ardahan,Çıldır,50488,ilan_0766,Firma_69,Limon Hasadı,Sinop,Merkez,İlkokul,8,27-49,Erkek,Var,Var,59513,0.6
+isci_0767,31,Lise,1,"Ceviz Hasadı, Çay Hasadı",Manisa,Turgutlu,40685,ilan_0767,Firma_91,Ceviz Hasadı,Çanakkale,Biga,İlkokul,2,27-59,Farketmez,Var,Var,55683,0.6
+isci_0768,18,Ortaokul,15,"Toprak İşleme, Sera Bakımı",Çankırı,Merkez,26579,ilan_0768,Firma_67,Limon Hasadı,Kayseri,Talas,Ortaokul,9,19-52,Farketmez,Yok,Yok,59588,0.7
+isci_0769,34,İlkokul,19,"Ceviz Hasadı, Sera Bakımı",Giresun,Merkez,19541,ilan_0769,Firma_68,Çay Hasadı,Çorum,Sungurlu,Lise,6,23-57,Erkek,Yok,Var,42256,0.8
+isci_0770,20,Ortaokul,6,"Toprak İşleme, Fidan Dikimi, Kayısı Hasadı",Gümüşhane,Kelkit,28394,ilan_0770,Firma_47,Sera Bakımı,İstanbul,Kadıköy,İlkokul,0,22-40,Farketmez,Var,Yok,37060,0.5
+isci_0771,22,Lise,2,Pamuk Toplama,Iğdır,Merkez,21141,ilan_0771,Firma_29,Elma Toplama,Erzurum,Aziziye,İlkokul,5,19-43,Erkek,Var,Yok,35990,0.6
+isci_0772,28,Lise,1,"Toprak İşleme, Limon Hasadı",Mersin,Yenişehir,44748,ilan_0772,Firma_85,Sera Bakımı,Balıkesir,Bandırma,Lise,10,29-46,Bayan,Var,Var,33220,0.2
+isci_0773,58,Üniversite,13,"Kiraz Hasadı, Ürün Hasadı",Aksaray,Eskil,52184,ilan_0773,Firma_26,Ceviz Hasadı,Bartın,Amasra,İlkokul,3,30-49,Erkek,Yok,Yok,53872,0.5
+isci_0774,57,Üniversite,2,"Elma Toplama, Çay Hasadı, Pamuk Toplama",Kastamonu,Merkez,32060,ilan_0774,Firma_90,Çapa,İzmir,Konak,İlkokul,6,27-51,Bayan,Var,Yok,41301,0.3
+isci_0775,30,Ortaokul,8,"Pamuk Toplama, Kiraz Hasadı, Kayısı Hasadı",Kırıkkale,Delice,22335,ilan_0775,Firma_41,Ceviz Hasadı,Bingöl,Solhan,İlkokul,3,20-41,Farketmez,Var,Yok,17238,0.5
+isci_0776,46,Üniversite,20,"Çay Hasadı, Kiraz Hasadı",Zonguldak,Kozlu,46534,ilan_0776,Firma_34,Pamuk Toplama,Sivas,Zara,İlkokul,6,23-53,Bayan,Yok,Var,48375,0.8
+isci_0777,26,Lise,5,Fidan Dikimi,Samsun,İlkadım,18255,ilan_0777,Firma_40,Çay Hasadı,Elazığ,Keban,Lise,2,29-60,Farketmez,Yok,Yok,51397,0.7
+isci_0778,40,Ortaokul,16,"Ürün Hasadı, Çay Hasadı",Burdur,Gölhisar,23302,ilan_0778,Firma_13,Kayısı Hasadı,Denizli,Tavas,Üniversite,8,27-55,Bayan,Var,Yok,39999,0.8
+isci_0779,42,Üniversite,8,Ürün Hasadı,Şırnak,Silopi,31908,ilan_0779,Firma_22,Fidan Dikimi,Adıyaman,Besni,Üniversite,6,18-54,Erkek,Var,Yok,18047,0.7
+isci_0780,24,Ortaokul,17,"Limon Hasadı, Kiraz Hasadı, Sera Bakımı",Yalova,Çınarcık,45470,ilan_0780,Firma_79,Elma Toplama,Amasya,Merkez,Üniversite,4,30-41,Farketmez,Yok,Yok,29664,0.2
+isci_0781,47,Üniversite,13,Kayısı Hasadı,Denizli,Merkezefendi,53560,ilan_0781,Firma_51,Toprak İşleme,Karaman,Ayrancı,Lise,9,26-43,Farketmez,Yok,Yok,51090,0.2
+isci_0782,57,Üniversite,13,"Sera Bakımı, Kiraz Hasadı",Mardin,Midyat,49197,ilan_0782,Firma_30,Ceviz Hasadı,Düzce,Akçakoca,Ortaokul,3,26-51,Bayan,Var,Yok,54218,0.5
+isci_0783,55,Üniversite,6,"Fidan Dikimi, Limon Hasadı",Şanlıurfa,Siverek,18752,ilan_0783,Firma_51,Ceviz Hasadı,Muş,Merkez,Üniversite,9,18-52,Farketmez,Yok,Var,43686,0.5
+isci_0784,51,Ortaokul,14,"Çapa, Toprak İşleme, Kayısı Hasadı",Çankırı,Ilgaz,17672,ilan_0784,Firma_69,Kayısı Hasadı,Kilis,Merkez,İlkokul,2,21-57,Erkek,Var,Yok,46444,0.8
+isci_0785,60,Ortaokul,18,"Ürün Hasadı, Kiraz Hasadı",Muş,Merkez,23722,ilan_0785,Firma_42,Kiraz Hasadı,Ağrı,Merkez,Üniversite,2,18-40,Farketmez,Yok,Yok,52341,0.5
+isci_0786,41,Ortaokul,13,"Kiraz Hasadı, Çay Hasadı, Pamuk Toplama",Çorum,Alaca,35502,ilan_0786,Firma_16,Elma Toplama,Kayseri,Kocasinan,Lise,2,27-50,Bayan,Yok,Var,25062,0.5
+isci_0787,43,Ortaokul,14,"Elma Toplama, Fidan Dikimi, Çay Hasadı",Samsun,Atakum,44729,ilan_0787,Firma_96,Toprak İşleme,Zonguldak,Kozlu,İlkokul,1,22-47,Farketmez,Var,Var,47330,0.8
+isci_0788,38,Ortaokul,0,Limon Hasadı,Kütahya,Simav,30082,ilan_0788,Firma_57,Ürün Hasadı,Mardin,Midyat,Lise,9,25-49,Erkek,Var,Var,38661,0.6
+isci_0789,34,İlkokul,0,"Ceviz Hasadı, Limon Hasadı, Kayısı Hasadı",Gaziantep,Şahinbey,23560,ilan_0789,Firma_68,Çay Hasadı,Malatya,Doğanşehir,İlkokul,4,18-55,Farketmez,Yok,Var,51907,0.8
+isci_0790,57,Ortaokul,20,"Kayısı Hasadı, Limon Hasadı",Kütahya,Simav,20596,ilan_0790,Firma_77,Toprak İşleme,Tekirdağ,Süleymanpaşa,Üniversite,3,20-59,Bayan,Var,Var,56761,0.8
+isci_0791,24,Ortaokul,9,"Çay Hasadı, Elma Toplama",Sivas,Şarkışla,22773,ilan_0791,Firma_13,Pamuk Toplama,Edirne,Keşan,İlkokul,7,18-41,Farketmez,Var,Yok,29438,0.8
+isci_0792,25,Ortaokul,7,"Pamuk Toplama, Ceviz Hasadı, Limon Hasadı",Iğdır,Aralık,17793,ilan_0792,Firma_58,Çay Hasadı,Çanakkale,Biga,İlkokul,0,28-47,Farketmez,Yok,Yok,17131,0.2
+isci_0793,49,Üniversite,13,"Ceviz Hasadı, Sera Bakımı",Uşak,Merkez,42118,ilan_0793,Firma_99,Ürün Hasadı,Kilis,Elbeyli,Lise,3,19-50,Erkek,Var,Yok,47753,0.8
+isci_0794,56,Üniversite,15,"Çay Hasadı, Çapa, Pamuk Toplama",Ağrı,Merkez,33480,ilan_0794,Firma_23,Ürün Hasadı,Uşak,Banaz,Ortaokul,7,27-50,Erkek,Var,Yok,44337,0.5
+isci_0795,57,Lise,13,"Pamuk Toplama, Limon Hasadı, Toprak İşleme",Ardahan,Göle,42915,ilan_0795,Firma_34,Ceviz Hasadı,Bilecik,Merkez,Ortaokul,3,19-42,Erkek,Yok,Yok,58439,0.5
+isci_0796,37,Ortaokul,1,"Limon Hasadı, Kayısı Hasadı",Manisa,Yunusemre,57402,ilan_0796,Firma_50,Ceviz Hasadı,Bayburt,Merkez,Lise,2,24-60,Farketmez,Var,Yok,55398,0.3
+isci_0797,24,İlkokul,1,"Limon Hasadı, Fidan Dikimi, Ürün Hasadı",Kütahya,Merkez,46913,ilan_0797,Firma_44,Ürün Hasadı,Ankara,Yenimahalle,İlkokul,1,26-44,Bayan,Var,Yok,17171,0.4
+isci_0798,23,İlkokul,2,Kayısı Hasadı,Nevşehir,Merkez,59579,ilan_0798,Firma_14,Toprak İşleme,Konya,Meram,Üniversite,6,18-56,Bayan,Yok,Var,28001,0.3
+isci_0799,48,İlkokul,8,"Kayısı Hasadı, Elma Toplama",Aydın,Efeler,39872,ilan_0799,Firma_14,Çay Hasadı,Ankara,Keçiören,Lise,3,20-44,Erkek,Var,Var,29194,0.2
+isci_0800,40,Üniversite,11,"Limon Hasadı, Sera Bakımı, Fidan Dikimi",Artvin,Merkez,32503,ilan_0800,Firma_78,Limon Hasadı,Ankara,Yenimahalle,Ortaokul,1,27-56,Erkek,Yok,Var,39094,0.8
+isci_0801,58,Lise,15,Limon Hasadı,Sinop,Merkez,25014,ilan_0801,Firma_4,Fidan Dikimi,Düzce,Akçakoca,Üniversite,6,27-50,Farketmez,Yok,Yok,37889,0.5
+isci_0802,38,Ortaokul,15,"Toprak İşleme, Fidan Dikimi, Elma Toplama",Ordu,Altınordu,24620,ilan_0802,Firma_1,Kayısı Hasadı,Düzce,Merkez,Üniversite,9,28-45,Farketmez,Yok,Var,28785,0.8
+isci_0803,56,Üniversite,20,"Ceviz Hasadı, Ürün Hasadı",İstanbul,Beşiktaş,49236,ilan_0803,Firma_52,Kayısı Hasadı,Denizli,Merkezefendi,İlkokul,8,18-55,Erkek,Yok,Var,21018,0.2
+isci_0804,48,Lise,1,"Çay Hasadı, Limon Hasadı, Çapa",Gümüşhane,Merkez,53728,ilan_0804,Firma_4,Pamuk Toplama,İzmir,Karşıyaka,Lise,10,20-51,Bayan,Var,Var,53290,0.5
+isci_0805,31,Ortaokul,2,"Limon Hasadı, Elma Toplama",Düzce,Akçakoca,52473,ilan_0805,Firma_59,Ürün Hasadı,İstanbul,Beşiktaş,Lise,5,22-58,Bayan,Yok,Yok,44645,0.3
+isci_0806,19,Üniversite,3,"Toprak İşleme, Sera Bakımı, Ceviz Hasadı",Yozgat,Sorgun,32716,ilan_0806,Firma_97,Pamuk Toplama,Iğdır,Aralık,Ortaokul,8,29-49,Farketmez,Yok,Yok,38389,0.3
+isci_0807,40,Ortaokul,2,"Çapa, Limon Hasadı, Ceviz Hasadı",İstanbul,Beşiktaş,30211,ilan_0807,Firma_94,Ürün Hasadı,Yalova,Çınarcık,Üniversite,1,25-56,Erkek,Var,Yok,54462,0.8
+isci_0808,39,Ortaokul,15,"Kiraz Hasadı, Pamuk Toplama, Çapa",Mardin,Kızıltepe,58258,ilan_0808,Firma_13,Sera Bakımı,Bilecik,Merkez,Lise,0,23-41,Bayan,Yok,Yok,39920,0.5
+isci_0809,54,Lise,7,"Çay Hasadı, Ürün Hasadı",Sivas,Şarkışla,37262,ilan_0809,Firma_9,Sera Bakımı,Antalya,Kepez,Üniversite,5,18-53,Farketmez,Var,Var,56581,0.5
+isci_0810,28,Üniversite,20,Elma Toplama,Rize,Merkez,27029,ilan_0810,Firma_79,Ceviz Hasadı,Çanakkale,Biga,Ortaokul,7,21-42,Farketmez,Yok,Yok,20668,0.5
+isci_0811,30,İlkokul,4,Kiraz Hasadı,Van,Edremit,43008,ilan_0811,Firma_53,Pamuk Toplama,Kars,Kağızman,Ortaokul,4,28-49,Farketmez,Var,Var,47273,0.8
+isci_0812,51,Lise,10,Elma Toplama,Amasya,Merkez,38801,ilan_0812,Firma_53,Çapa,Kayseri,Kocasinan,Üniversite,7,18-60,Farketmez,Yok,Var,37834,0.5
+isci_0813,50,Lise,20,"Ürün Hasadı, Çay Hasadı",Osmaniye,Merkez,54446,ilan_0813,Firma_2,Ürün Hasadı,Diyarbakır,Sur,İlkokul,7,21-47,Erkek,Yok,Var,50008,0.2
+isci_0814,26,Lise,9,Kiraz Hasadı,Tokat,Turhal,50562,ilan_0814,Firma_55,Pamuk Toplama,Malatya,Battalgazi,Üniversite,5,24-42,Bayan,Var,Var,31458,0.5
+isci_0815,38,İlkokul,20,"Kiraz Hasadı, Elma Toplama",Hakkari,Merkez,42880,ilan_0815,Firma_70,Kayısı Hasadı,Bursa,Yıldırım,Ortaokul,0,24-58,Farketmez,Var,Var,40821,0.5
+isci_0816,27,Üniversite,7,"Limon Hasadı, Çay Hasadı",Giresun,Espiye,24591,ilan_0816,Firma_79,Sera Bakımı,İzmir,Konak,İlkokul,9,24-50,Erkek,Var,Yok,53284,0.6
+isci_0817,21,İlkokul,13,Sera Bakımı,Şırnak,Merkez,23806,ilan_0817,Firma_73,Sera Bakımı,Ardahan,Göle,İlkokul,4,30-43,Bayan,Var,Yok,41297,0.7
+isci_0818,41,Lise,17,Çapa,Kırşehir,Kaman,20609,ilan_0818,Firma_50,Fidan Dikimi,Aydın,Nazilli,Üniversite,10,23-42,Farketmez,Var,Var,30462,0.8
+isci_0819,34,Lise,4,Kayısı Hasadı,Trabzon,Akçaabat,51187,ilan_0819,Firma_92,Pamuk Toplama,Tunceli,Pülümür,İlkokul,0,19-49,Farketmez,Yok,Var,35284,0.5
+isci_0820,48,Ortaokul,5,Ürün Hasadı,Nevşehir,Avanos,49526,ilan_0820,Firma_18,Pamuk Toplama,Hatay,İskenderun,Lise,1,23-53,Erkek,Yok,Yok,37464,0.5
+isci_0821,45,Lise,3,"Ürün Hasadı, Toprak İşleme",Kayseri,Kocasinan,24859,ilan_0821,Firma_47,Kiraz Hasadı,Ordu,Altınordu,Ortaokul,0,25-46,Bayan,Var,Yok,51008,0.8
+isci_0822,25,Üniversite,9,Limon Hasadı,Afyonkarahisar,Bolvadin,52205,ilan_0822,Firma_13,Fidan Dikimi,Bartın,Merkez,Lise,5,27-43,Erkek,Yok,Yok,52921,0.5
+isci_0823,18,İlkokul,20,Sera Bakımı,Ağrı,Doğubayazıt,24470,ilan_0823,Firma_90,Ürün Hasadı,Hatay,İskenderun,İlkokul,6,30-46,Farketmez,Var,Yok,47768,0.7
+isci_0824,26,İlkokul,12,"Kiraz Hasadı, Kayısı Hasadı, Pamuk Toplama",Antalya,Muratpaşa,19620,ilan_0824,Firma_77,Toprak İşleme,Bursa,Nilüfer,Ortaokul,5,22-49,Farketmez,Var,Yok,29527,0.8
+isci_0825,56,İlkokul,15,"Ürün Hasadı, Ceviz Hasadı",Karaman,Ermenek,40323,ilan_0825,Firma_79,Pamuk Toplama,Kırklareli,Merkez,Üniversite,10,25-42,Farketmez,Yok,Var,33049,0.2
+isci_0826,56,Üniversite,10,"Kayısı Hasadı, Fidan Dikimi, Ürün Hasadı",Eskişehir,Tepebaşı,45904,ilan_0826,Firma_88,Çay Hasadı,Kütahya,Simav,Üniversite,4,20-50,Erkek,Var,Yok,55343,0.7
+isci_0827,53,Üniversite,6,Limon Hasadı,Ağrı,Patnos,25861,ilan_0827,Firma_64,Ürün Hasadı,Van,Erciş,Lise,8,20-56,Erkek,Yok,Yok,58244,0.6
+isci_0828,43,Lise,20,"Limon Hasadı, Fidan Dikimi",Adana,Seyhan,45711,ilan_0828,Firma_52,Toprak İşleme,Bartın,Amasra,Ortaokul,9,22-41,Bayan,Yok,Var,59620,0.5
+isci_0829,48,İlkokul,10,Ceviz Hasadı,Bolu,Gerede,31824,ilan_0829,Firma_46,Kayısı Hasadı,Bitlis,Tatvan,Ortaokul,4,24-57,Erkek,Yok,Yok,32817,0.8
+isci_0830,46,Lise,12,Elma Toplama,Mardin,Artuklu,27092,ilan_0830,Firma_34,Toprak İşleme,Sinop,Ayancık,Ortaokul,5,28-51,Bayan,Yok,Var,30335,0.8
+isci_0831,30,Üniversite,13,"Çapa, Pamuk Toplama",Sinop,Boyabat,17550,ilan_0831,Firma_100,Fidan Dikimi,Bartın,Merkez,Üniversite,6,28-53,Farketmez,Var,Yok,23829,1.0
+isci_0832,36,İlkokul,16,"Sera Bakımı, Ceviz Hasadı",Bolu,Mengen,48341,ilan_0832,Firma_74,Çay Hasadı,Aydın,Efeler,Üniversite,0,28-52,Bayan,Yok,Yok,48179,0.5
+isci_0833,41,Lise,14,"Ceviz Hasadı, Ürün Hasadı",Kırıkkale,Merkez,19811,ilan_0833,Firma_44,Kiraz Hasadı,Niğde,Çiftlik,Ortaokul,5,27-52,Bayan,Var,Var,36811,0.8
+isci_0834,29,Ortaokul,6,"Kayısı Hasadı, Sera Bakımı",Edirne,Merkez,18110,ilan_0834,Firma_93,Elma Toplama,Manisa,Yunusemre,Lise,5,25-40,Bayan,Var,Var,21151,0.8
+isci_0835,43,İlkokul,8,Sera Bakımı,Çanakkale,Ezine,43995,ilan_0835,Firma_62,Çapa,Karabük,Eskipazar,Üniversite,4,20-54,Bayan,Var,Yok,22410,0.5
+isci_0836,42,Ortaokul,15,Toprak İşleme,Çorum,Sungurlu,25443,ilan_0836,Firma_56,Ürün Hasadı,Bartın,Merkez,Üniversite,2,23-52,Farketmez,Var,Var,22674,0.5
+isci_0837,25,Ortaokul,2,"Elma Toplama, Kayısı Hasadı",Aydın,Söke,40254,ilan_0837,Firma_41,Pamuk Toplama,Gaziantep,Şehitkamil,Ortaokul,10,30-50,Bayan,Yok,Yok,46949,0.5
+isci_0838,55,Lise,3,"Ceviz Hasadı, Pamuk Toplama",Iğdır,Tuzluca,18117,ilan_0838,Firma_19,Kayısı Hasadı,Balıkesir,Bandırma,İlkokul,4,22-49,Bayan,Yok,Yok,53287,0.3
+isci_0839,53,Lise,10,"Pamuk Toplama, Toprak İşleme",Kırıkkale,Merkez,56316,ilan_0839,Firma_24,Çapa,Karabük,Merkez,Ortaokul,5,25-44,Erkek,Var,Var,17701,0.2
+isci_0840,52,İlkokul,4,"Elma Toplama, Fidan Dikimi",Karabük,Safranbolu,42741,ilan_0840,Firma_10,Pamuk Toplama,Karaman,Ayrancı,Ortaokul,10,27-60,Bayan,Yok,Var,34248,0.3
+isci_0841,55,İlkokul,0,Pamuk Toplama,Karaman,Merkez,44719,ilan_0841,Firma_74,Kiraz Hasadı,Bolu,Gerede,Lise,9,18-45,Farketmez,Var,Yok,36590,0.0
+isci_0842,20,İlkokul,13,Limon Hasadı,Erzincan,Tercan,25011,ilan_0842,Firma_34,Ürün Hasadı,Samsun,Bafra,Ortaokul,2,19-51,Erkek,Var,Yok,35880,0.8
+isci_0843,53,Üniversite,12,Pamuk Toplama,Artvin,Merkez,30364,ilan_0843,Firma_20,Pamuk Toplama,Yalova,Altınova,Lise,1,30-48,Erkek,Yok,Yok,27683,0.2
+isci_0844,33,Üniversite,10,"Çapa, Elma Toplama",Karaman,Merkez,21286,ilan_0844,Firma_9,Limon Hasadı,Muş,Merkez,İlkokul,7,18-43,Farketmez,Var,Yok,37277,0.8
+isci_0845,30,İlkokul,5,"Limon Hasadı, Çay Hasadı, Pamuk Toplama",Niğde,Çiftlik,27138,ilan_0845,Firma_51,Sera Bakımı,Yalova,Çınarcık,Ortaokul,1,21-60,Erkek,Var,Yok,21071,0.5
+isci_0846,29,Lise,5,"Kayısı Hasadı, Elma Toplama, Ceviz Hasadı",Hatay,Defne,20111,ilan_0846,Firma_5,Kiraz Hasadı,Artvin,Hopa,Ortaokul,10,21-41,Farketmez,Yok,Var,42674,0.6
+isci_0847,58,Ortaokul,14,"Limon Hasadı, Kayısı Hasadı, Fidan Dikimi",Gümüşhane,Kelkit,22407,ilan_0847,Firma_38,Kayısı Hasadı,Burdur,Gölhisar,İlkokul,4,23-41,Erkek,Var,Var,29708,0.5
+isci_0848,21,Ortaokul,12,"Çapa, Kayısı Hasadı, Toprak İşleme",Bartın,Amasra,52623,ilan_0848,Firma_56,Limon Hasadı,Eskişehir,Odunpazarı,İlkokul,0,25-49,Bayan,Yok,Yok,46407,0.2
+isci_0849,56,İlkokul,17,Çapa,Aksaray,Eskil,30915,ilan_0849,Firma_97,Kiraz Hasadı,Sakarya,Serdivan,Lise,9,23-42,Farketmez,Var,Yok,58536,0.5
+isci_0850,39,Lise,6,Sera Bakımı,Afyonkarahisar,Merkez,20420,ilan_0850,Firma_87,Sera Bakımı,Yalova,Çınarcık,Üniversite,8,18-57,Erkek,Var,Var,32312,0.6
+isci_0851,44,Ortaokul,14,Ceviz Hasadı,Muğla,Fethiye,34836,ilan_0851,Firma_90,Limon Hasadı,Manisa,Turgutlu,Ortaokul,5,18-59,Bayan,Var,Yok,48559,1.0
+isci_0852,19,Ortaokul,9,Kayısı Hasadı,Gümüşhane,Merkez,21040,ilan_0852,Firma_88,Kiraz Hasadı,Ordu,Altınordu,Üniversite,4,19-41,Bayan,Var,Var,20084,0.5
+isci_0853,48,İlkokul,9,"Pamuk Toplama, Kiraz Hasadı, Toprak İşleme",Mardin,Kızıltepe,59826,ilan_0853,Firma_36,Limon Hasadı,Edirne,Uzunköprü,Üniversite,0,26-43,Farketmez,Var,Yok,39680,0.2
+isci_0854,46,İlkokul,19,"Fidan Dikimi, Çay Hasadı, Kayısı Hasadı",Bilecik,Söğüt,50978,ilan_0854,Firma_90,Çapa,Erzincan,Kemaliye,Lise,1,18-51,Farketmez,Yok,Var,38782,0.5
+isci_0855,37,Lise,16,"Sera Bakımı, Kiraz Hasadı, Çay Hasadı",Nevşehir,Ürgüp,39030,ilan_0855,Firma_23,Fidan Dikimi,Hakkari,Yüksekova,Ortaokul,1,24-41,Bayan,Var,Yok,25289,0.5
+isci_0856,54,Üniversite,13,"Fidan Dikimi, Kayısı Hasadı, Limon Hasadı",Adana,Yüreğir,32399,ilan_0856,Firma_15,Çay Hasadı,Edirne,Keşan,İlkokul,6,21-52,Farketmez,Yok,Var,49924,0.5
+isci_0857,44,İlkokul,2,"Ceviz Hasadı, Fidan Dikimi, Kiraz Hasadı",Ordu,Altınordu,19442,ilan_0857,Firma_21,Çay Hasadı,Manisa,Şehzadeler,Lise,6,19-44,Farketmez,Var,Yok,51556,0.6
+isci_0858,25,Üniversite,9,"Kiraz Hasadı, Kayısı Hasadı",Siirt,Pervari,56157,ilan_0858,Firma_29,Limon Hasadı,Mersin,Yenişehir,Lise,9,26-47,Farketmez,Var,Var,50293,0.2
+isci_0859,48,Lise,13,"Elma Toplama, Kayısı Hasadı",Düzce,Merkez,18590,ilan_0859,Firma_9,Fidan Dikimi,Rize,Çayeli,Ortaokul,8,29-54,Bayan,Yok,Yok,58850,0.8
+isci_0860,22,Ortaokul,11,"Ürün Hasadı, Ceviz Hasadı, Çay Hasadı",Van,Edremit,18814,ilan_0860,Firma_35,Kayısı Hasadı,Trabzon,Yomra,Lise,10,18-55,Bayan,Yok,Yok,17176,0.5
+isci_0861,40,İlkokul,11,"Kiraz Hasadı, Çapa",Kayseri,Kocasinan,25108,ilan_0861,Firma_39,Pamuk Toplama,Düzce,Akçakoca,Ortaokul,8,22-54,Erkek,Yok,Yok,56369,0.8
+isci_0862,54,İlkokul,10,"Fidan Dikimi, Ürün Hasadı, Çapa",Elazığ,Sivrice,34544,ilan_0862,Firma_57,Çapa,Nevşehir,Ürgüp,Üniversite,8,25-49,Bayan,Yok,Yok,45744,0.5
+isci_0863,20,İlkokul,3,"Toprak İşleme, Pamuk Toplama, Kayısı Hasadı",Ağrı,Patnos,47691,ilan_0863,Firma_45,Çay Hasadı,Tekirdağ,Kapaklı,Ortaokul,10,26-46,Erkek,Yok,Var,57638,0.3
+isci_0864,24,İlkokul,9,"Kiraz Hasadı, Toprak İşleme",Şanlıurfa,Eyyübiye,20488,ilan_0864,Firma_36,Çapa,Adana,Çukurova,Ortaokul,2,23-40,Bayan,Yok,Var,42756,0.8
+isci_0865,42,Lise,14,"Elma Toplama, Fidan Dikimi, Limon Hasadı",Ağrı,Merkez,51637,ilan_0865,Firma_18,Ceviz Hasadı,Muş,Malazgirt,Üniversite,2,28-56,Erkek,Yok,Yok,20575,0.5
+isci_0866,46,İlkokul,2,Ürün Hasadı,Karabük,Merkez,22045,ilan_0866,Firma_27,Fidan Dikimi,Yalova,Altınova,İlkokul,1,22-53,Farketmez,Var,Yok,23395,1.0
+isci_0867,32,İlkokul,18,Sera Bakımı,Yalova,Altınova,50626,ilan_0867,Firma_26,Elma Toplama,Muş,Malazgirt,Ortaokul,9,27-58,Farketmez,Var,Var,26220,0.5
+isci_0868,38,Ortaokul,3,"Çapa, Kiraz Hasadı, Ceviz Hasadı",Niğde,Bor,45426,ilan_0868,Firma_73,Limon Hasadı,Erzurum,Aziziye,Lise,8,26-44,Erkek,Yok,Var,38352,0.3
+isci_0869,30,Ortaokul,8,"Ürün Hasadı, Toprak İşleme",Amasya,Suluova,42715,ilan_0869,Firma_48,Ceviz Hasadı,Van,İpekyolu,İlkokul,2,25-46,Farketmez,Yok,Var,48229,0.8
+isci_0870,56,Lise,16,Fidan Dikimi,Adıyaman,Besni,41390,ilan_0870,Firma_49,Limon Hasadı,Çankırı,Merkez,Lise,3,29-46,Farketmez,Yok,Var,45784,0.7
+isci_0871,37,Lise,5,"Kiraz Hasadı, Pamuk Toplama, Çay Hasadı",Kocaeli,İzmit,39636,ilan_0871,Firma_33,Elma Toplama,Sinop,Ayancık,İlkokul,5,29-45,Farketmez,Var,Var,55232,0.8
+isci_0872,33,Üniversite,4,Sera Bakımı,Sinop,Boyabat,32840,ilan_0872,Firma_16,Çapa,Bingöl,Solhan,Üniversite,9,18-59,Bayan,Yok,Var,30049,0.5
+isci_0873,53,Üniversite,19,"Limon Hasadı, Ceviz Hasadı",Muğla,Menteşe,56818,ilan_0873,Firma_99,Sera Bakımı,İstanbul,Üsküdar,Üniversite,0,22-48,Farketmez,Var,Yok,28884,0.4
+isci_0874,41,Üniversite,1,"Sera Bakımı, Kiraz Hasadı, Elma Toplama",Trabzon,Akçaabat,19317,ilan_0874,Firma_19,Toprak İşleme,Artvin,Arhavi,İlkokul,5,28-56,Bayan,Yok,Yok,54570,0.6
+isci_0875,54,Üniversite,6,"Elma Toplama, Sera Bakımı, Çay Hasadı",Uşak,Merkez,22107,ilan_0875,Firma_4,Çay Hasadı,Kırklareli,Lüleburgaz,Üniversite,5,24-49,Bayan,Yok,Yok,59631,0.7
+isci_0876,19,Ortaokul,7,"Elma Toplama, Çay Hasadı",Sakarya,Erenler,25364,ilan_0876,Firma_66,Çay Hasadı,Mardin,Artuklu,Üniversite,8,19-52,Farketmez,Var,Yok,30396,0.6
+isci_0877,45,Ortaokul,8,"Elma Toplama, Ürün Hasadı, Fidan Dikimi",Mersin,Toroslar,20616,ilan_0877,Firma_10,Ceviz Hasadı,Hatay,Antakya,İlkokul,0,20-56,Farketmez,Var,Yok,45715,0.8
+isci_0878,50,İlkokul,13,"Elma Toplama, Pamuk Toplama",Adana,Yüreğir,57257,ilan_0878,Firma_61,Pamuk Toplama,Aksaray,Ortaköy,İlkokul,8,18-46,Farketmez,Var,Yok,42259,0.4
+isci_0879,23,İlkokul,16,"Fidan Dikimi, Elma Toplama, Limon Hasadı",Kütahya,Tavşanlı,34907,ilan_0879,Firma_23,Toprak İşleme,İstanbul,Kadıköy,Ortaokul,8,26-43,Farketmez,Var,Yok,28956,0.2
+isci_0880,41,Üniversite,2,Toprak İşleme,Van,Edremit,33354,ilan_0880,Firma_51,Kayısı Hasadı,Aksaray,Eskil,İlkokul,5,26-56,Farketmez,Var,Yok,49891,0.6
+isci_0881,50,İlkokul,8,"Toprak İşleme, Elma Toplama, Çapa",Mersin,Toroslar,38617,ilan_0881,Firma_89,Kayısı Hasadı,Aydın,Nazilli,İlkokul,6,28-57,Bayan,Var,Yok,57367,1.0
+isci_0882,23,Lise,8,Kiraz Hasadı,Kastamonu,Merkez,27316,ilan_0882,Firma_50,Kayısı Hasadı,Sivas,Merkez,Lise,1,28-55,Farketmez,Var,Var,53110,0.7
+isci_0883,46,İlkokul,5,"Kayısı Hasadı, Ürün Hasadı",Adana,Yüreğir,42158,ilan_0883,Firma_88,Pamuk Toplama,Amasya,Merkez,Ortaokul,0,26-42,Bayan,Yok,Var,58974,0.5
+isci_0884,21,Lise,6,Sera Bakımı,Kırıkkale,Merkez,46148,ilan_0884,Firma_66,Çapa,Bayburt,Merkez,Üniversite,0,28-50,Bayan,Yok,Var,35944,0.2
+isci_0885,20,Üniversite,0,"Toprak İşleme, Sera Bakımı, Limon Hasadı",Afyonkarahisar,Merkez,49070,ilan_0885,Firma_76,Ceviz Hasadı,Muş,Malazgirt,İlkokul,8,30-44,Erkek,Var,Yok,28222,0.0
+isci_0886,34,İlkokul,11,"Ceviz Hasadı, Çapa",Bolu,Gerede,35924,ilan_0886,Firma_46,Kiraz Hasadı,Bayburt,Demirözü,Üniversite,9,24-51,Bayan,Var,Yok,20484,0.5
+isci_0887,23,Üniversite,15,"Çay Hasadı, Kayısı Hasadı, Fidan Dikimi",Bursa,Osmangazi,59112,ilan_0887,Firma_53,Kayısı Hasadı,Karaman,Ermenek,Ortaokul,0,25-49,Erkek,Yok,Var,38310,0.2
+isci_0888,27,İlkokul,16,"Ürün Hasadı, Pamuk Toplama, Sera Bakımı",İstanbul,Beşiktaş,52723,ilan_0888,Firma_90,Toprak İşleme,Siirt,Merkez,Ortaokul,1,22-45,Farketmez,Yok,Yok,35335,0.5
+isci_0889,50,İlkokul,4,"Pamuk Toplama, Ceviz Hasadı",Amasya,Suluova,40862,ilan_0889,Firma_48,Elma Toplama,Malatya,Battalgazi,İlkokul,3,24-56,Bayan,Yok,Yok,24535,0.7
+isci_0890,51,İlkokul,6,"Toprak İşleme, Fidan Dikimi, Elma Toplama",Kocaeli,Darıca,50267,ilan_0890,Firma_56,Kayısı Hasadı,Eskişehir,Tepebaşı,İlkokul,0,19-47,Bayan,Yok,Yok,50519,0.7
+isci_0891,34,Ortaokul,7,"Elma Toplama, Çay Hasadı, Çapa",Batman,Beşiri,47312,ilan_0891,Firma_33,Elma Toplama,Isparta,Yalvaç,İlkokul,5,23-59,Erkek,Yok,Yok,36345,0.5
+isci_0892,31,İlkokul,16,"Kayısı Hasadı, Elma Toplama",Kars,Merkez,52137,ilan_0892,Firma_21,Çapa,Bursa,Yıldırım,Ortaokul,0,22-57,Bayan,Yok,Yok,26510,0.5
+isci_0893,26,Lise,14,"Limon Hasadı, Kiraz Hasadı",Sinop,Boyabat,39523,ilan_0893,Firma_93,Ürün Hasadı,Ankara,Çankaya,Üniversite,5,26-52,Farketmez,Yok,Var,45703,0.8
+isci_0894,30,İlkokul,9,"Fidan Dikimi, Sera Bakımı",Düzce,Cumayeri,42309,ilan_0894,Firma_23,Ceviz Hasadı,Ankara,Yenimahalle,Üniversite,5,22-46,Farketmez,Yok,Yok,43172,0.8
+isci_0895,20,Ortaokul,17,"Kiraz Hasadı, Çapa",Adana,Çukurova,44247,ilan_0895,Firma_37,Kiraz Hasadı,Ardahan,Çıldır,Ortaokul,3,27-57,Farketmez,Var,Var,21703,0.4
+isci_0896,29,Lise,20,Çay Hasadı,Isparta,Merkez,29773,ilan_0896,Firma_9,Kiraz Hasadı,Yalova,Çınarcık,Ortaokul,5,19-55,Erkek,Var,Var,34146,0.8
+isci_0897,52,Üniversite,15,"Sera Bakımı, Limon Hasadı, Çay Hasadı",Balıkesir,Edremit,57372,ilan_0897,Firma_4,Fidan Dikimi,Kırklareli,Merkez,Ortaokul,5,27-45,Farketmez,Var,Yok,48197,0.2
+isci_0898,32,Üniversite,17,"Kayısı Hasadı, Kiraz Hasadı",Nevşehir,Ürgüp,40658,ilan_0898,Firma_25,Çay Hasadı,Kayseri,Melikgazi,Ortaokul,8,25-42,Erkek,Yok,Yok,24227,0.5
+isci_0899,48,İlkokul,1,"Elma Toplama, Sera Bakımı, Limon Hasadı",Bingöl,Merkez,28654,ilan_0899,Firma_54,Toprak İşleme,Ağrı,Merkez,Lise,6,23-53,Bayan,Yok,Yok,28018,0.3
+isci_0900,21,Üniversite,19,Pamuk Toplama,Tokat,Turhal,26197,ilan_0900,Firma_76,Limon Hasadı,Manisa,Turgutlu,İlkokul,3,19-55,Farketmez,Var,Yok,49646,0.8
+isci_0901,41,İlkokul,10,Elma Toplama,Burdur,Gölhisar,41225,ilan_0901,Firma_33,Sera Bakımı,Isparta,Yalvaç,Lise,10,22-51,Erkek,Var,Yok,25658,0.5
+isci_0902,57,Lise,1,"Limon Hasadı, Ürün Hasadı, Ceviz Hasadı",Osmaniye,Kadirli,20169,ilan_0902,Firma_87,Kayısı Hasadı,Diyarbakır,Kayapınar,Ortaokul,6,22-41,Farketmez,Var,Var,31412,0.3
+isci_0903,24,İlkokul,12,Kayısı Hasadı,Sakarya,Erenler,42013,ilan_0903,Firma_73,Ürün Hasadı,Gaziantep,Nizip,Lise,10,24-56,Bayan,Yok,Var,37839,0.5
+isci_0904,27,İlkokul,5,"Toprak İşleme, Çay Hasadı, Kiraz Hasadı",Manisa,Yunusemre,53888,ilan_0904,Firma_10,Ürün Hasadı,Nevşehir,Avanos,Lise,10,18-46,Bayan,Var,Var,47740,0.3
+isci_0905,30,İlkokul,7,Elma Toplama,Ordu,Ünye,26556,ilan_0905,Firma_64,Kiraz Hasadı,İstanbul,Üsküdar,Ortaokul,7,20-52,Farketmez,Var,Yok,49032,0.8
+isci_0906,50,İlkokul,9,"Limon Hasadı, Çay Hasadı, Toprak İşleme",Şanlıurfa,Siverek,17651,ilan_0906,Firma_9,Toprak İşleme,İstanbul,Beşiktaş,Lise,9,28-53,Bayan,Yok,Yok,33622,0.8
+isci_0907,24,İlkokul,20,"Ürün Hasadı, Çay Hasadı",Bursa,Yıldırım,21440,ilan_0907,Firma_4,Toprak İşleme,Bursa,Nilüfer,Ortaokul,5,21-54,Erkek,Yok,Var,29569,0.8
+isci_0908,41,Lise,17,Fidan Dikimi,Adıyaman,Kahta,19318,ilan_0908,Firma_94,Çay Hasadı,Mersin,Yenişehir,İlkokul,8,27-47,Erkek,Yok,Var,33423,0.8
+isci_0909,45,Lise,18,"Çay Hasadı, Pamuk Toplama",Hatay,Defne,41575,ilan_0909,Firma_35,Kiraz Hasadı,Ankara,Çankaya,Üniversite,6,25-43,Bayan,Var,Yok,45834,0.5
+isci_0910,24,Lise,16,"Elma Toplama, Ürün Hasadı, Sera Bakımı",Osmaniye,Merkez,52542,ilan_0910,Firma_77,Ceviz Hasadı,Bitlis,Merkez,Lise,7,19-44,Farketmez,Yok,Var,43364,0.7
+isci_0911,37,Üniversite,18,"Fidan Dikimi, Çapa",Kahramanmaraş,Dulkadiroğlu,54399,ilan_0911,Firma_67,Toprak İşleme,Manisa,Yunusemre,Ortaokul,10,24-51,Farketmez,Yok,Var,18253,0.5
+isci_0912,59,Ortaokul,19,"Çay Hasadı, Kiraz Hasadı",Amasya,Merkez,49141,ilan_0912,Firma_49,Elma Toplama,Bitlis,Tatvan,İlkokul,2,26-41,Erkek,Var,Yok,30034,0.2
+isci_0913,32,Üniversite,16,"Pamuk Toplama, Ceviz Hasadı, Elma Toplama",Mardin,Artuklu,42888,ilan_0913,Firma_87,Elma Toplama,Kırıkkale,Keskin,Ortaokul,10,20-58,Farketmez,Yok,Var,49468,0.8
+isci_0914,28,Üniversite,13,"Fidan Dikimi, Pamuk Toplama, Elma Toplama",Erzurum,Palandöken,35903,ilan_0914,Firma_38,Toprak İşleme,Karabük,Safranbolu,İlkokul,2,21-46,Farketmez,Var,Var,42580,0.8
+isci_0915,50,Lise,9,Kayısı Hasadı,Zonguldak,Ereğli,50910,ilan_0915,Firma_2,Kiraz Hasadı,Kars,Kağızman,Üniversite,1,19-58,Farketmez,Yok,Var,35794,0.5
+isci_0916,25,Lise,4,"Kayısı Hasadı, Ceviz Hasadı, Limon Hasadı",Rize,Çayeli,58515,ilan_0916,Firma_73,Fidan Dikimi,Bayburt,Merkez,Ortaokul,4,18-47,Erkek,Var,Var,48673,0.5
+isci_0917,23,Lise,10,Elma Toplama,Ardahan,Merkez,36610,ilan_0917,Firma_88,Kayısı Hasadı,Manisa,Turgutlu,Ortaokul,5,20-46,Farketmez,Var,Var,20196,0.5
+isci_0918,31,Ortaokul,20,"Çapa, Çay Hasadı",Bayburt,Aydıntepe,42180,ilan_0918,Firma_21,Ürün Hasadı,Ağrı,Merkez,Lise,5,26-59,Farketmez,Yok,Var,24521,0.5
+isci_0919,36,Lise,7,"Fidan Dikimi, Elma Toplama, Toprak İşleme",Kilis,Musabeyli,26755,ilan_0919,Firma_11,Kiraz Hasadı,Van,Edremit,Üniversite,6,18-59,Bayan,Yok,Var,40270,0.8
+isci_0920,35,Ortaokul,17,"Pamuk Toplama, Toprak İşleme, Ceviz Hasadı",Isparta,Merkez,23196,ilan_0920,Firma_23,Elma Toplama,Antalya,Konyaaltı,Lise,3,27-55,Farketmez,Yok,Yok,53595,0.8
+isci_0921,30,İlkokul,14,"Pamuk Toplama, Ürün Hasadı, Sera Bakımı",Aksaray,Merkez,20412,ilan_0921,Firma_5,Kayısı Hasadı,Nevşehir,Avanos,Üniversite,0,28-50,Erkek,Var,Yok,35727,0.8
+isci_0922,50,İlkokul,16,"Kayısı Hasadı, Sera Bakımı, Ceviz Hasadı",Çanakkale,Biga,59801,ilan_0922,Firma_94,Toprak İşleme,İzmir,Karşıyaka,Ortaokul,9,23-46,Bayan,Var,Var,37409,0.2
+isci_0923,52,Üniversite,9,Kayısı Hasadı,Siirt,Kurtalan,22490,ilan_0923,Firma_28,Kayısı Hasadı,Kayseri,Kocasinan,İlkokul,3,18-53,Erkek,Yok,Var,48964,0.8
+isci_0924,26,Ortaokul,18,"Çapa, Toprak İşleme",Afyonkarahisar,Sandıklı,28219,ilan_0924,Firma_62,Çay Hasadı,Malatya,Doğanşehir,Ortaokul,2,22-52,Bayan,Yok,Yok,38120,1.0
+isci_0925,21,İlkokul,18,"Elma Toplama, Toprak İşleme, Ürün Hasadı",Kahramanmaraş,Onikişubat,26755,ilan_0925,Firma_90,Ceviz Hasadı,Diyarbakır,Bağlar,Üniversite,3,23-58,Farketmez,Yok,Var,31637,0.5
+isci_0926,34,Ortaokul,4,"Kayısı Hasadı, Toprak İşleme, Limon Hasadı",Aydın,Nazilli,18262,ilan_0926,Firma_36,Pamuk Toplama,Aydın,Nazilli,Ortaokul,7,30-40,Farketmez,Yok,Yok,31438,0.8
+isci_0927,47,İlkokul,12,"Fidan Dikimi, Pamuk Toplama, Elma Toplama",Bitlis,Merkez,55721,ilan_0927,Firma_36,Ceviz Hasadı,Adıyaman,Besni,Lise,7,30-51,Farketmez,Var,Var,55749,0.8
+isci_0928,44,Lise,11,"Toprak İşleme, Ceviz Hasadı, Pamuk Toplama",Ağrı,Patnos,42401,ilan_0928,Firma_88,Toprak İşleme,Isparta,Merkez,Üniversite,2,22-46,Bayan,Var,Var,40711,0.5
+isci_0929,37,Ortaokul,10,"Çapa, Kiraz Hasadı",Şırnak,Silopi,29629,ilan_0929,Firma_34,Çay Hasadı,Şırnak,Silopi,Lise,10,29-56,Erkek,Yok,Yok,47328,0.8
+isci_0930,60,Ortaokul,15,"Toprak İşleme, Çapa, Çay Hasadı",Adıyaman,Kahta,28640,ilan_0930,Firma_1,Ceviz Hasadı,Van,Edremit,İlkokul,6,25-60,Erkek,Yok,Yok,42856,0.8
+isci_0931,32,Üniversite,16,"Elma Toplama, Ürün Hasadı",Aksaray,Eskil,33973,ilan_0931,Firma_75,Pamuk Toplama,Bingöl,Solhan,İlkokul,9,25-56,Erkek,Yok,Var,31782,0.5
+isci_0932,34,Lise,14,"Kiraz Hasadı, Sera Bakımı, Çapa",Amasya,Suluova,49716,ilan_0932,Firma_80,Kiraz Hasadı,Bartın,Amasra,İlkokul,1,27-43,Farketmez,Var,Var,52281,0.8
+isci_0933,42,İlkokul,16,Ürün Hasadı,Çanakkale,Biga,19803,ilan_0933,Firma_56,Çay Hasadı,İzmir,Bornova,İlkokul,6,29-47,Bayan,Yok,Var,21528,1.0
+isci_0934,52,Üniversite,6,Limon Hasadı,Kahramanmaraş,Elbistan,25722,ilan_0934,Firma_86,Çay Hasadı,Şanlıurfa,Siverek,Ortaokul,6,27-44,Farketmez,Var,Yok,46727,0.5
+isci_0935,19,Üniversite,4,Fidan Dikimi,Sakarya,Serdivan,34010,ilan_0935,Firma_66,Elma Toplama,Konya,Karatay,İlkokul,3,20-43,Erkek,Var,Yok,33707,0.2
+isci_0936,54,Ortaokul,1,Ürün Hasadı,Edirne,Merkez,18386,ilan_0936,Firma_8,Sera Bakımı,Kocaeli,İzmit,Ortaokul,0,21-51,Farketmez,Yok,Var,31168,0.7
+isci_0937,52,Lise,12,"Ürün Hasadı, Çapa",Bartın,Merkez,23129,ilan_0937,Firma_75,Kayısı Hasadı,Amasya,Merzifon,Lise,2,26-41,Farketmez,Yok,Var,31101,0.7
+isci_0938,45,İlkokul,15,"Ceviz Hasadı, Kiraz Hasadı",Şırnak,Cizre,51748,ilan_0938,Firma_77,Kiraz Hasadı,Osmaniye,Düziçi,Üniversite,1,22-44,Bayan,Var,Yok,27178,0.2
+isci_0939,38,Lise,10,"Limon Hasadı, Toprak İşleme",Kahramanmaraş,Elbistan,26925,ilan_0939,Firma_57,Kiraz Hasadı,Kırıkkale,Keskin,Lise,10,23-52,Farketmez,Yok,Var,58399,1.0
+isci_0940,35,Lise,11,"Çapa, Kiraz Hasadı",Kırıkkale,Merkez,30492,ilan_0940,Firma_84,Elma Toplama,Samsun,Atakum,Ortaokul,2,27-50,Bayan,Yok,Var,17922,0.5
+isci_0941,56,Lise,8,"Limon Hasadı, Toprak İşleme, Sera Bakımı",Şanlıurfa,Haliliye,48303,ilan_0941,Firma_13,Elma Toplama,Aksaray,Ortaköy,Ortaokul,10,26-58,Bayan,Yok,Yok,57862,0.6
+isci_0942,37,Üniversite,13,Toprak İşleme,Samsun,Atakum,52797,ilan_0942,Firma_62,Fidan Dikimi,Bayburt,Merkez,Üniversite,5,18-43,Erkek,Var,Var,46340,0.7
+isci_0943,40,Üniversite,5,"Elma Toplama, Ceviz Hasadı",Bingöl,Karlıova,51109,ilan_0943,Firma_8,Limon Hasadı,Gümüşhane,Şiran,İlkokul,8,25-40,Erkek,Yok,Yok,49078,0.3
+isci_0944,54,Ortaokul,12,"Toprak İşleme, Elma Toplama, Ceviz Hasadı",Karabük,Safranbolu,25384,ilan_0944,Firma_41,Limon Hasadı,İzmir,Bornova,Lise,6,26-48,Bayan,Yok,Var,45321,0.5
+isci_0945,21,Lise,6,"Ceviz Hasadı, Ürün Hasadı",Amasya,Suluova,17122,ilan_0945,Firma_80,Çapa,Samsun,Atakum,Üniversite,7,19-59,Farketmez,Var,Var,58691,0.6
+isci_0946,29,İlkokul,11,Kiraz Hasadı,Iğdır,Aralık,46592,ilan_0946,Firma_38,Toprak İşleme,Bartın,Merkez,Üniversite,0,18-57,Erkek,Var,Yok,33793,0.5
+isci_0947,54,Ortaokul,19,"Ürün Hasadı, Çapa",Kastamonu,Merkez,40401,ilan_0947,Firma_72,Limon Hasadı,Trabzon,Akçaabat,Üniversite,1,25-59,Farketmez,Yok,Yok,32917,0.5
+isci_0948,29,Ortaokul,20,"Çapa, Kayısı Hasadı, Ceviz Hasadı",Tokat,Erbaa,35590,ilan_0948,Firma_71,Fidan Dikimi,Manisa,Yunusemre,İlkokul,1,30-50,Erkek,Var,Yok,17400,0.2
+isci_0949,55,Üniversite,5,"Elma Toplama, Ceviz Hasadı",Samsun,İlkadım,50753,ilan_0949,Firma_81,Limon Hasadı,Şanlıurfa,Eyyübiye,Ortaokul,0,18-60,Bayan,Yok,Yok,59035,0.8
+isci_0950,29,Üniversite,13,"Elma Toplama, Kiraz Hasadı",Bingöl,Karlıova,19559,ilan_0950,Firma_100,Ceviz Hasadı,Hatay,İskenderun,Üniversite,7,22-40,Erkek,Yok,Var,18812,0.7
+isci_0951,39,Üniversite,4,"Çapa, Fidan Dikimi",Adıyaman,Merkez,31295,ilan_0951,Firma_81,Toprak İşleme,Sinop,Ayancık,İlkokul,3,29-41,Bayan,Yok,Var,30438,0.5
+isci_0952,36,Üniversite,1,Çay Hasadı,Iğdır,Merkez,53401,ilan_0952,Firma_100,Toprak İşleme,Yozgat,Boğazlıyan,İlkokul,6,20-44,Bayan,Yok,Var,33658,0.3
+isci_0953,56,İlkokul,2,"Elma Toplama, Pamuk Toplama, Sera Bakımı",Trabzon,Yomra,53854,ilan_0953,Firma_8,Çay Hasadı,Bursa,Yıldırım,Lise,7,29-53,Bayan,Var,Var,24808,0.0
+isci_0954,40,Üniversite,18,Çapa,Artvin,Arhavi,43771,ilan_0954,Firma_34,Kiraz Hasadı,Burdur,Bucak,Üniversite,3,18-56,Erkek,Var,Var,57039,1.0
+isci_0955,49,İlkokul,1,"Toprak İşleme, Ürün Hasadı, Çay Hasadı",Bursa,Osmangazi,22512,ilan_0955,Firma_31,Elma Toplama,Diyarbakır,Sur,İlkokul,4,23-46,Erkek,Var,Var,52248,0.5
+isci_0956,59,Üniversite,18,"Limon Hasadı, Kiraz Hasadı",Ağrı,Merkez,51590,ilan_0956,Firma_38,Kayısı Hasadı,Bartın,Merkez,Üniversite,4,28-43,Erkek,Var,Var,22376,0.4
+isci_0957,27,Üniversite,17,Limon Hasadı,Tunceli,Merkez,42515,ilan_0957,Firma_97,Sera Bakımı,Kırıkkale,Delice,Üniversite,1,24-49,Bayan,Var,Yok,56128,1.0
+isci_0958,39,Ortaokul,9,"Toprak İşleme, Limon Hasadı, Kayısı Hasadı",Adana,Seyhan,50255,ilan_0958,Firma_90,Sera Bakımı,Düzce,Cumayeri,İlkokul,9,27-43,Farketmez,Yok,Yok,45553,0.5
+isci_0959,18,İlkokul,10,"Çapa, Fidan Dikimi",Şırnak,Merkez,51109,ilan_0959,Firma_55,Elma Toplama,Balıkesir,Edremit,İlkokul,5,22-50,Bayan,Var,Yok,37588,0.4
+isci_0960,31,Üniversite,1,Fidan Dikimi,Niğde,Çiftlik,46204,ilan_0960,Firma_86,Elma Toplama,Zonguldak,Ereğli,Üniversite,10,22-53,Farketmez,Var,Var,30741,0.5
+isci_0961,52,Ortaokul,14,"Çapa, Kiraz Hasadı",Çankırı,Çerkeş,41110,ilan_0961,Firma_51,Sera Bakımı,İzmir,Bornova,Üniversite,3,28-49,Erkek,Yok,Var,50337,0.5
+isci_0962,36,Lise,19,"Ürün Hasadı, Pamuk Toplama",Malatya,Battalgazi,23139,ilan_0962,Firma_43,Fidan Dikimi,Balıkesir,Bandırma,Lise,10,26-41,Farketmez,Var,Var,36003,1.0
+isci_0963,58,Lise,9,"Kayısı Hasadı, Elma Toplama, Ceviz Hasadı",Bitlis,Tatvan,18022,ilan_0963,Firma_20,Pamuk Toplama,Kırklareli,Lüleburgaz,İlkokul,3,29-59,Erkek,Yok,Yok,43713,0.8
+isci_0964,49,Üniversite,4,"Çapa, Toprak İşleme",Osmaniye,Kadirli,21196,ilan_0964,Firma_27,Çapa,Burdur,Merkez,Lise,8,18-40,Farketmez,Yok,Var,56113,0.3
+isci_0965,31,Üniversite,9,"Çapa, Limon Hasadı",İstanbul,Üsküdar,39999,ilan_0965,Firma_91,Limon Hasadı,Sinop,Merkez,İlkokul,3,18-49,Farketmez,Var,Var,34530,0.5
+isci_0966,44,Üniversite,11,"Sera Bakımı, Kayısı Hasadı, Kiraz Hasadı",Gümüşhane,Şiran,42873,ilan_0966,Firma_46,Ceviz Hasadı,Bayburt,Merkez,Lise,3,28-51,Farketmez,Yok,Var,48523,0.8
+isci_0967,43,İlkokul,17,"Toprak İşleme, Kiraz Hasadı, Çay Hasadı",Muğla,Fethiye,46916,ilan_0967,Firma_91,Toprak İşleme,Muş,Malazgirt,İlkokul,7,21-55,Farketmez,Var,Var,54010,1.0
+isci_0968,30,Lise,13,Sera Bakımı,Erzurum,Palandöken,53341,ilan_0968,Firma_45,Kiraz Hasadı,Bingöl,Karlıova,Ortaokul,3,18-53,Bayan,Yok,Yok,40573,0.5
+isci_0969,26,İlkokul,2,"Toprak İşleme, Fidan Dikimi, Sera Bakımı",Gaziantep,Şahinbey,48655,ilan_0969,Firma_51,Ürün Hasadı,Siirt,Kurtalan,İlkokul,2,20-59,Farketmez,Yok,Var,32499,0.7
+isci_0970,52,Ortaokul,6,Ürün Hasadı,Kars,Sarıkamış,25497,ilan_0970,Firma_93,Çay Hasadı,Sakarya,Serdivan,Ortaokul,10,27-51,Bayan,Var,Yok,38381,0.5
+isci_0971,38,Ortaokul,4,"Çapa, Kiraz Hasadı",Kastamonu,Merkez,39044,ilan_0971,Firma_98,Çapa,Uşak,Banaz,Üniversite,10,22-44,Farketmez,Yok,Yok,28906,0.3
+isci_0972,19,Üniversite,5,"Sera Bakımı, Kiraz Hasadı, Çapa",Elazığ,Sivrice,43185,ilan_0972,Firma_17,Kiraz Hasadı,Çanakkale,Biga,Lise,2,25-53,Bayan,Var,Var,26925,0.2
+isci_0973,40,İlkokul,4,"Elma Toplama, Çay Hasadı, Ceviz Hasadı",Kırıkkale,Delice,54092,ilan_0973,Firma_67,Fidan Dikimi,Bilecik,Bozüyük,Ortaokul,9,25-41,Bayan,Var,Yok,42280,0.3
+isci_0974,23,Lise,20,"Kayısı Hasadı, Sera Bakımı",Hatay,Antakya,21188,ilan_0974,Firma_45,Limon Hasadı,Sinop,Ayancık,İlkokul,4,28-43,Bayan,Yok,Var,18304,0.2
+isci_0975,47,Ortaokul,3,"Ürün Hasadı, Sera Bakımı, Çapa",Erzurum,Palandöken,34359,ilan_0975,Firma_24,Sera Bakımı,Balıkesir,Bandırma,Üniversite,5,24-56,Bayan,Yok,Yok,23997,0.3
+isci_0976,18,İlkokul,0,"Çay Hasadı, Fidan Dikimi, Kayısı Hasadı",Tekirdağ,Kapaklı,34601,ilan_0976,Firma_72,Kiraz Hasadı,Kahramanmaraş,Dulkadiroğlu,Üniversite,5,21-47,Erkek,Yok,Yok,43752,0.3
+isci_0977,49,Lise,17,"Toprak İşleme, Kiraz Hasadı, Çay Hasadı",Kayseri,Melikgazi,20683,ilan_0977,Firma_97,Kiraz Hasadı,Burdur,Bucak,Üniversite,8,26-48,Farketmez,Yok,Var,38056,0.5
+isci_0978,21,Üniversite,18,Ceviz Hasadı,Kütahya,Tavşanlı,44282,ilan_0978,Firma_44,Elma Toplama,Mardin,Midyat,Lise,3,20-51,Farketmez,Var,Var,51124,0.8
+isci_0979,53,Lise,7,"Ceviz Hasadı, Toprak İşleme",Kütahya,Tavşanlı,34233,ilan_0979,Firma_80,Elma Toplama,Mardin,Kızıltepe,Lise,9,25-54,Bayan,Var,Var,51573,0.8
+isci_0980,52,Ortaokul,8,"Kayısı Hasadı, Limon Hasadı",Trabzon,Yomra,46765,ilan_0980,Firma_33,Elma Toplama,Zonguldak,Ereğli,Üniversite,2,28-46,Farketmez,Yok,Var,41534,0.2
+isci_0981,30,İlkokul,6,"Sera Bakımı, Limon Hasadı, Ceviz Hasadı",Ağrı,Doğubayazıt,59206,ilan_0981,Firma_39,Kayısı Hasadı,Hatay,İskenderun,İlkokul,6,28-50,Bayan,Var,Var,52814,0.7
+isci_0982,25,İlkokul,2,Ceviz Hasadı,Osmaniye,Kadirli,32834,ilan_0982,Firma_62,Ürün Hasadı,Bitlis,Merkez,Ortaokul,10,25-43,Farketmez,Yok,Yok,43977,0.6
+isci_0983,46,Lise,11,"Çapa, Kayısı Hasadı",Kastamonu,Tosya,31730,ilan_0983,Firma_94,Elma Toplama,Gümüşhane,Merkez,Ortaokul,1,29-54,Bayan,Yok,Yok,32954,0.8
+isci_0984,40,Ortaokul,2,Çay Hasadı,Yozgat,Sorgun,26268,ilan_0984,Firma_98,Kayısı Hasadı,Adana,Çukurova,İlkokul,8,29-46,Erkek,Yok,Var,28976,0.6
+isci_0985,55,İlkokul,17,Çay Hasadı,Eskişehir,Odunpazarı,18724,ilan_0985,Firma_92,Elma Toplama,Muğla,Fethiye,Ortaokul,9,26-48,Farketmez,Yok,Yok,43350,0.5
+isci_0986,31,Ortaokul,5,"Elma Toplama, Fidan Dikimi",Erzincan,Kemaliye,43854,ilan_0986,Firma_12,Ürün Hasadı,Bitlis,Ahlat,Ortaokul,7,26-54,Farketmez,Yok,Yok,37321,0.5
+isci_0987,39,Üniversite,6,"Elma Toplama, Ceviz Hasadı",Nevşehir,Avanos,50292,ilan_0987,Firma_7,Çapa,Tunceli,Nazımiye,Ortaokul,7,26-57,Bayan,Var,Yok,26967,0.3
+isci_0988,24,İlkokul,3,"Çapa, Sera Bakımı",Isparta,Eğirdir,48051,ilan_0988,Firma_63,Çapa,Muğla,Bodrum,Üniversite,5,25-43,Farketmez,Var,Yok,35528,0.0
+isci_0989,60,Ortaokul,17,Pamuk Toplama,Hakkari,Yüksekova,49234,ilan_0989,Firma_26,Çapa,Eskişehir,Tepebaşı,Ortaokul,8,24-51,Farketmez,Yok,Var,29155,0.4
+isci_0990,27,Ortaokul,11,Ürün Hasadı,Manisa,Şehzadeler,33019,ilan_0990,Firma_44,Ürün Hasadı,Giresun,Espiye,Üniversite,1,27-48,Erkek,Yok,Yok,54359,0.8
+isci_0991,18,Üniversite,4,"Ceviz Hasadı, Sera Bakımı, Çapa",Bayburt,Demirözü,25482,ilan_0991,Firma_28,Ürün Hasadı,Bitlis,Merkez,Üniversite,1,25-55,Farketmez,Yok,Var,23548,0.4
+isci_0992,29,Ortaokul,5,"Kayısı Hasadı, Toprak İşleme, Çapa",Siirt,Pervari,31278,ilan_0992,Firma_58,Toprak İşleme,Kahramanmaraş,Onikişubat,İlkokul,3,24-58,Farketmez,Var,Var,47424,0.8
+isci_0993,27,İlkokul,15,"Limon Hasadı, Sera Bakımı, Toprak İşleme",Bingöl,Solhan,34281,ilan_0993,Firma_28,Elma Toplama,Amasya,Merkez,Ortaokul,4,22-52,Farketmez,Yok,Yok,24083,0.5
+isci_0994,29,Ortaokul,7,"Fidan Dikimi, Kayısı Hasadı",Mardin,Artuklu,47182,ilan_0994,Firma_46,Sera Bakımı,Konya,Karatay,İlkokul,7,20-51,Bayan,Var,Yok,24229,0.5
+isci_0995,51,Üniversite,1,"Çay Hasadı, Kayısı Hasadı",Kahramanmaraş,Onikişubat,53978,ilan_0995,Firma_28,Kiraz Hasadı,Düzce,Akçakoca,Üniversite,5,30-49,Erkek,Yok,Yok,23381,0.2
+isci_0996,51,Ortaokul,6,"Toprak İşleme, Fidan Dikimi, Sera Bakımı",Osmaniye,Merkez,24846,ilan_0996,Firma_7,Sera Bakımı,Isparta,Eğirdir,Üniversite,0,25-44,Erkek,Yok,Var,55984,0.5
+isci_0997,24,İlkokul,16,"Fidan Dikimi, Elma Toplama, Ürün Hasadı",Karabük,Eskipazar,26979,ilan_0997,Firma_34,Çapa,Gaziantep,Nizip,Ortaokul,7,18-59,Farketmez,Var,Yok,44044,0.8
+isci_0998,18,İlkokul,15,"Kayısı Hasadı, Çay Hasadı, Ürün Hasadı",Malatya,Yeşilyurt,34582,ilan_0998,Firma_38,Elma Toplama,Elazığ,Keban,İlkokul,3,27-50,Bayan,Yok,Var,44849,0.7
+isci_0999,20,Üniversite,1,Toprak İşleme,Uşak,Banaz,38206,ilan_0999,Firma_7,Toprak İşleme,Konya,Karatay,Lise,8,25-53,Erkek,Var,Yok,51273,0.3
+isci_1000,30,Ortaokul,15,Kayısı Hasadı,Sinop,Ayancık,28979,ilan_1000,Firma_94,Çapa,Bayburt,Merkez,Lise,2,18-56,Erkek,Yok,Var,25230,0.5

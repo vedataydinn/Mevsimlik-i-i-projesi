@@ -55,7 +55,7 @@
                             <div class="overflow-hidden" style="width: 735px;">
                                 <div id="note" class="ps-2">
                                     <img src="static/img/m.harfi.png" class="img-fluid rounded-circle border border-3 border-primary me-2" style="width: 30px; height: 30px;" alt="">
-                                    <a href="#"><p class="text-white mb-0 link-hover">türkiy de mevsimlik iş arıyorsun doğru yerdesin </p></a>
+                                    <a href="#"><p class="text-white mb-0 link-hover">Türkiye'de mevsimlik iş arıyorsun doğru yerdesin </p></a>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                               <li> <a href="#" class="nav-item nav-link">detay sayfası</a></li>
                               <li>  <a href="#" class="nav-item nav-link">Bize Ulaşın</a></li>
                               <li><a href="{{ url_for('loginPage') }}" class="nav-item nav-link">Giriş Yap</a></li>
-                              <li><a href="{{ url_for('karakterBlerile') }}" class="nav-item nav-link">Hesap Aç</a></li>
+                              <li><a href="{{ url_for('karakterBelirle') }}" class="nav-item nav-link">Hesap Aç</a></li>
 
                             </ul>
                           </div>
@@ -157,167 +157,67 @@
          
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Features Start -->
-        <div class="container-fluid features">
-            <div class="container py-3">
-                <div class="is-ilanlari row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="row g-4 align-items-center features-item">
-                            <div class="col-5 col">
-                                <div class="rounded-circle position-relative w-100">
-                                    <div class="overflow-hidden rounded-circlea">
-                                        <img src="static/img/tarla.png" class="img-fluid rounded-circle ilan-img" alt="">
+        <!DOCTYPE html>
+        <html lang="tr">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>İş İlanları</title>
+            <link rel="stylesheet" href="static/css/style.css"> <!-- Kendi stil dosyanızı ekleyin -->
+        </head>
+        <body>
+            <div class="container-fluid features">
+                <div class="container py-3">
+                    <div class="is-ilanlari row g-4">
+                        {% for job in jobs %}
+                        <div class="col-md-6 col-lg-6 col-xl-3">
+                            <div class="row g-4 align-items-center features-item">
+                                <div class="col-5">
+                                    <div class="rounded-circle position-relative w-100">
+                                        <div class="overflow-hidden rounded-circlea">
+                                            <img src="{{ job['Resim'] }}" class="img-fluid rounded-circle ilan-img" alt="">
+                                        </div>
                                     </div>
-                                    <!-- <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">4.3</span> -->
                                 </div>
-                            </div>
-                            <div class="col-7 col">
-                                <div class="features-content d-flex flex-column">
-                                    <p class="text-uppercase mb-2">biber</p>
-                                    <a href="#" class="h6">
-                                        Hatay <br> Günlük 2000 TL.
-                                    </a>
-                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Temmuz 9, 2024</small>
+                                <div class="col-7">
+                                    <div class="features-content d-flex flex-column">
+                                        <p class="text-uppercase mb-2">{{ job['Is Alani'] }}</p>
+                                        <a href="#" class="h6">
+                                            {{ job['Il'] }} <br> Aylık {{ job['Ucret'] }} TL.
+                                        </a>
+                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> {{ job['Calisma Surezi'] }} Ay</small>
+                                        {% if job['Predicted Salary'] %}
+                                            <small class="text-body d-block"><i class="fas fa-robot me-1"></i> Tahmin Edilen Ücret: {{ job['Predicted Salary'] }} TL</small>
+                                        {% endif %}
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        {% endfor %}
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="row g-4 align-items-center features-item">
-                            <div class="col-5">
-                                <div class="rounded-circle position-relative">
-                                    <div class="overflow-hidden rounded-circlea">
-                                        <img src="static/img/tarla.png" class="img-fluid rounded-circle ilan-img" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="features-content d-flex flex-column">
-                                    <p class="text-uppercase mb-2">pamuk</p>
-                                    <a href="#" class="h6">
-                                        Mersin <br>
-                                        Günlük 2500TL
-                                    </a>
-                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Ocak 9, 2024</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="row g-4 align-items-center features-item">
-                            <div class="col-5">
-                                <div class="rounded-circle position-relative">
-                                    <div class="overflow-hidden rounded-circlea">
-                                        <img src="static/img/tarla2.png" class="img-fluid rounded-circle ilan-img" alt="">
-                                    </div>
-                                    <!-- <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">2.1</span> -->
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="features-content d-flex flex-column">
-                                    <p class="text-uppercase mb-2">Çay</p>
-                                    <a href="#" class="h6">
-                                        Rzie <br>Günlük 3000TL
-                                    </a>
-                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> mart 3, 2024</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="row g-4 align-items-center features-item">
-                            <div class="col-5">
-                                <div class="rounded-circle position-relative">
-                                    <div class="overflow-hidden rounded-circlea">
-                                        <img src="static/img/tarla2.png" class="img-fluid rounded-circle ilan-img" alt="">
-                                    </div>
-                                    <!-- <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">4.9</span> -->
-                                </div>
-                            </div>
-                            <div class="col-7">
-                                <div class="features-content d-flex flex-column">
-                                    <p class="text-uppercase mb-2">Fındık</p>
-                                    <a href="#" class="h6">
-                                        Trabzon <br>Günlü 3500TL
-                                    </a>
-                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Eylül 5, 2024</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="row g-4 align-items-center features-item">
-                            <div class="col-5 col">
-                                <div class="rounded-circle position-relative w-100">
-                                    <div class="overflow-hidden rounded-circlea">
-                                        <img src="static/img/tarla.png" class="img-fluid rounded-circle ilan-img" alt="">
-                                    </div>
-                                    <!-- <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">4.3</span> -->
-                                </div>
-                            </div>
-                            <div class="col-7 col">
-                                <div class="features-content d-flex flex-column">
-                                    <p class="text-uppercase mb-2">biber</p>
-                                    <a href="#" class="h6">
-                                        Hatay <br> Günlük 2000 TL.
-                                    </a>
-                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Temmuz 9, 2024</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="row g-4 align-items-center features-item">
-                            <div class="col-5 col">
-                                <div class="rounded-circle position-relative w-100">
-                                    <div class="overflow-hidden rounded-circlea">
-                                        <img src="static/img/tarla.png" class="img-fluid rounded-circle ilan-img" alt="">
-                                    </div>
-                                    <!-- <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">4.3</span> -->
-                                </div>
-                            </div>
-                            <div class="col-7 col">
-                                <div class="features-content d-flex flex-column">
-                                    <p class="text-uppercase mb-2">biber</p>
-                                    <a href="#" class="h6">
-                                        Hatay <br> Günlük 2000 TL.
-                                    </a>
-                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Temmuz 9, 2024</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="row g-4 align-items-center features-item">
-                            <div class="col-5 col">
-                                <div class="rounded-circle position-relative w-100">
-                                    <div class="overflow-hidden rounded-circlea">
-                                        <img src="static/img/tarla.png" class="img-fluid rounded-circle ilan-img" alt="">
-                                    </div>
-                                    <!-- <span class="rounded-circle border border-2 border-white bg-primary btn-sm-square text-white position-absolute" style="top: 10%; right: -10px;">4.3</span> -->
-                                </div>
-                            </div>
-                            <div class="col-7 col">
-                                <div class="features-content d-flex flex-column">
-                                    <p class="text-uppercase mb-2">biber</p>
-                                    <a href="#" class="h6">
-                                        Hatay <br> Günlük 2000 TL.
-                                    </a>
-                                    <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> Temmuz 9, 2024</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
                 </div>
             </div>
-        </div>
+        </body>
+        </html>
+
         <!-- Features End -->
 
 
@@ -326,27 +226,153 @@
         <!-- content -->
 
         <!-- map start -->
+        <!-- map start -->
         <div class="row">
             <div class="content d-flex justify-content-center">
-                <!-- Image Section -->
+                <!-- Workers Section -->
                 <div class="container-fluid bg-light mt-3 mb-5 col-12 col-md-5" style="max-width: 640px;">
                     <div class="col-12">
-                        <div class="rounded" style="margin: 4px auto;">
-                            <img src="static/img/solkısım.jpg" class="img-fluid" style="height: auto; width: 100%; max-height: 450px;">
+                        {% if settings["isShowFilterMode"] %}
+                        <form method="GET" action="/jobs">
+                            <!-- Firma Adı -->
+                            <label for="firma_adi">Firma Adı:</label>
+                            <input type="text" id="firma_adi" name="firma_adi" class="form-control mb-2">
+                            
+                            <!-- İş Alanı -->
+                            <label for="is_alani">İş Alanı:</label>
+                            <input type="text" id="is_alani" name="is_alani" class="form-control mb-2">
+                            
+                            <!-- İl -->
+                            <label for="il">İl:</label>
+                            <input type="text" id="il" name="il" class="form-control mb-2">
+                            
+                            <!-- İlçe -->
+                            <label for="ilce">İlçe:</label>
+                            <input type="text" id="ilce" name="ilce" class="form-control mb-2">
+                            
+                            <!-- Köy -->
+                            <label for="koy">Köy:</label>
+                            <input type="text" id="koy" name="koy" class="form-control mb-2">
+                            
+                            <!-- Minimum Ücret -->
+                            <label for="min_ucret">Minimum Ücret:</label>
+                            <input type="number" id="min_ucret" name="min_ucret" class="form-control mb-2">
+                            
+                            <!-- Maksimum Ücret -->
+                            <label for="max_ucret">Maksimum Ücret:</label>
+                            <input type="number" id="max_ucret" name="max_ucret" class="form-control mb-2">
+                            
+                            <!-- Cinsiyet -->
+                            <label for="cinsiyet">Cinsiyet:</label>
+                            <select id="cinsiyet" name="cinsiyet" class="form-control mb-2">
+                                <option value="">Hepsi</option>
+                                <option value="Erkek">Erkek</option>
+                                <option value="Kadın">Kadın</option>
+                            </select>
+                            
+                            <!-- Çalışma Süresi -->
+                            <label for="min_calisma_suresi">Min. Çalışma Süresi:</label>
+                            <input type="text" id="min_calisma_suresi" name="min_calisma_suresi" class="form-control mb-2">
+                            <label for="max_calisma_suresi">Max. Çalışma Süresi:</label>
+                            <input type="text" id="max_calisma_suresi" name="max_calisma_suresi" class="form-control mb-2">
+                        
+                            <!-- Gereken Eğitim -->
+                            <label for="gereken_egitim">Gereken Eğitim:</label>
+                            <select id="gereken_egitim" name="gereken_egitim" class="form-control mb-2">
+                                <option value="">Hepsi</option>
+                                <option value="Universite">Universite</option>
+                                <option value="Lise">Lise</option>
+                                <option value="Ilkogretim">Ilkogretim</option>
+                            </select>
+                        
+                            <!-- Tecrübe Şartı -->
+                            <label for="min_tecrube_sarti">Min. Tecrübe Şartı:</label>
+                            <input type="text" id="min_tecrube_sarti" name="min_tecrube_sarti" class="form-control mb-2">
+                            <label for="max_tecrube_sarti">Max. Tecrübe Şartı:</label>
+                            <input type="text" id="max_tecrube_sarti" name="max_tecrube_sarti" class="form-control mb-2">
+                            
+                            <!-- Tecrübe Şartı -->
+                            <label for="yas">Yas:</label>
+                            <input type="text" id="yas" name="yas" class="form-control mb-2">
+
+
+                            <!-- Konaklama -->
+                            <label for="konaklama">Konaklama:</label>
+                            <select id="konaklama" name="konaklama" class="form-control mb-2">
+                                <option value="">Hepsi</option>
+                                <option value="Var">Var</option>
+                                <option value="Yok">Yok</option>
+                            </select>
+                            
+                            <!-- Sigorta -->
+                            <label for="sigorta">Sigorta:</label>
+                            <select id="sigorta" name="sigorta" class="form-control mb-2">
+                                <option value="">Hepsi</option>
+                                <option value="Var">Var</option>
+                                <option value="Yok">Yok</option>
+                            </select>
+                            
+                            <!-- Filtreleme Butonu -->
+                            <button type="submit" class="btn btn-primary">Filtrele</button>
+                        </form>
+                        {% endif %}
+                        {% if not settings["isShowFilterMode"] %}
+                            <a href="/jobs" class="btn btn-primary">İş İlanlarını Filtrele</a>
+                        {% endif %}
+                        <div class="rounded worker-card-container" style="margin: 4px auto;">
+                            <!-- Flask ile workers verisini burada göstereceğiz -->
+                            {% for job in jobs %}
+                                <div class="worker-card" id={{job["Ilan ID"]}}>
+                                    <h3>{{ job["Firma Adi"]}} {{ job["Is Alani"]}}</h3>
+                                    <p><strong>İl:</strong> {{ job['Il'] }}</p>
+                                    <p><strong>İlçe:</strong> {{ job["Ilce"] }}</p>
+                                    <p><strong>Köy:</strong> {{ job['Koy'] }} </p>
+                                    <p><strong>Çalışma süresi:</strong> {{job["Calisma Surezi"]}} Yıl</p>
+                                    <p><strong>Gereken eğitim:</strong> {{ job['Gereken Egitim'] }} </p>
+                                    <p><strong>Tecrübe şartı:</strong> {{ job['Tecrube Sarti'] }} Yıl </p>
+                                    <p><strong>Yaş sınırı:</strong> {{ job['Yas Siniri'] }} </p>
+                                    <p><strong>Cinsiyet:</strong> {{ job['Cinsiyet'] }} </p>
+                                    <p><strong>Konaklama:</strong> {{ job['Konaklama'] }} </p>
+                                    <p><strong>Sigorta:</strong> {{ job['Sigorta'] }} </p>
+                                    <p><strong>Ucret:</strong> {{ job['Ucret'] }} TL </p>
+                                    
+                                </div>
+                                <hr>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
-        
+
                 <!-- Map Section -->
                 <div class="container bg-light mt-3 mb-5 col-12 col-md-7" style="max-width: 700px;">
                     <div class="col-12">
                         <div class="rounded">
-                            <iframe style="height: 450px; width: 100%; margin: 4px auto;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d39.20194967282374!3d38.677846931103154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd"></iframe>
+                            <!-- Harita için div -->
+                            <div id="map" style="height: 450px; width: 100%; margin: 4px auto;"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- map end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- map End -->
         <!-- content end-->
 
@@ -381,6 +407,129 @@
 
         <!-- Template Javascript -->
         <script src="static/js/main.js"></script>
-    </body>
 
-</html>
+        <!-- Google Maps API ve MarkerClusterer Script -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBXOPeHsgkDornBKd7_imK1flp0qC_PIM&libraries=places"></script>
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+
+        <script>
+            let map;
+            let markers = [];
+            let markerCluster;
+            const geocoder = new google.maps.Geocoder();
+
+            function initMap() {
+                map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 6,
+                    center: { lat: 39.92077, lng: 32.85411 }, // Türkiye koordinatları
+                });
+
+                // İş ilanları markerlarını ekle
+                addMarkers(jobs);
+            
+            }
+
+            // İş ilanlarını marker olarak ekle
+            function addMarkers(jobsData) {
+                clearMarkers();
+                const geocodePromises = jobsData.map((job) => {
+                    const address = `${job["Koy"]}, ${job["Ilce"]}, ${job["Il"]}, Türkiye`;
+                    return new Promise((resolve, reject) => {
+                        geocoder.geocode({ address: address }, (results, status) => {
+                            if (status === "OK") {
+                                const position = results[0].geometry.location;
+                                const marker = new google.maps.Marker({
+                                    position: position,
+                                    map: map,
+                                    title: job["Firma Adi"],
+                                });
+
+                                // Popup bilgileri
+                                const infoWindow = new google.maps.InfoWindow({
+                                    content: `
+                                        <h3>${job["Firma Adi"]}</h3>
+                                        <p><strong>İş Alanı:</strong> ${job["Is Alani"]}</p>
+                                        <p><strong>Ücret:</strong> ${job["Ucret"]} TL</p>
+                                        <p><strong>Konum:</strong> ${job["Koy"]}, ${job["Ilce"]}, ${job["Il"]}</p>
+                                    `,
+                                });
+
+                                marker.addListener("click", () => {
+                                    infoWindow.open(map, marker);
+                                });
+
+                                markers.push(marker);
+                                resolve();
+                            } else {
+                                reject(`Geocoding failed for job: ${job["Firma Adi"]}`);
+                            }
+                        });
+                    });
+                });
+
+                // Tüm geocode işlemleri tamamlandığında marker kümelemesini oluştur
+                Promise.all(geocodePromises)
+                    .then(() => {
+                        markerCluster = new MarkerClusterer(map, markers, {
+                            imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+                        });
+                    })
+                    .catch((error) => {
+                        console.error(error);
+                    });
+            }
+
+            // Markerları temizle
+            function clearMarkers() {
+                if (markers.length) {
+                    markers.forEach((marker) => marker.setMap(null));
+                }
+                markers = [];
+                if (markerCluster) {
+                    markerCluster.clearMarkers();
+                }
+            }
+
+            // Filtreleme uygula
+            function applyFilters(filters) {
+                fetch(`/jobs?${new URLSearchParams(filters)}`)
+                    .then((response) => response.json())
+                    .then((filteredJobs) => {
+                        // Eğer filtreleme sonucu bulunamazsa kullanıcıyı uyar
+                        if (filteredJobs.length === 0) {
+                            alert("No jobs found with the applied filters.");
+                        }
+
+                        // Listeyi güncelle
+                        updateJobList(filteredJobs);
+
+                        // Markerları güncelle
+                        addMarkers(filteredJobs);
+                    });
+            }
+
+            // İş ilanlarını liste olarak güncelle
+            function updateJobList(jobs) {
+                const jobContainer = document.querySelector(".worker-card-container");
+                jobContainer.innerHTML = "";
+                jobs.forEach((job) => {
+                    jobContainer.innerHTML += `
+                        <div class="worker-card" id=${job["Ilan ID"]}>
+                            <h3>${job["Firma Adi"]} - ${job["Is Alani"]}</h3>
+                            <p><strong>İl:</strong> ${job["Il"]}</p>
+                            <p><strong>İlçe:</strong> ${job["Ilce"]}</p>
+                            <p><strong>Köy:</strong> ${job["Koy"]}</p>
+                            <p><strong>Ücret:</strong> ${job["Ucret"]} TL</p>
+                        </div>
+                        <hr>
+                    `;
+                });
+            }
+
+            // Haritayı başlat
+            google.maps.event.addDomListener(window, "load", initMap);
+        </script>
+
+
+        </body>
+        </html>
