@@ -27,6 +27,24 @@
 
         <!-- Template Stylesheet -->
         <link href="static/css/style.css" rel="stylesheet">
+
+        <style>
+            .filter-form {
+                background-color: #f8f9fa;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            
+            .form-label {
+                margin-bottom: 0.3rem;
+                font-weight: 500;
+            }
+            
+            .form-control:focus, .form-select:focus {
+                border-color: #198754;
+                box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+            }
+            </style>
     </head>
 
     <body>
@@ -82,8 +100,7 @@
                               <li><a href="{{ url_for('index') }}" class="nav-item nav-link active">Ana Sayfa</a></li>
                               <li> <a href="#" class="nav-item nav-link">detay sayfası</a></li>
                               <li>  <a href="{{ url_for('contact') }}" class="nav-item nav-link">Bize Ulaşın</a></li>
-                              <li><a href="{{ url_for('loginPage') }}" class="nav-item nav-link">Giriş Yap</a></li>
-                              <li><a href="{{ url_for('karakterBelirle') }}" class="nav-item nav-link">Hesap Aç</a></li>
+                              <li> <a href="{{ url_for('logout') }}" class="nav-item nav-link">Çıkış Yap</a></li>
 
                             </ul>
                           </div>
@@ -97,11 +114,20 @@
                             <span class="fa fa-bars text-primary"></span>
                         </button>
                         <div class="collapse navbar-collapse bg-light py-1" id="navbarCollapse">
-                            <!-- arama kısmı -->
+                            <!-- Arama kısmı -->
                             <div class="col-lg-9">
                                 <div class="d-flex position-relative rounded-pill overflow-hidden me-2">
-                                    <input class="form-control border-success w-100 py-3 rounded-pill" type="search" placeholder="Ara">
-                                    <button type="submit" class="arama-btn btn btn-success border-0 py-3 px-5 rounded-pill position-absolute " style="top: 1px; right: 1px;">Ara</button>
+                                    <input class="form-control border-success w-100 py-3 rounded-pill" 
+                                           type="search" 
+                                           name="search_query" 
+                                           id="searchInput"
+                                           placeholder="İl, ilçe, köy, firma adı veya iş alanı ara...">
+                                    <button type="button" 
+                                            id="searchButton"
+                                            class="arama-btn btn btn-success border-0 py-3 px-5 rounded-pill position-absolute" 
+                                            style="top: 1px; right: 1px;">
+                                        Ara
+                                    </button>
                                 </div>
                             </div>
                             <div class="navbar-nav mx-auto border-top me-1">
@@ -231,134 +257,157 @@
 
         <!-- map start -->
         <!-- map start -->
-        <div class="row">
-            <div class="content d-flex justify-content-center">
-                <!-- Workers Section -->
-                <div class="container-fluid bg-light mt-3 mb-5 col-12 col-md-5" style="max-width: 640px;">
-                    <div class="col-12">
-                        {% if settings["isShowFilterMode"] %}
-                        <form method="GET" action="/jobs">
-                            <!-- Firma Adı -->
-                            <label for="firma_adi">Firma Adı:</label>
-                            <input type="text" id="firma_adi" name="firma_adi" class="form-control mb-2">
-                            
-                            <!-- İş Alanı -->
-                            <label for="is_alani">İş Alanı:</label>
-                            <input type="text" id="is_alani" name="is_alani" class="form-control mb-2">
-                            
-                            <!-- İl -->
-                            <label for="il">İl:</label>
-                            <input type="text" id="il" name="il" class="form-control mb-2">
-                            
-                            <!-- İlçe -->
-                            <label for="ilce">İlçe:</label>
-                            <input type="text" id="ilce" name="ilce" class="form-control mb-2">
-                            
-                            <!-- Köy -->
-                            <label for="koy">Köy:</label>
-                            <input type="text" id="koy" name="koy" class="form-control mb-2">
-                            
-                            <!-- Minimum Ücret -->
-                            <label for="min_ucret">Minimum Ücret:</label>
-                            <input type="number" id="min_ucret" name="min_ucret" class="form-control mb-2">
-                            
-                            <!-- Maksimum Ücret -->
-                            <label for="max_ucret">Maksimum Ücret:</label>
-                            <input type="number" id="max_ucret" name="max_ucret" class="form-control mb-2">
-                            
-                            <!-- Cinsiyet -->
-                            <label for="cinsiyet">Cinsiyet:</label>
-                            <select id="cinsiyet" name="cinsiyet" class="form-control mb-2">
-                                <option value="">Hepsi</option>
-                                <option value="Erkek">Erkek</option>
-                                <option value="Kadın">Kadın</option>
-                            </select>
-                            
-                            <!-- Çalışma Süresi -->
-                            <label for="min_calisma_suresi">Min. Çalışma Süresi:</label>
-                            <input type="text" id="min_calisma_suresi" name="min_calisma_suresi" class="form-control mb-2">
-                            <label for="max_calisma_suresi">Max. Çalışma Süresi:</label>
-                            <input type="text" id="max_calisma_suresi" name="max_calisma_suresi" class="form-control mb-2">
-                        
-                            <!-- Gereken Eğitim -->
-                            <label for="gereken_egitim">Gereken Eğitim:</label>
-                            <select id="gereken_egitim" name="gereken_egitim" class="form-control mb-2">
-                                <option value="">Hepsi</option>
-                                <option value="Universite">Universite</option>
-                                <option value="Lise">Lise</option>
-                                <option value="Ilkogretim">Ilkogretim</option>
-                            </select>
-                        
-                            <!-- Tecrübe Şartı -->
-                            <label for="min_tecrube_sarti">Min. Tecrübe Şartı:</label>
-                            <input type="text" id="min_tecrube_sarti" name="min_tecrube_sarti" class="form-control mb-2">
-                            <label for="max_tecrube_sarti">Max. Tecrübe Şartı:</label>
-                            <input type="text" id="max_tecrube_sarti" name="max_tecrube_sarti" class="form-control mb-2">
-                            
-                            <!-- Tecrübe Şartı -->
-                            <label for="yas">Yas:</label>
-                            <input type="text" id="yas" name="yas" class="form-control mb-2">
+        <div class="container-fluid bg-light mt-3">
+            <div class="row">
+                <!-- Sol Taraf: Filtreleme ve Liste -->
+                <div class="col-md-6">
+                    <div class="content-container" style="height: 580px; overflow-y: auto;">
+                        <!-- Filtreleme Butonu -->
+                        <button type="button" class="btn btn-success w-100 mb-3" data-bs-toggle="collapse" data-bs-target="#filterSection">
+                            Filtreleme Seçenekleri <i class="fas fa-filter ms-2"></i>
+                        </button>
 
+                        <!-- Filtreleme Formu -->
+                        <div class="collapse" id="filterSection">
+                            <div class="filter-form p-4 mb-3">
+                                <form method="GET" action="/jobs">
+                                    <!-- İş Alanı -->
+                                    <div class="mb-3">
+                                        <label for="is_alani" class="form-label">İş Alanı:</label>
+                                        <input type="text" class="form-control" id="is_alani" name="is_alani">
+                                    </div>
 
-                            <!-- Konaklama -->
-                            <label for="konaklama">Konaklama:</label>
-                            <select id="konaklama" name="konaklama" class="form-control mb-2">
-                                <option value="">Hepsi</option>
-                                <option value="Var">Var</option>
-                                <option value="Yok">Yok</option>
-                            </select>
-                            
-                            <!-- Sigorta -->
-                            <label for="sigorta">Sigorta:</label>
-                            <select id="sigorta" name="sigorta" class="form-control mb-2">
-                                <option value="">Hepsi</option>
-                                <option value="Var">Var</option>
-                                <option value="Yok">Yok</option>
-                            </select>
-                            
-                            <!-- Filtreleme Butonu -->
-                            <button type="submit" class="btn btn-primary">Filtrele</button>
-                        </form>
-                        {% endif %}
-                        {% if not settings["isShowFilterMode"] %}
-                            <a href="/jobs" class="btn btn-primary">İş İlanlarını Filtrele</a>
-                        {% endif %}
-                        <div class="rounded worker-card-container" style="margin: 4px auto;">
-                            <!-- Flask ile workers verisini burada göstereceğiz -->
+                                    <!-- Şehir -->
+                                    <div class="mb-3">
+                                        <label for="il" class="form-label">Şehir:</label>
+                                        <input type="text" class="form-control" id="il" name="il">
+                                    </div>
+
+                                    <!-- Ücret Aralığı -->
+                                    <div class="mb-3 d-flex gap-2">
+                                        <div class="flex-grow-1">
+                                            <label for="min_ucret" class="form-label">Min Ücret:</label>
+                                            <input type="number" class="form-control" id="min_ucret" name="min_ucret">
+                                        </div>
+                                        <div class="flex-grow-1">
+                                            <label for="max_ucret" class="form-label">Max Ücret:</label>
+                                            <input type="number" class="form-control" id="max_ucret" name="max_ucret">
+                                        </div>
+                                    </div>
+
+                                    <!-- Konaklama -->
+                                    <div class="mb-3">
+                                        <label for="konaklama" class="form-label">Konaklama:</label>
+                                        <select class="form-select" id="konaklama" name="konaklama">
+                                            <option value="" selected>Hepsi</option>
+                                            <option value="Var">Var</option>
+                                            <option value="Yok">Yok</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Diğer Seçenekler Butonu -->
+                                    <div class="mb-3">
+                                        <button type="button" class="btn btn-outline-success w-100" data-bs-toggle="collapse" data-bs-target="#advancedFilters">
+                                            Diğer Seçenekler <i class="fas fa-chevron-down ms-2"></i>
+                                        </button>
+                                    </div>
+
+                                    <!-- Diğer Seçenekler İçeriği -->
+                                    <div class="collapse" id="advancedFilters">
+                                        <div class="card card-body mb-3">
+                                            <!-- İlçe -->
+                                            <div class="mb-3">
+                                                <label for="ilce" class="form-label">İlçe:</label>
+                                                <input type="text" class="form-control" id="ilce" name="ilce">
+                                            </div>
+
+                                            <!--koy-->
+                                            <div class="mb-3">
+                                                <label for="koy" class="form-label">Köy:</label>
+                                                <input type="text" class="form-control" id="koy" name="koy">
+                                            </div>
+                                            <!-- Tecrübe Şartı -->
+                                            <div class="mb-3">
+                                                <label for="tecrube_sarti" class="form-label">Tecrübe Şartı:</label>
+                                                <select class="form-select" id="tecrube_sarti" name="tecrube_sarti">
+                                                    <option value="">Hepsi</option>
+                                                    <option value="0">Tecrübe Şartı Yok</option>
+                                                    <option value="1">1 Yıl</option>
+                                                    <option value="2">2 Yıl</option>
+                                                    <option value="3">3 Yıl ve Üzeri</option>
+                                                </select>
+                                            </div>
+
+                                            <!-- Cinsiyet -->
+                                            <div class="mb-3">
+                                                <label for="cinsiyet" class="form-label">Cinsiyet:</label>
+                                                <select class="form-select" id="cinsiyet" name="cinsiyet">
+                                                    <option value="">Hepsi</option>
+                                                    <option value="Erkek">Erkek</option>
+                                                    <option value="Kadın">Kadın</option>
+                                                </select>
+                                            </div>
+
+                                            <!-- Sigorta -->
+                                            <div class="mb-3">
+                                                <label for="sigorta" class="form-label">Sigorta:</label>
+                                                <select class="form-select" id="sigorta" name="sigorta">
+                                                    <option value="">Hepsi</option>
+                                                    <option value="Var">Var</option>
+                                                    <option value="Yok">Yok</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Filtreleme Butonu -->
+                                    <button type="submit" class="btn btn-success w-100">Filtrele</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- İş İlanları Listesi -->
+                        <div class="job-list">
                             {% for job in jobs %}
-                                <div class="worker-card" id={{job["Ilan ID"]}}>
-                                    <h3>{{ job["Firma Adi"]}} {{ job["Is Alani"]}}</h3>
-                                    <p><strong>İl:</strong> {{ job['Il'] }}</p>
-                                    <p><strong>İlçe:</strong> {{ job["Ilce"] }}</p>
-                                    <p><strong>Köy:</strong> {{ job['Koy'] }} </p>
-                                    <p><strong>Çalışma süresi:</strong> {{job["Calisma Surezi"]}} Yıl</p>
-                                    <p><strong>Gereken eğitim:</strong> {{ job['Gereken Egitim'] }} </p>
-                                    <p><strong>Tecrübe şartı:</strong> {{ job['Tecrube Sarti'] }} Yıl </p>
-                                    <p><strong>Yaş sınırı:</strong> {{ job['Yas Siniri'] }} </p>
-                                    <p><strong>Cinsiyet:</strong> {{ job['Cinsiyet'] }} </p>
-                                    <p><strong>Konaklama:</strong> {{ job['Konaklama'] }} </p>
-                                    <p><strong>Sigorta:</strong> {{ job['Sigorta'] }} </p>
-                                    <p><strong>Ucret:</strong> {{ job['Ucret'] }} TL </p>
-                                    
+                            <div class="card mb-3 job-card" data-il="{{ job['Il'] }}" data-ilce="{{ job['Ilce'] }}" data-koy="{{ job['Koy'] }}" onclick="showMarkerForJob(this)">
+                                <div class="card-header bg-success">
+                                    <h5 class="card-title mb-0 text-white">{{ job["Firma Adi"]}} - {{ job["Is Alani"]}}</h5>
                                 </div>
-                                <hr>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <p><strong>İl:</strong> {{ job['Il'] }}</p>
+                                            <p><strong>İlçe:</strong> {{ job["Ilce"] }}</p>
+                                            <p><strong>Köy:</strong> {{ job['Koy'] }}</p>
+                                            <p><strong>Çalışma süresi:</strong> {{job["Calisma Surezi"]}} Ay</p>
+                                            <p><strong>Gereken eğitim:</strong> {{ job['Gereken Eğitim'] }}</p>
+                                            <p><strong>Tecrübe şartı:</strong> {{ job['Tecrube Sarti'] }} Yıl</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><strong>Yaş sınırı:</strong> {{ job['Yas Sınırı'] }}</p>
+                                            <p><strong>Cinsiyet:</strong> {{ job['Cinsiyet'] }}</p>
+                                            <p><strong>Konaklama:</strong> {{ job['Konaklama'] }}</p>
+                                            <p><strong>Sigorta:</strong> {{ job['Sigorta'] }}</p>
+                                            <p><strong>Ücret:</strong> {{ job['Ucret'] }} TL</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             {% endfor %}
                         </div>
                     </div>
                 </div>
 
-                <!-- Map Section -->
-                <div class="container bg-light mt-3 mb-5 col-12 col-md-7" style="max-width: 700px;">
-                    <div class="col-12">
-                        <div class="rounded">
-                            <!-- Harita için div -->
-                            <div id="map" style="height: 450px; width: 100%; margin: 4px auto;"></div>
-                        </div>
+                <!-- Sağ Taraf: Harita -->
+                <div class="col-md-6">
+                    <div class="map-container">
+                        <div id="map" style="height: 580px; width: 100%; border-radius: 8px;"></div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- map end -->
+
 
 
 
@@ -409,12 +458,12 @@
         <script src="static/lib/waypoints/waypoints.min.js"></script>
         <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
 
+        <!-- Google Maps ve MarkerClusterer scriptlerini güncelle -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBXOPeHsgkDornBKd7_imK1flp0qC_PIM&libraries=places"></script>
+        <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+
         <!-- Template Javascript -->
         <script src="static/js/main.js"></script>
-
-        <!-- Google Maps API ve MarkerClusterer Script -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBXOPeHsgkDornBKd7_imK1flp0qC_PIM&libraries=places"></script>
-        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 
         <script>
             let map;
@@ -425,62 +474,122 @@
             function initMap() {
                 map = new google.maps.Map(document.getElementById("map"), {
                     zoom: 6,
-                    center: { lat: 39.92077, lng: 32.85411 }, // Türkiye koordinatları
+                    center: { lat: 39.92077, lng: 32.85411 },
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
                 });
 
-                // İş ilanları markerlarını ekle
-                addMarkers(jobs);
-            
+                let jobs = [];
+                try {
+                    jobs = {{ jobs|tojson|safe }};
+                } catch (e) {
+                    console.error("İş verileri yüklenirken hata:", e);
+                    jobs = [];
+                }
+
+                if (jobs && jobs.length > 0) {
+                    addMarkers(jobs);
+                }
             }
 
-            // İş ilanlarını marker olarak ekle
             function addMarkers(jobsData) {
                 clearMarkers();
-                const geocodePromises = jobsData.map((job) => {
-                    const address = `${job["Koy"]}, ${job["Ilce"]}, ${job["Il"]}, Türkiye`;
-                    return new Promise((resolve, reject) => {
-                        geocoder.geocode({ address: address }, (results, status) => {
-                            if (status === "OK") {
-                                const position = results[0].geometry.location;
-                                const marker = new google.maps.Marker({
-                                    position: position,
-                                    map: map,
-                                    title: job["Firma Adi"],
+                const bounds = new google.maps.LatLngBounds();
+                
+                jobsData.forEach((job) => {
+                    if (!job.Il) {
+                        console.warn("İl bilgisi eksik:", job);
+                        return;
+                    }
+
+                    const address = [
+                        job.Koy || '',
+                        job.Ilce || '',
+                        job.Il || '',
+                        "Türkiye"
+                    ].filter(Boolean).join(", ");
+
+                    geocoder.geocode({ address: address }, (results, status) => {
+                        if (status === "OK" && results[0]) {
+                            const position = results[0].geometry.location;
+                            const marker = new google.maps.Marker({
+                                position: position,
+                                map: map,
+                                title: job["Firma Adi"] || "İsimsiz Firma"
+                            });
+
+                            // Marker pozisyonunu sınırlara ekle
+                            bounds.extend(position);
+
+                            // Detaylı bilgi penceresi içeriği
+                            const infoContent = `
+                                <div class="info-window" style="max-width: 300px; padding: 10px;">
+                                    <h5 style="color: #28a745;">${job["Firma Adi"] || "İsimsiz Firma"}</h5>
+                                    <p><strong>İş Alanı:</strong> ${job["Is Alani"] || "Belirtilmemiş"}</p>
+                                    <p><strong>Ücret:</strong> ${job["Ucret"] || "0"} TL</p>
+                                    <p><strong>Çalışma Süresi:</strong> ${job["Calisma Surezi"] || "0"} Ay</p>
+                                    <p><strong>Konaklama:</strong> ${job["Konaklama"] || "Belirtilmemiş"}</p>
+                                    <p><strong>Sigorta:</strong> ${job["Sigorta"] || "Belirtilmemiş"}</p>
+                                    <p><strong>Gereken Eğitim:</strong> ${job["Gereken Egitim"] || "Belirtilmemiş"}</p>
+                                    <p><strong>Tecrübe Şartı:</strong> ${job["Tecrube Sarti"] || "0"} Yıl</p>
+                                    <p><strong>Yaş Sınırı:</strong> ${job["Yas Siniri"] || "Belirtilmemiş"}</p>
+                                    <p><strong>Cinsiyet:</strong> ${job["Cinsiyet"] || "Belirtilmemiş"}</p>
+                                    <p><strong>Konum:</strong> ${address}</p>
+                                </div>
+                            `;
+
+                            const infoWindow = new google.maps.InfoWindow({
+                                content: infoContent,
+                                maxWidth: 350
+                            });
+
+                            marker.addListener("click", () => {
+                                // Diğer açık info windowları kapat
+                                markers.forEach(m => m.infoWindow?.close());
+                                infoWindow.open(map, marker);
+                            });
+
+                            // Info window'u marker ile ilişkilendir
+                            marker.infoWindow = infoWindow;
+                            markers.push(marker);
+
+                            // Son marker eklendiğinde haritayı ortala
+                            if (markers.length === jobsData.length) {
+                                // Marker kümeleme
+                                if (markerCluster) {
+                                    markerCluster.clearMarkers();
+                                }
+                                markerCluster = new markerClusterer.MarkerClusterer({
+                                    map,
+                                    markers,
+                                    algorithm: new markerClusterer.SuperClusterAlgorithm({
+                                        radius: 100,
+                                        maxZoom: 15
+                                    })
                                 });
 
-                                // Popup bilgileri
-                                const infoWindow = new google.maps.InfoWindow({
-                                    content: `
-                                        <h3>${job["Firma Adi"]}</h3>
-                                        <p><strong>İş Alanı:</strong> ${job["Is Alani"]}</p>
-                                        <p><strong>Ücret:</strong> ${job["Ucret"]} TL</p>
-                                        <p><strong>Konum:</strong> ${job["Koy"]}, ${job["Ilce"]}, ${job["Il"]}</p>
-                                    `,
-                                });
-
-                                marker.addListener("click", () => {
-                                    infoWindow.open(map, marker);
-                                });
-
-                                markers.push(marker);
-                                resolve();
-                            } else {
-                                reject(`Geocoding failed for job: ${job["Firma Adi"]}`);
+                                // Haritayı tüm markerleri gösterecek şekilde ortala
+                                if (markers.length > 0) {
+                                    map.fitBounds(bounds);
+                                    
+                                    // Eğer tek marker varsa zoom seviyesini ayarla
+                                    if (markers.length === 1) {
+                                        map.setZoom(10);
+                                    } else {
+                                        // Minimum zoom seviyesi ayarı
+                                        const listener = google.maps.event.addListener(map, "idle", () => {
+                                            if (map.getZoom() > 15) {
+                                                map.setZoom(15);
+                                            }
+                                            google.maps.event.removeListener(listener);
+                                        });
+                                    }
+                                }
                             }
-                        });
+                        } else {
+                            console.error("Geocoding hatası:", status, address);
+                        }
                     });
                 });
-
-                // Tüm geocode işlemleri tamamlandığında marker kümelemesini oluştur
-                Promise.all(geocodePromises)
-                    .then(() => {
-                        markerCluster = new MarkerClusterer(map, markers, {
-                            imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-                        });
-                    })
-                    .catch((error) => {
-                        console.error(error);
-                    });
             }
 
             // Markerları temizle
@@ -533,7 +642,148 @@
             // Haritayı başlat
             google.maps.event.addDomListener(window, "load", initMap);
         </script>
+        <script>
+            function htmlDecode(input) {
+                const doc = new DOMParser().parseFromString(input, "text/html");
+                return doc.documentElement.textContent;
+            }
 
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const searchInput = document.getElementById('searchInput');
+                const searchButton = document.getElementById('searchButton');
+
+                // Enter tuşu ile arama
+                searchInput.addEventListener('keypress', function(e) {
+                    if (e.key === 'Enter') {
+                        performSearch();
+                    }
+                });
+
+                // Ara butonuna tıklama ile arama
+                searchButton.addEventListener('click', performSearch);
+
+                function performSearch() {
+                    const searchQuery = searchInput.value.trim();
+                    if (searchQuery) {
+                        window.location.href = `/jobs?search_query=${encodeURIComponent(searchQuery)}`;
+                    }
+                }
+            });
+        </script>
+        <script>
+        function showMarkerForJob(jobCard) {
+            const il = jobCard.dataset.il;
+            const ilce = jobCard.dataset.ilce;
+            const koy = jobCard.dataset.koy;
+            const address = [koy, ilce, il, "Türkiye"].filter(Boolean).join(", ");
+
+            // Önceki açık info window'ları kapat
+            markers.forEach(m => m.infoWindow?.close());
+
+            // Adresi bul ve marker'a git
+            geocoder.geocode({ address: address }, (results, status) => {
+                if (status === "OK" && results[0]) {
+                    const position = results[0].geometry.location;
+                    
+                    // Haritayı bu konuma taşı
+                    map.setCenter(position);
+                    map.setZoom(15);
+
+                    // İlgili marker'ı bul
+                    const marker = markers.find(m => {
+                        const markerPosition = m.getPosition();
+                        return markerPosition.lat() === position.lat() && 
+                            markerPosition.lng() === position.lng();
+                    });
+
+                    // Marker bulunduysa info window'u aç
+                    if (marker && marker.infoWindow) {
+                        marker.infoWindow.open(map, marker);
+                    }
+                }
+            });
+        }
+
+        // Stil ekleyelim
+        document.head.insertAdjacentHTML('beforeend', `
+            <style>
+                .job-card {
+                    cursor: pointer;
+                    transition: transform 0.2s, box-shadow 0.2s;
+                }
+                
+                .job-card:hover {
+                    transform: translateY(-2px);
+                    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                }
+            </style>
+        `);
+        </script>
+        <style>
+        .worker-card {
+            transition: all 0.3s ease;
+        }
+
+        .worker-card:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .worker-card .card-body p {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .worker-card .card-header {
+            border-bottom: 2px solid #198754;
+        }
+        </style>
+
+        <style>
+        .filter-form {
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .content-container {
+            scrollbar-width: thin;
+            scrollbar-color: #198754 #f8f9fa;
+        }
+
+        .content-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .content-container::-webkit-scrollbar-track {
+            background: #f8f9fa;
+        }
+
+        .content-container::-webkit-scrollbar-thumb {
+            background-color: #198754;
+            border-radius: 4px;
+        }
+
+        .map-container {
+            position: sticky;
+            top: 1rem;
+        }
+        </style>
+
+        <style>
+        .job-card {
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .job-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        </style>
 
         </body>
         </html>

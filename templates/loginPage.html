@@ -22,7 +22,7 @@
             </div>
 
         <div class="information">
-          <form id="loginForm">
+          <form id="loginForm" method="POST" action="{{ url_for('loginPage') }}">
             <label for="email">E-posta:</label>
             <div class="input-box">
             <input type="email" id="email" name="email" placeholder="E-postanızı girin" required>
@@ -50,21 +50,31 @@
     </body>
     </html>
     <script>
-        document.getElementById("loginForm").addEventListener("submit", function(event) {
-          event.preventDefault();
-          try {
+        document.getElementById("loginForm").addEventListener("submit", async function(event) {
+            event.preventDefault();
+            
             const email = document.getElementById("email").value;
             const password = document.getElementById("password").value;
-            if (email && password) {
-              window.location.href = "index.html";
-            } else {
-              alert("Lütfen tüm alanları doldurun!");
+            
+            try {
+                const response = await fetch("/loginPage", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({ email, password })
+                });
+
+                if (response.ok) {
+                    window.location.href = "/";  // Başarılı girişte ana sayfaya yönlendir
+                } else {
+                    alert("Geçersiz email veya şifre!");
+                }
+            } catch (error) {
+                console.error("Giriş hatası:", error);
+                alert("Giriş yapılırken bir hata oluştu!");
             }
-          } catch (error) {
-            console.error("Beklenmeyen hata:", error);
-            window.location.href = "404.html";
-          }
         });
-      </script>
+    </script>
 </body>
 </html>
