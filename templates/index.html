@@ -100,8 +100,12 @@
                               <li><a href="{{ url_for('index') }}" class="nav-item nav-link active">Ana Sayfa</a></li>
                               <li> <a href="#" class="nav-item nav-link">detay sayfası</a></li>
                               <li>  <a href="{{ url_for('contact') }}" class="nav-item nav-link">Bize Ulaşın</a></li>
-                              <li> <a href="{{ url_for('logout') }}" class="nav-item nav-link">Çıkış Yap</a></li>
-
+                              {% if is_logged_in %}
+                                <li><a href="{{ url_for('logout') }}" class="nav-item nav-link">Çıkış Yap</a></li>
+                              {% else %}
+                                <li><a href="{{ url_for('loginPage') }}" class="nav-item nav-link">Giriş Yap</a></li>
+                                <li><a href="{{ url_for('karakterBelirle') }}" class="nav-item nav-link">Kayıt Ol</a></li>
+                              {% endif %}
                             </ul>
                           </div>
                           <a href="{{ url_for('ilanVer') }}">
@@ -218,33 +222,34 @@
                 <div class="container py-3">
                     <div class="is-ilanlari row g-4">
                         {% for job in jobs %}
-                        <div class="col-md-6 col-lg-6 col-xl-3">
-                            <div class="row g-4 align-items-center features-item">
-                                <div class="col-5">
-                                    <div class="rounded-circle position-relative w-100">
-                                        <div class="overflow-hidden rounded-circlea">
-                                            <img src="{{ job['Resim'] }}" class="img-fluid rounded-circle ilan-img" alt="">
+                            <div class="col-md-6 col-lg-6 col-xl-3">
+                                <div class="row g-4 align-items-center features-item">
+                                    <div class="col-5">
+                                        <div class="rounded-circle position-relative w-100">
+                                            <div class="overflow-hidden rounded-circle">
+                                                <img src="{{ job['resim'] }}" class="img-fluid rounded-circle ilan-img" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-7">
+                                        <div class="features-content d-flex flex-column">
+                                            <p class="text-uppercase mb-2">{{ job['Is Alani'] }}</p>
+                                            <a href="#" class="h6">
+                                                {{ job['Il'] }} <br> Aylık {{ job['Ucret'] }} TL.
+                                            </a>
+                                            <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> {{ job['Calisma Surezi'] }} Ay</small>
+                                            {% if job['Predicted Salary'] %}
+                                                <small class="text-body d-block"><i class="fas fa-robot me-1"></i> Tahmin Edilen Ücret: {{ job['Predicted Salary'] }} TL</small>
+                                            {% endif %}
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-7">
-                                    <div class="features-content d-flex flex-column">
-                                        <p class="text-uppercase mb-2">{{ job['Is Alani'] }}</p>
-                                        <a href="#" class="h6">
-                                            {{ job['Il'] }} <br> Aylık {{ job['Ucret'] }} TL.
-                                        </a>
-                                        <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i> {{ job['Calisma Surezi'] }} Ay</small>
-                                        {% if job['Predicted Salary'] %}
-                                            <small class="text-body d-block"><i class="fas fa-robot me-1"></i> Tahmin Edilen Ücret: {{ job['Predicted Salary'] }} TL</small>
-                                        {% endif %}
-                                    </div>
-                                </div>
                             </div>
-                        </div>
                         {% endfor %}
                     </div>
                 </div>
             </div>
+            
         </body>
         </html>
 
@@ -459,7 +464,7 @@
         <script src="static/lib/owlcarousel/owl.carousel.min.js"></script>
 
         <!-- Google Maps ve MarkerClusterer scriptlerini güncelle -->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBXOPeHsgkDornBKd7_imK1flp0qC_PIM&libraries=places"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBXOPeHsgkDornBKd7_imK1flp0qC_PIM&libraries=places"></script> 
         <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
 
         <!-- Template Javascript -->

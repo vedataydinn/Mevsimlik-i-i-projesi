@@ -6,6 +6,14 @@ from bson import ObjectId
 import numpy as np
 from functools import wraps
 import secrets
+import requests
+
+
+
+
+
+#Model ve veritabanı bağlantıları
+
 
 
 
@@ -34,15 +42,7 @@ jobs_collection = mongo_db['jobs']  # İş ilanları koleksiyonu
 employers_collection = mongo_db['employers']  # İşverenler koleksiyonu
 
 
-"""joblib.load("isci_ilan_modeli.pkl")
-scaler = joblib.load("isci_ilan_scaler.pkl")
-label_encoders = joblib.load("isci_ilan_label_encoders.pkl")
-        return model, scaler, label_encoders
 
-# Load Model and Scaler
-model, scaler, label_encoders = ModelFactory.load_model()
-
-"""
 def load_model():
     """
     Model, scaler ve label encoder dosyalarını yükler.
@@ -72,106 +72,8 @@ def serialize_objectid(obj):
         return str(obj)
     return obj
 
-def login_required(f):
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        if 'user_id' not in session:
-            return redirect(url_for('loginPage'))
-        return f(*args, **kwargs)
-    return decorated_function
-
-# Ana sayfa route'u
-@app.route('/')
-@login_required
-def index():
-    try:
-        jobs = jobs_collection.find()
-        jobs_list = list(jobs)
-        jobs_list = [serialize_objectid(job) for job in jobs_list]
-        settings = {"isShowFilterMode": True}
-        is_logged_in = 'user_id' in session
-    except Exception as e:
-        print("Veritabanı hatası:", e)
-        jobs_list = []
-        settings = {"isShowFilterMode": False}
-        is_logged_in = False
-
-    return render_template('index.html', jobs=jobs_list, settings=settings, is_logged_in=is_logged_in)
 
 
-
-@app.route('/mongodb-test')
-def mongodb_test():
-    # MongoDB'de bir koleksiyon ve örnek bir belge oluşturma
-    collection = mongo_db['test_collection']
-    document = {"name": "Test User", "age": 30}
-    collection.insert_one(document)
-    return "MongoDB'ye veri eklendi!"
-
-
-
-@app.route('/contact')  
-def contact():
-    return render_template('contact.html')
-
-
-@app.route('/ilanVer')
-@login_required 
-def ilanVer():
-    return render_template('ilan-Ver.html')
-
-
-@app.route('/loginPage', methods=['GET', 'POST'])
-def loginPage():
-    if request.method == 'POST':
-        data = request.get_json()
-        email = data.get('email')
-        password = data.get('password')
-        
-        # Kullanıcı doğrulama
-        user = mongo_db.workers.find_one({'email': email})
-        if user is None:
-            user = mongo_db.workers.find_one({'E-Posta': email})
-        if user is None:
-            user = mongo_db.employers.find_one({'email': email})
-        if user is None:
-            user = mongo_db.employers.find_one({'E-Posta': email})
-            
-            
-        if user:
-            if  "password" in user:
-                db_password = user["password"]
-            elif "Şifre" in user:
-                db_password = user["Şifre"]
-
-            if db_password == password:
-                session['user_id'] = str(user['_id'])
-                return jsonify({'success': True}), 200
-        else:
-            return jsonify({'success': False, 'message': 'Geçersiz email veya şifre'}), 401
-            
-    return render_template('loginPage.html')
-
-@app.route('/logout')
-def logout():
-    session.clear()
-    return redirect(url_for('loginPage'))
-
-@app.route('/karakterBelirle.html')  
-def karakterBelirle():
-    return render_template('karakterBelirle.html')
-
-@app.route('/Registerişveren.html')  
-def Registerisveren():
-    return render_template('Registerişveren.html')
-
-@app.route('/Registerişci.html')  
-def Registerisci():
-    return render_template('Registerişci.html')
-
-@app.route('/404')  
-def not_found():
-    return render_template('404.html')
 
 # İşçi Kaydı
 @app.route('/Registerişci.html', methods=['GET', 'POST'])
@@ -194,8 +96,10 @@ def register_worker():
         }
         # MongoDB'ye kaydediyoruz
         workers_collection.insert_one(worker)
-        return "İşçi başarıyla kayıt edildi!"
+        flash('Kayıt başarılı! Lütfen giriş yapın.', 'success')
+        return redirect(url_for('loginPage'))
     return render_template('Registerişci.html')
+
 # İşveren Kaydı
 @app.route('/Registerişveren.html', methods=['GET', 'POST'])
 def register_employer():
@@ -213,7 +117,8 @@ def register_employer():
         }
         # MongoDB'ye kaydediyoruz
         employers_collection.insert_one(employer)
-        return "İşveren başarıyla kayıt edildi!"
+        flash('Kayıt başarılı! Lütfen giriş yapın.', 'success')
+        return redirect(url_for('loginPage'))
     return render_template('Registerişveren.html')
 
 
@@ -247,6 +152,7 @@ def job_list():
     konaklama = request.args.get('konaklama')
     tecrube_sarti = request.args.get('tecrube_sarti')
     sigorta = request.args.get('sigorta')
+    resim=request.args.get('resim')
     
     # MongoDB'den iş ilanlarını al
     jobs = jobs_collection.find()
@@ -334,41 +240,144 @@ def job_list():
 def job_match():
     if request.method == 'POST':
         try:
-            worker_data = {
-                "Yaş": int(request.form.get("yas")),
-                "Eğitim": request.form.get("egitim"),
-                "Deneyim (Yıl)": int(request.form.get("deneyim")),
-                "Şehir": request.form.get("sehir"),
-                "İlçe": request.form.get("ilce"),
-                "Tercih Edilen İş Alanları": request.form.get("isAlanlari"),
-                "Ücret Beklentisi": int(request.form.get("ucretBeklentisi"))
-            }
-
-            workers_collection.insert_one(worker_data)
-
-            worker_input = np.array([[worker_data['Yaş'], worker_data['Eğitim'], worker_data['Deneyim (Yıl)'],
-                                      worker_data['Ücret Beklentisi'], worker_data['Tercih Edilen İş Alanları'],
-                                      worker_data['Şehir'], worker_data['İlçe']]])
+            # JSON verilerini al
+            worker_data = request.get_json()
+            
+            # Eğitim değerini kontrol et ve dönüştür
+            egitim = worker_data['egitim']
+            if egitim == "İlköğretim":
+                egitim = "İlkokul"
+            
+            # Kategorik verileri label encoding ile dönüştür
+            try:
+                egitim_encoded = label_encoders['Isci_Egitim'].transform([egitim])[0]
+            except ValueError:
+                print(f"Eğitim değeri bulunamadı: {egitim}")
+                egitim_encoded = 0
+            
+            try:
+                is_alani_encoded = label_encoders['Ilan_Is_Alani'].transform([worker_data['isAlanlari']])[0]
+            except ValueError:
+                is_alani_encoded = 0
+                
+            try:
+                sehir_encoded = label_encoders['Ilan_Sehir'].transform([worker_data['sehir']])[0]
+            except ValueError:
+                sehir_encoded = 0
+                
+            try:
+                ilce_encoded = label_encoders['Ilan_Ilce'].transform([worker_data['ilce']])[0]
+            except ValueError:
+                ilce_encoded = 0
+            
+            # Numpy array'e çevir - Tüm özellikleri ekle
+            worker_input = np.array([[
+                float(worker_data['yas']),  # Yaş
+                float(egitim_encoded),      # Eğitim
+                float(worker_data['deneyim']), # Deneyim
+                float(worker_data['ucretBeklentisi']), # Ücret Beklentisi
+                float(is_alani_encoded),    # İş Alanı
+                float(sehir_encoded),       # Şehir
+                float(ilce_encoded),        # İlçe
+                0,  # Cinsiyet (varsayılan)
+                0,  # Konaklama (varsayılan)
+                0,  # Sigorta (varsayılan)
+                0,  # Çalışma Süresi (varsayılan)
+                0,  # Yaş Sınırı Min (varsayılan)
+                0,  # Yaş Sınırı Max (varsayılan)
+                0   # Köy (varsayılan)
+            ]])
+            
+            # Verileri ölçeklendir
             worker_input_scaled = scaler.transform(worker_input)
-
+            
+            # Tüm işleri al ve eşleştirme puanlarını hesapla
             jobs = jobs_collection.find()
             job_matches = []
-
+            
             for job in jobs:
-                job_input = np.array([[job['Yas Sınırı'], job['Gereken Eğitim'], job['Tecrube Sarti'],
-                                       job['Ucret'], job['Is Alani'], job['Il'], job['Ilce']]])
+                gereken_egitim = job['Gereken Eğitim']
+                if gereken_egitim == "İlköğretim":
+                    gereken_egitim = "İlkokul"
+                
+                try:
+                    job_egitim_encoded = label_encoders['Ilan_Egitim_Gereksinimi'].transform([gereken_egitim])[0]
+                except ValueError:
+                    job_egitim_encoded = 0
+                    
+                try:
+                    job_is_alani_encoded = label_encoders['Ilan_Is_Alani'].transform([job['Is Alani']])[0]
+                except ValueError:
+                    job_is_alani_encoded = 0
+                    
+                try:
+                    job_sehir_encoded = label_encoders['Ilan_Sehir'].transform([job['Il']])[0]
+                except ValueError:
+                    job_sehir_encoded = 0
+                    
+                try:
+                    job_ilce_encoded = label_encoders['Ilan_Ilce'].transform([job['Ilce']])[0]
+                except ValueError:
+                    job_ilce_encoded = 0
+
+                try:
+                    job_cinsiyet_encoded = label_encoders['Ilan_Cinsiyet'].transform([job['Cinsiyet']])[0]
+                except ValueError:
+                    job_cinsiyet_encoded = 0
+
+                try:
+                    job_konaklama_encoded = label_encoders['Ilan_Konaklama'].transform([job['Konaklama']])[0]
+                except ValueError:
+                    job_konaklama_encoded = 0
+
+                try:
+                    job_sigorta_encoded = label_encoders['Ilan_Sigorta'].transform([job['Sigorta']])[0]
+                except ValueError:
+                    job_sigorta_encoded = 0
+                
+                # Yaş sınırını parçala
+                try:
+                    min_age, max_age = map(int, job['Yas Sınırı'].split('-'))
+                except:
+                    min_age, max_age = 0, 0
+
+                job_input = np.array([[
+                    float(worker_data['yas']),  # İşçi yaşı ile karşılaştır
+                    float(job_egitim_encoded),
+                    float(job['Tecrube Sarti']),
+                    float(job['Ucret']),
+                    float(job_is_alani_encoded),
+                    float(job_sehir_encoded),
+                    float(job_ilce_encoded),
+                    float(job_cinsiyet_encoded),
+                    float(job_konaklama_encoded),
+                    float(job_sigorta_encoded),
+                    float(job['Calisma Surezi']),
+                    float(min_age),
+                    float(max_age),
+                    0  # Köy
+                ]])
+                
                 job_input_scaled = scaler.transform(job_input)
-                score = model.predict(job_input_scaled)
-                job_matches.append({'job': job, 'score': score[0]})
-
-            job_matches = sorted(job_matches, key=lambda x: x['score'], reverse=True)
-            top_10_jobs = job_matches[:10]
-
-            return render_template('job_matches.html', jobs=top_10_jobs)
+                
+                # Model ile tahmin yap
+                match_score = model.predict(job_input_scaled)[0]
+                job_matches.append({
+                    'job': job,
+                    'score': float(match_score)
+                })
+            
+            # Eşleştirme puanına göre sırala ve ilk 10'u al
+            job_matches = sorted(job_matches, key=lambda x: x['score'], reverse=True)[:10]
+            
+            # İlanları JSON formatına çevir
+            top_10_jobs = [serialize_objectid(match['job']) for match in job_matches]
+            
+            return jsonify(top_10_jobs)
 
         except Exception as e:
             print(f"Hata: {e}")
-            return "Bir hata oluştu.", 500
+            return jsonify([]), 500
 
     return render_template('job_match_form.html')
 
@@ -379,6 +388,170 @@ def serialize_objectid(job):
     """MongoDB ObjectId'yi JSON uyumlu bir yapıya çevirir."""
     job["_id"] = str(job["_id"])  # ObjectId'yi string'e dönüştür
     return job
+
+
+
+
+@app.route('/loginPage', methods=['GET', 'POST'])
+def loginPage():
+    if request.method == 'POST':
+        data = request.get_json()
+        email = data.get('email')
+        password = data.get('password')
+        
+        # Kullanıcı doğrulama
+        user = mongo_db.workers.find_one({'email': email})
+        if user is None:
+            user = mongo_db.workers.find_one({'E-Posta': email})
+        if user is None:
+            user = mongo_db.employers.find_one({'email': email})
+        if user is None:
+            user = mongo_db.employers.find_one({'E-Posta': email})
+            
+            
+        if user:
+            if  "password" in user:
+                db_password = user["password"]
+            elif "Şifre" in user:
+                db_password = user["Şifre"]
+
+            if db_password == password:
+                session['user_id'] = str(user['_id'])
+                return jsonify({'success': True}), 200
+        else:
+            return jsonify({'success': False, 'message': 'Geçersiz email veya şifre'}), 401
+            
+    return render_template('loginPage.html')
+
+
+
+
+
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'user_id' not in session:
+            return redirect(url_for('loginPage'))
+        return f(*args, **kwargs)
+    return decorated_function
+
+# Ana sayfa route'u
+@app.route('/')
+def index():
+    try:
+        is_AI = True # Yapay zeka ilk 10 sonuçların gösterilip gösterilmeyeceği
+        is_logged_in = 'user_id' in session
+        settings = {"isShowFilterMode": True}
+        
+        if is_logged_in and is_AI:
+            # Giriş yapmış kullanıcı için job_match'den veri al
+            user_id = session['user_id']
+            worker = workers_collection.find_one({'_id': ObjectId(user_id)})
+            
+            if worker:
+                # job_match fonksiyonuna istek gönder
+                worker_data = {
+                    "yas": worker.get('Yaş', 0),
+                    "egitim": worker.get('Eğitim', ''),
+                    "deneyim": worker.get('Deneyim (Yıl)', 0),
+                    "sehir": worker.get('Şehir', ''),
+                    "ilce": worker.get('İlçe', ''),
+                    "isAlanlari": worker.get('Tercih Edilen İş Alanları', ''),
+                    "ucretBeklentisi": worker.get('Ücret Beklentisi', 0)
+                }
+                
+                # job_match route'una POST isteği gönder
+                response = requests.post(url_for('job_match', _external=True), json=worker_data)
+                if response.status_code == 200:
+                    jobs_list = response.json()[:10]  # İlk 10 ilanı al
+                else:
+                    jobs_list = []
+        else:
+            # Giriş yapmamış kullanıcı için normal ilanları göster
+            jobs = jobs_collection.find()
+            jobs_list = list(jobs)
+            jobs_list = [serialize_objectid(job) for job in jobs_list]
+            
+    except Exception as e:
+        print("Veritabanı hatası:", e)
+        jobs_list = []
+        settings = {"isShowFilterMode": False}
+        is_logged_in = False
+
+    return render_template('index.html', jobs=jobs_list, settings=settings, is_logged_in=is_logged_in)
+
+
+
+
+@app.route('/contact')  
+def contact():
+    return render_template('contact.html')
+
+
+@app.route('/ilanVer')
+@login_required 
+def ilanVer():
+    return render_template('ilan-Ver.html')
+
+
+
+
+@app.route('/logout')
+def logout():
+    session.clear()
+    return redirect(url_for('loginPage'))
+
+@app.route('/karakterBelirle.html')  
+def karakterBelirle():
+    return render_template('karakterBelirle.html')
+
+@app.route('/Registerişveren.html')  
+def Registerisveren():
+    return render_template('Registerişveren.html')
+
+@app.route('/Registerişci.html')  
+def Registerisci():
+    return render_template('Registerişci.html')
+
+@app.route('/404')  
+def not_found():
+    return render_template('404.html')
+
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+
+
+
+
+
+
+
+"""joblib.load("isci_ilan_modeli.pkl")
+scaler = joblib.load("isci_ilan_scaler.pkl")
+label_encoders = joblib.load("isci_ilan_label_encoders.pkl")
+        return model, scaler, label_encoders
+
+# Load Model and Scaler
+model, scaler, label_encoders = ModelFactory.load_model()
+
+"""
+
+
+
+
+"""@app.route('/mongodb-test')
+def mongodb_test():
+    # MongoDB'de bir koleksiyon ve örnek bir belge oluşturma
+    collection = mongo_db['test_collection']
+    document = {"name": "Test User", "age": 30}
+    collection.insert_one(document)
+    return "MongoDB'ye veri eklendi!"
+
+"""
+
 
 
 
@@ -417,8 +590,5 @@ def search(index_name, query):
     )
     return jsonify(response)"""
 
-
-if __name__ == '__main__':
-    app.run(debug=True)
 
 
